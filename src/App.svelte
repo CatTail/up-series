@@ -8,6 +8,7 @@
   import Compare from './views/Compare.svelte'
   import Overview from './views/Overview.svelte'
   import Person from './views/Person.svelte'
+  import Questions from './views/Questions.svelte'
 
   initLang()
   const idx = buildIndex(loadDataset())
@@ -22,6 +23,8 @@
     <Overview {idx} age={route.age} />
   {:else if route.name === 'person'}
     {#key route.id}<Person {idx} id={route.id} />{/key}
+  {:else if route.name === 'questions'}
+    <Questions {idx} film={route.film} person={route.person} theme={route.theme} q={route.q} open={route.open} />
   {:else if route.name === 'compare'}
     <Compare {idx} a={route.a} b={route.b} />
   {:else}
