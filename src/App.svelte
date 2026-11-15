@@ -6,6 +6,7 @@
   import { initLang, t } from './lib/i18n.svelte.ts'
   import { router, startRouter } from './lib/router.svelte.ts'
   import Compare from './views/Compare.svelte'
+  import Guess from './views/Guess.svelte'
   import Overview from './views/Overview.svelte'
   import Person from './views/Person.svelte'
   import Questions from './views/Questions.svelte'
@@ -23,6 +24,8 @@
     <Overview {idx} age={route.age} />
   {:else if route.name === 'person'}
     {#key route.id}<Person {idx} id={route.id} />{/key}
+  {:else if route.name === 'guess'}
+    <Guess {idx} />
   {:else if route.name === 'questions'}
     <Questions {idx} film={route.film} person={route.person} theme={route.theme} q={route.q} open={route.open} />
   {:else if route.name === 'compare'}
