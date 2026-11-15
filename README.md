@@ -6,6 +6,7 @@ An interactive, bilingual (中文 / English) visualization of the fourteen lives
 
 ## 打开方式 · How to open
 
+- 在线版本 · Live: <https://cattail.github.io/up-series/>（每次推送到 `main` 由 GitHub Actions 自动测试、构建并发布到 GitHub Pages）
 - 成品是一个文件：`dist/index.html`。双击用浏览器打开即可，不联网也能完整运行，也可以放到任何静态托管上。
 - The deliverable is the single file `dist/index.html`. Open it directly (works from `file://`, makes no network requests) or host it anywhere static.
 
