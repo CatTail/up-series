@@ -1,1 +1,132 @@
-{ "blocks": [] }
+{
+  "blocks": [
+    {
+      "id": "maxim",
+      "kind": "quote",
+      "text": {
+        "zh": "给我一个七岁的孩子，我还你一个成人。",
+        "en": "Give me a child until he is seven and I will give you the man."
+      },
+      "sourceIds": [
+        "film-f07",
+        "wiki-up-series"
+      ],
+      "cite": {
+        "zh": "耶稣会格言，Seven Up!（1964）开场引用",
+        "en": "Jesuit maxim, quoted at the opening of Seven Up! (1964)"
+      }
+    },
+    {
+      "id": "opening",
+      "kind": "quote",
+      "text": {
+        "zh": "我们把这些孩子聚到一起，是想先看一眼 2000 年的英国。2000 年的工会代表和公司高管，现在才七岁。",
+        "en": "We brought these children together because we wanted a glimpse of England in the year 2000. The shop steward and the executive of the year 2000 are now seven years old."
+      },
+      "sourceIds": [
+        "film-f07"
+      ],
+      "cite": {
+        "zh": "Seven Up! 开场旁白",
+        "en": "Opening narration, Seven Up!"
+      }
+    },
+    {
+      "id": "premise",
+      "kind": "fact",
+      "text": {
+        "zh": "1964 年，Granada 电视台为时事节目 World in Action 拍了这部片，想印证那句格言：孩子七岁时的样子，连同他的出身，已经决定了他的一生。影片把 20 个出身截然不同的孩子带到一起，其中 14 人此后每七年被回访一次。",
+        "en": "In 1964 Granada Television made the film for its current-affairs programme World in Action, setting out to prove the maxim: that who a child is at seven — and where they come from — already decides their life. It brought together 20 children from sharply different backgrounds; 14 of them were revisited every seven years."
+      },
+      "sourceIds": [
+        "film-f07",
+        "slant-apted-2019",
+        "wb-apted",
+        "bfi-seven-up-book"
+      ]
+    },
+    {
+      "id": "choosing",
+      "kind": "quote",
+      "text": {
+        "zh": "我们对他们的性格并不感兴趣，而是把他们当作各自所属阶级的某种象征。",
+        "en": "We weren’t interested in their characters but, rather, as sort of symbols of the class they came from."
+      },
+      "sourceIds": [
+        "wb-apted"
+      ],
+      "cite": {
+        "zh": "Michael Apted 谈当初怎样选人（Writers Bloc 访谈）",
+        "en": "Michael Apted on how the children were chosen (Writers Bloc interview)"
+      }
+    },
+    {
+      "id": "asking",
+      "kind": "quote",
+      "text": {
+        "zh": "我只是试着和他们聊天。……我也不会问每个人同样的问题。",
+        "en": "I try and just have a conversation. … I also don’t ask everybody the same questions."
+      },
+      "sourceIds": [
+        "wb-apted"
+      ],
+      "cite": {
+        "zh": "Apted 谈提问方式（Writers Bloc 访谈）",
+        "en": "Apted on how he asks (Writers Bloc interview)"
+      }
+    },
+    {
+      "id": "scratch",
+      "kind": "quote",
+      "text": {
+        "zh": "我不会事先告诉他们我想问什么。我看他们的看法、气氛有没有变化。我不想谈他们的过去，也不想做一次近况更新。我每次都从头开始。",
+        "en": "I don’t tell them what I want to ask. I see if their opinions or the atmosphere changes. I don’t want to talk about their past or do an update. I start from scratch."
+      },
+      "sourceIds": [
+        "slant-apted-2019"
+      ],
+      "cite": {
+        "zh": "Apted，2019 年（Slant 访谈）",
+        "en": "Apted, 2019 (Slant interview)"
+      }
+    },
+    {
+      "id": "god",
+      "kind": "quote",
+      "text": {
+        "zh": "我以前总想预测，结果每次都是灾难。……我不再扮演上帝了。",
+        "en": "I used to try and predict things, which is always a disaster. … I gave up being God."
+      },
+      "sourceIds": [
+        "wb-apted"
+      ],
+      "cite": {
+        "zh": "Apted 谈为什么不再预测（Writers Bloc 访谈）",
+        "en": "Apted on giving up predictions (Writers Bloc interview)"
+      }
+    },
+    {
+      "id": "history",
+      "kind": "fact",
+      "text": {
+        "zh": "Seven Up! 原本只打算拍一部。五年后，Granada 的负责人问曾在片中做调研的 Michael Apted 有没有想过回去看看这些孩子，于是有了 1970 年的 7 Plus Seven。此后每七年一部，Apted 一直拍到 63 Up（2019）。他于 2021 年去世，最后一部 70 Up（2026）由 Asif Kapadia 执导。",
+        "en": "Seven Up! was meant to be a one-off. Five years later the head of Granada asked Michael Apted, who had been a researcher on it, whether he had thought of going back — and 7 Plus Seven followed in 1970. Apted made a film every seven years up to 63 Up (2019). He died in 2021; the final film, 70 Up (2026), was directed by Asif Kapadia."
+      },
+      "sourceIds": [
+        "wb-apted",
+        "slant-apted-2019",
+        "independent-chilton-2026",
+        "guardian-conlan-2026"
+      ]
+    },
+    {
+      "id": "ours",
+      "kind": "interpretation",
+      "text": {
+        "zh": "我们的读法：这部片既是一场关于阶级的社会实验，也是十四个人的长篇肖像。出身的影响在片中清晰可见，但同一个起点上的人后来也走得很不一样——这正是 Apted 后来不再预测的原因。",
+        "en": "Our reading: the series is both a social experiment about class and a long portrait of fourteen people. The pull of origins is plain to see, yet people who started in the same place went very different ways — which is why Apted gave up predicting."
+      },
+      "sourceIds": []
+    }
+  ]
+}

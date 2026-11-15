@@ -3,10 +3,11 @@
   import Nav from './components/Nav.svelte'
   import { buildIndex } from './lib/data/index.ts'
   import { loadDataset } from './lib/data/load.ts'
-  import { initLang, t } from './lib/i18n.svelte.ts'
+  import { initLang } from './lib/i18n.svelte.ts'
   import { router, startRouter } from './lib/router.svelte.ts'
   import Compare from './views/Compare.svelte'
   import Guess from './views/Guess.svelte'
+  import Origins from './views/Origins.svelte'
   import Overview from './views/Overview.svelte'
   import Person from './views/Person.svelte'
   import Questions from './views/Questions.svelte'
@@ -31,6 +32,6 @@
   {:else if route.name === 'compare'}
     <Compare {idx} a={route.a} b={route.b} />
   {:else}
-    <h1 class="placeholder">{t(`nav.${route.name}`)}</h1>
+    <Origins {idx} />
   {/if}
 </main>
