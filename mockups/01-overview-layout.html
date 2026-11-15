@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>草图 1 · 总览页怎么排</title>
+<style>
+:root{
+  --surface:#fcfcfb; --page:#f9f9f7; --ink:#0b0b0b; --ink2:#52514e; --muted:#898781;
+  --grid:#e1e0d9; --axis:#c3c2b7; --border:rgba(11,11,11,.10);
+  --s1:#2a78d6; --s2:#eb6834; --s3:#1baf7a; --s4:#eda100; --s5:#e87ba4;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--page);color:var(--ink);
+  font-family:system-ui,-apple-system,"Segoe UI","PingFang SC","Noto Sans CJK SC",sans-serif;line-height:1.5}
+.wrap{max-width:1040px;margin:0 auto;padding:28px 20px 60px}
+h1{font-size:22px;margin:0 0 6px}
+.sub{color:var(--ink2);margin:0 0 4px}
+.note{font-size:13px;color:var(--ink2);background:#fff;border:1px solid var(--border);border-radius:8px;padding:10px 14px;margin:14px 0 26px}
+.note b{color:var(--ink)}
+.opt{background:#fff;border:1px solid var(--border);border-radius:12px;padding:18px 18px 22px;margin-bottom:28px}
+.opt-h{display:flex;gap:12px;align-items:baseline;margin-bottom:4px}
+.letter{font-weight:700;font-size:15px;background:var(--ink);color:#fff;border-radius:6px;padding:1px 9px}
+.opt h2{font-size:18px;margin:0}
+.rec{font-size:12px;font-weight:600;color:#006300;border:1px solid #006300;border-radius:999px;padding:0 8px}
+.pitch{color:var(--ink2);margin:2px 0 10px;font-size:14px}
+.pc{display:grid;grid-template-columns:1fr 1fr;gap:12px;font-size:13px;margin-bottom:14px}
+.pc div{background:var(--page);border-radius:8px;padding:8px 12px}
+.pc h4{margin:0 0 2px;font-size:12px;color:var(--muted);font-weight:600}
+.pc ul{margin:0;padding-left:18px}
+/* app shell */
+.shell{border:1px solid var(--axis);border-radius:10px;overflow:hidden;background:var(--surface)}
+.nav{display:flex;align-items:center;gap:18px;padding:8px 14px;border-bottom:1px solid var(--grid);font-size:13px}
+.brand{font-weight:700}
+.tabs{display:flex;gap:14px;color:var(--ink2)}
+.tabs .on{color:var(--ink);font-weight:600;border-bottom:2px solid var(--ink)}
+.lang{margin-left:auto;display:flex;border:1px solid var(--axis);border-radius:999px;overflow:hidden;font-size:12px}
+.lang span{padding:1px 10px}.lang .on{background:var(--ink);color:#fff}
+.body{padding:12px 14px 16px}
+.ctrl{display:flex;align-items:center;gap:12px;font-size:13px;margin:2px 0 8px;flex-wrap:wrap}
+.ctrl input[type=range]{width:300px}
+.agelbl{font-weight:600;min-width:170px}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:var(--ink2);margin:4px 0 6px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:5px;vertical-align:-1px}
+svg text{font-family:inherit}
+.chips{display:flex;gap:8px;overflow-x:auto;padding:8px 0 2px}
+.chip{flex:0 0 132px;border:1px solid var(--grid);border-radius:8px;padding:6px 8px;font-size:12px;background:#fff}
+.chip b{display:block;font-size:13px}
+.chip .dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:5px}
+.chip.off{color:var(--muted);background:var(--page)}
+.ph{color:var(--muted)}
+/* matrix */
+table.mx{border-collapse:separate;border-spacing:2px;font-size:11px;width:100%}
+.mx th{font-weight:600;color:var(--ink2);text-align:center;padding:2px}
+.mx th.nm{text-align:left;white-space:nowrap}
+.mx td{height:26px;border-radius:4px;text-align:center;background:var(--page);color:var(--muted)}
+.mx td.in{background:#fff;border:1px solid var(--grid)}
+.mx td.dead{background:#383835;color:#f0efec}
+.mx td.v{background:#fff;border:1px dashed var(--axis);color:var(--ink2)}
+.ic{display:inline-flex;gap:2px}
+.ic s{display:inline-block;width:6px;height:10px;border-radius:2px;background:var(--grid);text-decoration:none}
+.grp td.g{background:none;text-align:left;color:var(--ink2);font-weight:600;padding-top:6px}
+/* cards */
+.cols{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}
+.col h5{margin:0 0 6px;font-size:12px;color:var(--ink2);display:flex;align-items:center;gap:6px}
+.col h5 i{width:10px;height:10px;border-radius:50%;display:inline-block}
+.card{border:1px solid var(--grid);border-radius:8px;padding:7px 9px;margin-bottom:8px;font-size:12px;background:#fff}
+.card b{font-size:13px}
+.card.off{background:var(--page);color:var(--muted)}
+.card .ln{display:block;height:6px;border-radius:3px;background:var(--grid);margin-top:5px}
+.foot{font-size:13px;color:var(--ink2);margin-top:6px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>草图 1：总览页怎么排</h1>
+  <p class="sub">三种排法都放了同一套导航：缘起 · 总览 · 猜一猜 · 问题库 · 对比，右上角是中/EN 开关。这一页只比较"总览"长什么样。</p>
+  <div class="note">
+    <b>数据说明：</b>人物出身分组、每部片的出镜 / 缺席 / 去世情况，取自英文维基百科（Up 系列条目），正式做的时候会再交叉核对。
+    <b>各年龄的具体状态还没开始查</b>，所以图里写着"示意"的灰色内容都是占位，不是事实。
+  </div>
+
+  <!-- ===== A ===== -->
+  <section class="opt">
+    <div class="opt-h"><span class="letter">A</span><h2>生命线 + 年龄游标</h2><span class="rec">我推荐</span></div>
+    <p class="pitch">每个人一条线，从 7 岁连到 70 岁，按出身分组上色。拖动滑杆，竖线停在某个年龄，下面那排小卡片就显示 14 个人在这个年龄的状态。</p>
+    <div class="pc">
+      <div><h4>好处</h4><ul><li>63 年的跨度、谁缺席、谁离世，一眼就能看到</li><li>出身分组直接决定颜色，同组的人是否分化看得很清楚</li><li>滑杆和"同龄横向比"天然契合</li></ul></div>
+      <div><h4>代价</h4><ul><li>线上只能放少量事件点，细节要靠下面的卡片和点进个人页</li><li>手机竖屏上 10 个年龄点会比较挤</li></ul></div>
+    </div>
+    <div class="shell">
+      <div class="nav"><span class="brand">7 Up → 70 Up</span><div class="tabs"><span>缘起</span><span class="on">总览</span><span>猜一猜</span><span>问题库</span><span>对比</span></div><div class="lang"><span class="on">中</span><span>EN</span></div></div>
+      <div class="body">
+        <div class="ctrl"><span>年龄</span><input id="sA" type="range" min="0" max="9" value="3"><span class="agelbl" id="lA"></span></div>
+        <div class="legend" id="legA"></div>
+        <svg id="svgA" viewBox="0 0 980 420" width="100%" role="img" aria-label="14 位人物的出镜生命线"></svg>
+        <div class="chips" id="chipsA"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== B ===== -->
+  <section class="opt">
+    <div class="opt-h"><span class="letter">B</span><h2>人物 × 年龄矩阵</h2></div>
+    <p class="pitch">14 行 × 10 列的大表。每格里有六个小色块，对应我们定的六个维度（教育、工作、家庭、居住地、重大事件、本人看法），点哪格就展开哪格的详情。</p>
+    <div class="pc">
+      <div><h4>好处</h4><ul><li>信息密度最高，六个维度都在一张图里</li><li>看过片的人查起来最快</li></ul></div>
+      <div><h4>代价</h4><ul><li>140 格 × 6 块，第一眼很难看出"故事"，没看过片的人会懵</li><li>"人生轨迹"的走向感比较弱</li></ul></div>
+    </div>
+    <div class="shell">
+      <div class="nav"><span class="brand">7 Up → 70 Up</span><div class="tabs"><span>缘起</span><span class="on">总览</span><span>猜一猜</span><span>问题库</span><span>对比</span></div><div class="lang"><span class="on">中</span><span>EN</span></div></div>
+      <div class="body"><table class="mx" id="mxB"></table></div>
+    </div>
+  </section>
+
+  <!-- ===== C ===== -->
+  <section class="opt">
+    <div class="opt-h"><span class="letter">C</span><h2>卡片墙 + 年龄滑杆</h2></div>
+    <p class="pitch">按出身分成五栏，一人一张卡片。拖动滑杆，所有卡片同时变成那个年龄的状态，像翻一本相册。</p>
+    <div class="pc">
+      <div><h4>好处</h4><ul><li>最直观，对没看过片的人最友好</li><li>每张卡片能写下较多文字</li></ul></div>
+      <div><h4>代价</h4><ul><li>一次只能看一个年龄，看不出一个人的完整走向</li><li>"谁什么时候缺席了"要来回拖动才能发现</li></ul></div>
+    </div>
+    <div class="shell">
+      <div class="nav"><span class="brand">7 Up → 70 Up</span><div class="tabs"><span>缘起</span><span class="on">总览</span><span>猜一猜</span><span>问题库</span><span>对比</span></div><div class="lang"><span class="on">中</span><span>EN</span></div></div>
+      <div class="body">
+        <div class="ctrl"><span>年龄</span><input id="sC" type="range" min="0" max="9" value="3"><span class="agelbl" id="lC"></span></div>
+        <div class="cols" id="colsC"></div>
+      </div>
+    </div>
+  </section>
+
+  <p class="foot">看完请回到对话里告诉我：选哪一种，或者想怎么混搭。</p>
+</div>
+
+<script>
+const AGES=[7,14,21,28,35,42,49,56,63,70];
+const YEARS=[1964,1970,1977,1984,1991,1998,2005,2012,2019,2026];
+const FILMS=['Seven Up!','7 Plus Seven','21 Up','28 Up','35 Up','42 Up','49 Up','56 Up','63 Up','70 Up'];
+const G={
+  priv:{zh:'富裕家庭 · 私立学校',c:'var(--s1)'},
+  east:{zh:'伦敦东区 · 公立小学',c:'var(--s2)'},
+  home:{zh:'儿童之家',c:'var(--s3)'},
+  rural:{zh:'约克郡山谷农场',c:'var(--s4)'},
+  lpool:{zh:'利物浦郊区',c:'var(--s5)'}
+};
+// 每部片的参与情况：1 出镜；0 缺席；v 仅录音和照片；L 生前录制的访谈；d 已去世
+const P=[
+  ['Andrew','priv','1111111111'],['Charles','priv','111000000v'],['John','priv','1110101111'],
+  ['Suzy','priv','1111111101'],['Bruce','priv','1111111111'],
+  ['Jackie','east','1111111111'],['Lynn','east','11111111dd'],['Sue','east','1111111111'],['Tony','east','1111111111'],
+  ['Paul','home','1111111111'],['Symon','home','1111011111'],
+  ['Nick','rural','111111111L'],
+  ['Peter','lpool','1111000111'],['Neil','lpool','1111111111']
+];
+const DEATH={Lynn:'† 2013',Nick:'† 2023'};
+const ST={'1':'出镜','0':'未出镜','v':'仅录音和照片','L':'生前录制的访谈','d':'已去世'};
+const ageLbl=i=>`${AGES[i]} 岁 · ${YEARS[i]} · ${FILMS[i]}`;
+const NS='http://www.w3.org/2000/svg';
+function el(tag,attrs,parent,text){const e=document.createElementNS(NS,tag);for(const k in attrs)e.setAttribute(k,attrs[k]);if(text!=null)e.textContent=text;parent&&parent.appendChild(e);return e;}
+
+// ---------- A ----------
+function legend(id){document.getElementById(id).innerHTML=Object.values(G).map(g=>`<span><i style="background:${g.c}"></i>${g.zh}</span>`).join('')+
+ `<span><i style="background:#fff;border:1.5px solid var(--muted)"></i>未出镜</span><span>◇ 生前访谈 / 仅录音</span><span>† 去世</span>`;}
+legend('legA');
+const svg=document.getElementById('svgA');
+const X0=170,X1=900,TOP=26,rowH=24,gapG=14;
+const xs=i=>X0+(X1-X0)*i/9;
+let y=TOP,rows=[],lastG=null;
+P.forEach(p=>{ if(p[1]!==lastG){ if(lastG) y+=gapG; lastG=p[1]; } rows.push({p,y}); y+=rowH; });
+// grid + axis
+AGES.forEach((a,i)=>{el('line',{x1:xs(i),x2:xs(i),y1:14,y2:y-6,stroke:'var(--grid)','stroke-width':1},svg);
+  el('text',{x:xs(i),y:12,'text-anchor':'middle','font-size':11,fill:'var(--muted)'},svg,a+' 岁');});
+const cursor=el('rect',{y:16,height:y-20,width:30,rx:6,fill:'rgba(11,11,11,.06)'},svg);
+rows.forEach(({p,y})=>{
+  const [name,g,s]=p,c=G[g].c;
+  el('text',{x:X0-18,y:y+4,'text-anchor':'end','font-size':13,fill:'var(--ink)'},svg,name);
+  for(let i=0;i<9;i++){ const a=s[i],b=s[i+1]; if(a==='d')break;
+    const solid=(a!=='0'&&b!=='0'&&b!=='d');
+    if(b==='d')continue;
+    el('line',{x1:xs(i),x2:xs(i+1),y1:y,y2:y,stroke:c,'stroke-width':2,'stroke-linecap':'round',opacity:solid?1:.28},svg);}
+  for(let i=0;i<10;i++){ const v=s[i],cx=xs(i);
+    let m;
+    if(v==='1') m=el('circle',{cx,cy:y,r:5,fill:c,stroke:'var(--surface)','stroke-width':2},svg);
+    else if(v==='0') m=el('circle',{cx,cy:y,r:4,fill:'var(--surface)',stroke:'var(--muted)','stroke-width':1.5},svg);
+    else if(v==='v'||v==='L') m=el('rect',{x:cx-5,y:y-5,width:10,height:10,transform:`rotate(45 ${cx} ${y})`,fill:'var(--surface)',stroke:c,'stroke-width':2},svg);
+    else continue;
+    el('title',{},m,`${name} · ${ageLbl(i)} · ${ST[v]}`);}
+  if(DEATH[name]){ const i=s.indexOf(name==='Nick'?'L':'d');
+    el('text',{x:name==='Nick'?xs(8)+30:xs(i-1)+16,y:y-7,'font-size':11,fill:'var(--ink2)'},svg,DEATH[name]);}
+  if(name==='Charles') el('text',{x:xs(9)+14,y:y+4,'font-size':11,fill:'var(--ink2)'},svg,'仅录音');
+  if(name==='Nick') el('text',{x:xs(9)+14,y:y+4,'font-size':11,fill:'var(--ink2)'},svg,'生前访谈');
+});
+// group labels
+let seen={};rows.forEach(({p,y})=>{ if(!seen[p[1]]){seen[p[1]]=1; el('rect',{x:8,y:y-6,width:4,height:12,rx:2,fill:G[p[1]].c},svg);} });
+function renderA(i){
+  cursor.setAttribute('x',xs(i)-15);
+  document.getElementById('lA').textContent=ageLbl(i);
+  document.getElementById('chipsA').innerHTML=P.map(([n,g,s])=>{const v=s[i];
+    const off=v!=='1';const txt=v==='1'?'<span class="ph">示意：职业 · 家庭 · 住在哪</span>':ST[v];
+    return `<div class="chip ${off?'off':''}"><b><span class="dot" style="background:${G[g].c}"></span>${n}</b>${txt}</div>`;}).join('');
+}
+const sA=document.getElementById('sA');sA.oninput=()=>renderA(+sA.value);renderA(3);
+
+// ---------- B ----------
+(function(){
+  let h='<tr><th class="nm"></th>'+AGES.map(a=>`<th>${a}</th>`).join('')+'</tr>';let lg=null;
+  P.forEach(([n,g,s])=>{
+    if(g!==lg){lg=g;h+=`<tr class="grp"><td class="g" colspan="11"><span class="dot" style="display:inline-block;width:8px;height:8px;border-radius:50%;background:${G[g].c};margin-right:6px"></span>${G[g].zh}</td></tr>`;}
+    h+=`<tr><th class="nm">${n}</th>`+[...s].map((v,i)=>{
+      if(v==='1')return `<td class="in" title="${n} · ${ageLbl(i)}（示意）"><span class="ic">${'<s></s>'.repeat(6)}</span></td>`;
+      if(v==='d')return `<td class="dead" title="${n} · 已去世">†</td>`;
+      if(v==='v'||v==='L')return `<td class="v" title="${n} · ${ST[v]}">◇</td>`;
+      return `<td title="${n} · ${ageLbl(i)} · 未出镜">缺席</td>`;}).join('')+'</tr>';
+  });
+  document.getElementById('mxB').innerHTML=h;
+})();
+
+// ---------- C ----------
+function renderC(i){
+  document.getElementById('lC').textContent=ageLbl(i);
+  document.getElementById('colsC').innerHTML=Object.entries(G).map(([k,g])=>`<div class="col"><h5><i style="background:${g.c}"></i>${g.zh}</h5>`+
+    P.filter(p=>p[1]===k).map(([n,,s])=>{const v=s[i];
+      return v==='1'?`<div class="card"><b>${n}</b> <span class="ph">${AGES[i]} 岁 · 示意</span><span class="ln" style="width:90%"></span><span class="ln" style="width:70%"></span><span class="ln" style="width:80%"></span></div>`
+                    :`<div class="card off"><b>${n}</b><br>${ST[v]}</div>`;}).join('')+'</div>').join('');
+}
+const sC=document.getElementById('sC');sC.oninput=()=>renderC(+sC.value);renderC(3);
+</script>
+</body>
+</html>

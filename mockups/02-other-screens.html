@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>草图 2 · 其余页面</title>
+<style>
+:root{
+  --surface:#fcfcfb; --page:#f9f9f7; --ink:#0b0b0b; --ink2:#52514e; --muted:#898781;
+  --grid:#e1e0d9; --axis:#c3c2b7; --border:rgba(11,11,11,.10);
+  --s1:#2a78d6; --s2:#eb6834; --s3:#1baf7a; --s4:#eda100; --s5:#e87ba4;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--page);color:var(--ink);
+  font-family:system-ui,-apple-system,"Segoe UI","PingFang SC","Noto Sans CJK SC",sans-serif;line-height:1.5}
+.wrap{max-width:1040px;margin:0 auto;padding:28px 20px 60px}
+h1{font-size:22px;margin:0 0 6px}
+.sub{color:var(--ink2);margin:0}
+.note{font-size:13px;color:var(--ink2);background:#fff;border:1px solid var(--border);border-radius:8px;padding:10px 14px;margin:14px 0 26px}
+.note b{color:var(--ink)}
+.scr{margin-bottom:30px}
+.scr>h2{font-size:17px;margin:0 0 2px}
+.scr>p{color:var(--ink2);font-size:14px;margin:0 0 10px}
+.shell{border:1px solid var(--axis);border-radius:10px;overflow:hidden;background:var(--surface)}
+.nav{display:flex;align-items:center;gap:18px;padding:8px 14px;border-bottom:1px solid var(--grid);font-size:13px}
+.brand{font-weight:700}
+.tabs{display:flex;gap:14px;color:var(--ink2)}
+.tabs .on{color:var(--ink);font-weight:600;border-bottom:2px solid var(--ink)}
+.lang{margin-left:auto;display:flex;border:1px solid var(--axis);border-radius:999px;overflow:hidden;font-size:12px;cursor:pointer}
+.lang span{padding:1px 10px}.lang .on{background:var(--ink);color:#fff}
+.body{padding:16px 18px 20px}
+.ph{color:var(--muted)}
+.tag{display:inline-block;font-size:11px;border:1px solid var(--axis);border-radius:999px;padding:0 7px;color:var(--ink2);margin-right:4px}
+.tag.warn{border-color:#c98500;color:#7a5200;background:#fff7e0}
+.src{font-size:11px;color:var(--muted)}
+.dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:5px;vertical-align:0}
+/* origins */
+.hero{display:grid;grid-template-columns:1.3fr 1fr;gap:20px;align-items:start}
+.quote{font-size:20px;font-weight:600;line-height:1.4;margin:0 0 6px}
+.film-strip{display:grid;grid-template-columns:repeat(10,1fr);gap:4px;margin:16px 0 8px}
+.film{background:#fff;border:1px solid var(--grid);border-radius:6px;padding:5px 4px;text-align:center;font-size:11px}
+.film b{display:block;font-size:12px}
+.themes{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:12px}
+.theme{background:#fff;border:1px solid var(--grid);border-radius:8px;padding:8px 10px;font-size:12px}
+.theme b{font-size:13px}
+.ln{display:block;height:6px;border-radius:3px;background:var(--grid);margin-top:6px}
+/* person */
+.phead{display:flex;gap:14px;align-items:baseline;flex-wrap:wrap}
+.phead h3{margin:0;font-size:20px}
+.wave{display:grid;grid-template-columns:90px 1fr;gap:12px;border-top:1px solid var(--grid);padding:10px 0}
+.wave .age{font-weight:700}
+.wave .age small{display:block;font-weight:400;color:var(--muted);font-size:11px}
+.dims{display:grid;grid-template-columns:repeat(3,1fr);gap:6px 14px;font-size:12px}
+.dims div span{color:var(--muted)}
+.qa{margin-top:6px;font-size:12px;background:var(--page);border-radius:6px;padding:6px 10px}
+.qa q{font-style:italic}
+/* guess */
+.guess{display:grid;grid-template-columns:1fr 1.3fr;gap:18px}
+.gcard{background:#fff;border:1px solid var(--grid);border-radius:10px;padding:14px}
+.opts{display:grid;gap:8px;margin-top:8px}
+.opt{border:1px solid var(--axis);border-radius:8px;padding:8px 12px;font-size:13px;background:#fff;cursor:pointer}
+.opt:hover{background:var(--page)}
+.btn{display:inline-block;background:var(--ink);color:#fff;border-radius:8px;padding:6px 14px;font-size:13px;margin-top:10px}
+.score{font-size:12px;color:var(--ink2);margin-top:8px}
+/* questions */
+.qlib{display:grid;grid-template-columns:220px 1fr;gap:16px}
+.filters h5{margin:10px 0 4px;font-size:12px;color:var(--muted)}
+.chipset{display:flex;flex-wrap:wrap;gap:4px}
+.c{font-size:11px;border:1px solid var(--axis);border-radius:999px;padding:0 8px;background:#fff}
+.c.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+.search{width:100%;border:1px solid var(--axis);border-radius:8px;padding:6px 10px;font-size:13px;margin-bottom:10px}
+.qrow{border:1px solid var(--grid);border-radius:8px;padding:9px 12px;margin-bottom:8px;background:#fff}
+.qrow .en{font-size:14px}
+.qrow .zh{font-size:13px;color:var(--ink2)}
+.ans{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-top:8px}
+.ans div{background:var(--page);border-radius:6px;padding:6px 8px;font-size:11px}
+/* compare */
+.cmp-sel{display:flex;gap:10px;align-items:center;font-size:13px;margin-bottom:8px}
+.sel{border:1px solid var(--axis);border-radius:8px;padding:3px 10px;background:#fff}
+table.cmp{border-collapse:separate;border-spacing:3px;width:100%;font-size:11px;table-layout:fixed}
+.cmp th{color:var(--ink2);font-weight:600}
+.cmp th.r{text-align:left;width:90px}
+.cmp td{background:#fff;border:1px solid var(--grid);border-radius:4px;height:30px;padding:3px 5px;vertical-align:top;color:var(--muted)}
+.cmp td.off{background:var(--page);border-style:dashed}
+.foot{font-size:13px;color:var(--ink2)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>草图 2：其余五个页面</h1>
+  <p class="sub">总览已经选了 A。这一页把另外五个页面依次画出来，只看排法和信息结构，不看配色和细节。</p>
+  <div class="note">
+    <b>数据说明：</b>"缘起"里的引语、影片年份和导演、Nick 的出身、去世时间和 70 Up 访谈，出自英文维基百科；问题库里的三个英文问题，摘自网友制作的 <i>28 Up</i> 字幕。
+    其他灰色内容和标着"示意"的地方都是占位，<b>不是事实</b>。
+  </div>
+
+  <!-- 1 缘起 -->
+  <section class="scr">
+    <h2>① 缘起</h2>
+    <p>给没看过这部片的人一个入口：这部片为什么拍、怎么拍、导演都问了些什么。右上角的中 / EN 在这一屏可以点，能看到切换后的效果。</p>
+    <div class="shell">
+      <div class="nav"><span class="brand">7 Up → 70 Up</span><div class="tabs"><span class="on" data-i18n="t1">缘起</span><span data-i18n="t2">总览</span><span data-i18n="t3">猜一猜</span><span data-i18n="t4">问题库</span><span data-i18n="t5">对比</span></div><div class="lang" id="lang"><span class="on" data-l="zh">中</span><span data-l="en">EN</span></div></div>
+      <div class="body">
+        <div class="hero">
+          <div>
+            <p class="quote" data-i18n="q">"给我一个七岁的孩子，我还你一个成人。"</p>
+            <p class="src" data-i18n="qs">—— 耶稣会格言，也是整个系列的出发点</p>
+            <p data-i18n="p1">1964 年，二十个七岁的孩子被带到伦敦动物园见面。片头说："我们把这些孩子聚到一起，是想先看一眼 2000 年的英国。2000 年的工会代表和公司高管，现在才七岁。"之后每隔七年，摄制组就回去找其中十四个人，一直拍到他们七十岁。</p>
+          </div>
+          <div class="theme" style="background:var(--page)">
+            <b data-i18n="h2">背后的问题</b>
+            <p style="margin:4px 0 0" data-i18n="p2">当时的假设是：英国的阶级结构太牢固了，孩子一出生，人生走向就已经定了。所以选人的时候，刻意找了出身截然不同的孩子。</p>
+            <p class="src" data-i18n="p2s">来源：Wikipedia · Up (film series)；正式做的时候会补上一手来源</p>
+          </div>
+        </div>
+        <div class="film-strip" id="films"></div>
+        <b data-i18n="h3">导演问了什么，想了解什么</b>
+        <div class="themes">
+          <div class="theme"><b>示意主题 · 学校与教育</b><span class="ln" style="width:90%"></span><span class="ln" style="width:60%"></span><div class="src">问题示例 · 背后想了解什么 · 出处</div></div>
+          <div class="theme"><b>示意主题 · 工作与金钱</b><span class="ln" style="width:80%"></span><span class="ln" style="width:70%"></span><div class="src">问题示例 · 背后想了解什么 · 出处</div></div>
+          <div class="theme"><b>示意主题 · 爱情与婚姻</b><span class="ln" style="width:85%"></span><span class="ln" style="width:50%"></span><div class="src">问题示例 · 背后想了解什么 · 出处</div></div>
+        </div>
+        <p class="src" style="margin-top:8px">每个主题点开后会跳到"问题库"，自动套用这个主题筛选。主题怎么划分，要等全部问题整理完才能定。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2 个人页 -->
+  <section class="scr">
+    <h2>② 个人页（在总览里点某个人的名字进入）</h2>
+    <p>顶部是这个人自己的一条生命线，下面按年龄往下排：每个年龄是六个维度，再加上导演当年问他的问题和他的回答摘录，每条都附出处。</p>
+    <div class="shell">
+      <div class="nav"><span class="brand">7 Up → 70 Up</span><div class="tabs"><span>缘起</span><span class="on">总览</span><span>猜一猜</span><span>问题库</span><span>对比</span></div><div class="lang"><span class="on">中</span><span>EN</span></div></div>
+      <div class="body">
+        <div class="phead"><h3><span class="dot" style="background:var(--s4)"></span>Nick Hitchon</h3><span class="tag">约克郡山谷 · 小农场</span><span class="tag">村里只有一间教室的学校</span><span class="tag">† 2023 年 7 月 23 日，65 岁</span></div>
+        <svg viewBox="0 0 960 44" width="100%" style="margin:10px 0 2px" id="nickline"></svg>
+        <div class="wave"><div class="age">7 岁<small>1964 · Seven Up!</small></div><div>
+          <div class="dims"><div><span>教育 </span><span class="ph">示意</span></div><div><span>工作 </span><span class="ph">—</span></div><div><span>家庭 </span><span class="ph">示意</span></div><div><span>居住地 </span><span class="ph">示意</span></div><div><span>重大事件 </span><span class="ph">—</span></div><div><span>本人看法 </span><span class="ph">示意</span></div></div>
+          <div class="qa"><b>问：</b><span class="ph">（导演的原话 · 中文翻译）</span><br><b>答：</b><span class="ph">（他回答的摘录 · 中文翻译）</span> <span class="src">出处：Seven Up! 字幕 / 文章链接</span></div>
+        </div></div>
+        <div class="wave"><div class="age">14 岁<small>1970 · 7 Plus Seven</small></div><div class="ph">……每个年龄都按这个格式往下排……</div></div>
+        <div class="wave"><div class="age">70 岁<small>2026 · 70 Up</small></div><div>
+          <div>以生前录制的访谈出现。这段访谈是他在病重时主动联系制片人 Claire Lewis 要求录的。 <span class="src">来源：Wikipedia · Up (film series)</span></div>
+        </div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3 猜一猜 -->
+  <section class="scr">
+    <h2>③ 猜一猜</h2>
+    <p>每轮只给出一个人的出身和他 7 岁时说的原话，让使用者猜他 70 岁时的样子。三个选项都是真实的结局，其中两个属于别人。选完之后，生命线从 14 岁一段一段画到 70 岁，揭晓答案。</p>
+    <div class="shell">
+      <div class="nav"><span class="brand">7 Up → 70 Up</span><div class="tabs"><span>缘起</span><span>总览</span><span class="on">猜一猜</span><span>问题库</span><span>对比</span></div><div class="lang"><span class="on">中</span><span>EN</span></div></div>
+      <div class="body guess">
+        <div class="gcard">
+          <div class="src">第 4 / 14 位</div>
+          <b style="font-size:16px">一个 7 岁的孩子</b>
+          <p style="margin:6px 0"><span class="tag">出身：示意</span><span class="tag">学校：示意</span></p>
+          <div class="qa"><b>问：</b><span class="ph">（7 岁时被问到的问题）</span><br><b>答：</b><span class="ph">（他的原话）</span></div>
+          <p class="src" style="margin-top:8px">名字先藏起来，揭晓的时候再显示。</p>
+        </div>
+        <div class="gcard">
+          <b>你觉得他 70 岁时……</b>
+          <div class="opts">
+            <div class="opt"><span class="ph">选项 A：某个人真实的 70 岁状态（示意）</span></div>
+            <div class="opt"><span class="ph">选项 B：某个人真实的 70 岁状态（示意）</span></div>
+            <div class="opt"><span class="ph">选项 C：某个人真实的 70 岁状态（示意）</span></div>
+          </div>
+          <span class="btn">揭晓 →</span>
+          <div class="score">已经猜了 3 个，猜中 1 个 · 全部猜完后显示：你的判断和"七岁看老"差多远</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4 问题库 -->
+  <section class="scr">
+    <h2>④ 问题库</h2>
+    <p>把十部片里导演问过的问题都收进来，可以按影片、人物、主题筛选，也可以直接搜。点开一个问题，能看到被问到的人当时怎么回答的；如果同类问题在其他年龄也问过，一并列出来。</p>
+    <div class="shell">
+      <div class="nav"><span class="brand">7 Up → 70 Up</span><div class="tabs"><span>缘起</span><span>总览</span><span>猜一猜</span><span class="on">问题库</span><span>对比</span></div><div class="lang"><span class="on">中</span><span>EN</span></div></div>
+      <div class="body qlib">
+        <div class="filters">
+          <h5>影片</h5><div class="chipset" id="fFilms"></div>
+          <h5>人物</h5><div class="chipset" id="fPeople"></div>
+          <h5>主题（示意）</h5><div class="chipset"><span class="c">教育</span><span class="c on">阶级</span><span class="c">工作</span><span class="c">婚恋</span><span class="c">下一代</span><span class="c">幸福</span><span class="c">这部片子</span></div>
+          <h5>收录情况</h5><div class="src">每部片注明：完整字幕 / 只有部分引用</div>
+        </div>
+        <div>
+          <input class="search" placeholder="搜索问题（中 / 英）…">
+          <div class="qrow">
+            <div class="en">"So what advantages do you think you've had over some of the other people that we've filmed?"</div>
+            <div class="zh">"你觉得，比起我们拍的其他一些人，你有过哪些优势？"</div>
+            <div style="margin-top:4px"><span class="tag">28 Up</span><span class="tag warn">提问对象：待核</span><span class="tag">阶级</span></div>
+            <div class="ans"><div><b>回答</b><br><span class="ph">摘录 · 翻译</span></div><div><b>同类 · 21 岁</b><br><span class="ph">示意</span></div><div><b>同类 · 35 岁</b><br><span class="ph">示意</span></div><div><b>同类 · 56 岁</b><br><span class="ph">示意</span></div></div>
+          </div>
+          <div class="qrow">
+            <div class="en">"Do you want for them what you had for yourself, in terms of schooling and everything?"</div>
+            <div class="zh">"在上学这些方面，你希望孩子们也能拥有你当年拥有的吗？"</div>
+            <div style="margin-top:4px"><span class="tag">28 Up</span><span class="tag warn">提问对象：待核</span><span class="tag">下一代</span></div>
+          </div>
+          <div class="qrow">
+            <div class="en">"What does it take to be a good cabbie?"</div>
+            <div class="zh">"要当一个好的出租车司机，需要什么？"</div>
+            <div style="margin-top:4px"><span class="tag">28 Up</span><span class="tag warn">提问对象：待核</span><span class="tag">工作</span></div>
+          </div>
+          <p class="src">"待核"的意思是：网友字幕里没有标注说话人，正式整理时要结合上下文确认。上下文确认不了的，只归到对应的影片，不标人。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5 对比 -->
+  <section class="scr">
+    <h2>⑤ 对比</h2>
+    <p>任选两个人，十个年龄排成十列，六个维度排成六行，两个人逐格对照。缺席的年龄用虚线格表示。</p>
+    <div class="shell">
+      <div class="nav"><span class="brand">7 Up → 70 Up</span><div class="tabs"><span>缘起</span><span>总览</span><span>猜一猜</span><span>问题库</span><span class="on">对比</span></div><div class="lang"><span class="on">中</span><span>EN</span></div></div>
+      <div class="body">
+        <div class="cmp-sel"><span class="sel"><span class="dot" style="background:var(--s1)"></span>Suzy ▾</span><span>vs</span><span class="sel"><span class="dot" style="background:var(--s2)"></span>Jackie ▾</span><span class="src">（这两个人是随手选的示例）</span></div>
+        <table class="cmp" id="cmp"></table>
+      </div>
+    </div>
+  </section>
+
+  <p class="foot">有什么不对、缺了什么，或者想调整的地方，请回到对话里告诉我。</p>
+</div>
+
+<script>
+const AGES=[7,14,21,28,35,42,49,56,63,70];
+const YEARS=[1964,1970,1977,1984,1991,1998,2005,2012,2019,2026];
+const FILMS=['Seven Up!','7 Plus Seven','21 Up','28 Up','35 Up','42 Up','49 Up','56 Up','63 Up','70 Up'];
+const DIRS=['Paul Almond','Michael Apted','Michael Apted','Michael Apted','Michael Apted','Michael Apted','Michael Apted','Michael Apted','Michael Apted','Asif Kapadia'];
+document.getElementById('films').innerHTML=FILMS.map((f,i)=>`<div class="film"><b>${AGES[i]}</b>${YEARS[i]}<br><span class="src">${DIRS[i]}</span></div>`).join('');
+document.getElementById('fFilms').innerHTML=FILMS.map((f,i)=>`<span class="c ${i===3?'on':''}">${AGES[i]}</span>`).join('');
+document.getElementById('fPeople').innerHTML=['Andrew','Charles','John','Suzy','Bruce','Jackie','Lynn','Sue','Tony','Paul','Symon','Nick','Peter','Neil'].map(n=>`<span class="c">${n}</span>`).join('');
+
+// Nick 的生命线
+(function(){const s='111111111L',svg=document.getElementById('nickline'),NS='http://www.w3.org/2000/svg';
+ const x=i=>40+880*i/9,y=24;
+ function el(t,a,txt){const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);if(txt!=null)e.textContent=txt;svg.appendChild(e);return e;}
+ el('line',{x1:x(0),x2:x(9),y1:y,y2:y,stroke:'var(--s4)','stroke-width':2});
+ for(let i=0;i<10;i++){ if(s[i]==='1')el('circle',{cx:x(i),cy:y,r:5,fill:'var(--s4)',stroke:'var(--surface)','stroke-width':2});
+   else el('rect',{x:x(i)-5,y:y-5,width:10,height:10,transform:`rotate(45 ${x(i)} ${y})`,fill:'var(--surface)',stroke:'var(--s4)','stroke-width':2});
+   el('text',{x:x(i),y:10,'text-anchor':'middle','font-size':11,fill:'var(--muted)'},AGES[i]+' 岁');}
+})();
+
+// 对比表：出镜数据真实（维基百科），格内容是占位
+(function(){const A={n:'Suzy',s:'1111111101'},B={n:'Jackie',s:'1111111111'};
+ const D=['教育','工作','家庭','居住地','重大事件','本人看法'];
+ let h='<tr><th class="r"></th>'+AGES.map(a=>`<th>${a}</th>`).join('')+'</tr>';
+ D.forEach(d=>{[A,B].forEach((p,j)=>{h+=`<tr><th class="r">${j===0?d:''}<span class="src" style="float:right">${p.n}</span></th>`+
+   [...p.s].map(v=>v==='1'?`<td><span class="ln" style="width:${50+Math.round(Math.random()*40)}%;margin-top:4px"></span></td>`:`<td class="off">缺席</td>`).join('')+'</tr>';});});
+ document.getElementById('cmp').innerHTML=h;})();
+
+// 中 / EN 演示（只覆盖"缘起"这一屏）
+const T={en:{t1:'Origins',t2:'Overview',t3:'Guess',t4:'Questions',t5:'Compare',
+  q:'"Give me a child until he is seven and I will give you the man."',qs:'— Jesuit maxim, the premise of the series',
+  p1:'In 1964, twenty seven-year-olds were brought together at London Zoo. The film opens: "We brought these children together because we wanted a glimpse of England in the year 2000. The shop steward and the executive of the year 2000 are now seven years old." Every seven years since, the crew went back to fourteen of them, until they turned seventy.',
+  h2:'The question behind it',p2:'The working hypothesis: British class structure was so strong that a child\'s path in life was set at birth. The children were chosen from sharply different backgrounds.',
+  p2s:'Source: Wikipedia · Up (film series); primary sources to be added',h3:'What the director asked, and why'}};
+const ZH={};document.querySelectorAll('[data-i18n]').forEach(e=>ZH[e.dataset.i18n]=e.innerHTML);
+document.getElementById('lang').onclick=e=>{const l=e.target.dataset.l;if(!l)return;
+  document.querySelectorAll('#lang span').forEach(s=>s.classList.toggle('on',s.dataset.l===l));
+  document.querySelectorAll('[data-i18n]').forEach(el=>{el.innerHTML=l==='en'?(T.en[el.dataset.i18n]??ZH[el.dataset.i18n]):ZH[el.dataset.i18n];});};
+</script>
+</body>
+</html>
