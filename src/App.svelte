@@ -5,6 +5,7 @@
   import { loadDataset } from './lib/data/load.ts'
   import { initLang, t } from './lib/i18n.svelte.ts'
   import { router, startRouter } from './lib/router.svelte.ts'
+  import Overview from './views/Overview.svelte'
 
   initLang()
   const idx = buildIndex(loadDataset())
@@ -14,7 +15,10 @@
 
 <Nav {route} />
 <main data-route={route.name}>
-  {#if true}
+  {#if false}
+  {:else if route.name === 'overview'}
+    <Overview {idx} age={route.age} />
+  {:else}
     <h1 class="placeholder">{t(`nav.${route.name}`)}</h1>
   {/if}
 </main>
