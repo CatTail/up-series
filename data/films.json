@@ -9,8 +9,16 @@
     "director": "Paul Almond",
     "broadcaster": "ITV (Granada, World in Action)",
     "episodes": 1,
-    "transcriptCoverage": "none",
-    "sourceIds": ["wiki-up-series", "rts-up-story-2019", "bfi-seven-up-book", "guardian-mangan-2026", "guardian-conlan-2026", "slant-apted-2019", "thenation-pedersen-2020"]
+    "transcriptCoverage": "full",
+    "sourceIds": [
+      "wiki-up-series",
+      "rts-up-story-2019",
+      "bfi-seven-up-book",
+      "guardian-mangan-2026",
+      "guardian-conlan-2026",
+      "slant-apted-2019",
+      "thenation-pedersen-2020"
+    ]
   },
   {
     "id": "f14",
@@ -22,8 +30,12 @@
     "director": "Michael Apted",
     "broadcaster": "ITV (Granada)",
     "episodes": 1,
-    "transcriptCoverage": "none",
-    "sourceIds": ["wiki-up-series", "independent-chilton-2026", "slant-apted-2019"]
+    "transcriptCoverage": "full",
+    "sourceIds": [
+      "wiki-up-series",
+      "independent-chilton-2026",
+      "slant-apted-2019"
+    ]
   },
   {
     "id": "f21",
@@ -35,8 +47,11 @@
     "director": "Michael Apted",
     "broadcaster": "ITV (Granada)",
     "episodes": 1,
-    "transcriptCoverage": "none",
-    "sourceIds": ["wiki-up-series", "independent-chilton-2026"]
+    "transcriptCoverage": "full",
+    "sourceIds": [
+      "wiki-up-series",
+      "independent-chilton-2026"
+    ]
   },
   {
     "id": "f28",
@@ -48,8 +63,11 @@
     "director": "Michael Apted",
     "broadcaster": "ITV (Granada)",
     "episodes": 2,
-    "transcriptCoverage": "none",
-    "sourceIds": ["wiki-up-series", "independent-chilton-2026"]
+    "transcriptCoverage": "full",
+    "sourceIds": [
+      "wiki-up-series",
+      "independent-chilton-2026"
+    ]
   },
   {
     "id": "f35",
@@ -61,8 +79,12 @@
     "director": "Michael Apted",
     "broadcaster": "ITV (Granada)",
     "episodes": 1,
-    "transcriptCoverage": "none",
-    "sourceIds": ["wiki-up-series", "thenation-pedersen-2020", "independent-chilton-2026"]
+    "transcriptCoverage": "full",
+    "sourceIds": [
+      "wiki-up-series",
+      "thenation-pedersen-2020",
+      "independent-chilton-2026"
+    ]
   },
   {
     "id": "f42",
@@ -74,8 +96,12 @@
     "director": "Michael Apted",
     "broadcaster": "BBC One (produced by Granada)",
     "episodes": 2,
-    "transcriptCoverage": "none",
-    "sourceIds": ["wiki-up-series", "thenation-pedersen-2020", "independent-chilton-2026"]
+    "transcriptCoverage": "full",
+    "sourceIds": [
+      "wiki-up-series",
+      "thenation-pedersen-2020",
+      "independent-chilton-2026"
+    ]
   },
   {
     "id": "f49",
@@ -87,8 +113,11 @@
     "director": "Michael Apted",
     "broadcaster": "ITV",
     "episodes": 2,
-    "transcriptCoverage": "none",
-    "sourceIds": ["wiki-up-series", "independent-chilton-2026"]
+    "transcriptCoverage": "full",
+    "sourceIds": [
+      "wiki-up-series",
+      "independent-chilton-2026"
+    ]
   },
   {
     "id": "f56",
@@ -100,8 +129,12 @@
     "director": "Michael Apted",
     "broadcaster": "ITV",
     "episodes": 3,
-    "transcriptCoverage": "none",
-    "sourceIds": ["wiki-up-series", "thenation-pedersen-2020", "independent-chilton-2026"]
+    "transcriptCoverage": "full",
+    "sourceIds": [
+      "wiki-up-series",
+      "thenation-pedersen-2020",
+      "independent-chilton-2026"
+    ]
   },
   {
     "id": "f63",
@@ -113,8 +146,13 @@
     "director": "Michael Apted",
     "broadcaster": "ITV",
     "episodes": 3,
-    "transcriptCoverage": "none",
-    "sourceIds": ["wiki-up-series", "rts-up-story-2019", "independent-chilton-2026", "slant-apted-2019"]
+    "transcriptCoverage": "full",
+    "sourceIds": [
+      "wiki-up-series",
+      "rts-up-story-2019",
+      "independent-chilton-2026",
+      "slant-apted-2019"
+    ]
   },
   {
     "id": "f70",
@@ -126,7 +164,16 @@
     "director": "Asif Kapadia",
     "broadcaster": "ITV1",
     "episodes": 2,
-    "transcriptCoverage": "none",
-    "sourceIds": ["wiki-up-series", "tvguide-charles-2026", "tvguide-nick-2026", "saga-70up-2026", "tvzone-70up-launch-2026", "televisual-kapadia-2026", "guardian-conlan-2026", "independent-chilton-2026"]
+    "transcriptCoverage": "full",
+    "sourceIds": [
+      "wiki-up-series",
+      "tvguide-charles-2026",
+      "tvguide-nick-2026",
+      "saga-70up-2026",
+      "tvzone-70up-launch-2026",
+      "televisual-kapadia-2026",
+      "guardian-conlan-2026",
+      "independent-chilton-2026"
+    ]
   }
 ]

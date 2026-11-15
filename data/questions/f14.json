@@ -1,0 +1,1630 @@
+[
+  {
+    "id": "f14-001",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "How do you think you've changed since you were seven years old?",
+    "zh": "你觉得自己从七岁到现在有哪些变化？",
+    "themeIds": [
+      "the_series",
+      "happiness_regret"
+    ],
+    "answerSummary": {
+      "zh": "回答说人的成长太慢，自己察觉不到；感觉和七岁时一样，但实际上未必如此。",
+      "en": "Replied that people grow too gradually to notice it, and that it feels the same as at seven, though that may not really be so."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "Charles、Andrew 与 John 段落",
+      "en": "Charles, Andrew and John segment"
+    }
+  },
+  {
+    "id": "f14-002",
+    "filmId": "f14",
+    "personId": "tony",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Did your parents encourage you to do this?",
+    "zh": "你父母鼓励你做这个吗？",
+    "themeIds": [
+      "work",
+      "family_upbringing"
+    ],
+    "answerSummary": {
+      "zh": "他说父母对他的打算很满意，而且一直希望他当骑师。",
+      "en": "He said his parents were pleased with his plans and had always hoped he would become a jockey."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "Tony 段落",
+      "en": "Tony segment"
+    }
+  },
+  {
+    "id": "f14-003",
+    "filmId": "f14",
+    "personId": "tony",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Why?",
+    "zh": "为什么？",
+    "themeIds": [
+      "work",
+      "family_upbringing"
+    ],
+    "answerSummary": {
+      "zh": "他说父母能对人说“我儿子是骑师”，会很开心。",
+      "en": "He said it would give them pleasure to be able to tell people their son was a jockey."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "Tony 段落",
+      "en": "Tony segment"
+    }
+  },
+  {
+    "id": "f14-004",
+    "filmId": "f14",
+    "personId": "symon",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What effect has that had on you?",
+    "zh": "这对你有什么影响？",
+    "themeIds": [
+      "happiness_regret",
+      "family_upbringing"
+    ],
+    "answerSummary": {
+      "zh": "他说没有父亲并没有影响到他，因为从来没有过的东西也就谈不上想念。",
+      "en": "He said growing up without a father had not affected him, because you cannot miss something you never had."
+    },
+    "answerQuote": {
+      "zh": "嗯，我不觉得这对我有什么影响，因为在我看来，没有的东西你也不会想念。",
+      "en": "Well, I don't think it's had any effect on me because what you don't have, you don't miss, as far as I can see."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "Symon 段落",
+      "en": "Symon segment"
+    }
+  },
+  {
+    "id": "f14-005",
+    "filmId": "f14",
+    "personId": "paul",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What do you remember of England?",
+    "zh": "你还记得英国的什么？",
+    "themeIds": [
+      "home_place"
+    ],
+    "answerSummary": {
+      "zh": "他记得的主要是那里好像总在下雨，但也承认自己记得的不多。",
+      "en": "He recalled mainly that it seemed to rain constantly, but admitted his memories were thin."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "Paul 段落",
+      "en": "Paul segment"
+    }
+  },
+  {
+    "id": "f14-006",
+    "filmId": "f14",
+    "personId": "paul",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Were you happy at the children's home in England?",
+    "zh": "你在英国的儿童之家过得开心吗？",
+    "themeIds": [
+      "happiness_regret",
+      "home_place",
+      "family_upbringing"
+    ],
+    "answerSummary": {
+      "zh": "他说当时并不介意，因为那时太小，不明白发生了什么。",
+      "en": "He said he had not minded it, being too young then to understand what was going on."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "Paul 段落",
+      "en": "Paul segment"
+    }
+  },
+  {
+    "id": "f14-007",
+    "filmId": "f14",
+    "personId": "paul",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Were you happier then than you are now?",
+    "zh": "你那时比现在更开心吗？",
+    "themeIds": [
+      "happiness_regret",
+      "home_place",
+      "family_upbringing"
+    ],
+    "answerSummary": {
+      "zh": "他说某种程度上是的，因为在儿童之家什么都有、人人都是朋友；但他也庆幸现在住在家里，尽管这里的友谊不那么可靠。",
+      "en": "He said in some ways yes, since at the home he had everything and everyone was a friend, but he was glad to be living at home now, where friendships are less certain."
+    },
+    "answerQuote": {
+      "zh": "某种程度上是的，但话说回来，我也很高兴能待在家里。在那所学校，你想要什么就有什么，人人都是你的朋友，你根本不知道什么是敌人；可在这里，大家对你的态度捉摸不定。",
+      "en": "In a way, yeah, I was, but then, I'm happy for being at home. At the school, everything you wanted, you just had it, and everybody was your friend, and you never knew any enemies, really, but here, people are undecided about you."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "Paul 段落",
+      "en": "Paul segment"
+    }
+  },
+  {
+    "id": "f14-008",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "What do you think?",
+    "zh": "你怎么看？",
+    "themeIds": [
+      "education"
+    ],
+    "answerSummary": {
+      "zh": "回答说同意，竞争是好事，因为它促使人更加努力。",
+      "en": "Agreed that rivalry is healthy because it pushes people to make more effort."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "Neil 与 Peter 段落",
+      "en": "Neil and Peter segment"
+    }
+  },
+  {
+    "id": "f14-009",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "What advantages has a comprehensive school got?",
+    "zh": "综合中学有什么好处？",
+    "themeIds": [
+      "education"
+    ],
+    "answerSummary": {
+      "zh": "回答称赞这所新学校设备齐全，而且女生学金工和木工、男生学烹饪。",
+      "en": "The replies praised the new school's equipment and the fact that girls take metalwork and woodwork while boys do cookery."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "东区女孩段落",
+      "en": "East End girls segment"
+    }
+  },
+  {
+    "id": "f14-010",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "What do you do in an evening?",
+    "zh": "你晚上做些什么？",
+    "themeIds": [
+      "childhood_play",
+      "home_place",
+      "leisure_interests"
+    ],
+    "answerSummary": {
+      "zh": "回答说通常和朋友出去，有时去俱乐部，并抱怨东区几乎没什么可做的。",
+      "en": "Usually going out with friends or sometimes to clubs, with complaints that the East End has hardly anything to do."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "课余时间段落",
+      "en": "Free time segment"
+    }
+  },
+  {
+    "id": "f14-011",
+    "filmId": "f14",
+    "personId": "suzy",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What sort of things do you do?",
+    "zh": "你平时都做些什么？",
+    "themeIds": [
+      "childhood_play",
+      "home_place",
+      "leisure_interests"
+    ],
+    "answerSummary": {
+      "zh": "她列举了骑马、游泳、网球、乒乓球和槌球。",
+      "en": "She listed riding, swimming, tennis, table tennis and croquet."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "Suzy 段落",
+      "en": "Suzy segment"
+    }
+  },
+  {
+    "id": "f14-012",
+    "filmId": "f14",
+    "personId": "suzy",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What about the social life?",
+    "zh": "社交生活怎么样？",
+    "themeIds": [
+      "childhood_play",
+      "home_place"
+    ],
+    "answerSummary": {
+      "zh": "她先确认问的是珀斯郡，然后说那里挺有意思，也有些活动。",
+      "en": "After checking that the question meant Perthshire, she said it was quite fun and there were things going on."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "Suzy 段落",
+      "en": "Suzy segment"
+    }
+  },
+  {
+    "id": "f14-013",
+    "filmId": "f14",
+    "personId": "suzy",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Does that worry you?",
+    "zh": "这让你感到不安吗？",
+    "themeIds": [
+      "childhood_play",
+      "faith_values"
+    ],
+    "answerSummary": {
+      "zh": "她说狗抓兔子一点也不让她不安；她不喜欢的是受伤的鸟逃走、来不及把它们弄死。",
+      "en": "She said her dog catching a rabbit did not bother her at all; what she dislikes is wounded birds getting away before they can be killed."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "Suzy 段落",
+      "en": "Suzy segment"
+    }
+  },
+  {
+    "id": "f14-014",
+    "filmId": "f14",
+    "personId": "suzy",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Why doesn't it worry you if things have to be killed?",
+    "zh": "如果有东西不得不被杀死，为什么这不会让你感到不安？",
+    "themeIds": [
+      "faith_values",
+      "home_place",
+      "family_upbringing"
+    ],
+    "answerSummary": {
+      "zh": "她说这是因为她从小就是这样长大的。",
+      "en": "She put it down to the way she was raised."
+    },
+    "answerQuote": {
+      "zh": "因为我从小就习惯了。",
+      "en": "Because I've been brought up to it."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "Suzy 段落",
+      "en": "Suzy segment"
+    }
+  },
+  {
+    "id": "f14-015",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "Are you ambitious?",
+    "zh": "你有雄心吗？",
+    "themeIds": [
+      "work",
+      "faith_values"
+    ],
+    "answerSummary": {
+      "zh": "回答说有。",
+      "en": "Answered yes."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "钢琴课与抱负段落",
+      "en": "Piano lesson and ambition segment"
+    }
+  },
+  {
+    "id": "f14-016",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "What for?",
+    "zh": "为了什么？",
+    "themeIds": [
+      "work",
+      "faith_values"
+    ],
+    "answerSummary": {
+      "zh": "回答说是名声和权力。",
+      "en": "Named fame and power as the goals."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "钢琴课与抱负段落",
+      "en": "Piano lesson and ambition segment"
+    }
+  },
+  {
+    "id": "f14-017",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "What sort of power?",
+    "zh": "什么样的权力？",
+    "themeIds": [
+      "faith_values",
+      "society_politics"
+    ],
+    "answerSummary": {
+      "zh": "回答说是政治权力。",
+      "en": "Said political power."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "钢琴课与抱负段落",
+      "en": "Piano lesson and ambition segment"
+    }
+  },
+  {
+    "id": "f14-018",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "Are you ruthless?",
+    "zh": "你冷酷无情吗？",
+    "themeIds": [
+      "faith_values"
+    ],
+    "answerSummary": {
+      "zh": "回答说不算是。",
+      "en": "Said not really."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "钢琴课与抱负段落",
+      "en": "Piano lesson and ambition segment"
+    }
+  },
+  {
+    "id": "f14-019",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "Do you think to have political power, you got to be ruthless?",
+    "zh": "你觉得要拥有政治权力，就必须冷酷无情吗？",
+    "themeIds": [
+      "faith_values",
+      "society_politics"
+    ],
+    "answerSummary": {
+      "zh": "回答说是的。",
+      "en": "Answered yes."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "钢琴课与抱负段落",
+      "en": "Piano lesson and ambition segment"
+    }
+  },
+  {
+    "id": "f14-020",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "Well, what qualities do you need to have political power then if it's not ruthlessness?",
+    "zh": "那么，如果不是冷酷无情，拥有政治权力需要什么品质呢？",
+    "themeIds": [
+      "faith_values",
+      "society_politics"
+    ],
+    "answerSummary": {
+      "zh": "回答说需要的是坚强的意志。",
+      "en": "Said what is needed is a strong mind."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "钢琴课与抱负段落",
+      "en": "Piano lesson and ambition segment"
+    }
+  },
+  {
+    "id": "f14-021",
+    "filmId": "f14",
+    "personId": "nick",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Do you want to take up farming?",
+    "zh": "你以后想务农吗？",
+    "themeIds": [
+      "work",
+      "home_place"
+    ],
+    "answerSummary": {
+      "zh": "他说自己对务农没兴趣，他感兴趣的是物理和化学。",
+      "en": "He said farming held no interest for him and that he was drawn to physics and chemistry instead."
+    },
+    "answerQuote": {
+      "zh": "不，我对这个没兴趣。",
+      "en": "No, I'm not interested in it."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "Nick 段落",
+      "en": "Nick segment"
+    }
+  },
+  {
+    "id": "f14-022",
+    "filmId": "f14",
+    "personId": "nick",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Did your father want to be a farmer?",
+    "zh": "你父亲当初想当农民吗？",
+    "themeIds": [
+      "work",
+      "home_place",
+      "family_upbringing"
+    ],
+    "answerSummary": {
+      "zh": "他认为父亲是被祖父推着当了农民，并不希望他也务农；不过他那个耳聋的小弟弟，实在不行的话或许可以经营农场。",
+      "en": "He thought his father had been pushed into farming by the grandfather and did not want his son to farm, though his deaf youngest brother might run the farm as a last resort."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "Nick 段落",
+      "en": "Nick segment"
+    }
+  },
+  {
+    "id": "f14-023",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "Have you been abroad?",
+    "zh": "你出过国吗？",
+    "themeIds": [
+      "leisure_interests"
+    ],
+    "answerSummary": {
+      "zh": "回答说去过奥地利。",
+      "en": "Said Austria."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "旅行段落",
+      "en": "Travel segment"
+    }
+  },
+  {
+    "id": "f14-024",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "What was it like?",
+    "zh": "那里怎么样？",
+    "themeIds": [
+      "leisure_interests"
+    ],
+    "answerSummary": {
+      "zh": "回答说还不错。",
+      "en": "Said it was not bad."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "旅行段落",
+      "en": "Travel segment"
+    }
+  },
+  {
+    "id": "f14-025",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "Would you like to travel?",
+    "zh": "你想去旅行吗？",
+    "themeIds": [
+      "leisure_interests"
+    ],
+    "answerSummary": {
+      "zh": "回答说不想。",
+      "en": "Said no."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "旅行段落",
+      "en": "Travel segment"
+    }
+  },
+  {
+    "id": "f14-026",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "Have you travelled much?",
+    "zh": "你去过很多地方吗？",
+    "themeIds": [
+      "childhood_play",
+      "leisure_interests"
+    ],
+    "answerSummary": {
+      "zh": "回答说学校组织过郊游，去过 Box Hill、参加过神秘之旅、参观过各种博物馆，还和妈妈去过杜莎夫人蜡像馆和天文馆。",
+      "en": "Described school outings to Box Hill, mystery tours and museums, plus visits to Madame Tussaud's and the planetarium with mum."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "旅行段落",
+      "en": "Travel segment"
+    }
+  },
+  {
+    "id": "f14-027",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "Do you want to go abroad?",
+    "zh": "你想出国吗？",
+    "themeIds": [
+      "leisure_interests"
+    ],
+    "answerSummary": {
+      "zh": "回答说想去马略卡岛待上两个星期，远离一切、好好放松。",
+      "en": "Said a fortnight in Majorca to get away from everything and relax would be welcome."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "旅行段落",
+      "en": "Travel segment"
+    }
+  },
+  {
+    "id": "f14-028",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "In what way?",
+    "zh": "在哪方面？",
+    "themeIds": [
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "回答说女孩不再只是不肯一起玩、很无趣的人了。",
+      "en": "Explained that girls were no longer just dull company who refuse to join in games."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "男孩与女孩段落",
+      "en": "Boys and girls segment"
+    }
+  },
+  {
+    "id": "f14-029",
+    "filmId": "f14",
+    "personId": "suzy",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Have you got any boyfriend, Susan?",
+    "zh": "Susan，你有男朋友吗？",
+    "themeIds": [
+      "love_marriage"
+    ],
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "男孩与女孩段落（Suzy）",
+      "en": "Boys and girls segment (Suzy)"
+    }
+  },
+  {
+    "id": "f14-030",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "Have you got a girlfriend?",
+    "zh": "你有女朋友吗？",
+    "themeIds": [
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "回答说还没有，但相信以后会有的。",
+      "en": "Said not yet, but expected it would come in time."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "男孩与女孩段落",
+      "en": "Boys and girls segment"
+    }
+  },
+  {
+    "id": "f14-031",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "Have you got a girlfriend?",
+    "zh": "你有女朋友吗？",
+    "themeIds": [
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "回答说没有。",
+      "en": "Said no."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "男孩与女孩段落",
+      "en": "Boys and girls segment"
+    }
+  },
+  {
+    "id": "f14-032",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "Would you like to have a girlfriend?",
+    "zh": "你想有个女朋友吗？",
+    "themeIds": [
+      "love_marriage",
+      "the_series"
+    ],
+    "answerSummary": {
+      "zh": "回答说不想，并说早料到会问这个，因为上一部片子里他就拒绝回答过，现在也不知道该说什么。",
+      "en": "Said no, adding that he had expected the topic because he had refused to answer it in the first film, and did not know what answer was wanted."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "男孩与女孩段落",
+      "en": "Boys and girls segment"
+    }
+  },
+  {
+    "id": "f14-033",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "Have you got any boyfriends?",
+    "zh": "你们有男朋友吗？",
+    "themeIds": [
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "女孩们拒绝回答，说这是私事。",
+      "en": "The girls refused to say, calling it a personal question."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "男孩与女孩段落",
+      "en": "Boys and girls segment"
+    }
+  },
+  {
+    "id": "f14-034",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "What do you think about making this programme?",
+    "zh": "你觉得拍这个节目怎么样？",
+    "themeIds": [
+      "the_series"
+    ],
+    "answerSummary": {
+      "zh": "回答说觉得很可笑，拍这个一点乐趣都没有。",
+      "en": "Called it ridiculous and said there was no fun in it."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "谈这部片子段落",
+      "en": "On the programme segment"
+    }
+  },
+  {
+    "id": "f14-035",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "Why not?",
+    "zh": "为什么觉得没意思？",
+    "themeIds": [
+      "the_series"
+    ],
+    "answerSummary": {
+      "zh": "回答说别人闯进你的生活、追问你为什么喜欢这个不喜欢那个，根本没有意义。",
+      "en": "Said there was no point in people prying into others' lives and asking why they like or dislike things."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "谈这部片子段落",
+      "en": "On the programme segment"
+    }
+  },
+  {
+    "id": "f14-036",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "Well, in what way aren't you typical?",
+    "zh": "那么，你在哪些方面不典型？",
+    "themeIds": [
+      "the_series",
+      "society_politics"
+    ],
+    "answerSummary": {
+      "zh": "回答说自己比大多数人更保守一些。",
+      "en": "Said they were somewhat more reactionary than most."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "谈这部片子段落",
+      "en": "On the programme segment"
+    }
+  },
+  {
+    "id": "f14-037",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "What way?",
+    "zh": "哪一边？",
+    "themeIds": [
+      "society_politics"
+    ],
+    "answerSummary": {
+      "zh": "回答说是工党，即自己不会投票支持的政党。",
+      "en": "Named Labour as the party this person would not vote for."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "投票段落",
+      "en": "Voting segment"
+    }
+  },
+  {
+    "id": "f14-038",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "Why?",
+    "zh": "为什么？",
+    "themeIds": [
+      "society_politics"
+    ],
+    "answerSummary": {
+      "zh": "回答说自己也说不上来，因为对政治没兴趣、了解很少。",
+      "en": "Admitted to having no idea, since politics was of no interest."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "投票段落",
+      "en": "Voting segment"
+    }
+  },
+  {
+    "id": "f14-039",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "What do you feel about racial discrimination?",
+    "zh": "你怎么看待种族歧视？",
+    "themeIds": [
+      "society_politics"
+    ],
+    "answerSummary": {
+      "zh": "回答说这相当卑劣。",
+      "en": "Called it rather vile."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "种族段落",
+      "en": "Race segment"
+    }
+  },
+  {
+    "id": "f14-040",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "Why?",
+    "zh": "为什么？",
+    "themeIds": [
+      "faith_values",
+      "society_politics"
+    ],
+    "answerSummary": {
+      "zh": "回答说凡是针对人无法改变的东西的歧视都是错的，而肤色是谁也无法选择的。",
+      "en": "Said any discrimination over something a person cannot change is wrong, and nobody can help their colour."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "种族段落",
+      "en": "Race segment"
+    }
+  },
+  {
+    "id": "f14-041",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "Now you're interested in politics. You'd like to be a politician. What kind of things would you change?",
+    "zh": "你现在对政治感兴趣，想当政治家。你会改变哪些事情？",
+    "themeIds": [
+      "work",
+      "society_politics"
+    ],
+    "answerSummary": {
+      "zh": "回答说会禁止罢工。",
+      "en": "Said strikes would be banned."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "罢工段落",
+      "en": "Strikes segment"
+    }
+  },
+  {
+    "id": "f14-042",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "How would you do that?",
+    "zh": "你要怎么做到？",
+    "themeIds": [
+      "work",
+      "society_politics"
+    ],
+    "answerSummary": {
+      "zh": "回答说要设立一个仲裁庭来审理工人的加薪申请，由它作最终裁决。",
+      "en": "Proposed a tribunal to hear workers' pay claims, whose decision would be final."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "罢工段落",
+      "en": "Strikes segment"
+    }
+  },
+  {
+    "id": "f14-043",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "Who do you think is to blame for strikes, the workers or the management?",
+    "zh": "你觉得罢工该怪谁，工人还是管理层？",
+    "themeIds": [
+      "work",
+      "society_politics"
+    ],
+    "answerSummary": {
+      "zh": "有人倾向于怪管理层；另一人说怪工人，还开玩笑说这样会招来一堆抗议信。",
+      "en": "One reply leaned towards blaming management; another said the workers, joking that this would bring in angry letters."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "罢工段落",
+      "en": "Strikes segment"
+    }
+  },
+  {
+    "id": "f14-044",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "Do you meet here many boys from very different social backgrounds?",
+    "zh": "你在这里会遇到很多来自截然不同社会背景的男孩吗？",
+    "themeIds": [
+      "money_class",
+      "education"
+    ],
+    "answerSummary": {
+      "zh": "回答说不太会。",
+      "en": "Said not really."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "阶级段落",
+      "en": "Class segment"
+    }
+  },
+  {
+    "id": "f14-045",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "Do you find that a lack in your life?",
+    "zh": "你觉得这是你生活中的一种缺失吗？",
+    "themeIds": [
+      "money_class"
+    ],
+    "answerSummary": {
+      "zh": "回答说不觉得。",
+      "en": "Said no."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "阶级段落",
+      "en": "Class segment"
+    }
+  },
+  {
+    "id": "f14-046",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "Why?",
+    "zh": "为什么？",
+    "themeIds": [
+      "money_class"
+    ],
+    "answerSummary": {
+      "zh": "回答说自己在哪方面都不觉得有缺失。",
+      "en": "Said there was no sense of lacking anything at all."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "阶级段落",
+      "en": "Class segment"
+    }
+  },
+  {
+    "id": "f14-047",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "Do you not feel you should be meeting a broader sort of person from different backgrounds?",
+    "zh": "你不觉得自己应该接触更多来自不同背景的人吗？",
+    "themeIds": [
+      "money_class"
+    ],
+    "answerSummary": {
+      "zh": "回答说不太觉得。",
+      "en": "Said not really."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "阶级段落",
+      "en": "Class segment"
+    }
+  },
+  {
+    "id": "f14-048",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "You don't think you're missing?",
+    "zh": "你不觉得自己错过了什么吗？",
+    "themeIds": [
+      "money_class",
+      "education"
+    ],
+    "answerSummary": {
+      "zh": "回答说不觉得：重要的是兴趣而不是出身，学校里各种各样的人已经足够多了。",
+      "en": "Said no: shared interests matter more than background, and the school already offers a wide variety of people."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "阶级段落",
+      "en": "Class segment"
+    }
+  },
+  {
+    "id": "f14-049",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "What are you missing?",
+    "zh": "你缺什么？",
+    "themeIds": [
+      "money_class"
+    ],
+    "answerSummary": {
+      "zh": "回答说缺一辆自行车和一根钓鱼竿。",
+      "en": "Said a bike and a fishing rod."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "阶级段落",
+      "en": "Class segment"
+    }
+  },
+  {
+    "id": "f14-050",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "What effect does it have on them?",
+    "zh": "这对他们有什么影响？",
+    "themeIds": [
+      "money_class"
+    ],
+    "answerSummary": {
+      "zh": "回答说什么都有会把有钱人宠坏。",
+      "en": "Said having everything spoils rich people."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "阶级段落",
+      "en": "Class segment"
+    }
+  },
+  {
+    "id": "f14-051",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "Why?",
+    "zh": "为什么？",
+    "themeIds": [
+      "money_class"
+    ],
+    "answerSummary": {
+      "zh": "回答说想到有人住在那种环境里，而我们每天都在浪费东西，就很难受。",
+      "en": "Said it was upsetting that people live in such conditions while others waste things every day."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "金钱段落",
+      "en": "Money segment"
+    }
+  },
+  {
+    "id": "f14-052",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "And what do you do with it?",
+    "zh": "那你用这些钱做什么？",
+    "themeIds": [
+      "money_class"
+    ],
+    "answerSummary": {
+      "zh": "回答说一部分存起来，一部分花掉。",
+      "en": "Said some is saved and some spent."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "金钱段落",
+      "en": "Money segment"
+    }
+  },
+  {
+    "id": "f14-053",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "What do you spend it on?",
+    "zh": "你把钱花在什么上？",
+    "themeIds": [
+      "money_class",
+      "childhood_play",
+      "leisure_interests"
+    ],
+    "answerSummary": {
+      "zh": "回答说在学校用不了多少钱，所以很多花在集邮上。",
+      "en": "Said little is needed at school, so much of it goes on stamp collecting."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "金钱段落",
+      "en": "Money segment"
+    }
+  },
+  {
+    "id": "f14-054",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "What do you mean by enough?",
+    "zh": "你说的“足够”是指多少？",
+    "themeIds": [
+      "money_class",
+      "children_next_gen"
+    ],
+    "answerSummary": {
+      "zh": "回答说够买一栋好房子，并且有条件的话能送孩子上私立学校。",
+      "en": "Said enough for a nice house and the option of sending the children to a private school."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "金钱段落",
+      "en": "Money segment"
+    }
+  },
+  {
+    "id": "f14-055",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "Do you want to be rich?",
+    "zh": "你想变得富有吗？",
+    "themeIds": [
+      "money_class"
+    ],
+    "answerSummary": {
+      "zh": "回答说维持现状就好，不想太富，也不想穷。",
+      "en": "Said staying as things are would be fine — neither too rich nor poor."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "金钱段落",
+      "en": "Money segment"
+    }
+  },
+  {
+    "id": "f14-056",
+    "filmId": "f14",
+    "personId": "jackie",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What about you, Jackie?",
+    "zh": "Jackie，你呢？",
+    "themeIds": [
+      "money_class"
+    ],
+    "answerSummary": {
+      "zh": "她说只想过得舒舒服服就好。",
+      "en": "She said she just wanted to live comfortably."
+    },
+    "answerQuote": {
+      "zh": "就是过得舒服点。",
+      "en": "Just live comfortable."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "金钱段落",
+      "en": "Money segment"
+    }
+  },
+  {
+    "id": "f14-057",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "Do you want to be rich?",
+    "zh": "你想变得富有吗？",
+    "themeIds": [
+      "money_class"
+    ],
+    "answerSummary": {
+      "zh": "回答说不介意。",
+      "en": "Said it would not be unwelcome."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "金钱段落",
+      "en": "Money segment"
+    }
+  },
+  {
+    "id": "f14-058",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "Do you want to be rich?",
+    "zh": "你想变得富有吗？",
+    "themeIds": [
+      "money_class",
+      "work"
+    ],
+    "answerSummary": {
+      "zh": "回答说想，这样就不必被乏味的日常工作束缚，还能有钱发展收藏画作之类的兴趣。",
+      "en": "Said yes, to avoid a dull routine job and have the means for interests such as collecting paintings."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "金钱段落",
+      "en": "Money segment"
+    }
+  },
+  {
+    "id": "f14-059",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "Do you believe in God?",
+    "zh": "你信上帝吗？",
+    "themeIds": [
+      "faith_values"
+    ],
+    "answerSummary": {
+      "zh": "回答说不确定自己是否真的信。",
+      "en": "Said they were unsure whether they really believed."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "宗教信仰段落",
+      "en": "Religion segment"
+    }
+  },
+  {
+    "id": "f14-060",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "Are you religious?",
+    "zh": "你信教吗？",
+    "themeIds": [
+      "faith_values"
+    ],
+    "answerSummary": {
+      "zh": "回答说星期天会跟父母去教堂。",
+      "en": "Said they go to church with their parents on Sundays."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "宗教信仰段落",
+      "en": "Religion segment"
+    }
+  },
+  {
+    "id": "f14-061",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "Why?",
+    "zh": "为什么？",
+    "themeIds": [
+      "faith_values"
+    ],
+    "answerSummary": {
+      "zh": "回答说很难解释为什么，就是信。",
+      "en": "Said it was hard to explain; the belief is simply there."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "宗教信仰段落",
+      "en": "Religion segment"
+    }
+  },
+  {
+    "id": "f14-062",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "Why do you believe in God?",
+    "zh": "你为什么信上帝？",
+    "themeIds": [
+      "faith_values"
+    ],
+    "answerSummary": {
+      "zh": "回答说世界总得有人创造，而那个创造者就是人们所说的上帝。",
+      "en": "Reasoned that someone must have made the world, and that maker is what people call God."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "宗教信仰段落",
+      "en": "Religion segment"
+    }
+  },
+  {
+    "id": "f14-063",
+    "filmId": "f14",
+    "personId": "bruce",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "When you were seven, you wanted to be a missionary. Have you any thoughts on that?",
+    "zh": "你七岁时想当传教士。你现在对此有什么想法？",
+    "themeIds": [
+      "faith_values",
+      "work"
+    ],
+    "answerSummary": {
+      "zh": "他说已经不想当传教士了：他自己对信仰有兴趣，但没法跟别人谈这些，既做不好也不会喜欢。",
+      "en": "He said he no longer wanted to be a missionary: though interested in faith himself, he could not talk about it to others and would neither be good at it nor enjoy it."
+    },
+    "answerQuote": {
+      "zh": "不，我不想当传教士，因为我就是没法跟人谈这些。你知道，我自己对它有兴趣，但我根本做不好，也不会喜欢。",
+      "en": "No, I don't want to be a missionary because I just can't talk about it to people. You know, I'm interested in it myself, but I wouldn't be very good at it at all, and I wouldn't enjoy it."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "宗教信仰段落",
+      "en": "Religion segment"
+    }
+  },
+  {
+    "id": "f14-064",
+    "filmId": "f14",
+    "personId": "bruce",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Why wouldn't you be good at it?",
+    "zh": "为什么你觉得自己做不好？",
+    "themeIds": [
+      "faith_values",
+      "work"
+    ],
+    "answerSummary": {
+      "zh": "他说自己不擅长站在人前讲话，宁愿把信仰留给自己。",
+      "en": "He said he was poor at standing up and speaking in front of people and preferred to keep his faith private."
+    },
+    "answerQuote": {
+      "zh": "嗯，我本来就不太擅长站在人前演讲之类的事，而且我想把它留给自己，你知道的。",
+      "en": "Well, I'm just not very good at anyway, standing up in front of people and making a speech or anything like that, but I'd like to keep it private, you know."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "宗教信仰段落",
+      "en": "Religion segment"
+    }
+  },
+  {
+    "id": "f14-065",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "You wanted to be an astronaut when you were seven?",
+    "zh": "你七岁的时候想当宇航员？",
+    "themeIds": [
+      "work"
+    ],
+    "answerSummary": {
+      "zh": "回答说是的。",
+      "en": "Said yes."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "未来打算段落",
+      "en": "Future plans segment"
+    }
+  },
+  {
+    "id": "f14-066",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "What feelings have you got on that subject?",
+    "zh": "你现在对这件事有什么感想？",
+    "themeIds": [
+      "work",
+      "childhood_play"
+    ],
+    "answerSummary": {
+      "zh": "回答说早就完全改变主意了，那只是七岁小孩的幻想。",
+      "en": "Said the idea had been dropped entirely — it was only a seven-year-old's fancy."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "未来打算段落",
+      "en": "Future plans segment"
+    }
+  },
+  {
+    "id": "f14-067",
+    "filmId": "f14",
+    "personId": "tony",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What will you do if you don't make it as a jockey?",
+    "zh": "如果当不成骑师，你会做什么？",
+    "themeIds": [
+      "work"
+    ],
+    "answerSummary": {
+      "zh": "他说不知道，但如果确定当不成，他就会离开这一行。",
+      "en": "He was unsure, but said that if he knew it would not happen he would simply leave racing."
+    },
+    "answerQuote": {
+      "zh": "我不知道，要是我知道自己当不成，我就不干了，不会再费那个劲。",
+      "en": "I don't know, if I knew I couldn't be one, I'd get out, I wouldn't bother."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "未来打算段落",
+      "en": "Future plans segment"
+    }
+  },
+  {
+    "id": "f14-068",
+    "filmId": "f14",
+    "personId": "tony",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "And what do you think you would do then?",
+    "zh": "那你觉得到时候会做什么？",
+    "themeIds": [
+      "work"
+    ],
+    "answerSummary": {
+      "zh": "他说会去学开出租车，当出租车司机。",
+      "en": "He said he would learn the taxi trade and become a cab driver."
+    },
+    "answerQuote": {
+      "zh": "学开出租，当出租车司机。",
+      "en": "Learn taxis, taxi driver."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "未来打算段落",
+      "en": "Future plans segment"
+    }
+  },
+  {
+    "id": "f14-069",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "There is a danger that you would get married at early twenties and have children quickly and then be stuck at home. Have you any thoughts on that?",
+    "zh": "有一种风险是，你们二十出头就结婚，很快生孩子，然后被困在家里。你们对此有什么想法？",
+    "themeIds": [
+      "love_marriage",
+      "children_next_gen"
+    ],
+    "answerSummary": {
+      "zh": "回答说没怎么想过，但不打算太早结婚，想先过充实的生活、多认识些人。",
+      "en": "They had not thought much about it, but did not plan to marry young, wanting a full life and to meet people first."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "未来打算段落",
+      "en": "Future plans segment"
+    }
+  },
+  {
+    "id": "f14-070",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "How do you think England will change over the next few years?",
+    "zh": "你觉得未来几年英国会有什么变化？",
+    "themeIds": [
+      "society_politics"
+    ],
+    "answerSummary": {
+      "zh": "回答说不会有太大变化，因为英国太“英国”了。",
+      "en": "Expected little change, because England is too set in its English ways."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "英国的未来段落",
+      "en": "England's future segment"
+    }
+  },
+  {
+    "id": "f14-071",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "Are you a traditionalist?",
+    "zh": "你是传统主义者吗？",
+    "themeIds": [
+      "faith_values"
+    ],
+    "answerSummary": {
+      "zh": "回答说是。",
+      "en": "Said yes."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "英国的未来段落",
+      "en": "England's future segment"
+    }
+  },
+  {
+    "id": "f14-072",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "In what way?",
+    "zh": "在哪方面？",
+    "themeIds": [
+      "faith_values"
+    ],
+    "answerSummary": {
+      "zh": "回答说就是喜欢传统。",
+      "en": "Simply said tradition is something to like."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "英国的未来段落",
+      "en": "England's future segment"
+    }
+  },
+  {
+    "id": "f14-073",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "Do you expect to live your life in England?",
+    "zh": "你打算一辈子住在英国吗？",
+    "themeIds": [
+      "home_place"
+    ],
+    "answerSummary": {
+      "zh": "回答说英国差不多是最适合生活的地方。",
+      "en": "Called England about the best place there is to live."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "英国的未来段落",
+      "en": "England's future segment"
+    }
+  },
+  {
+    "id": "f14-074",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "Why?",
+    "zh": "为什么？",
+    "themeIds": [
+      "home_place",
+      "society_politics"
+    ],
+    "answerSummary": {
+      "zh": "回答说议会制度很合心意，人在英国是自由的，机会也多、更加平等。",
+      "en": "Cited the agreeable parliamentary system, personal freedom and good, more equal opportunities."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "英国的未来段落",
+      "en": "England's future segment"
+    }
+  }
+]

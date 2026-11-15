@@ -1,1 +1,189 @@
-[]
+[
+  {
+    "id": "education",
+    "name": {
+      "zh": "教育",
+      "en": "Education"
+    },
+    "intent": {
+      "zh": "学校往往是起点。导演一再追问在哪里上学、学到了什么、对教育怎么看，想看教育在多大程度上延续了出身，又在多大程度上改变了它。",
+      "en": "School is the starting line. The questions keep returning to where they studied, what it gave them and what they think of it — to see how far education carried their origins forward, or changed them."
+    },
+    "intentKind": "interpretation",
+    "sourceIds": []
+  },
+  {
+    "id": "work",
+    "name": {
+      "zh": "工作",
+      "en": "Work"
+    },
+    "intent": {
+      "zh": "从 7 岁“长大想做什么”到后来的职业和失业，工作问题把童年的设想和成年的现实放在一起对照。",
+      "en": "From “what do you want to be?” at seven to later careers and job losses, questions about work set childhood plans against adult reality."
+    },
+    "intentKind": "interpretation",
+    "sourceIds": []
+  },
+  {
+    "id": "money_class",
+    "name": {
+      "zh": "金钱与阶级",
+      "en": "Money & class"
+    },
+    "intent": {
+      "zh": "Apted 说，这部片是想“长远地观察英国社会”，“阶级制度需要被踹上一脚”；当初选孩子，看重的不是性格，而是把他们当作“各自所属阶级的某种象征”。多年后他仍然认为，“出身的阴影依然笼罩着人们能有哪些选择”。",
+      "en": "Apted said the series was “an attempt to do a long view of English society” and that “the class system needed a kick up the backside”; the children were chosen “as sort of symbols of the class they came from”. Decades on, he felt “the shadow of your birth still hangs over what people’s options are.”"
+    },
+    "intentKind": "sourced",
+    "sourceIds": [
+      "slant-apted-2019",
+      "wb-apted"
+    ]
+  },
+  {
+    "id": "love_marriage",
+    "name": {
+      "zh": "爱情与婚姻",
+      "en": "Love & marriage"
+    },
+    "intent": {
+      "zh": "从孩子们怎么看男孩女孩，到恋爱、结婚、离婚，这类问题记录了每个人的亲密关系怎样展开。",
+      "en": "From what the children thought of boys and girls to courtship, marriage and divorce, these questions follow how each person’s close relationships unfolded."
+    },
+    "intentKind": "interpretation",
+    "sourceIds": []
+  },
+  {
+    "id": "children_next_gen",
+    "name": {
+      "zh": "子女与下一代",
+      "en": "Children & the next generation"
+    },
+    "intent": {
+      "zh": "当他们自己做了父母，导演会问：希望孩子拥有你当年的东西吗？这把“出身”的问题延伸到了下一代。",
+      "en": "Once they became parents, the questions turn to the next generation — do you want for your children what you had? — carrying the question of origins forward."
+    },
+    "intentKind": "interpretation",
+    "sourceIds": []
+  },
+  {
+    "id": "home_place",
+    "name": {
+      "zh": "家与地方",
+      "en": "Home & place"
+    },
+    "intent": {
+      "zh": "住在哪里、搬去哪里、离开英国还是留下，这类问题把人生轨迹落在具体的地方上。",
+      "en": "Where they live, where they moved, whether they left Britain or stayed — these questions ground each life in a place."
+    },
+    "intentKind": "interpretation",
+    "sourceIds": []
+  },
+  {
+    "id": "happiness_regret",
+    "name": {
+      "zh": "幸福与遗憾",
+      "en": "Happiness & regret"
+    },
+    "intent": {
+      "zh": "“你幸福吗？”“有什么遗憾？”这类问题请每个人回头评价自己的人生。",
+      "en": "“Are you happy?” “Any regrets?” These questions ask each person to look back and judge their own life."
+    },
+    "intentKind": "interpretation",
+    "sourceIds": []
+  },
+  {
+    "id": "health_mortality",
+    "name": {
+      "zh": "健康与生死",
+      "en": "Health & mortality"
+    },
+    "intent": {
+      "zh": "随着年龄增长，问题转向疾病、失去亲人和对死亡的看法。",
+      "en": "As they age, the questions turn to illness, bereavement and how they think about death."
+    },
+    "intentKind": "interpretation",
+    "sourceIds": []
+  },
+  {
+    "id": "faith_values",
+    "name": {
+      "zh": "信仰与价值观",
+      "en": "Faith & values"
+    },
+    "intent": {
+      "zh": "宗教、政治和做人的原则：这类问题想了解是什么在支撑每个人的选择。",
+      "en": "Religion, politics and personal principles: these questions ask what lies behind each person’s choices."
+    },
+    "intentKind": "interpretation",
+    "sourceIds": []
+  },
+  {
+    "id": "the_series",
+    "name": {
+      "zh": "关于这部片子",
+      "en": "The series itself"
+    },
+    "intent": {
+      "zh": "每隔七年被拍一次是什么感受？这类问题让参与者评价这部片子本身，以及它对自己人生的影响。",
+      "en": "What is it like to be filmed every seven years? These questions ask the participants about the series itself and what it did to their lives."
+    },
+    "intentKind": "interpretation",
+    "sourceIds": []
+  },
+  {
+    "id": "childhood_play",
+    "name": {
+      "zh": "童年与玩耍",
+      "en": "Childhood & play"
+    },
+    "intent": {
+      "zh": "在最早的几部里，问题围绕游戏、朋友和日常生活，记录孩子们原本的样子。",
+      "en": "In the early films the questions are about games, friends and daily life — a record of who the children were."
+    },
+    "intentKind": "interpretation",
+    "sourceIds": []
+  },
+  {
+    "id": "family_upbringing",
+    "name": {
+      "zh": "父母与成长",
+      "en": "Parents & upbringing"
+    },
+    "intent": {
+      "zh": "他们自己的父母怎样、家里发生过什么：这类问题追溯每个人成长的家庭，也就是“出身”最直接的那一部分。",
+      "en": "What their own parents were like and what happened at home: these questions trace the family each person grew up in — the most direct part of where they came from."
+    },
+    "intentKind": "interpretation",
+    "sourceIds": []
+  },
+  {
+    "id": "leisure_interests",
+    "name": {
+      "zh": "兴趣与爱好",
+      "en": "Interests & pastimes"
+    },
+    "intent": {
+      "zh": "工作和家庭之外，他们喜欢做什么：音乐、运动、园艺、绘画。这类问题让人看到每个人自己选择的生活。",
+      "en": "Beyond work and family, what they enjoy — music, sport, gardening, painting. These questions show the life each person chooses for themselves."
+    },
+    "intentKind": "interpretation",
+    "sourceIds": []
+  },
+  {
+    "id": "society_politics",
+    "name": {
+      "zh": "社会与政治",
+      "en": "Society & politics"
+    },
+    "intent": {
+      "zh": "Apted 说，这部片是想“长远地观察英国社会”，“我们追踪了社会上的重大事件和变化”。所以他也会问每个人怎么看政府、移民、种族和脱欧。",
+      "en": "Apted described the series as “an attempt to do a long view of English society”: “We tracked major events and progress in society.” So he also asks what each person thinks of government, immigration, race and Brexit."
+    },
+    "intentKind": "sourced",
+    "sourceIds": [
+      "slant-apted-2019"
+    ]
+  }
+]

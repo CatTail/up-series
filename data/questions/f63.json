@@ -1,0 +1,2163 @@
+[
+  {
+    "id": "f63-001",
+    "filmId": "f63",
+    "personId": "tony",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What's life been like since we did 56 Up?",
+    "zh": "自从我们拍完《56 Up》以来，生活过得怎么样？",
+    "themeIds": [
+      "work",
+      "home_place"
+    ],
+    "answerSummary": {
+      "zh": "他回忆说，上次采访时他人在西班牙，正打算在那里做生意。",
+      "en": "He recalls that at their last interview he was in Spain, looking to set up a business there."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Tony 段落",
+      "en": "Tony segment"
+    }
+  },
+  {
+    "id": "f63-002",
+    "filmId": "f63",
+    "personId": "tony",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Did you have financial difficulties?",
+    "zh": "你遇到经济困难了吗？",
+    "themeIds": [
+      "money_class",
+      "home_place"
+    ],
+    "answerSummary": {
+      "zh": "他说西班牙那边没了钱，生意接连倒闭，计划全部落空，于是他和妻子卖掉房子回了英国，但他仍希望自己还留在那里。",
+      "en": "He says the money dried up in Spain as businesses closed and his plans collapsed, so he and his wife sold up and came home, though he wishes he were still there."
+    },
+    "answerQuote": {
+      "zh": "所以我所有的抱负和梦想都泡汤了。",
+      "en": "So all my aspirations and dreams went out the window."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Tony 段落",
+      "en": "Tony segment"
+    }
+  },
+  {
+    "id": "f63-003",
+    "filmId": "f63",
+    "personId": "tony",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "So, is this a tough time for cabbies at the moment?",
+    "zh": "那么，现在对出租车司机来说是艰难时期吗？",
+    "themeIds": [
+      "work"
+    ],
+    "answerSummary": {
+      "zh": "他把矛头指向 Uber 等公司，认为它们太轻易就拿到了营运执照。",
+      "en": "He blames Uber and other companies that are being granted licences far too easily."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Tony 段落",
+      "en": "Tony segment"
+    }
+  },
+  {
+    "id": "f63-004",
+    "filmId": "f63",
+    "personId": "tony",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Is there a war going on between cabbies and Uber?",
+    "zh": "出租车司机和 Uber 之间是在打仗吗？",
+    "themeIds": [
+      "work"
+    ],
+    "answerSummary": {
+      "zh": "他讲述有 250 年历史的出租车行业受到的冲击，说自己曾和几千名司机一起游行到唐宁街，以后还会再去。",
+      "en": "He describes the damage done to a cab trade with a 250-year history and says he marched on Downing Street with thousands of cabbies and would do so again."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Tony 段落",
+      "en": "Tony segment"
+    }
+  },
+  {
+    "id": "f63-005",
+    "filmId": "f63",
+    "personId": "tony",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "How much have you lost in yearly salary?",
+    "zh": "你一年的收入少了多少？",
+    "themeIds": [
+      "work",
+      "money_class"
+    ],
+    "answerSummary": {
+      "zh": "他估计少了大约三分之一，这让他很受伤。",
+      "en": "He reckons he has lost about a third, which hurts."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Tony 段落",
+      "en": "Tony segment"
+    }
+  },
+  {
+    "id": "f63-006",
+    "filmId": "f63",
+    "personId": "tony",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "And what about Debbie? Has she been hit by it?",
+    "zh": "那 Debbie 呢？她也受影响了吗？",
+    "themeIds": [
+      "money_class",
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "他说全家都受到了影响，这也是他们现在回到埃塞克斯的原因。",
+      "en": "He says the whole family has been hit, which is why they are back in Essex now."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Tony 段落",
+      "en": "Tony segment"
+    }
+  },
+  {
+    "id": "f63-007",
+    "filmId": "f63",
+    "personId": "tony",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "How is life going for you two? In your marriage?",
+    "zh": "你们俩过得怎么样？婚姻方面呢？",
+    "themeIds": [
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "他们说婚姻很稳固，眼下很好，两人经历过不少起起落落。",
+      "en": "They call the marriage solid and good at the moment, having come through plenty of ups and downs."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Tony 段落",
+      "en": "Tony segment"
+    }
+  },
+  {
+    "id": "f63-008",
+    "filmId": "f63",
+    "personId": "tony",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Do you notice a change in each other?",
+    "zh": "你们觉得彼此有变化吗？",
+    "themeIds": [
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "他们说没什么变化：他也许显得成熟了一点，但他就是他。",
+      "en": "Not really, they say: he may seem a little more grown-up, but he is what he is."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Tony 段落",
+      "en": "Tony segment"
+    }
+  },
+  {
+    "id": "f63-009",
+    "filmId": "f63",
+    "personId": "tony",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "So, how is your health these days?",
+    "zh": "那么，你最近身体怎么样？",
+    "themeIds": [
+      "health_mortality"
+    ],
+    "answerSummary": {
+      "zh": "他患有家族里都有的深静脉血栓，曾发生肺栓塞、险些丧命，如今要终身服用华法林。",
+      "en": "He has deep vein thrombosis, which runs in his family, and after a pulmonary embolism that could have killed him he is on warfarin for life."
+    },
+    "answerQuote": {
+      "zh": "如果它跑到了我的大脑或心脏，我现在就不可能在这里接受你的采访了。",
+      "en": "If it had gone to my brain, or my heart, then I wouldn't be having this interview with you now."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Tony 段落",
+      "en": "Tony segment"
+    }
+  },
+  {
+    "id": "f63-010",
+    "filmId": "f63",
+    "personId": "tony",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What's your feeling about Brexit?",
+    "zh": "你对英国脱欧怎么看？",
+    "themeIds": [
+      "society_politics"
+    ],
+    "answerSummary": {
+      "zh": "他投了脱欧票，如今却有些动摇；他说自己一辈子都投保守党，以后再也不会投了，甚至可能改投绿党。",
+      "en": "He voted Leave but now has second thoughts, says he will never vote Conservative again after a lifetime of doing so, and might even vote Green."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Tony 段落",
+      "en": "Tony segment"
+    }
+  },
+  {
+    "id": "f63-011",
+    "filmId": "f63",
+    "personId": "andrew",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "So, how are the other members of the family?",
+    "zh": "那么，家里其他人都好吗？",
+    "themeIds": [
+      "children_next_gen"
+    ],
+    "answerSummary": {
+      "zh": "大儿子 Alexander 已经结婚，在伦敦工作；小儿子 Timothy 原先做 IT 咨询，后来去伯明翰大学读计算机科学。",
+      "en": "His elder son Alexander has married and works in London, while his younger son Timothy has left IT consultancy to study computer science at Birmingham University."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Andrew 段落",
+      "en": "Andrew segment"
+    }
+  },
+  {
+    "id": "f63-012",
+    "filmId": "f63",
+    "personId": "andrew",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Don't you ever have any arguments or disagreements?",
+    "zh": "你们从来不吵架、不闹分歧吗？",
+    "themeIds": [
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "他们承认当然也会吵架。",
+      "en": "They admit that of course they argue sometimes."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Andrew 段落",
+      "en": "Andrew segment"
+    }
+  },
+  {
+    "id": "f63-013",
+    "filmId": "f63",
+    "personId": "andrew",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "And how do you tend to sort them out?",
+    "zh": "那你们一般怎么解决？",
+    "themeIds": [
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "Andrew 开玩笑说 Jane 永远是对的；Jane 则说他做决定很果断，在她犹豫不决时能帮上忙。",
+      "en": "Andrew jokes that Jane is always right; Jane says he is the decisive one, which helps her when she is dithering."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Andrew 段落",
+      "en": "Andrew segment"
+    }
+  },
+  {
+    "id": "f63-014",
+    "filmId": "f63",
+    "personId": "andrew",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Work is pretty stressful, isn't it?",
+    "zh": "工作压力挺大的，对吧？",
+    "themeIds": [
+      "work"
+    ],
+    "answerSummary": {
+      "zh": "他说干了 40 年早已习惯，而且其实年底就要退休了，他很期待。",
+      "en": "He says he has got used to it over 40 years, and is in fact retiring at the end of the year, which he is looking forward to."
+    },
+    "answerQuote": {
+      "zh": "是啊，我现在已经很习惯了，我干这行 40 年了，早就习惯了。不过其实，我今年年底就要退休了。",
+      "en": "Yeah, I'm pretty used to it now, I've been doing it for 40 years, so, you get pretty used to it. Erm, but in fact, I'm retiring at the end of this year."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Andrew 段落",
+      "en": "Andrew segment"
+    }
+  },
+  {
+    "id": "f63-015",
+    "filmId": "f63",
+    "personId": "andrew",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Did you ever resent going to boarding school?",
+    "zh": "你有没有怨恨过被送去寄宿学校？",
+    "themeIds": [
+      "education",
+      "children_next_gen"
+    ],
+    "answerSummary": {
+      "zh": "他说自己去得很早，所以他和 Jane 决定不在那么小的年纪把孩子送走，因为父母才应该是对孩子人生影响最大的人。",
+      "en": "He went very young, he says, and he and Jane decided not to send their own children away so early, because parents should be the main influence on a child's life."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Andrew 段落",
+      "en": "Andrew segment"
+    }
+  },
+  {
+    "id": "f63-016",
+    "filmId": "f63",
+    "personId": "andrew",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Do you think you have [had a happy and fulfilling life]?",
+    "zh": "你觉得你自己[过上了幸福而充实的生活]吗？",
+    "themeIds": [
+      "happiness_regret"
+    ],
+    "answerSummary": {
+      "zh": "他觉得自己非常幸运，同时也认同这是努力换来的，他的孩子们也得这样。",
+      "en": "He feels he has been very fortunate, while agreeing that he worked for it, as his children will have to."
+    },
+    "answerQuote": {
+      "zh": "是的，我觉得我一直非常幸运。",
+      "en": "Yeah, I think I've been very fortunate."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Andrew 段落",
+      "en": "Andrew segment"
+    }
+  },
+  {
+    "id": "f63-017",
+    "filmId": "f63",
+    "personId": "andrew",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "One of the things about the series is the idea that you see the man in the child. Is that true?",
+    "zh": "这部片子的一个理念是：从孩子身上能看到他长大后的样子。这是真的吗？",
+    "themeIds": [
+      "the_series"
+    ],
+    "answerSummary": {
+      "zh": "他说七岁时人在很大程度上是家庭教养的产物，但这些年来 Jane 让他变得温和了许多。",
+      "en": "He says that at seven you are very much a product of your upbringing, but that Jane has mellowed him over the years."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Andrew 段落",
+      "en": "Andrew segment"
+    }
+  },
+  {
+    "id": "f63-018",
+    "filmId": "f63",
+    "personId": "andrew",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What's it actually been like being in the programme?",
+    "zh": "参与这个节目到底是什么感觉？",
+    "themeIds": [
+      "the_series"
+    ],
+    "answerSummary": {
+      "zh": "他并不期待每七年一次的拍摄，但觉得看看年轻时的自己挺有意思；他至今仍会紧张，只是年纪大了，顾虑少了。",
+      "en": "He doesn't look forward to it every seven years but finds it interesting to see his younger self; he still feels nervous, though less inhibited with age."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Andrew 段落",
+      "en": "Andrew segment"
+    }
+  },
+  {
+    "id": "f63-019",
+    "filmId": "f63",
+    "personId": "sue",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "So, what is the status with you and Glenn?",
+    "zh": "那么，你和 Glenn 现在是什么情况？",
+    "themeIds": [
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "两人在一起二十多年，仍然只是订婚，没有结婚计划；如果真要结婚，也会是一时兴起。",
+      "en": "They are still engaged after more than 20 years together, with no plans to marry, though if they do it will be on the spur of the moment."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Sue 段落",
+      "en": "Sue segment"
+    }
+  },
+  {
+    "id": "f63-020",
+    "filmId": "f63",
+    "personId": "sue",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "So what happens when you get to your 70s, do you think?",
+    "zh": "那你觉得到了 70 多岁会怎么样？",
+    "themeIds": [
+      "work"
+    ],
+    "answerSummary": {
+      "zh": "她工作了一辈子，无法想象不工作的日子，不过现在每周有一天在家办公。",
+      "en": "Having worked all her life, she can't picture not working, though she now works from home one day a week."
+    },
+    "answerQuote": {
+      "zh": "我工作了一辈子。我想象不出不工作是什么样子。",
+      "en": "I've worked all my life, you know. I can't imagine not working."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Sue 段落",
+      "en": "Sue segment"
+    }
+  },
+  {
+    "id": "f63-021",
+    "filmId": "f63",
+    "personId": "sue",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Do they have a retiring age there?",
+    "zh": "你们那里有规定的退休年龄吗？",
+    "themeIds": [
+      "work"
+    ],
+    "answerSummary": {
+      "zh": "她认为自己的退休年龄是 66 岁，说不清是否期待，因为想象不出退休后怎么打发日子。",
+      "en": "She thinks hers is 66, and is unsure whether she looks forward to it because she can't imagine how she would fill her days."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Sue 段落",
+      "en": "Sue segment"
+    }
+  },
+  {
+    "id": "f63-022",
+    "filmId": "f63",
+    "personId": "sue",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "How are the two children doing?",
+    "zh": "两个孩子过得怎么样？",
+    "themeIds": [
+      "children_next_gen"
+    ],
+    "answerSummary": {
+      "zh": "非常好：两人都买了自己的公寓，工作也不错；虽然都还单身，但看起来很快乐，让她非常欣慰。",
+      "en": "Very well: both have bought their own flats and have good jobs, and although both are still single they seem happy and are a joy to her."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Sue 段落",
+      "en": "Sue segment"
+    }
+  },
+  {
+    "id": "f63-023",
+    "filmId": "f63",
+    "personId": "sue",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "At the root of this film is the class system. Do you think it's still alive and well?",
+    "zh": "这部片子的根基是阶级制度。你觉得它如今依然根深蒂固吗？",
+    "themeIds": [
+      "money_class",
+      "the_series"
+    ],
+    "answerSummary": {
+      "zh": "她说出身决定了你是谁：你可以出入上流圈子，但永远成不了上流阶层，而她永远是工人阶级；当年帮她踏上购房阶梯的公共住房如今也几乎没有了。",
+      "en": "She says you are what you are born into: you can mix in upper-class circles but never become upper class, she will always be working class, and the council housing that once helped her onto the property ladder has all but gone."
+    },
+    "answerQuote": {
+      "zh": "我从来不是上流阶层，这辈子也不太可能是。永远是工人阶级。",
+      "en": "I've never been upper-class, I'm never likely to be upper-class in my life. Working class, always."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Sue 段落",
+      "en": "Sue segment"
+    }
+  },
+  {
+    "id": "f63-024",
+    "filmId": "f63",
+    "personId": "sue",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "One of the premises of the film is 'Give me a child until you're seven and I will show you the man.' Do you think that's true?",
+    "zh": "这部片子的前提之一是：‘给我一个七岁的孩子，我就能让你看到他长大后的样子。’你认为这是真的吗？",
+    "themeIds": [
+      "the_series"
+    ],
+    "answerSummary": {
+      "zh": "在一定程度上是：她认为人的基本性情是天生的，但人生总会发生各种事，每段经历都会改变你。",
+      "en": "To an extent: she thinks basic temperament is inborn, but that life happens and every experience changes you."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Sue 段落",
+      "en": "Sue segment"
+    }
+  },
+  {
+    "id": "f63-025",
+    "filmId": "f63",
+    "personId": "sue",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Do you think that these films have any value?",
+    "zh": "你觉得这些片子有价值吗？",
+    "themeIds": [
+      "the_series"
+    ],
+    "answerSummary": {
+      "zh": "对她来说有：参与这部片子是一生的成就，到处都有人记得它，而他们经历的正是每个人都会经历的。",
+      "en": "They do for her: being part of the series is a lifelong achievement, people everywhere remember it, and what the participants go through is what everyone goes through."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Sue 段落",
+      "en": "Sue segment"
+    }
+  },
+  {
+    "id": "f63-026",
+    "filmId": "f63",
+    "personId": "nick",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Did that last forever?",
+    "zh": "那种感觉一直持续下去了吗？",
+    "themeIds": [
+      "children_next_gen",
+      "happiness_regret"
+    ],
+    "answerSummary": {
+      "zh": "他承认没有：儿子出生时被交到他手里的那种纯粹的喜悦，并没有一直持续。",
+      "en": "No, he admits: the pure joy he felt when his newborn son was handed to him did not last."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Nick 段落",
+      "en": "Nick segment"
+    }
+  },
+  {
+    "id": "f63-027",
+    "filmId": "f63",
+    "personId": "nick",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "And how's married life?",
+    "zh": "婚姻生活怎么样？",
+    "themeIds": [
+      "love_marriage",
+      "health_mortality"
+    ],
+    "answerSummary": {
+      "zh": "他的重病让生活蒙上了阴影，但他说妻子 Chris 在这件事上就像天使一样。",
+      "en": "His serious illness has put a damper on things, but he says his wife Chris has been an angel about it."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Nick 段落",
+      "en": "Nick segment"
+    }
+  },
+  {
+    "id": "f63-028",
+    "filmId": "f63",
+    "personId": "nick",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Are you still teaching?",
+    "zh": "你还在教书吗？",
+    "themeIds": [
+      "work"
+    ],
+    "answerSummary": {
+      "zh": "是的；他很喜欢他的学生，会尽量坚持下去，只是得想办法别让他们对着他咳嗽。",
+      "en": "Yes; he loves his students and is hanging on as long as he can, though he has to try to stop them coughing on him."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Nick 段落",
+      "en": "Nick segment"
+    }
+  },
+  {
+    "id": "f63-029",
+    "filmId": "f63",
+    "personId": "nick",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "When you came here, was it a surprise to you?",
+    "zh": "你刚来这里时，感到意外吗？",
+    "themeIds": [
+      "home_place"
+    ],
+    "answerSummary": {
+      "zh": "他发现美国和他想象的大不一样。",
+      "en": "He found America unlike what he had imagined."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Nick 段落",
+      "en": "Nick segment"
+    }
+  },
+  {
+    "id": "f63-030",
+    "filmId": "f63",
+    "personId": "nick",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What do you make of Trump?",
+    "zh": "你怎么看特朗普？",
+    "themeIds": [
+      "society_politics"
+    ],
+    "answerSummary": {
+      "zh": "他说不清特朗普的话有多少是作秀、有多少是真心，接着批评英国至今仍由名牌公学出身的人掌权。",
+      "en": "He is unsure how much of what Trump says is for effect, and goes on to criticise the way people from the right public schools still run Britain."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Nick 段落",
+      "en": "Nick segment"
+    }
+  },
+  {
+    "id": "f63-031",
+    "filmId": "f63",
+    "personId": "nick",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Have I seen you since you lost your dad?",
+    "zh": "你父亲去世后，我们见过面吗？",
+    "themeIds": [
+      "health_mortality",
+      "family_upbringing"
+    ],
+    "answerSummary": {
+      "zh": "没有；他说他很爱父亲，父亲临终时已是八十多岁、十分虚弱的老人，他承认自己大概还没完全走出来。",
+      "en": "No; he says he loved his father, who was a frail old man in his mid-80s at the end, and admits he probably hasn't fully dealt with the loss."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Nick 段落",
+      "en": "Nick segment"
+    }
+  },
+  {
+    "id": "f63-032",
+    "filmId": "f63",
+    "personId": "nick",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What has been the saddest thing?",
+    "zh": "最让你难过的是什么？",
+    "themeIds": [
+      "happiness_regret",
+      "health_mortality"
+    ],
+    "answerSummary": {
+      "zh": "眼下的病，以及看到病情给身边的人带来的影响。",
+      "en": "Being ill right now, and seeing how it affects the people around him."
+    },
+    "answerQuote": {
+      "zh": "眼下我正在和疾病抗争，我为因此受到影响的人感到非常难过。",
+      "en": "Right now, I'm struggling with being ill and I'm very sad for the people who are being affected by that."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Nick 段落",
+      "en": "Nick segment"
+    }
+  },
+  {
+    "id": "f63-033",
+    "filmId": "f63",
+    "personId": "nick",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Are you frightened about it?",
+    "zh": "你害怕吗？",
+    "themeIds": [
+      "health_mortality"
+    ],
+    "answerSummary": {
+      "zh": "他说他害怕的不是自己，而多少是为身边的人担心。",
+      "en": "He says his fear is not for himself but, to some degree, for those close to him."
+    },
+    "answerQuote": {
+      "zh": "不是为我自己。是为他们，有一点。",
+      "en": "Not for myself. But for them, a bit."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Nick 段落",
+      "en": "Nick segment"
+    }
+  },
+  {
+    "id": "f63-034",
+    "filmId": "f63",
+    "personId": "bruce",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Meaning what?",
+    "zh": "这话什么意思？",
+    "themeIds": [
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "他们解释说他有些让人抓狂的习惯，比如出门在外时会跟自动售货机较劲。",
+      "en": "They explain that he has some infuriating habits, such as getting into arguments with vending machines when travelling."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Bruce 段落",
+      "en": "Bruce segment"
+    }
+  },
+  {
+    "id": "f63-035",
+    "filmId": "f63",
+    "personId": "bruce",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "How has being married to Penny changed you?",
+    "zh": "和 Penny 结婚让你有了什么变化？",
+    "themeIds": [
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "他说婚姻让他不再孤单，他很珍惜有人相伴。",
+      "en": "Marriage has ended his loneliness, he says, and he values having a companion."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Bruce 段落",
+      "en": "Bruce segment"
+    }
+  },
+  {
+    "id": "f63-036",
+    "filmId": "f63",
+    "personId": "bruce",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "I mean, is there a balance of power, or do you have to run with imbalance, or what?",
+    "zh": "我是说，你们之间权力平衡吗？还是得接受不平衡，还是怎样？",
+    "themeIds": [
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "他开玩笑说要是跟 Penny 对着干，日子就不好过了，但说两人在大多数事情上意见一致。",
+      "en": "He jokes that life would not be easy if he went against Penny, but says they agree on most things."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Bruce 段落",
+      "en": "Bruce segment"
+    }
+  },
+  {
+    "id": "f63-037",
+    "filmId": "f63",
+    "personId": "bruce",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Has the issue of money been important in the household?",
+    "zh": "钱的问题在你们家重要吗？",
+    "themeIds": [
+      "money_class",
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "他仍做一点工作，帮两个儿子读完大学；夫妻俩往共同账户里存钱，现在 Penny 出得更多，他还开玩笑说很乐意让她养着。",
+      "en": "He still works a little to help the boys through university; the couple pay into a joint account, Penny now contributing more, and he jokes he is happy to be kept by her."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Bruce 段落",
+      "en": "Bruce segment"
+    }
+  },
+  {
+    "id": "f63-038",
+    "filmId": "f63",
+    "personId": "bruce",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "And so, she's still a successful professional?",
+    "zh": "那么，她现在仍然事业有成？",
+    "themeIds": [
+      "work",
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "是的：Penny 担任高中部（sixth form）主任，职位重要，负责 A-level 课程和大学申请。",
+      "en": "Yes: Penny has an important job as head of sixth form, in charge of A-level courses and university applications."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Bruce 段落",
+      "en": "Bruce segment"
+    }
+  },
+  {
+    "id": "f63-039",
+    "filmId": "f63",
+    "personId": "bruce",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Are you completely in sync about bringing up the boys?",
+    "zh": "在养育两个儿子的问题上，你们完全一致吗？",
+    "themeIds": [
+      "children_next_gen"
+    ],
+    "answerSummary": {
+      "zh": "大体上是：他们想给孩子良好的道德基础和良好的教育，不过两个儿子都还不知道自己想做什么，这让他有点着急。",
+      "en": "Generally yes: they want to give the boys a good moral grounding and a good education, though he finds it slightly irritating that neither knows yet what he wants to do."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Bruce 段落",
+      "en": "Bruce segment"
+    }
+  },
+  {
+    "id": "f63-040",
+    "filmId": "f63",
+    "personId": "bruce",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Well, what do you put that down to? Is that the times they're living in?",
+    "zh": "那你觉得原因是什么？是因为他们所处的时代吗？",
+    "themeIds": [
+      "children_next_gen",
+      "work"
+    ],
+    "answerSummary": {
+      "zh": "他认为也许是，因为他那一代人通常一辈子只从事一种职业。",
+      "en": "He thinks it may be, as his generation usually stuck to one career for life."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Bruce 段落",
+      "en": "Bruce segment"
+    }
+  },
+  {
+    "id": "f63-041",
+    "filmId": "f63",
+    "personId": "bruce",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Are they both deeply involved in the Internet?",
+    "zh": "他们俩是不是都整天泡在网上？",
+    "themeIds": [
+      "children_next_gen"
+    ],
+    "answerSummary": {
+      "zh": "他说两人都用社交媒体和聊天软件；他会做一些他们不会的实际活儿，但上 Netflix 得靠他们帮忙。",
+      "en": "Both use social media and messaging apps, he says; he can do practical jobs they can't, but needs their help to get on Netflix."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Bruce 段落",
+      "en": "Bruce segment"
+    }
+  },
+  {
+    "id": "f63-042",
+    "filmId": "f63",
+    "personId": "bruce",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Is Penny on your case about this?",
+    "zh": "Penny 会为这事盯着你吗？",
+    "themeIds": [
+      "health_mortality",
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "他觉得如果请她在饮食上管严一点会有帮助，但承认自己总把儿子们的剩饭吃完。",
+      "en": "He supposes it would help if he asked her to be stricter about his diet, but admits he always finishes the boys' leftovers."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Bruce 段落",
+      "en": "Bruce segment"
+    }
+  },
+  {
+    "id": "f63-043",
+    "filmId": "f63",
+    "personId": "bruce",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Do you have any fears for the future?",
+    "zh": "你对未来有什么担忧吗？",
+    "themeIds": [
+      "health_mortality"
+    ],
+    "answerSummary": {
+      "zh": "他害怕老年时那些致残的退行性疾病，还对 Penny 说过，如果他先走，希望走得快一些。",
+      "en": "He dreads disabling, degenerative conditions of old age, and has told Penny that if he goes first he hopes it is quick."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Bruce 段落",
+      "en": "Bruce segment"
+    }
+  },
+  {
+    "id": "f63-044",
+    "filmId": "f63",
+    "personId": "bruce",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "I think we've talked about this before, about expressing your feelings, is that still an issue?",
+    "zh": "我想我们以前谈过表达感情的问题，现在这还是个问题吗？",
+    "themeIds": [
+      "education",
+      "happiness_regret"
+    ],
+    "answerSummary": {
+      "zh": "他认为是：寄宿学校的生活让他学会了融入而不是表达自己，留下了一种他已学会与之共处的情感压抑。",
+      "en": "He thinks it is: boarding-school life taught him to fit in rather than express himself, leaving him with a restricted emotional life he has learned to live with."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Bruce 段落",
+      "en": "Bruce segment"
+    }
+  },
+  {
+    "id": "f63-045",
+    "filmId": "f63",
+    "personId": "bruce",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Have you experienced failure in any part of your life?",
+    "zh": "你人生中有没有经历过失败？",
+    "themeIds": [
+      "work",
+      "happiness_regret"
+    ],
+    "answerSummary": {
+      "zh": "他说自己的教书生涯算不上特别成功，从没当上副校长或校长，但他本就不想离开课堂。",
+      "en": "He says his teaching career was not spectacularly successful, since he never became a deputy head or head, but he never wanted to leave the classroom."
+    },
+    "answerQuote": {
+      "zh": "我的教育生涯算不上特别出色。比如说，我没当上副校长或校长，但我本来也不太想当，因为那样往往就得离开课堂了。",
+      "en": "I've not had a sort of stunningly successful education career. I've not, say, become a deputy head, or head teacher, but I never particularly wanted to, because you tend to move out of the classroom."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Bruce 段落",
+      "en": "Bruce segment"
+    }
+  },
+  {
+    "id": "f63-046",
+    "filmId": "f63",
+    "personId": "bruce",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "You look back at life and is it a good feeling?",
+    "zh": "回顾这一生，你感觉好吗？",
+    "themeIds": [
+      "happiness_regret"
+    ],
+    "answerSummary": {
+      "zh": "是的：有很多值得欣慰的回忆——幸福的婚姻、两个令他骄傲的儿子，以及一份有成功也有失败的事业，而且还有很多事要做。",
+      "en": "Yes: there is much to look back on fondly, a happy marriage, two sons he is proud of and a body of work with successes and some failures, and still plenty to do."
+    },
+    "answerQuote": {
+      "zh": "有很多值得怀念、令人愉快的美好回忆。幸福的婚姻，两个让我们骄傲的好儿子，还有一份有过成功、也有过失败的事业。",
+      "en": "Lots to look on with fondness, and pleasure, and good memories. A happy marriage, and two fine boys that we're proud of, and a body of work that I had my successes with, some failures."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Bruce 段落",
+      "en": "Bruce segment"
+    }
+  },
+  {
+    "id": "f63-047",
+    "filmId": "f63",
+    "personId": "jackie",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "And how are the boys doing?",
+    "zh": "那几个儿子过得怎么样？",
+    "themeIds": [
+      "children_next_gen"
+    ],
+    "answerSummary": {
+      "zh": "很好：三个儿子都有工作，Charlie 当厨师，James 在仓库上班，Lee 在军队当医护兵，不过有两个还住在家里。",
+      "en": "They are doing well: all three are working, Charlie as a chef, James in a warehouse and Lee as an Army medic, though two of them still live at home."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Jackie 段落",
+      "en": "Jackie segment"
+    }
+  },
+  {
+    "id": "f63-048",
+    "filmId": "f63",
+    "personId": "jackie",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "And did you get any compensation out of it at the end of the day?",
+    "zh": "最后你们拿到赔偿了吗？",
+    "themeIds": [
+      "health_mortality",
+      "money_class"
+    ],
+    "answerSummary": {
+      "zh": "几乎没有：她说孩子们每人只拿到大约 3000 英镑，这就是他们父亲一条命的价值。",
+      "en": "Hardly any: she says the boys got about £3,000 each, which is all their father's life was worth."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Jackie 段落",
+      "en": "Jackie segment"
+    }
+  },
+  {
+    "id": "f63-049",
+    "filmId": "f63",
+    "personId": "jackie",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Could you have done more education?",
+    "zh": "你本可以多读些书吗？",
+    "themeIds": [
+      "education",
+      "happiness_regret"
+    ],
+    "answerSummary": {
+      "zh": "她承认本可以，也后悔没有那样做；当年她一心只想挣钱，现在她说那是目光短浅。",
+      "en": "She agrees she could have, and regrets not doing so; back then she only wanted to earn money, which she now calls short-sighted."
+    },
+    "answerQuote": {
+      "zh": "哦，是的。我本该那样做的。",
+      "en": "Oh, yeah. And I should have done."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Jackie 段落",
+      "en": "Jackie segment"
+    }
+  },
+  {
+    "id": "f63-050",
+    "filmId": "f63",
+    "personId": "jackie",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "So, where are we?",
+    "zh": "那么，我们这是在哪儿？",
+    "themeIds": [
+      "home_place",
+      "family_upbringing"
+    ],
+    "answerSummary": {
+      "zh": "在她姐妹位于诺福克的家；两家孩子都已长大，姐妹俩如今能更多地待在一起。",
+      "en": "At her sister's home in Norfolk; with both their families grown up, the sisters now get to spend far more time together."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Jackie 段落",
+      "en": "Jackie segment"
+    }
+  },
+  {
+    "id": "f63-051",
+    "filmId": "f63",
+    "personId": "jackie",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "I mean, what's your feeling about having been in the programme, and survived it?",
+    "zh": "我是说，参加了这个节目、而且挺过来了，你有什么感受？",
+    "themeIds": [
+      "the_series"
+    ],
+    "answerSummary": {
+      "zh": "她说岂止是挺过来，她很喜欢这个节目；她当年把他训了一顿，可并没有要了他的命。",
+      "en": "She has more than survived it, she says; she has loved it, and telling him off was not the same as killing him."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Jackie 段落",
+      "en": "Jackie segment"
+    }
+  },
+  {
+    "id": "f63-052",
+    "filmId": "f63",
+    "personId": "jackie",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "When you look at Seven Up!, do you think, 'That's me'?",
+    "zh": "你看《Seven Up!》的时候，会觉得‘那就是我’吗？",
+    "themeIds": [
+      "the_series"
+    ],
+    "answerSummary": {
+      "zh": "她觉得核心部分很真实，因为她从没真正变过，一直都爱说话；但她认为性格也许七岁就定了，孩子将来会成为什么样的人却无法预测。",
+      "en": "She sees a core that rings true, since she has never really changed and was always talkative, but thinks that while character may be set by seven you can't predict what a child will become."
+    },
+    "answerQuote": {
+      "zh": "因为我从来没真正变过，Michael，说实话就是这样。我一直都话多，还有点烦人。",
+      "en": "Because I've never really changed, Michael, I mean, you gotta be honest. I was always talkative and a bit of a pain in the butt."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Jackie 段落",
+      "en": "Jackie segment"
+    }
+  },
+  {
+    "id": "f63-053",
+    "filmId": "f63",
+    "personId": "peter",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Was it painful coming back? Do you regret coming back?",
+    "zh": "回来参加拍摄很痛苦吗？你后悔回来吗？",
+    "themeIds": [
+      "the_series",
+      "happiness_regret"
+    ],
+    "answerSummary": {
+      "zh": "他说当然后悔；就在说话的此刻他都坐立不安，不停回想自己刚说的话。",
+      "en": "Of course he does, he says; even as he speaks he is squirming and replaying everything he has just said."
+    },
+    "answerQuote": {
+      "zh": "是啊，当然后悔。我现在坐在这里跟你说话，浑身不自在。",
+      "en": "Yeah, of course I do. I'm, I am sitting here talking to you now, and I'm squirming."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Peter 段落",
+      "en": "Peter segment"
+    }
+  },
+  {
+    "id": "f63-054",
+    "filmId": "f63",
+    "personId": "peter",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "And how's married life been over the last seven years?",
+    "zh": "过去七年的婚姻生活怎么样？",
+    "themeIds": [
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "他先说这是个暗藏陷阱的问题，接着宣称‘幸福极了’；他和妻子说，在一起这么久，已经不再浪费时间生闷气了。",
+      "en": "He calls it a loaded question, then insists it has been sheer bliss; he and his wife say that after so long together they no longer waste time sulking."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Peter 段落",
+      "en": "Peter segment"
+    }
+  },
+  {
+    "id": "f63-055",
+    "filmId": "f63",
+    "personId": "peter",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "So, you used to be careful about criticising him?",
+    "zh": "这么说，你以前批评他时会很小心？",
+    "themeIds": [
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "他妻子说是的，不过她也说他现在比以前更能接受批评了一点。",
+      "en": "Yes, his wife says, though she adds that he has become a little better at accepting criticism."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Peter 段落",
+      "en": "Peter segment"
+    }
+  },
+  {
+    "id": "f63-056",
+    "filmId": "f63",
+    "personId": "peter",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "We met seven years ago, what's happened to the two of you up to now?",
+    "zh": "我们七年前见过，从那以后你们俩经历了什么？",
+    "themeIds": [
+      "health_mortality",
+      "family_upbringing"
+    ],
+    "answerSummary": {
+      "zh": "三年前他母亲去世，乐队成员 Frank 也在同一年离世；他说父母都不在了，会让你觉得自己就是下一个。",
+      "en": "Three years ago his mother died, and so did their bandmate Frank; losing both parents, he says, leaves you feeling next in the firing line."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Peter 段落",
+      "en": "Peter segment"
+    }
+  },
+  {
+    "id": "f63-057",
+    "filmId": "f63",
+    "personId": "peter",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "I mean, do you think your children will get the opportunities you've had, or do you think life is closing in?",
+    "zh": "我是说，你觉得你的孩子能得到你曾有过的机会吗？还是说路越来越窄了？",
+    "themeIds": [
+      "children_next_gen",
+      "money_class",
+      "society_politics"
+    ],
+    "answerSummary": {
+      "zh": "他认为路可能是在变窄：大学毕业生最后去了呼叫中心，很难买得起房，他们或许会成为第一代过得不如父母的人。",
+      "en": "He thinks life may be closing in a little: graduates end up in call centres and struggle to get on the property ladder, and may be the first generation not to do better than their parents."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Peter 段落",
+      "en": "Peter segment"
+    }
+  },
+  {
+    "id": "f63-058",
+    "filmId": "f63",
+    "personId": "peter",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Tell me your feelings about Brexit.",
+    "zh": "说说你对英国脱欧的看法。",
+    "themeIds": [
+      "society_politics"
+    ],
+    "answerSummary": {
+      "zh": "他认为许多投脱欧票的人并不清楚自己投的是什么，只是借机踢一脚他们觉得把自己排斥在外的建制派。",
+      "en": "He suspects many Leave voters did not know what they were voting for and simply took the chance to kick an establishment they felt excluded from."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Peter 段落",
+      "en": "Peter segment"
+    }
+  },
+  {
+    "id": "f63-059",
+    "filmId": "f63",
+    "personId": "peter",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What is your working life at the moment?",
+    "zh": "你现在的工作情况怎么样？",
+    "themeIds": [
+      "work"
+    ],
+    "answerSummary": {
+      "zh": "他每周在公务员的本职工作上上两天班，同时在写一部小说，初稿已写了一半。",
+      "en": "He works two days a week in his civil-service day job and is midway through the first draft of a novel."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Peter 段落",
+      "en": "Peter segment"
+    }
+  },
+  {
+    "id": "f63-060",
+    "filmId": "f63",
+    "personId": "peter",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What have been, for you, the best times?",
+    "zh": "对你来说，最美好的时光是什么？",
+    "themeIds": [
+      "happiness_regret",
+      "leisure_interests"
+    ],
+    "answerSummary": {
+      "zh": "他心照不宣地重复了自己的老答案——1977 年在罗马举行的欧洲冠军杯决赛，还打趣说自己被警告过别再提这个。",
+      "en": "He knowingly repeats his old answer, the 1977 European Cup final in Rome, joking that he has been warned not to."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Peter 段落",
+      "en": "Peter segment"
+    }
+  },
+  {
+    "id": "f63-061",
+    "filmId": "f63",
+    "personId": "peter",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "So, do you think this Up series has any value?",
+    "zh": "那么，你觉得《Up》系列有价值吗？",
+    "themeIds": [
+      "the_series"
+    ],
+    "answerSummary": {
+      "zh": "他说自己很难客观看待，因为从记事起这部片子就是他生活的一部分；他妻子补充说，上次播出时她替他把关了社交媒体上的评论。",
+      "en": "He finds it hard to be objective because the series has been part of his life for as long as he can remember; his wife adds that last time she screened social media for him."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Peter 段落",
+      "en": "Peter segment"
+    }
+  },
+  {
+    "id": "f63-062",
+    "filmId": "f63",
+    "personId": "peter",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "One of the concepts behind this is 'Show me a child when he's seven, and I will show you the man.' Do you think that's true?",
+    "zh": "这部片子背后的一个理念是：‘给我看一个七岁的孩子，我就能让你看到他长大后的样子。’你认为这是真的吗？",
+    "themeIds": [
+      "the_series"
+    ],
+    "answerSummary": {
+      "zh": "年纪越大，他越倾向于认同；他在自己身上仍能看到那个孩子的影子，认为人在十几岁之前就已经定型了。",
+      "en": "As he has got older he is more inclined to agree; he still sees something of that child in himself and thinks people are formed before their teens."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Peter 段落",
+      "en": "Peter segment"
+    }
+  },
+  {
+    "id": "f63-063",
+    "filmId": "f63",
+    "personId": "peter",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Are there any regrets you have?",
+    "zh": "你有什么遗憾吗？",
+    "themeIds": [
+      "happiness_regret"
+    ],
+    "answerSummary": {
+      "zh": "他认为应该从经历中学习、继续前行；唯一真正的遗憾会是走到生命尽头时后悔没有尝试，他希望创造出能流传下去的东西。",
+      "en": "He believes in learning from things and moving on; his only serious regret would be reaching the end of his life wishing he had tried something, and he wants to create something that lives on."
+    },
+    "answerQuote": {
+      "zh": "我唯一真正会有的遗憾，就是走到生命尽头时心想：“真希望我当初试过。”",
+      "en": "The only serious regret I would ever have is if I came to the end of my life and thought, \"I wish I'd tried that.\""
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Peter 段落",
+      "en": "Peter segment"
+    }
+  },
+  {
+    "id": "f63-064",
+    "filmId": "f63",
+    "personId": "lynn",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "So, how long ago is it since your mother died?",
+    "zh": "那么，你们的母亲去世多久了？",
+    "themeIds": [
+      "health_mortality",
+      "family_upbringing"
+    ],
+    "answerSummary": {
+      "zh": "家人说已经五年了。",
+      "en": "Her family says it has been five years."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Lynn 段落",
+      "en": "Lynn segment"
+    }
+  },
+  {
+    "id": "f63-065",
+    "filmId": "f63",
+    "personId": "lynn",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "And how long before that did you know that she was in serious trouble with health?",
+    "zh": "那在那之前多久，你们知道她的健康出了严重问题？",
+    "themeIds": [
+      "health_mortality",
+      "family_upbringing"
+    ],
+    "answerSummary": {
+      "zh": "他们事先并不知道：事情非常突然，前后不到 48 小时；她受了伤，引发一连串问题，最终在医院器官衰竭。",
+      "en": "They didn't: it was very sudden, with less than 48 hours' notice, after an injury set off a chain of problems and her organs shut down in hospital."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Lynn 段落",
+      "en": "Lynn segment"
+    }
+  },
+  {
+    "id": "f63-r03",
+    "filmId": "f56",
+    "personId": "lynn",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "So, for you, that's…?",
+    "zh": "所以对你来说，那是……？",
+    "themeIds": [
+      "happiness_regret",
+      "children_next_gen"
+    ],
+    "answerSummary": {
+      "zh": "她说家人一直是第一位的，并表示对自己的人生感到满意。",
+      "en": "After saying her family has always come first, she says she is happy with the way her life has gone."
+    },
+    "sourceId": "film-f56",
+    "locator": {
+      "zh": "Lynn 段落（亦见于《63 Up》）",
+      "en": "Lynn segment (clip also shown in 63 Up)"
+    }
+  },
+  {
+    "id": "f63-066",
+    "filmId": "f63",
+    "personId": "symon",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "So, what's happened in the last seven years since we were here?",
+    "zh": "那么，自从我们上次来这里，这七年发生了什么？",
+    "themeIds": [
+      "children_next_gen"
+    ],
+    "answerSummary": {
+      "zh": "家里添了许多孙辈。",
+      "en": "The family has gained many more grandchildren."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Paul 与 Symon 段落",
+      "en": "Paul & Symon segment"
+    }
+  },
+  {
+    "id": "f63-067",
+    "filmId": "f63",
+    "personId": "symon",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "So how many have you got now?",
+    "zh": "那你现在有几个孙辈了？",
+    "themeIds": [
+      "children_next_gen"
+    ],
+    "answerSummary": {
+      "zh": "现在有十个了，很开心，也很累人。",
+      "en": "There are ten now, a delight but also exhausting."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Paul 与 Symon 段落",
+      "en": "Paul & Symon segment"
+    }
+  },
+  {
+    "id": "f63-068",
+    "filmId": "f63",
+    "personId": "paul",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What's happened in the family in the last seven years?",
+    "zh": "这七年里家里有什么变化？",
+    "themeIds": [
+      "children_next_gen"
+    ],
+    "answerSummary": {
+      "zh": "又添了一个孙辈 Brody，一共六个了；女儿 Katie 是老师，现在也有了另一半。",
+      "en": "Another grandchild, Brody, making six, and their daughter Katie, a teacher, now has a partner."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Paul 与 Symon 段落",
+      "en": "Paul & Symon segment"
+    }
+  },
+  {
+    "id": "f63-069",
+    "filmId": "f63",
+    "personId": "symon",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Would your life have been totally different if you'd had the chance Paul had to come to Australia?",
+    "zh": "如果你也像 Paul 那样有机会来澳大利亚，你的人生会完全不同吗？",
+    "themeIds": [
+      "home_place",
+      "happiness_regret"
+    ],
+    "answerSummary": {
+      "zh": "他说当时也许会更好，但现在他不愿去揣测，因为人生就是现在这个样子，而不是它本可能的样子。",
+      "en": "Back then it probably would have been better, he says, but he won't speculate now, because your life is what it is, not what it could have been."
+    },
+    "answerQuote": {
+      "zh": "我不想说，因为人生就是现在这样，而不是它本可能的样子。",
+      "en": "I wouldn't wanna say because your life is as it is, so not as it could be."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Paul 与 Symon 段落",
+      "en": "Paul & Symon segment"
+    }
+  },
+  {
+    "id": "f63-070",
+    "filmId": "f63",
+    "personId": "paul",
+    "attribution": "confirmed",
+    "fromRecap": true,
+    "en": "Why were you there?",
+    "zh": "你为什么会在那里？",
+    "themeIds": [
+      "home_place",
+      "family_upbringing"
+    ],
+    "answerSummary": {
+      "zh": "他认为自己被送到那里，是因为父母离婚时争夺抚养权。",
+      "en": "He thinks he was placed there because of a fight over custody during his parents' divorce."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Paul 与 Symon 段落",
+      "en": "Paul & Symon segment"
+    }
+  },
+  {
+    "id": "f63-071",
+    "filmId": "f63",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": true,
+    "en": "Did you get to see much of your parents?",
+    "zh": "你能经常见到父母吗？",
+    "themeIds": [
+      "family_upbringing"
+    ],
+    "answerSummary": {
+      "zh": "回答中提到父亲只是偶尔来探望，而最想念的是母亲。",
+      "en": "The reply recalls only occasional visits from a father and, above all, missing a mother."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Paul 与 Symon 段落",
+      "en": "Paul & Symon segment"
+    }
+  },
+  {
+    "id": "f63-072",
+    "filmId": "f63",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": true,
+    "en": "So did you get caned?",
+    "zh": "那你挨过藤条吗？",
+    "themeIds": [
+      "childhood_play",
+      "education"
+    ],
+    "answerSummary": {
+      "zh": "他不记得挨过藤条，说自己当时特别守规矩。",
+      "en": "He doesn't recall being caned, saying he was exceptionally well-behaved."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Paul 与 Symon 段落",
+      "en": "Paul & Symon segment"
+    }
+  },
+  {
+    "id": "f63-073",
+    "filmId": "f63",
+    "personId": "paul",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "So, how old were you when you first came here?",
+    "zh": "那么，你第一次来这里时多大？",
+    "themeIds": [
+      "childhood_play",
+      "home_place"
+    ],
+    "answerSummary": {
+      "zh": "七八岁之间；他们刚到澳大利亚不久，父亲就安排他们住到这里。",
+      "en": "Between seven and eight; soon after they landed in Australia his father arranged for them to live there."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Paul 与 Symon 段落",
+      "en": "Paul & Symon segment"
+    }
+  },
+  {
+    "id": "f63-074",
+    "filmId": "f63",
+    "personId": "paul",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "And how was it to be here?",
+    "zh": "在这里生活是什么感觉？",
+    "themeIds": [
+      "childhood_play"
+    ],
+    "answerSummary": {
+      "zh": "他说童年最快乐的回忆都来自在这里的日子。",
+      "en": "He says the happiest memories of his childhood come from his time there."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Paul 与 Symon 段落",
+      "en": "Paul & Symon segment"
+    }
+  },
+  {
+    "id": "f63-075",
+    "filmId": "f63",
+    "personId": "paul",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Why didn't he take you home to live with them?",
+    "zh": "他为什么不把你接回家和他们一起住？",
+    "themeIds": [
+      "home_place",
+      "family_upbringing"
+    ],
+    "answerSummary": {
+      "zh": "他认为父亲是外套和连衣裙设计师，当时一家人又在忙着安家，所以才这样安排；他说父亲严厉但善良。",
+      "en": "He thinks his father, a coat and dress designer, and the family were busy setting up a house, and says his father was strict but kind."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Paul 与 Symon 段落",
+      "en": "Paul & Symon segment"
+    }
+  },
+  {
+    "id": "f63-076",
+    "filmId": "f63",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "What's been the saddest, toughest time for you in your life so far?",
+    "zh": "到目前为止，你人生中最悲伤、最艰难的时期是什么？",
+    "themeIds": [
+      "happiness_regret",
+      "childhood_play",
+      "family_upbringing"
+    ],
+    "answerSummary": {
+      "zh": "回答指向童年：离开那个家去上寄宿学校，从此与家人分开生活。",
+      "en": "The answer points to childhood, when leaving the home for boarding school meant living apart from family."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Paul 与 Symon 段落",
+      "en": "Paul & Symon segment"
+    }
+  },
+  {
+    "id": "f63-077",
+    "filmId": "f63",
+    "personId": "paul",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Do you have any regrets?",
+    "zh": "你有什么遗憾吗？",
+    "themeIds": [
+      "happiness_regret",
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "他认为人生不该有遗憾，庆幸遇到了 Susan，她对他影响巨大、让他看到积极的一面；也许唯一的遗憾是没多要几个孩子。",
+      "en": "He sees no place for regrets and counts himself lucky to have met Susan, a huge positive influence, though he might have liked more children."
+    },
+    "answerQuote": {
+      "zh": "这世上根本没有遗憾的位置。不过我是说，我很幸运遇到了 Susan，我跟她在一起的时间比跟我父亲在一起的还长。",
+      "en": "There's just no place for regrets in this world. But I mean, I've been lucky, meeting Susan, I've been with her longer than I was with my dad."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Paul 与 Symon 段落",
+      "en": "Paul & Symon segment"
+    }
+  },
+  {
+    "id": "f63-078",
+    "filmId": "f63",
+    "personId": "john",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What's changed in your life since we last talked?",
+    "zh": "自从我们上次谈话以来，你的生活有什么变化？",
+    "themeIds": [
+      "work"
+    ],
+    "answerSummary": {
+      "zh": "他打趣说，除了年纪、体重和发量，没什么变化；他依然是大律师、御用大律师（QC）。",
+      "en": "Little, he jokes, beyond age, weight and hair loss; he is still a barrister and QC."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "John 段落",
+      "en": "John segment"
+    }
+  },
+  {
+    "id": "f63-079",
+    "filmId": "f63",
+    "personId": "john",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "So what would you do when it comes time to retire?",
+    "zh": "那等到退休的时候，你会做什么？",
+    "themeIds": [
+      "work",
+      "leisure_interests"
+    ],
+    "answerSummary": {
+      "zh": "他说不会无聊：他热爱旅行，仍在乡间骑马，不过两年前一次严重坠马让他脑出血。",
+      "en": "He won't be bored: he loves travel and still rides in the countryside, though a bad fall from a horse two years ago gave him a brain haemorrhage."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "John 段落",
+      "en": "John segment"
+    }
+  },
+  {
+    "id": "f63-080",
+    "filmId": "f63",
+    "personId": "john",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Where do you stand on Brexit?",
+    "zh": "你对英国脱欧持什么立场？",
+    "themeIds": [
+      "society_politics"
+    ],
+    "answerSummary": {
+      "zh": "他投了留欧票，认为脱欧是没必要的冒险，并指责 David Cameron 把如此复杂的问题交给公投。",
+      "en": "He voted Remain, seeing Brexit as an unnecessary leap into the dark, and blames David Cameron for putting such a complicated question to a referendum."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "John 段落",
+      "en": "John segment"
+    }
+  },
+  {
+    "id": "f63-081",
+    "filmId": "f63",
+    "personId": "john",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What's the most important thing in your life?",
+    "zh": "你生命中最重要的是什么？",
+    "themeIds": [
+      "faith_values",
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "他依次列出：妻子、家人和朋友，然后是他的家，最后是他的动物。",
+      "en": "He lists his wife, family and friends, then his homes, and finally his animals."
+    },
+    "answerQuote": {
+      "zh": "我的妻子、我的家人和朋友。我的家。",
+      "en": "My wife, my family and friends. My homes."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "John 段落",
+      "en": "John segment"
+    }
+  },
+  {
+    "id": "f63-082",
+    "filmId": "f63",
+    "personId": "john",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Any regrets about decisions you've made in your life?",
+    "zh": "对人生中做过的决定有什么遗憾吗？",
+    "themeIds": [
+      "happiness_regret"
+    ],
+    "answerSummary": {
+      "zh": "没有；他说那不是他的性格，他总是尽量往好处做。",
+      "en": "No; it isn't in his character, he says, as he always tries to make the best of things."
+    },
+    "answerQuote": {
+      "zh": "不，我不能那么说。不过那不是我的性格，我总是尽量把一切做到最好，即使身处的并不是最好的境况。",
+      "en": "No, I can't say that. But it's not really my character, I always try and make the best of everything, even if it's not the best situation you're in."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "John 段落",
+      "en": "John segment"
+    }
+  },
+  {
+    "id": "f63-083",
+    "filmId": "f63",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Where do you stand on Brexit?",
+    "zh": "你对英国脱欧持什么立场？",
+    "themeIds": [
+      "society_politics"
+    ],
+    "answerSummary": {
+      "zh": "他觉得这简直难以置信，就像让全国人喝毒药还说对健康有益；他认为这次投票是在抗议所有政客和日益恶化的社会。",
+      "en": "He finds it unbelievable, like asking everyone to take poison for their health, and sees the vote as a protest against all politicians and a deteriorating society."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f63-084",
+    "filmId": "f63",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "I mean, what's your feeling towards your parents, both of whom I know passed away?",
+    "zh": "我是说，你对已经过世的父母有什么感情？",
+    "themeIds": [
+      "happiness_regret",
+      "health_mortality",
+      "family_upbringing"
+    ],
+    "answerSummary": {
+      "zh": "不是怨恨：他说父母已经尽力了，但他们的性格——父亲严肃而讳莫如深，母亲肤浅——给他带来了无尽的困扰。",
+      "en": "Not resentment: they did their best, he says, but their personalities, a serious, secretive father and a superficial mother, caused him endless difficulty."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f63-085",
+    "filmId": "f63",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "And did you ever have it out with your father?",
+    "zh": "那你有没有跟父亲把话说开过？",
+    "themeIds": [
+      "family_upbringing"
+    ],
+    "answerSummary": {
+      "zh": "他说两人常常争吵，但父亲大多以沉默回应，母亲则多半是在自言自语。",
+      "en": "They argued often, he says, but his father mostly responded with silence and his mother talked mainly to herself."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f63-086",
+    "filmId": "f63",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What's happened in your life in the last seven years?",
+    "zh": "过去七年你的生活发生了什么？",
+    "themeIds": [
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "他遇到了现在的妻子，度过了四年多幸福的婚姻，但后来一连串不幸的事情，让两人如今很少见面。",
+      "en": "He met his wife and had four or more years of happy marriage, but a series of unfortunate events means they now rarely see each other."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f63-087",
+    "filmId": "f63",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "How did you two meet?",
+    "zh": "你们俩是怎么认识的？",
+    "themeIds": [
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "她来看他在村里的童话剧演出，两人在斯托克顿的蒂斯河畔谈恋爱；他并不后悔这段婚姻，只是无法完全理解事情为何走到这一步。",
+      "en": "She came to see him in the village pantomime and they courted by the River Tees at Stockton; he doesn't regret the marriage, though he can't fully understand why it has come to this."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f63-088",
+    "filmId": "f63",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "So, how long have you had the house?",
+    "zh": "那么，这栋房子你买了多久了？",
+    "themeIds": [
+      "home_place"
+    ],
+    "answerSummary": {
+      "zh": "两年半；是他妻子在网上找到的，并说服他这里最适合他。",
+      "en": "Two and a half years; his wife found it online and persuaded him it would suit him best."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f63-089",
+    "filmId": "f63",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "And how did this come about?",
+    "zh": "这是怎么促成的？",
+    "themeIds": [
+      "home_place",
+      "money_class"
+    ],
+    "answerSummary": {
+      "zh": "母亲去世后，他和兄弟分得的遗产中有一部分用来买了这栋房子。",
+      "en": "After his mother died, part of the inheritance shared with his brother went towards the house."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f63-090",
+    "filmId": "f63",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "So, tell me what this place means to you.",
+    "zh": "那么，说说这个地方对你意味着什么。",
+    "themeIds": [
+      "home_place"
+    ],
+    "answerSummary": {
+      "zh": "这是乡间一个美好而宁静的地方；他看重乡村里人们互相照应的氛围，不过有时也会想念伦敦。",
+      "en": "It is a lovely, quiet place in the country; he values rural communities where people look after one another, though he sometimes misses London."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f63-091",
+    "filmId": "f63",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "How do you manage for money these days?",
+    "zh": "你现在靠什么维持生计？",
+    "themeIds": [
+      "money_class",
+      "work"
+    ],
+    "answerSummary": {
+      "zh": "他当郡议员的收入足以维持他的生活水平，所以不再需要领取国家福利，这让他如释重负。",
+      "en": "His pay as a county councillor covers his modest needs, so he no longer has to claim state benefits, which is a great relief."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f63-092",
+    "filmId": "f63",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "So, are you frightened of getting old?",
+    "zh": "那么，你害怕变老吗？",
+    "themeIds": [
+      "health_mortality",
+      "happiness_regret"
+    ],
+    "answerSummary": {
+      "zh": "他有些担心，因为一直以来都依赖健康的身体；他也遗憾自己到了这个年纪，在最看重的写作上仍一事无成。",
+      "en": "He has concerns, having always relied on his good health, and regrets reaching his age with no success as a writer, the field that matters most to him."
+    },
+    "answerQuote": {
+      "zh": "我很遗憾到了现在这个年纪，在我真正想要成功的领域里却毫无成就。",
+      "en": "I regret having reached the age I'm at, I've had no success in the sphere I really want to be successful in."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f63-093",
+    "filmId": "f63",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Are you still doing that work?",
+    "zh": "你还在做那份工作吗？",
+    "themeIds": [
+      "faith_values"
+    ],
+    "answerSummary": {
+      "zh": "是的；他刚刚再次获得英格兰圣公会读经员（即平信徒布道者）的资格。",
+      "en": "Yes; he has just been re-licensed as a reader, a lay preacher, in the Church of England."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f63-094",
+    "filmId": "f63",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Every time this programme starts, it says, 'Give me a child until he is seven and I will give you the man.' Is that true or false?",
+    "zh": "这个节目每次开头都会说：‘给我一个七岁的孩子，我就能还你一个成年人。’这是真是假？",
+    "themeIds": [
+      "the_series"
+    ],
+    "answerSummary": {
+      "zh": "他说观众大概比他更有资格根据片中呈现的证据来判断。",
+      "en": "He says the audience is probably better placed than he is to judge from the evidence presented."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f63-095",
+    "filmId": "f63",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "The change of you at 14 to the change of you at 21 on the building site was staggering. How can you explain that vast change?",
+    "zh": "你从 14 岁到 21 岁在建筑工地上的变化令人震惊。你怎么解释这么大的变化？",
+    "themeIds": [
+      "the_series",
+      "happiness_regret"
+    ],
+    "answerSummary": {
+      "zh": "他说自己当时想法变了，渴望冒险而不是安稳的家庭生活，但童年并没有让他为此做好准备。",
+      "en": "He says he thought differently and wanted adventure rather than a quiet domestic life, but his childhood had not prepared him for it."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f63-096",
+    "filmId": "f63",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What's the happiest time you've had?",
+    "zh": "你最快乐的时光是什么时候？",
+    "themeIds": [
+      "happiness_regret",
+      "faith_values"
+    ],
+    "answerSummary": {
+      "zh": "简单的事情办成了他就快乐，比如通过议会工作替别人办成一件事，或者觉得自己在教会工作中把关于上帝的道理传达给了别人。",
+      "en": "He is happy when simple things go right, such as getting something done for someone through his council work or feeling he has conveyed something about God through his church work."
+    },
+    "answerQuote": {
+      "zh": "只要有事情顺利了，我就很快乐，哪怕是很简单的事。如果我能通过议会工作为别人办成点什么，我就真心高兴。",
+      "en": "I'm just happy when something goes right and it can be something very straightforward. If I can get something done for somebody through my council work, then I'm genuinely happy."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  }
+]

@@ -118,6 +118,12 @@ export function validateDataset(ds: Dataset, opts: { strictFinals?: boolean } = 
         bi(v.text, `${dp}.text`)
         refs(v.sourceIds, sourceIds, `${dp}.sourceIds`, 'source', true)
         refs(v.questionIds, questionIds, `${dp}.questionIds`, 'question', false)
+        for (const qid of v.questionIds ?? []) {
+          const q = ds.questions.find((x) => x.id === qid)
+          if (!q) continue
+          if (q.personId !== row.personId) err('DANGLING_REF', `${dp}.questionIds`, `question ${qid} is not about ${row.personId}`)
+          if (q.filmId !== row.filmId) err('DANGLING_REF', `${dp}.questionIds`, `question ${qid} is from film ${q.filmId}, not ${row.filmId}`)
+        }
         if (part && NON_PARTICIPATING.includes(part) && d !== 'events') {
           err('STATE_PARTICIPATION_CONFLICT', dp, `confirmed ${d} in a ${part} cell; put retrospective facts in events`)
         }

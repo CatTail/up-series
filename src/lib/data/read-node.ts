@@ -10,11 +10,13 @@ function walk(dir: string): string[] {
   })
 }
 
-export function readDatasetFromDisk(dataDir: string): Dataset {
+/** `skip(key)` — ignore files by data-relative path, e.g. other annotators' half-written question files. */
+export function readDatasetFromDisk(dataDir: string, opts: { skip?: (key: string) => boolean } = {}): Dataset {
   const files: Record<string, unknown> = {}
   for (const p of walk(dataDir)) {
     if (!p.endsWith('.json')) continue
     const key = relative(dataDir, p).split(sep).join('/')
+    if (opts.skip?.(key)) continue
     try {
       files[key] = JSON.parse(readFileSync(p, 'utf8'))
     } catch (e) {

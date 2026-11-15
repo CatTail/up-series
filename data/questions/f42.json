@@ -1,0 +1,1379 @@
+[
+  {
+    "id": "f42-001",
+    "filmId": "f42",
+    "personId": "tony",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Are you gonna get out of this financial hole?",
+    "zh": "你们能从这个财务窟窿里走出来吗？",
+    "themeIds": [
+      "money_class",
+      "home_place"
+    ],
+    "answerSummary": {
+      "zh": "肯定能：眼下这房子是个沉重的负担，但再苦干、坚持两年就能扭转过来。",
+      "en": "Yes, without doubt: the house is a heavy burden for now, but two years of hard work and determination should put it right."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Tony 段落",
+      "en": "Tony segment"
+    }
+  },
+  {
+    "id": "f42-002",
+    "filmId": "f42",
+    "personId": "tony",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Who do you play with?",
+    "zh": "你跟谁一起踢球？",
+    "themeIds": [
+      "children_next_gen",
+      "leisure_interests"
+    ],
+    "answerSummary": {
+      "zh": "他和儿子 Nicky 在同一支球队踢球，并为父子同队感到自豪。",
+      "en": "He plays in the same team as his son Nicky, and is proud that father and son are on one side."
+    },
+    "answerQuote": {
+      "zh": "我的 Nicky。我觉得当爸爸的能和儿子在同一支队里，挺了不起的。",
+      "en": "My Nicky, and I think it's quite admirable that his dad's in the same side as his son."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Tony 段落",
+      "en": "Tony segment"
+    }
+  },
+  {
+    "id": "f42-003",
+    "filmId": "f42",
+    "personId": "tony",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "You caught him?",
+    "zh": "是你发现了他的事？",
+    "themeIds": [
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "Debbie 说是的，是她发现的。",
+      "en": "Debbie said yes, she was the one who found out."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Tony 段落",
+      "en": "Tony segment"
+    }
+  },
+  {
+    "id": "f42-004",
+    "filmId": "f42",
+    "personId": "tony",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What happened?",
+    "zh": "后来怎么样了？",
+    "themeIds": [
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "Debbie 说，当时婚姻能否维持下去悬于一线，两人经历了一段非常痛苦的时期。",
+      "en": "Debbie said it was touch and go whether the marriage would survive, and they went through a very traumatic time."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Tony 段落",
+      "en": "Tony segment"
+    }
+  },
+  {
+    "id": "f42-005",
+    "filmId": "f42",
+    "personId": "tony",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Why did you forgive him?",
+    "zh": "你为什么原谅了他？",
+    "themeIds": [
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "Debbie 觉得两人之间还有感情，又有三个年幼的孩子要考虑；她本可以一走了之，而重新开始并不容易，因为她自己从未不忠，觉得自己不该受这样的伤害。",
+      "en": "Debbie felt there was still something between them, with three young children to think of; she could have walked away, and trying again has been hard because she had never been unfaithful and felt she did not deserve it."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Tony 段落",
+      "en": "Tony segment"
+    }
+  },
+  {
+    "id": "f42-006",
+    "filmId": "f42",
+    "personId": "suzy",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Two of the boys are coming into that period of their lives. Are you watchful of that for them?",
+    "zh": "你的两个儿子也快到人生的那个阶段了。你会为他们多留心吗？",
+    "themeIds": [
+      "children_next_gen",
+      "family_upbringing"
+    ],
+    "answerSummary": {
+      "zh": "会的；她希望孩子们的家庭生活比她当年那个年纪时更安稳，也从不把她和 Rupert 一起营造的家视为理所当然。",
+      "en": "Yes; she hopes they have a steadier home life than she had at that age, and does not take for granted the home she and Rupert have built."
+    },
+    "answerQuote": {
+      "zh": "我确实会留心，但我希望他们的家庭生活比我在那个年纪时更安稳，我也从不把我和 Rupert 努力为他们营造的家庭生活视为理所当然。我只希望自己能活得够久、健康得够久，看着孩子们长大，成为独立的人。",
+      "en": "I am watchful of that, but I hope they have a more stable home life than I had at that age, and I don't take for granted the home life that Rupert and I have tried to build for them. All I want is to be here long enough, to be fit and healthy long enough, to see my children grow up to be independent people."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Suzy 段落",
+      "en": "Suzy segment"
+    }
+  },
+  {
+    "id": "f42-007",
+    "filmId": "f42",
+    "personId": "symon",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Does he remind you of yourself when you were younger?",
+    "zh": "他会让你想起小时候的自己吗？",
+    "themeIds": [
+      "children_next_gen"
+    ],
+    "answerSummary": {
+      "zh": "不太像，这孩子比他精力还旺盛；不过夫妻俩说他聪明、反应快，两个人的影子都有，也同样喜欢弄明白东西是怎么运作的。",
+      "en": "Not really, since the boy has even more energy, though the couple described him as bright and quick, a mix of both of them, with the same urge to know how things work."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Symon 段落",
+      "en": "Symon segment"
+    }
+  },
+  {
+    "id": "f42-008",
+    "filmId": "f42",
+    "personId": "symon",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Why did you call him Daniel?",
+    "zh": "你们为什么给他取名 Daniel？",
+    "themeIds": [
+      "children_next_gen"
+    ],
+    "answerSummary": {
+      "zh": "他们说说来话长：Daniel 是夫妻一方父亲的名字，他们在孩子出生前、还不知道是男孩时就定下了这个名字。",
+      "en": "It was a long story, they said: Daniel was the name of one parent's father, and they settled on it before the birth, not knowing it would be a boy."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Symon 段落",
+      "en": "Symon segment"
+    }
+  },
+  {
+    "id": "f42-009",
+    "filmId": "f42",
+    "personId": "symon",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Has that been hard?",
+    "zh": "这对你来说很难吗？",
+    "themeIds": [
+      "children_next_gen",
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "对他来说是的：他一向是比较退缩的人，但他不想失去任何一个孩子，希望他们知道自己一直都在。",
+      "en": "Yes, for him: he has always been the retiring type, but he does not want to lose any of his children and wants them to know he is there for them."
+    },
+    "answerQuote": {
+      "zh": "我真的不想失去我的孩子，哪一个都不想。我还是希望他们知道，我一直在他们身边。",
+      "en": "I don't really want to lose my children, any of them. I still want them to know that I am there for them."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Symon 段落",
+      "en": "Symon segment"
+    }
+  },
+  {
+    "id": "f42-010",
+    "filmId": "f42",
+    "personId": "symon",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "So, are you still drawing and painting?",
+    "zh": "那你现在还画画吗？",
+    "themeIds": [
+      "children_next_gen",
+      "leisure_interests"
+    ],
+    "answerSummary": {
+      "zh": "他想画，但总抽不出时间坐下来动笔；不过他会帮继女 Miriam 做 A-Level 美术功课。",
+      "en": "He would like to but never finds the time to sit down to it; he does help his stepdaughter Miriam with her A-level art."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Symon 段落",
+      "en": "Symon segment"
+    }
+  },
+  {
+    "id": "f42-011",
+    "filmId": "f42",
+    "personId": "symon",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Was that tough?",
+    "zh": "那段日子很难熬吗？",
+    "themeIds": [
+      "health_mortality",
+      "happiness_regret",
+      "family_upbringing"
+    ],
+    "answerSummary": {
+      "zh": "是的，因为有很多话他一直没对母亲说出口，后来很后悔；她走了以后，一切都晚了。",
+      "en": "Yes, because there were many things he had never said to his mother and wished he had; once she was gone it was too late."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Symon 段落",
+      "en": "Symon segment"
+    }
+  },
+  {
+    "id": "f42-012",
+    "filmId": "f42",
+    "personId": "symon",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What sort of things?",
+    "zh": "比如哪些话？",
+    "themeIds": [
+      "happiness_regret",
+      "health_mortality",
+      "family_upbringing"
+    ],
+    "answerSummary": {
+      "zh": "都是些平常的话，比如说一句“我爱你”，或者告诉她，她做的事他喜欢还是不喜欢。",
+      "en": "Ordinary everyday things, such as saying 'I love you', or telling her what he did or didn't like about what she was doing."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Symon 段落",
+      "en": "Symon segment"
+    }
+  },
+  {
+    "id": "f42-013",
+    "filmId": "f42",
+    "personId": "symon",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What's the biggest influence Viennetta has on you?",
+    "zh": "Viennetta 对你最大的影响是什么？",
+    "themeIds": [
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "是动力：她会推他一把，但更重要的是照顾他，让他觉得自己真正被需要。",
+      "en": "Motivation: she pushes him, but above all she looks after him and makes him feel truly wanted."
+    },
+    "answerQuote": {
+      "zh": "她总会确保我出门时看起来体体面面。不管去哪儿，我都收拾得像样、做事得体，这让我觉得，这世上有人是真真正正需要我的。",
+      "en": "She always makes sure that if I go down the road, I look all right. If I go anywhere, I look all right, you know, and I do the right thing, and it makes me feel that there's somebody out there that really, really wants me."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Symon 段落",
+      "en": "Symon segment"
+    }
+  },
+  {
+    "id": "f42-014",
+    "filmId": "f42",
+    "personId": "andrew",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "How has that changed your life or your part in the company?",
+    "zh": "这对你的生活，或者你在公司里的角色，带来了什么变化？",
+    "themeIds": [
+      "work"
+    ],
+    "answerSummary": {
+      "zh": "这意味着他要承受越来越大的压力，必须更快地把事情办完。",
+      "en": "It means working under ever-increasing pressure to deliver quickly."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Andrew 段落",
+      "en": "Andrew segment"
+    }
+  },
+  {
+    "id": "f42-015",
+    "filmId": "f42",
+    "personId": "andrew",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "And how is that for you?",
+    "zh": "那你自己觉得怎么样？",
+    "themeIds": [
+      "work"
+    ],
+    "answerSummary": {
+      "zh": "他觉得没问题：顶住这种压力，正是客户找他的原因。",
+      "en": "He is fine with it: coping with that pressure is what clients come to him for."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Andrew 段落",
+      "en": "Andrew segment"
+    }
+  },
+  {
+    "id": "f42-016",
+    "filmId": "f42",
+    "personId": "andrew",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What's the most difficult thing about keeping the marriage together?",
+    "zh": "维系婚姻最难的是什么？",
+    "themeIds": [
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "他们说其实没什么特别难的：两人会沟通，每周请一次保姆，好在周中单独出去。",
+      "en": "They said it is not particularly hard: they talk, and they keep a babysitter once a week so they can go out on their own mid-week."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Andrew 段落",
+      "en": "Andrew segment"
+    }
+  },
+  {
+    "id": "f42-017",
+    "filmId": "f42",
+    "personId": "andrew",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Do you worry at all about not having a career, and what will happen, as I said, when the children leave home?",
+    "zh": "你会不会担心自己没有事业？还有，就像我刚才说的，等孩子们离开家以后会怎么样？",
+    "themeIds": [
+      "work",
+      "children_next_gen"
+    ],
+    "answerSummary": {
+      "zh": "Jane 确实会担心，但这是她自己的选择，她已经接受了：她想当全职妈妈，而不是职业女性。",
+      "en": "Jane does worry, but she made her choice and has come to terms with it: she wanted to be a full-time mother rather than a career woman."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Andrew 段落",
+      "en": "Andrew segment"
+    }
+  },
+  {
+    "id": "f42-018",
+    "filmId": "f42",
+    "personId": "andrew",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Where might you have gone wrong do you think?",
+    "zh": "你觉得自己可能会在哪里走错路？",
+    "themeIds": [
+      "happiness_regret",
+      "education"
+    ],
+    "answerSummary": {
+      "zh": "他可能会放弃大学，也可能被工作或婚姻的压力压垮；可能出错的地方很多。",
+      "en": "He could have given up on university, or found the pressures of work or of marriage too much; plenty can go wrong."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Andrew 段落",
+      "en": "Andrew segment"
+    }
+  },
+  {
+    "id": "f42-019",
+    "filmId": "f42",
+    "personId": "andrew",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "And what is it in you do you think that's pulled you through?",
+    "zh": "那你觉得是你身上的什么让你一路走过来的？",
+    "themeIds": [
+      "happiness_regret",
+      "work"
+    ],
+    "answerSummary": {
+      "zh": "是坚持、不愿放弃，也许还因为不太爱冒险：他在同一份工作上干了 20 年，从没想过做别的。",
+      "en": "Persistence and a dislike of giving up, and perhaps not being too adventurous: he has been in the same job for 20 years without wanting to do anything else."
+    },
+    "answerQuote": {
+      "zh": "嗯，我想就是坚持吧。我不喜欢放弃，也许还因为我不太爱冒险，一旦开始了，就不想再去做别的。",
+      "en": "Well, I suppose it's just being persistent. I don't like giving up, and perhaps it's also not being too adventurous, not wanting to do anything else, once you start, you know."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Andrew 段落",
+      "en": "Andrew segment"
+    }
+  },
+  {
+    "id": "f42-020",
+    "filmId": "f42",
+    "personId": "nick",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Why only one child?",
+    "zh": "为什么只要一个孩子？",
+    "themeIds": [
+      "children_next_gen",
+      "work"
+    ],
+    "answerSummary": {
+      "zh": "两人的工作太耗时间和精力，儿子又活泼、需要很多关注，很难再顾得上第二个。",
+      "en": "Their demanding jobs take so much time and commitment, and their lively son needs so much attention, that it is hard to fit in another."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Nick 段落",
+      "en": "Nick segment"
+    }
+  },
+  {
+    "id": "f42-021",
+    "filmId": "f42",
+    "personId": "nick",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "So, you don't want another one?",
+    "zh": "所以你们不想再要一个了？",
+    "themeIds": [
+      "children_next_gen"
+    ],
+    "answerSummary": {
+      "zh": "恰恰相反：回答是非常想再要一个，并且请对方别误会。",
+      "en": "Quite the opposite: the reply was that another child would be dearly wanted, with a plea not to come away with the wrong impression."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Nick 段落",
+      "en": "Nick segment"
+    }
+  },
+  {
+    "id": "f42-022",
+    "filmId": "f42",
+    "personId": "nick",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "So, your brothers won't take over on the farm?",
+    "zh": "那你的兄弟们也不会接手农场吗？",
+    "themeIds": [
+      "work",
+      "home_place",
+      "family_upbringing"
+    ],
+    "answerSummary": {
+      "zh": "绝对不会，两个人都不想：一个兄弟 Andrew 是报社记者，另一个兄弟 Christopher 在 Skipton 工作，正在上电脑课程。",
+      "en": "Absolutely not, since neither wanted to: one brother, Andrew, is a newspaper reporter, and the other, Christopher, works in Skipton and is taking computer courses."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Nick 段落",
+      "en": "Nick segment"
+    }
+  },
+  {
+    "id": "f42-023",
+    "filmId": "f42",
+    "personId": "nick",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "So, you're all away, so the Hitchons are finished here?",
+    "zh": "这么说你们都离开了，Hitchon 家在这里算是结束了？",
+    "themeIds": [
+      "home_place"
+    ],
+    "answerSummary": {
+      "zh": "是的：Hitchon 一家基本上已经从这里连根拔起了。",
+      "en": "Yes: the Hitchon family has largely been uprooted from the valley."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Nick 段落",
+      "en": "Nick segment"
+    }
+  },
+  {
+    "id": "f42-024",
+    "filmId": "f42",
+    "personId": "nick",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What did you learn here do you think that you carried with you?",
+    "zh": "你觉得在这里学到、并一直带在身上的是什么？",
+    "themeIds": [
+      "home_place",
+      "education"
+    ],
+    "answerSummary": {
+      "zh": "是这片土地本身：壮丽、严酷、毫不妥协，仿佛已成为他的一部分；他为自己是山谷人而自豪，他研究的方程描述的正是这里的云、水和空气。",
+      "en": "The landscape itself: magnificent, grim and uncompromising, it feels like part of him; he is proud to be a Dales person, and the equations he works on describe the same clouds, water and air."
+    },
+    "answerQuote": {
+      "zh": "这里非常不留情面，有时甚至相当悲凉，但它也让你去过的其他地方都显得微不足道。我真的为自己来自这里而无比自豪。",
+      "en": "It's very uncompromising, and sometimes it's rather tragic, but it makes other places you go seem rather trivial as well. I'm just enormously proud of having come from here."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Nick 段落",
+      "en": "Nick segment"
+    }
+  },
+  {
+    "id": "f42-025",
+    "filmId": "f42",
+    "personId": "nick",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "It's hard being away from your roots, isn't it?",
+    "zh": "离开自己的根很难，是吧？",
+    "themeIds": [
+      "home_place"
+    ],
+    "answerSummary": {
+      "zh": "非常难：身处异国文化，很多时候搞不清周围发生了什么，别人发出的信号也不一样；他接着说自己常想回来，却还找不到办法。",
+      "en": "Terribly hard: in a foreign culture you often don't know what is going on and people send different signals; he went on to say he thinks a lot about coming back but sees no way to do it."
+    },
+    "answerQuote": {
+      "zh": "我是说，如果你去到一个陌生的文化里，有一半时间你都不知道周围发生了什么。去另一个国家真的很奇怪，人们发出的信号跟你熟悉的不一样。",
+      "en": "I mean, if you go to an alien culture, you don't know what's going on around you half the time. It's really strange to go to a different country, people don't send out the same signals."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Nick 段落",
+      "en": "Nick segment"
+    }
+  },
+  {
+    "id": "f42-026",
+    "filmId": "f42",
+    "personId": "bruce",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "So, how did he propose to you?",
+    "zh": "那他是怎么向你求婚的？",
+    "themeIds": [
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "在沙发上，两人正聊着别的事：他就那么问了一句，要不是她认真在听，差点就错过了。",
+      "en": "On the sofa, in the middle of a conversation about something else: he simply asked, and had she not been listening carefully she would have missed it."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Bruce 段落",
+      "en": "Bruce segment"
+    }
+  },
+  {
+    "id": "f42-027",
+    "filmId": "f42",
+    "personId": "bruce",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What was the biggest shock about being married?",
+    "zh": "结婚后最让你吃惊的是什么？",
+    "themeIds": [
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "他的衣服被扔掉了整整三袋，其中两袋连慈善商店都没送成；不过他承认，有些旧喇叭裤大概确实该扔。",
+      "en": "Having three bags of his clothes thrown out, two of them not even good enough for the charity shop, though he admits some old flares probably deserved it."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Bruce 段落",
+      "en": "Bruce segment"
+    }
+  },
+  {
+    "id": "f42-028",
+    "filmId": "f42",
+    "personId": "bruce",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What ambitions do you have now?",
+    "zh": "你现在有什么抱负？",
+    "themeIds": [
+      "work"
+    ],
+    "answerSummary": {
+      "zh": "也许会在学校当上高级教师，但他并不想当副校长或校长。",
+      "en": "Perhaps to become a senior teacher at his school, but he has no wish to be a deputy head or head teacher."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Bruce 段落",
+      "en": "Bruce segment"
+    }
+  },
+  {
+    "id": "f42-029",
+    "filmId": "f42",
+    "personId": "bruce",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Why?",
+    "zh": "为什么？",
+    "themeIds": [
+      "work",
+      "happiness_regret"
+    ],
+    "answerSummary": {
+      "zh": "那些职位会让人离开课堂，还得去进修，而生活已经够忙了；他觉得自己正处于一种知足的中年状态。",
+      "en": "Those posts take you out of the classroom and mean more courses, and life is busy enough; he sees himself as contentedly middle-aged."
+    },
+    "answerQuote": {
+      "zh": "不，我现在差不多处在一种中年状态，用“中年知足”来形容最贴切。",
+      "en": "No, I'm in sort of a middle-aged mode at the moment where middle-aged content is the best description."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Bruce 段落",
+      "en": "Bruce segment"
+    }
+  },
+  {
+    "id": "f42-030",
+    "filmId": "f42",
+    "personId": "bruce",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Looking back on your life, halfway through say, I mean, what regrets do you have?",
+    "zh": "回顾你的人生，就算走到一半吧，你有什么遗憾？",
+    "themeIds": [
+      "happiness_regret",
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "如今娶了一位很好的人，原本可能有的“错过了机会”的遗憾也就没了；他觉得能遇到 Penny 很幸运。",
+      "en": "Being married to a lovely person now removes the regret of feeling he had missed his chance; he feels lucky to have found Penny."
+    },
+    "answerQuote": {
+      "zh": "现在，我娶了一位很好的人。这多少抵消了一些本来可能会有的遗憾，比如觉得自己错过了机会之类的；未来会怎样谁也说不准，我觉得能遇到 Penny 是我的幸运。",
+      "en": "Now, I'm married to a lovely person. That kind of takes out some regrets that may have been or I've missed my chance there or something, and you never know what the future will hold for you, and I think I'm lucky to have found Penny."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Bruce 段落",
+      "en": "Bruce segment"
+    }
+  },
+  {
+    "id": "f42-031",
+    "filmId": "f42",
+    "personId": "paul",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "So, how's married life been since I last saw you?",
+    "zh": "上次见面以来，婚姻生活过得怎么样？",
+    "themeIds": [
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "他们开玩笑说糟透了：刚过完结婚 20 周年，还把婚姻比作一场早该服满的刑期。",
+      "en": "They joked that it had been dreadful: they had just passed their 20th wedding anniversary, which they likened to a prison term that should have ended by now."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Paul 段落",
+      "en": "Paul segment"
+    }
+  },
+  {
+    "id": "f42-032",
+    "filmId": "f42",
+    "personId": "paul",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Is confidence still an issue with you?",
+    "zh": "自信心现在还是你的一个问题吗？",
+    "themeIds": [
+      "happiness_regret"
+    ],
+    "answerSummary": {
+      "zh": "很遗憾，是的：他学会了与之共处，但始终没能彻底克服，这让他很恼火，因为他不知道该怎么办。",
+      "en": "Yes, unfortunately: he has learned to live with it but never fully overcome it, which annoys him because he does not know what to do about it."
+    },
+    "answerQuote": {
+      "zh": "是啊，是啊，很遗憾。我学会了和它共处，算是接受了，但始终没能真正彻底克服它，这让我很恼火，可我也不知道该怎么办。",
+      "en": "Yeah, yeah, unfortunately, I've learned to live with it, sort of accept it, but I've never really got on top of it fully, which is, it really annoys me, but I don't know what to do about it though."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Paul 段落",
+      "en": "Paul segment"
+    }
+  },
+  {
+    "id": "f42-033",
+    "filmId": "f42",
+    "personId": "paul",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "So, you moved up the market a bit?",
+    "zh": "这么说，你们算是换到更好的地段了？",
+    "themeIds": [
+      "money_class",
+      "home_place"
+    ],
+    "answerSummary": {
+      "zh": "是的：旧房子的贷款还清了才有能力换房，这也算一种强制储蓄，不过以后得勒紧裤腰带；Sue 补充说，光靠 Paul 一个人的工资是不够的。",
+      "en": "Yes: having paid off the old house they could move up, a kind of forced saving, though they will have to tighten their belts; Sue added that they could not manage on Paul's wage alone."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Paul 段落",
+      "en": "Paul segment"
+    }
+  },
+  {
+    "id": "f42-034",
+    "filmId": "f42",
+    "personId": "paul",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What's the most fun in life at the moment for the two of you?",
+    "zh": "你们俩现在生活中最开心的是什么？",
+    "themeIds": [
+      "children_next_gen",
+      "happiness_regret",
+      "leisure_interests"
+    ],
+    "answerSummary": {
+      "zh": "圣诞假期和孩子们一起去海边。",
+      "en": "The Christmas holidays down at the beach with the children."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Paul 段落",
+      "en": "Paul segment"
+    }
+  },
+  {
+    "id": "f42-035",
+    "filmId": "f42",
+    "personId": "lynn",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Can you ever see yourself not working?",
+    "zh": "你能想象自己不工作的样子吗？",
+    "themeIds": [
+      "work"
+    ],
+    "answerSummary": {
+      "zh": "不能：她喜欢那种兴奋和把生活填满的冲劲，哪怕有时回到家累得倒头就睡。",
+      "en": "No: she loves the excitement and the drive of a full life, even if some evenings she goes home exhausted and straight to sleep."
+    },
+    "answerQuote": {
+      "zh": "我喜欢那种兴奋。我喜欢把生活填满的那股冲劲。",
+      "en": "I like the excitement. I like the push of filling my life."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Lynn 段落",
+      "en": "Lynn segment"
+    }
+  },
+  {
+    "id": "f42-036",
+    "filmId": "f42",
+    "personId": "lynn",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "How do you manage to keep a career going and bring up a family? Hold a marriage together?",
+    "zh": "你是怎么做到一边保住事业、一边养家的？还要维系婚姻？",
+    "themeIds": [
+      "work",
+      "love_marriage",
+      "children_next_gen"
+    ],
+    "answerSummary": {
+      "zh": "靠她和 Russ 之间很好的配合（平时他做饭，周末她做饭），也因为两人一直相爱。",
+      "en": "Through a strong partnership with Russ (he cooks during the week, she at weekends) and because they have never stopped loving each other."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Lynn 段落",
+      "en": "Lynn segment"
+    }
+  },
+  {
+    "id": "f42-037",
+    "filmId": "f42",
+    "personId": "lynn",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "And do you think about dying a lot?",
+    "zh": "那你常会想到死亡吗？",
+    "themeIds": [
+      "health_mortality"
+    ],
+    "answerSummary": {
+      "zh": "不会，她一点也不担心，这是父亲教会她的；承受最多的是留下来的人。",
+      "en": "No, it does not worry her at all, which her father taught her; it is the people left behind who suffer most."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Lynn 段落",
+      "en": "Lynn segment"
+    }
+  },
+  {
+    "id": "f42-038",
+    "filmId": "f42",
+    "personId": "lynn",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Is there a spiritual side to your life?",
+    "zh": "你的生活里有精神信仰的一面吗？",
+    "themeIds": [
+      "faith_values"
+    ],
+    "answerSummary": {
+      "zh": "她说有。",
+      "en": "She said yes, there is."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Lynn 段落",
+      "en": "Lynn segment"
+    }
+  },
+  {
+    "id": "f42-039",
+    "filmId": "f42",
+    "personId": "lynn",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Can you talk about that?",
+    "zh": "能谈谈吗？",
+    "themeIds": [
+      "faith_values"
+    ],
+    "answerSummary": {
+      "zh": "不能，她不愿意谈。",
+      "en": "No, she would rather not."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Lynn 段落",
+      "en": "Lynn segment"
+    }
+  },
+  {
+    "id": "f42-040",
+    "filmId": "f42",
+    "personId": "lynn",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Why?",
+    "zh": "为什么？",
+    "themeIds": [
+      "faith_values"
+    ],
+    "answerSummary": {
+      "zh": "因为那是私密的、个人的事，是构成她这个人的一部分。",
+      "en": "Because it is private and personal, part of what makes her who she is."
+    },
+    "answerQuote": {
+      "zh": "这是私事，是我个人的，就是我自己。它是构成我的一部分，让我成为我。",
+      "en": "It's private, it's personal, it's me. It's part of what makes me up, makes me me."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Lynn 段落",
+      "en": "Lynn segment"
+    }
+  },
+  {
+    "id": "f42-041",
+    "filmId": "f42",
+    "personId": "lynn",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Do you think morality has changed in your lifetime?",
+    "zh": "你觉得在你这一生中，道德观念变了吗？",
+    "themeIds": [
+      "faith_values",
+      "society_politics"
+    ],
+    "answerSummary": {
+      "zh": "变了：她觉得失去了很多道德和价值观。",
+      "en": "Yes: she feels a great deal of morality and many values have been lost."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Lynn 段落",
+      "en": "Lynn segment"
+    }
+  },
+  {
+    "id": "f42-042",
+    "filmId": "f42",
+    "personId": "lynn",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Like what?",
+    "zh": "比如什么？",
+    "themeIds": [
+      "faith_values",
+      "children_next_gen"
+    ],
+    "answerSummary": {
+      "zh": "首先是尊重，这让她很难按自己的高标准去教育孩子。",
+      "en": "Respect above all, which makes it hard to raise children to the high standards she expects."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Lynn 段落",
+      "en": "Lynn segment"
+    }
+  },
+  {
+    "id": "f42-043",
+    "filmId": "f42",
+    "personId": "lynn",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Are you asking too much of them?",
+    "zh": "你对她们要求太高了吗？",
+    "themeIds": [
+      "children_next_gen"
+    ],
+    "answerSummary": {
+      "zh": "她确实要求很多，但觉得自己也懂得变通，正在学习什么时候该放手。",
+      "en": "She does expect a lot, but sees herself as flexible and is learning when to let go."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Lynn 段落",
+      "en": "Lynn segment"
+    }
+  },
+  {
+    "id": "f42-044",
+    "filmId": "f42",
+    "personId": "sue",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "And do you think William misses not having a dad?",
+    "zh": "你觉得 William 会因为没有爸爸在身边而感到缺失吗？",
+    "themeIds": [
+      "children_next_gen"
+    ],
+    "answerSummary": {
+      "zh": "大概会，不过他很少说起；他心思很深，而且她自己的父亲一直在他身边。",
+      "en": "Probably, though he does not talk about it much; he is a deep boy, and her own father is there for him."
+    },
+    "answerQuote": {
+      "zh": "我的孩子们大概很多都要归功于我爸妈。我是说，我爸妈真的太好了。",
+      "en": "My children probably owe a lot to my mum and dad. I mean, my mum and dad have been absolutely brilliant."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Sue 段落",
+      "en": "Sue segment"
+    }
+  },
+  {
+    "id": "f42-045",
+    "filmId": "f42",
+    "personId": "jackie",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Which one is the most like you, do you think?",
+    "zh": "你觉得哪个儿子最像你？",
+    "themeIds": [
+      "children_next_gen"
+    ],
+    "answerSummary": {
+      "zh": "目前从性格上说是 James，调皮又自信；Charlie 安静懂事，Lee 天不怕地不怕，但三个都是好孩子。",
+      "en": "For now, personality-wise, James, the cheeky and confident one; Charlie is the quiet, grown-up one and Lee is fearless, but all three are good boys."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Jackie 段落",
+      "en": "Jackie segment"
+    }
+  },
+  {
+    "id": "f42-046",
+    "filmId": "f42",
+    "personId": "jackie",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Almost?",
+    "zh": "“几乎”？",
+    "themeIds": [
+      "children_next_gen"
+    ],
+    "answerSummary": {
+      "zh": "她确认说，几乎哪儿都能带去。",
+      "en": "Almost anywhere, she confirmed."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Jackie 段落",
+      "en": "Jackie segment"
+    }
+  },
+  {
+    "id": "f42-047",
+    "filmId": "f42",
+    "personId": "jackie",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "And what is the most fun?",
+    "zh": "那最有趣的是什么？",
+    "themeIds": [
+      "children_next_gen"
+    ],
+    "answerSummary": {
+      "zh": "孩子们冒出来的那些小话：那些意想不到的评论带来的纯粹乐趣。",
+      "en": "The little things they come out with: the sheer unexpected pleasure of their comments."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Jackie 段落",
+      "en": "Jackie segment"
+    }
+  },
+  {
+    "id": "f42-048",
+    "filmId": "f42",
+    "personId": "jackie",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "So, how did you land up here?",
+    "zh": "那你是怎么落脚到这里的？",
+    "themeIds": [
+      "home_place",
+      "children_next_gen"
+    ],
+    "answerSummary": {
+      "zh": "孩子们的父亲是苏格兰人，Newmains 是他的家乡；他们在 Charlie 快上学时搬来，她很庆幸：孩子们在这里更自由，她也比喜欢伦敦更喜欢这里。",
+      "en": "The boys' father is Scottish and Newmains is his hometown; they moved when Charlie was about to start school, and she is glad, since the boys have more freedom and she likes it far more than London."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Jackie 段落",
+      "en": "Jackie segment"
+    }
+  },
+  {
+    "id": "f42-049",
+    "filmId": "f42",
+    "personId": "jackie",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Do you remember those scenes at 21 when you were showing them round the house at East Chiltern?",
+    "zh": "你还记得 21 岁时，你带他们参观你在 East Chiltern 那所房子的那些镜头吗？",
+    "themeIds": [
+      "the_series",
+      "home_place"
+    ],
+    "answerSummary": {
+      "zh": "记得，她记得 East Chiltern。",
+      "en": "Yes, she remembered East Chiltern."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Jackie 段落",
+      "en": "Jackie segment"
+    }
+  },
+  {
+    "id": "f42-050",
+    "filmId": "f42",
+    "personId": "jackie",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Boy, we've gone a long way, haven't we?",
+    "zh": "天哪，我们都走了好长一段路了，是不是？",
+    "themeIds": [
+      "the_series",
+      "happiness_regret"
+    ],
+    "answerSummary": {
+      "zh": "是有一点：她请他们别在这时插入那段旧镜头，拿双下巴开了玩笑，并说自己又一切从头开始了，只不过这次带着三个孩子。",
+      "en": "Just a bit: she asked them not to cut back to that footage, joked about double chins, and said she has started all over again, this time with three children."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Jackie 段落",
+      "en": "Jackie segment"
+    }
+  },
+  {
+    "id": "f42-051",
+    "filmId": "f42",
+    "personId": "jackie",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "So much hope then, wasn't there?",
+    "zh": "那时候充满了希望，不是吗？",
+    "themeIds": [
+      "happiness_regret",
+      "health_mortality"
+    ],
+    "answerSummary": {
+      "zh": "她坚持说现在依然有：病痛让她情绪低落，但她对生活并不消沉，因为她有三个很棒的儿子和一个充满爱的家。",
+      "en": "There still is, she insisted: her illness gets her down, but her life does not, because she has three wonderful boys and a loving family."
+    },
+    "answerQuote": {
+      "zh": "我绝不是……我因为这病情绪低落、很沮丧，但我对自己的生活绝对没有消沉。什么都改变不了这一点，我有三个很棒的儿子。",
+      "en": "I am in no way — I am down and I am depressed about my illness, but I'm certainly not down and depressed about my life. Nothing's gonna do that, I've got three wonderful boys."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Jackie 段落",
+      "en": "Jackie segment"
+    }
+  },
+  {
+    "id": "f42-052",
+    "filmId": "f42",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "It's like a million miles away from the Shetlands here. How have you coped with that?",
+    "zh": "这里和设得兰群岛简直相隔十万八千里。你是怎么适应的？",
+    "themeIds": [
+      "home_place"
+    ],
+    "answerSummary": {
+      "zh": "离开这么久再回到伦敦，一开始极其艰难（最初几个小时简直是噩梦，第一周也很糟），但慢慢好转，大约用了一年才适应。",
+      "en": "Adjusting to London after so long away was extremely hard at first (the first hours a nightmare, the first week bad), but it got steadily easier and took about a year."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f42-053",
+    "filmId": "f42",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Do you have any nerves when you stand up and give speeches or make arguments or defend positions?",
+    "zh": "你起身发言、辩论或为自己的立场辩护时，会紧张吗？",
+    "themeIds": [
+      "work",
+      "society_politics"
+    ],
+    "answerSummary": {
+      "zh": "当然会：不紧张的议员就没尽到职责；之后会稍微容易些，不过他第一次发言时，议事厅里大部分人都走了。",
+      "en": "Yes, of course: a councillor with no nerves is not doing the job; it gets a little easier, though most of the chamber walked out of his first speech."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f42-054",
+    "filmId": "f42",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "And was that difficult?",
+    "zh": "那会很困难吗？",
+    "themeIds": [
+      "the_series",
+      "home_place"
+    ],
+    "answerSummary": {
+      "zh": "一点也不：Bruce 是模范房东，只是他坚持要量浴缸里放了多少水。",
+      "en": "Not at all: Bruce was the model host, though he did insist on measuring the bathwater."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f42-055",
+    "filmId": "f42",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "How has Bruce helped you?",
+    "zh": "Bruce 是怎么帮助你的？",
+    "themeIds": [
+      "the_series"
+    ],
+    "answerSummary": {
+      "zh": "作为一位忠实的好朋友，他帮自己在伦敦安顿下来，需要的时候也能找他倾诉。",
+      "en": "As a good, loyal friend who helped him get set up in London and was someone to talk to when he needed it."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f42-056",
+    "filmId": "f42",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Does it worry you, living off benefits, living off the state?",
+    "zh": "靠救济金、靠国家养活，这让你担心吗？",
+    "themeIds": [
+      "money_class",
+      "work"
+    ],
+    "answerSummary": {
+      "zh": "会：他觉得自己在拖累辛苦工作的人，并认为应该让每个想工作的人都有工作。",
+      "en": "Yes: he feels he is a drain on people who work hard, and believes there should be work for everyone who wants it."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f42-057",
+    "filmId": "f42",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Is this a good time in your life?",
+    "zh": "现在是你人生中的好时光吗？",
+    "themeIds": [
+      "happiness_regret"
+    ],
+    "answerSummary": {
+      "zh": "大概是：他从没这么忙过，也从没和这么多人有过来往。",
+      "en": "Probably: he has never been busier or in contact with so many people."
+    },
+    "answerQuote": {
+      "zh": "是的，大概是吧，我从来没这么忙过，也从来没和这么多人有过来往。",
+      "en": "Yes, probably, I've never been busier, and I've never been in contact with so many people."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f42-058",
+    "filmId": "f42",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What's the most enjoyable thing in life for you at the moment?",
+    "zh": "你现在生活中最享受的是什么？",
+    "themeIds": [
+      "happiness_regret"
+    ],
+    "answerSummary": {
+      "zh": "他说是展望未来。",
+      "en": "Looking to the future, he said."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f42-059",
+    "filmId": "f42",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Well, that's a change for the better, isn't it?",
+    "zh": "嗯，这可是往好的方向变了，不是吗？",
+    "themeIds": [
+      "happiness_regret"
+    ],
+    "answerSummary": {
+      "zh": "他说也许只是因为自己老了；他现在相信未来不会像过去那么糟，并希望在 Hackney 实现几个短期目标。",
+      "en": "Perhaps it is just because he is getting older, he said; he now believes the future can't be as bad as the past, and hopes to reach a few short-term goals in Hackney."
+    },
+    "answerQuote": {
+      "zh": "嗯，也许只是因为我在变老吧。我想是因为我相信未来不会像过去那么糟，而且我在 Hackney 有一些短期目标，如果能实现其中几个，我就满意了。",
+      "en": "Well, perhaps that's just because I'm getting old. I think it's me believing that things can't be so bad in the future as they have been in the past, and I think there are certain short-term objectives I have here in Hackney, and if I can achieve a few of those, then I'll be pleased."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f42-060",
+    "filmId": "f42",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "What effect has it had on you being in these films, do you think?",
+    "zh": "你觉得参与这部系列片对你有什么影响？",
+    "themeIds": [
+      "the_series"
+    ],
+    "answerSummary": {
+      "zh": "在一组剪辑的回答里，参与者谈到：担心七年过去没什么值得一提的事、因片结下的长久友谊、对自己人生的一份记录、周期性的打扰、每七年被翻出来一次的往事，还有一人对当年被推荐参加拍摄深感懊悔。",
+      "en": "In a montage of replies, participants spoke of panicking that they had nothing dramatic to report, of lasting friendships, of a record of their lives, of a periodic intrusion, of baggage stirred up every seven years, and in one case of bitter regret at having been put forward."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "结尾",
+      "en": "Closing"
+    }
+  },
+  {
+    "id": "f42-061",
+    "filmId": "f42",
+    "personId": "tony",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "And do you like that?",
+    "zh": "那你喜欢这样吗？",
+    "themeIds": [
+      "the_series"
+    ],
+    "answerSummary": {
+      "zh": "谈不上喜不喜欢：他已经习惯了，也不介意；不过旁边有人打趣说他其实挺喜欢的。",
+      "en": "It is not a question of liking it: he is used to it and doesn't mind, though someone teased that he does like it."
+    },
+    "sourceId": "film-f42",
+    "locator": {
+      "zh": "结尾",
+      "en": "Closing"
+    }
+  }
+]

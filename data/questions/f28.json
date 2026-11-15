@@ -1,0 +1,2528 @@
+[
+  {
+    "id": "f28-001",
+    "filmId": "f28",
+    "personId": "tony",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What does it take to be a good cabbie?",
+    "zh": "怎样才算是一个好的出租车司机？",
+    "themeIds": [
+      "work"
+    ],
+    "answerSummary": {
+      "zh": "他说要性格乐天随和，还得比一般工作更能忍耐，因为每位乘客性格都不一样；他很喜欢开出租车的户外生活和自由自在。",
+      "en": "He said you need a cheerful, easy-going nature and more patience than an ordinary job demands, since every passenger is a different character; he loves the outdoor life and the independence of the cab."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Tony 段落",
+      "en": "Tony segment"
+    }
+  },
+  {
+    "id": "f28-002",
+    "filmId": "f28",
+    "personId": "tony",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "And why did you fall in love with him?",
+    "zh": "那你为什么爱上了他？",
+    "themeIds": [
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "他的妻子说，她喜欢的是他的性格：他从不为任何人改变自己。",
+      "en": "His wife said what she likes is his personality: he never changes himself for anyone."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Tony 段落",
+      "en": "Tony segment"
+    }
+  },
+  {
+    "id": "f28-003",
+    "filmId": "f28",
+    "personId": "tony",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Who looks after them? Or do you share it up?",
+    "zh": "孩子由谁照顾？还是你们一起分担？",
+    "themeIds": [
+      "children_next_gen",
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "他的妻子说基本上是她：他常带孩子出去玩，但管教孩子的事都留给了她。",
+      "en": "His wife said she mostly does: he takes the children out a lot, but discipline is left to her."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Tony 段落",
+      "en": "Tony segment"
+    }
+  },
+  {
+    "id": "f28-004",
+    "filmId": "f28",
+    "personId": "tony",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "So what advantages do you think you've had over some of the other people we've filmed?",
+    "zh": "那你觉得，和我们拍过的其他一些人相比，你有过哪些优势？",
+    "themeIds": [
+      "money_class",
+      "education"
+    ],
+    "answerSummary": {
+      "zh": "他承认上私立学校的人在学业上占了先机，但认为寄宿学校让他们失去了东区孩子从家里得到的那份稳定的爱；他希望亲眼看着自己的孩子长大。",
+      "en": "He granted that the privately educated ones had the academic head start, but said boarding school costs them the steady family love East End children get, and that he wants to watch his own children grow up."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Tony 段落",
+      "en": "Tony segment"
+    }
+  },
+  {
+    "id": "f28-005",
+    "filmId": "f28",
+    "personId": "tony",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Let's talk about the kids. Do you want for them what you had for yourself? In terms of schooling and everything?",
+    "zh": "我们聊聊孩子吧。你希望他们拥有你当年拥有的东西吗？比如上学之类的？",
+    "themeIds": [
+      "children_next_gen",
+      "money_class",
+      "education"
+    ],
+    "answerSummary": {
+      "zh": "他回忆童年时家里没钱、穿哥哥穿剩的旧衣服，说现在靠这份工作，他能给孩子们他自己从未有过的舒适生活和假期。",
+      "en": "He recalled a childhood without money, in his brother's cast-off clothes, and said his job now lets him give his children the comfortable life and holidays he never had."
+    },
+    "answerQuote": {
+      "zh": "我变得更坚强了，现在更懂得珍惜；而且靠着这份工作，我现在有能力给孩子们我自己从未有过的生活。",
+      "en": "I'm a more stronger person, I appreciate things more now, and now I'm in a position through my job, you know, to give my kids the life I never had."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Tony 段落",
+      "en": "Tony segment"
+    }
+  },
+  {
+    "id": "f28-006",
+    "filmId": "f28",
+    "personId": "tony",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "And who are the guys you play with?",
+    "zh": "和你一起打球的都是些什么人？",
+    "themeIds": [
+      "leisure_interests"
+    ],
+    "answerSummary": {
+      "zh": "大多是酒吧老板和出租车司机同行，而且通常会小赌一把。",
+      "en": "Mainly pub landlords and fellow cab drivers, and there is usually a small wager."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Tony 段落",
+      "en": "Tony segment"
+    }
+  },
+  {
+    "id": "f28-007",
+    "filmId": "f28",
+    "personId": "tony",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Do you like the whole social side of it?",
+    "zh": "你喜欢打高尔夫的这一整套社交吗？",
+    "themeIds": [
+      "money_class",
+      "leisure_interests"
+    ],
+    "answerSummary": {
+      "zh": "只喜欢和自己的朋友一起；他觉得高尔夫球场很势利，会员们不愿意不懂规矩的人踏上他们眼中“自己的”球场。",
+      "en": "Only with his friends: he finds golf courses snobbish, with members who don't want anyone lacking etiquette on what they see as their course."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Tony 段落",
+      "en": "Tony segment"
+    }
+  },
+  {
+    "id": "f28-008",
+    "filmId": "f28",
+    "personId": "tony",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What excites you about acting?",
+    "zh": "演戏有什么让你兴奋的地方？",
+    "themeIds": [
+      "work",
+      "leisure_interests"
+    ],
+    "answerSummary": {
+      "zh": "他就是喜欢，也相信自己能演；这对他来说只是副业，不是为了出名或发财。",
+      "en": "He simply enjoys it and believes he can do it; it is a sideline for him, not a bid for fame or money."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Tony 段落",
+      "en": "Tony segment"
+    }
+  },
+  {
+    "id": "f28-009",
+    "filmId": "f28",
+    "personId": "tony",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "So, what drives you then through all of these various ambitions?",
+    "zh": "那么，是什么推动你去追求这么多不同的志向？",
+    "themeIds": [
+      "work",
+      "happiness_regret"
+    ],
+    "answerSummary": {
+      "zh": "一种“绝不停下”的人生态度：他闲不住，想尽可能多做些事，同时保持自己乐天的东区人本色。",
+      "en": "A philosophy of never standing still: he is restless and wants to pack in as much as possible, while staying the cheerful East Ender he is."
+    },
+    "answerQuote": {
+      "zh": "我不想停下来，因为生活啊，不等任何人，所以你得趁日子还没到头，尽量把能做的都塞进去。",
+      "en": "I don't want to keep still because life, you know, don't wait for nobody, so you've gotta cram it in as much as you can before your days are numbered."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Tony 段落",
+      "en": "Tony segment"
+    }
+  },
+  {
+    "id": "f28-010",
+    "filmId": "f28",
+    "personId": "tony",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "How long are you going to be a cab driver? Is this what you want to do for the rest of your life?",
+    "zh": "你打算开多久出租车？这是你想做一辈子的事吗？",
+    "themeIds": [
+      "work"
+    ],
+    "answerSummary": {
+      "zh": "他说目前开出租车很开心，但他和妻子打算两三年后试着经营一家酒吧；如果不合适，他还可以回去开出租车。",
+      "en": "He is very happy cabbing for now, but he and his wife plan to try running a pub in two or three years, knowing he could return to the taxi if it didn't suit him."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Tony 段落",
+      "en": "Tony segment"
+    }
+  },
+  {
+    "id": "f28-011",
+    "filmId": "f28",
+    "personId": "tony",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What are the best times for you?",
+    "zh": "对你来说，最美好的时光是什么？",
+    "themeIds": [
+      "happiness_regret",
+      "work"
+    ],
+    "answerSummary": {
+      "zh": "孩子们出生的时候；但最重要的是他当学徒骑师时，和偶像 Lester Piggott 同场比赛的那一天——虽然跑了最后一名，他仍说那是他一生中最骄傲的一天。",
+      "en": "The births of his children, but above all the day as an apprentice when he rode in the same race as his idol Lester Piggott; he came last, yet calls it the proudest day of his life."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Tony 段落",
+      "en": "Tony segment"
+    }
+  },
+  {
+    "id": "f28-012",
+    "filmId": "f28",
+    "personId": "bruce",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What's the most enjoyable thing about teaching?",
+    "zh": "教书最让你享受的是什么？",
+    "themeIds": [
+      "work",
+      "education"
+    ],
+    "answerSummary": {
+      "zh": "参与学生的进步：看着他们懂得越来越多、越来越自信，并从数学中获得一些满足感。",
+      "en": "Sharing in his pupils' progress: seeing them understand more, grow in confidence and get some satisfaction out of maths."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Bruce 段落",
+      "en": "Bruce segment"
+    }
+  },
+  {
+    "id": "f28-013",
+    "filmId": "f28",
+    "personId": "bruce",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "It's so different from your own education where you're teaching now. Why?",
+    "zh": "你现在任教的地方和你自己受过的教育截然不同，为什么？",
+    "themeIds": [
+      "education",
+      "money_class"
+    ],
+    "answerSummary": {
+      "zh": "他认为普通教育对社会更好，公学制造分裂；他自己受的教育在学业上非常出色，他也心存感激，但他认为英国是个阶级社会，而公学帮着让它延续下去。",
+      "en": "He believes a general education is better for society and that public schools are divisive; his own schooling was academically excellent and he is grateful, but he thinks Britain is a class society that public schools help keep going."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Bruce 段落",
+      "en": "Bruce segment"
+    }
+  },
+  {
+    "id": "f28-014",
+    "filmId": "f28",
+    "personId": "bruce",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Do you have to defend immigration to a lot of people in this area?",
+    "zh": "在这一带，你是不是常常要向很多人为移民辩护？",
+    "themeIds": [
+      "home_place",
+      "society_politics"
+    ],
+    "answerSummary": {
+      "zh": "是的；他说抱怨移民太多的人并不了解情况，失业不能怪移民，政党有责任把这一点讲清楚；他还说，如果他投了票，会投给工党。",
+      "en": "Yes; he said those who complain about numbers are poorly informed, immigrants are not to blame for unemployment, and politicians should explain that, adding that had he voted it would have been Labour."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Bruce 段落",
+      "en": "Bruce segment"
+    }
+  },
+  {
+    "id": "f28-015",
+    "filmId": "f28",
+    "personId": "bruce",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Did it give you an overdeveloped sense of authority?",
+    "zh": "这是否让你对权威过分顺从？",
+    "themeIds": [
+      "education",
+      "faith_values"
+    ],
+    "answerSummary": {
+      "zh": "他说自己大概一直站在权威一边，但也认识到权威可能是坏的、腐败的。",
+      "en": "He said he has probably always sided with authority, but has also learned that authority can be bad and corrupt."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Bruce 段落",
+      "en": "Bruce segment"
+    }
+  },
+  {
+    "id": "f28-016",
+    "filmId": "f28",
+    "personId": "bruce",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "So there you were, you went to a posh preparatory school and a major public school and to Oxford. And now, you're in a council flat teaching in this school in the East End of London. You don't feel any sense of disappointment?",
+    "zh": "你上过高档的预备学校、一流的公学，又上了牛津。而现在你住在市政公屋里，在伦敦东区这所学校教书。你一点失落感都没有吗？",
+    "themeIds": [
+      "work",
+      "money_class",
+      "happiness_regret"
+    ],
+    "answerSummary": {
+      "zh": "没有：这份工作比听起来难得多，取得的成绩让他很满足；如果有一天他觉得自己做得不够好而放手，他会把这看作一种力量，而不是软弱。",
+      "en": "No: the job is harder than it sounds and he finds its successes satisfying; if he ever decides he cannot do it well enough, he would count that as a strength, not a weakness."
+    },
+    "answerQuote": {
+      "zh": "没有，因为我现在努力去做、想要做到的事情很难。我做的事一两句话就能概括，所以听上去也许不难，但在这背后，它真的非常难。",
+      "en": "No, because what I am trying to do at the moment and achieve is difficult. It may not sound difficult in the sense that you could sum up what I do quite simply, but behind all of that, it is very difficult."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Bruce 段落",
+      "en": "Bruce segment"
+    }
+  },
+  {
+    "id": "f28-017",
+    "filmId": "f28",
+    "personId": "bruce",
+    "attribution": "confirmed",
+    "fromRecap": true,
+    "en": "Does it sadden you when you meet people who don't believe in Christianity?",
+    "zh": "遇到不信基督教的人，你会感到难过吗？",
+    "themeIds": [
+      "faith_values"
+    ],
+    "answerSummary": {
+      "zh": "会，如果他们轻率地把它当成学校里学过一点、没什么意义的东西，他会难过，因为对他来说它的意义远不止于此。",
+      "en": "Yes, when they brush it off as something they learned a little about at school, because for him it means far more than that."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Bruce 段落",
+      "en": "Bruce segment"
+    }
+  },
+  {
+    "id": "f28-018",
+    "filmId": "f28",
+    "personId": "bruce",
+    "attribution": "confirmed",
+    "fromRecap": true,
+    "en": "What is it about that's important to you?",
+    "zh": "其中什么对你来说最重要？",
+    "themeIds": [
+      "faith_values"
+    ],
+    "answerSummary": {
+      "zh": "相信善与爱是两股强大的正面力量，相信任何善行都不会白费。",
+      "en": "The belief that goodness and love are two great positive forces, and that no good deed is ever wasted."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Bruce 段落",
+      "en": "Bruce segment"
+    }
+  },
+  {
+    "id": "f28-019",
+    "filmId": "f28",
+    "personId": "suzy",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What gave you that feeling?",
+    "zh": "是什么让你有这种感觉的？",
+    "themeIds": [
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "她只是觉得这样做是对的；她也承认这很不寻常，因为仅仅十八个月前她还非常反对结婚。",
+      "en": "She simply felt it was right, which she agreed was remarkable given how opposed to marriage she had been only eighteen months earlier."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Suzy 段落",
+      "en": "Suzy segment"
+    }
+  },
+  {
+    "id": "f28-020",
+    "filmId": "f28",
+    "personId": "suzy",
+    "attribution": "confirmed",
+    "fromRecap": true,
+    "en": "What do you think about them?",
+    "zh": "你怎么看孩子？",
+    "themeIds": [
+      "children_next_gen"
+    ],
+    "answerSummary": {
+      "zh": "她说她不喜欢小婴儿。",
+      "en": "She said she did not like babies."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Suzy 段落",
+      "en": "Suzy segment"
+    }
+  },
+  {
+    "id": "f28-021",
+    "filmId": "f28",
+    "personId": "suzy",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What was the biggest shock to you when you were suddenly confronted with a small baby that you had to be responsible for?",
+    "zh": "当你突然要对一个小婴儿负起责任时，最让你震惊的是什么？",
+    "themeIds": [
+      "children_next_gen"
+    ],
+    "answerSummary": {
+      "zh": "她慌了，怕自己应付不来。",
+      "en": "She panicked, fearing she would not manage."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Suzy 段落",
+      "en": "Suzy segment"
+    }
+  },
+  {
+    "id": "f28-022",
+    "filmId": "f28",
+    "personId": "suzy",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Is it everything you wanted?",
+    "zh": "这就是你想要的一切吗？",
+    "themeIds": [
+      "children_next_gen",
+      "happiness_regret"
+    ],
+    "answerSummary": {
+      "zh": "目前是的；但她不打算再生了，两个孩子就够，她觉得以后会想去做些别的事。",
+      "en": "For now, yes, but she doesn't expect more children beyond her two and thinks she will eventually want to move on to something else."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Suzy 段落",
+      "en": "Suzy segment"
+    }
+  },
+  {
+    "id": "f28-023",
+    "filmId": "f28",
+    "personId": "suzy",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Do you still want to send them in the private sector to school?",
+    "zh": "你仍然想送他们上私立学校吗？",
+    "themeIds": [
+      "education",
+      "children_next_gen",
+      "money_class"
+    ],
+    "answerSummary": {
+      "zh": "她想会的，但要等到十三岁以后，因为她和 Rupert 小时候都很讨厌太早被送去预备学校寄宿。",
+      "en": "She thinks so, but not before thirteen, since she and Rupert both hated being sent away to prep school young."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Suzy 段落",
+      "en": "Suzy segment"
+    }
+  },
+  {
+    "id": "f28-024",
+    "filmId": "f28",
+    "personId": "suzy",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Why do you choose the private sector opposed to the state?",
+    "zh": "为什么你选择私立而不是公立学校？",
+    "themeIds": [
+      "education",
+      "money_class"
+    ],
+    "answerSummary": {
+      "zh": "因为那是她和 Rupert 自己经历过、熟悉的东西；不过她也承认两人都被保护得太好，是在国外生活之后她才体会到人与人有多不同。",
+      "en": "Because it is what she and Rupert had and know, though she admits both were very sheltered and only living abroad showed her how different people are."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Suzy 段落",
+      "en": "Suzy segment"
+    }
+  },
+  {
+    "id": "f28-025",
+    "filmId": "f28",
+    "personId": "suzy",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "It just seems a miracle to me that when I last saw you at twenty-one you were nervous, you were chain smoking, you were uptight, and now you seem happy. What's happened to you over these past seven years?",
+    "zh": "我觉得简直是个奇迹：上次见到你时你二十一岁，紧张、一根接一根地抽烟、神经紧绷，而现在你看起来很幸福。这七年里你经历了什么？",
+    "themeIds": [
+      "happiness_regret",
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "她把部分功劳归于 Rupert，并说自己二十一岁时没有方向，还没找到自己想要的东西。",
+      "en": "She gave Rupert part of the credit and said that at 21 she had no direction and had not yet found what she wanted."
+    },
+    "answerQuote": {
+      "zh": "二十一岁时我不知道自己要往哪里去。我是说，我想那时我觉得自己还算快乐，但我完全没有方向。",
+      "en": "I didn't know where I was going at twenty-one. I mean, I suppose I thought I was reasonably happy at twenty-one, but I had no kind of direction."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Suzy 段落",
+      "en": "Suzy segment"
+    }
+  },
+  {
+    "id": "f28-026",
+    "filmId": "f28",
+    "personId": "suzy",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Do you have any fears for the future? For yourself?",
+    "zh": "你对未来有什么担忧吗？为你自己？",
+    "themeIds": [
+      "happiness_regret"
+    ],
+    "answerSummary": {
+      "zh": "为自己不太担心：她觉得如果自己会走偏，早就走偏了，而现在的她大概太安定了。",
+      "en": "Not for herself: if she were going to go off the rails, she thinks it would have happened already, and she is probably too settled now."
+    },
+    "answerQuote": {
+      "zh": "我觉得，如果我会走上歧路，早就走上了。我想我现在大概太安稳了，不会那样了，不过也许我错了。",
+      "en": "I feel if I was going to have fallen by the wayside, I'd have done it by now. I think probably I'm too staid now to do that, but maybe I'm wrong."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Suzy 段落",
+      "en": "Suzy segment"
+    }
+  },
+  {
+    "id": "f28-027",
+    "filmId": "f28",
+    "personId": "nick",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "How hot is it in there?",
+    "zh": "里面有多热？",
+    "themeIds": [
+      "work"
+    ],
+    "answerSummary": {
+      "zh": "大约一千万度。",
+      "en": "Around ten million degrees."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Nick 段落",
+      "en": "Nick segment"
+    }
+  },
+  {
+    "id": "f28-028",
+    "filmId": "f28",
+    "personId": "nick",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What about you, Nick? Why did you marry Jackie?",
+    "zh": "那你呢，Nick？你为什么娶了 Jackie？",
+    "themeIds": [
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "他觉得她有魅力、聪明又独立；他认为如果有一方对妻子的角色抱有固定观念，或者有一方不想要孩子，他们就会出问题。",
+      "en": "He finds her attractive, bright and independent, and thinks they would have had problems if either had held fixed ideas about a wife's role or one had not wanted children."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Nick 段落",
+      "en": "Nick segment"
+    }
+  },
+  {
+    "id": "f28-029",
+    "filmId": "f28",
+    "personId": "nick",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Where did you get all this brain-power from?",
+    "zh": "你这么聪明的头脑是从哪里来的？",
+    "themeIds": [
+      "education",
+      "childhood_play"
+    ],
+    "answerSummary": {
+      "zh": "他说自己对科学的兴趣源于一本讲行星的图画书；作为村里唯一同龄的孩子，他常和大人聊天、琢磨大自然，跟同龄孩子相处却很吃力，是大学拯救了他。",
+      "en": "He traced his love of science to a picture book about the planets; as the only child his age in the village he talked to adults and puzzled over nature, found dealing with other children hard, and felt university rescued him."
+    },
+    "answerQuote": {
+      "zh": "要成为一个还算适应得好的人，对我来说有一阵子挺挣扎的。上大学给了我一个极好的机会，那真的救了我。",
+      "en": "Trying to become a reasonably well-adjusted person was for me a bit of a struggle for a while. I was given a fantastic opportunity when I went to university and that really saved my bacon."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Nick 段落",
+      "en": "Nick segment"
+    }
+  },
+  {
+    "id": "f28-030",
+    "filmId": "f28",
+    "personId": "nick",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What attracts you about America?",
+    "zh": "美国有什么吸引你？",
+    "themeIds": [
+      "home_place",
+      "work"
+    ],
+    "answerSummary": {
+      "zh": "这里做研究很令人兴奋，比英国机会多、官僚束缚少，做事更容易。",
+      "en": "It is an exciting place to do research, with more opportunity and less bureaucracy than England, so things are easier to get done."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Nick 段落",
+      "en": "Nick segment"
+    }
+  },
+  {
+    "id": "f28-031",
+    "filmId": "f28",
+    "personId": "nick",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Do you get lonely here?",
+    "zh": "你在这里会感到孤独吗？",
+    "themeIds": [
+      "home_place"
+    ],
+    "answerSummary": {
+      "zh": "平时忙于日常不会多想，但往家里打电话时就会意识到离家有多远；家人又渐渐老了，感觉就像流亡一样。",
+      "en": "Day to day he doesn't notice, but phoning home reminds him how far away he is, and with their families ageing it feels like exile."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Nick 段落",
+      "en": "Nick segment"
+    }
+  },
+  {
+    "id": "f28-032",
+    "filmId": "f28",
+    "personId": "nick",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Does this put a pressure on your relationship?",
+    "zh": "这会给你们的关系带来压力吗？",
+    "themeIds": [
+      "love_marriage",
+      "home_place"
+    ],
+    "answerSummary": {
+      "zh": "不会，反而让他们更紧密，因为在那边他们只有彼此。",
+      "en": "No; it draws them closer, because over there they only have each other."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Nick 段落",
+      "en": "Nick segment"
+    }
+  },
+  {
+    "id": "f28-033",
+    "filmId": "f28",
+    "personId": "nick",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "In 21, some of the people were saying that they felt it was immoral to emigrate, immoral to leave. Do you have any feelings about that, since you're the one who's left?",
+    "zh": "在 21 Up 里，有些人说移民、离开英国是不道德的。你是离开了的那个人，对此你怎么看？",
+    "themeIds": [
+      "home_place",
+      "faith_values"
+    ],
+    "answerSummary": {
+      "zh": "他不觉得自己辜负了英国：这个国家把他培养得很好，尤其是在牛津，但后来却对他受训要做的工作毫无兴趣。",
+      "en": "He doesn't feel he has let England down: it trained him superbly, especially at Oxford, but then showed no interest in the work it had trained him to do."
+    },
+    "answerQuote": {
+      "zh": "在我的处境下，我不觉得自己辜负了英国，因为我认为英国并不怎么需要我留在那里做我当时在做的事。",
+      "en": "In my position I don't feel that I'm letting England down, because I don't think that England particularly wanted me there doing what I was doing."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Nick 段落",
+      "en": "Nick segment"
+    }
+  },
+  {
+    "id": "f28-034",
+    "filmId": "f28",
+    "personId": "nick",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "But in those early formative years, would you be happy for your children to be brought up by Jackie and Jackie not be able to give them her full attention?",
+    "zh": "可是在孩子成长最初的那几年，如果由 Jackie 带孩子，而她又没法全心照顾他们，你能接受吗？",
+    "themeIds": [
+      "children_next_gen",
+      "love_marriage",
+      "work"
+    ],
+    "answerSummary": {
+      "zh": "他不同意这种提法，承认自己原则上支持平分育儿，但能否做到还有待证明；Jackie 补充说，她不想成为被留在家里的那个人。",
+      "en": "He questioned the framing and admitted he backs equal childcare in principle but has yet to show he would live up to it; Jackie added that she does not want to be the one left behind."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Nick 段落",
+      "en": "Nick segment"
+    }
+  },
+  {
+    "id": "f28-035",
+    "filmId": "f28",
+    "personId": "nick",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Is she difficult?",
+    "zh": "她难相处吗？",
+    "themeIds": [
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "有时候是：吵架时她容易情绪激动；他还说婚姻需要经营，以前他们常为钱吵架，现在基本没有了。",
+      "en": "At times: she tends to get very upset in arguments; he added that a marriage needs working at, and their old rows over money have largely faded."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Nick 段落",
+      "en": "Nick segment"
+    }
+  },
+  {
+    "id": "f28-036",
+    "filmId": "f28",
+    "personId": "peter",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What was it about Peter that you fell in love with?",
+    "zh": "你爱上了 Peter 的什么？",
+    "themeIds": [
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "Rachel 先反问谁说过“爱”了，然后说虽然两人性格差别很大，但对生活的总体态度差不多。",
+      "en": "Rachel first asked who had said anything about love, then said that, for all their differences in personality, they share much the same outlook on life."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Peter 段落",
+      "en": "Peter segment"
+    }
+  },
+  {
+    "id": "f28-037",
+    "filmId": "f28",
+    "personId": "peter",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What is it about his personality that attracted you?",
+    "zh": "他性格中的什么吸引了你？",
+    "themeIds": [
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "Rachel 开玩笑说，其实没什么。",
+      "en": "Rachel teased that it was nothing much at all."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Peter 段落",
+      "en": "Peter segment"
+    }
+  },
+  {
+    "id": "f28-038",
+    "filmId": "f28",
+    "personId": "peter",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "So you would be prepared to part?",
+    "zh": "所以你们愿意为此分开？",
+    "themeIds": [
+      "love_marriage",
+      "work"
+    ],
+    "answerSummary": {
+      "zh": "愿意；婚姻里总有妥协的成分。",
+      "en": "Yes; there is always some compromise in a marriage."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Peter 段落",
+      "en": "Peter segment"
+    }
+  },
+  {
+    "id": "f28-039",
+    "filmId": "f28",
+    "personId": "peter",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "And do you have any plans for children?",
+    "zh": "你们有生孩子的打算吗？",
+    "themeIds": [
+      "children_next_gen"
+    ],
+    "answerSummary": {
+      "zh": "暂时没有：两人都还想做别的事，有了孩子会受限制，而且照他们的说法，最终责任还是落在女人身上。",
+      "en": "Not yet: both would still rather be doing other things, children would tie them down, and the responsibility, it was said, still ends up with the woman."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Peter 段落",
+      "en": "Peter segment"
+    }
+  },
+  {
+    "id": "f28-040",
+    "filmId": "f28",
+    "personId": "peter",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Is Peter liberated?",
+    "zh": "Peter 是个思想解放的男人吗？",
+    "themeIds": [
+      "love_marriage",
+      "children_next_gen"
+    ],
+    "answerSummary": {
+      "zh": "Rachel 说像 Peter 这样的男人都自以为是，但真到了关键时刻，通常还是女人放弃工作去照顾孩子。",
+      "en": "Rachel said men like Peter like to think so, but at the crunch it is usually the woman who gives up her job to look after the children."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Peter 段落",
+      "en": "Peter segment"
+    }
+  },
+  {
+    "id": "f28-041",
+    "filmId": "f28",
+    "personId": "peter",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "If you do have children, would you want them educated in the way that you've been educated?",
+    "zh": "如果你们有了孩子，你希望他们接受和你一样的教育吗？",
+    "themeIds": [
+      "education",
+      "children_next_gen"
+    ],
+    "answerSummary": {
+      "zh": "不太希望：学校仍然只注重应付考试，他认为那算不上真正的教育，毕业时学到的大多没用。",
+      "en": "Not really: schools still concentrate on getting through exams, which he does not count as real education, and most of what you leave with is useless."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Peter 段落",
+      "en": "Peter segment"
+    }
+  },
+  {
+    "id": "f28-042",
+    "filmId": "f28",
+    "personId": "peter",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "So how would you bring them up? Educate them?",
+    "zh": "那你会怎样培养他们？怎样教育他们？",
+    "themeIds": [
+      "education",
+      "children_next_gen"
+    ],
+    "answerSummary": {
+      "zh": "教他们更实用的东西，让他们学会独立思考，而学校在这方面做得太少。",
+      "en": "By teaching them more relevant things and getting them to think for themselves, which schools do too little of."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Peter 段落",
+      "en": "Peter segment"
+    }
+  },
+  {
+    "id": "f28-043",
+    "filmId": "f28",
+    "personId": "peter",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Would you contemplate putting them into the private sector of education?",
+    "zh": "你会考虑送他们上私立学校吗？",
+    "themeIds": [
+      "education",
+      "money_class"
+    ],
+    "answerSummary": {
+      "zh": "绝对不会，这是原则问题：私立学校在帮着维持旧的阶级制度。",
+      "en": "Definitely not, as a matter of principle: private schools help keep the old class system alive."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Peter 段落",
+      "en": "Peter segment"
+    }
+  },
+  {
+    "id": "f28-044",
+    "filmId": "f28",
+    "personId": "peter",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Do you think you've had as fair opportunity as other people?",
+    "zh": "你觉得你得到的机会和别人一样公平吗？",
+    "themeIds": [
+      "money_class",
+      "education"
+    ],
+    "answerSummary": {
+      "zh": "远远没有：很多人的路仍然是早就铺好的，比如通过公学；不过他不想针对片中其他人做个人批评。",
+      "en": "Far from it: many people still have their way smoothed for them, through public school for instance, though he didn't want to attack the others in the programme personally."
+    },
+    "answerQuote": {
+      "zh": "哦，天哪，当然没有。",
+      "en": "Oh God, no."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Peter 段落",
+      "en": "Peter segment"
+    }
+  },
+  {
+    "id": "f28-045",
+    "filmId": "f28",
+    "personId": "peter",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Are you surprised by the way England is being governed?",
+    "zh": "英国现在被治理成这样，你感到意外吗？",
+    "themeIds": [
+      "money_class",
+      "society_politics"
+    ],
+    "answerSummary": {
+      "zh": "不意外，他甚至已经不再惊讶了；他说不想卷入党派政治，但认为现任政府是有史以来最无能、最冷漠的。",
+      "en": "No, he has even stopped being amazed, and without wanting to get into party politics he called the present government the most incompetent and uncaring ever."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Peter 段落",
+      "en": "Peter segment"
+    }
+  },
+  {
+    "id": "f28-046",
+    "filmId": "f28",
+    "personId": "peter",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "And how did you deal with that?",
+    "zh": "那你是怎么应对的？",
+    "themeIds": [
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "Rachel 说，对付这种人就得踢他一脚，叫他醒醒。",
+      "en": "Rachel said you handle people like that by giving them a good kick and telling them to wake up."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Peter 段落",
+      "en": "Peter segment"
+    }
+  },
+  {
+    "id": "f28-047",
+    "filmId": "f28",
+    "personId": "peter",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "And do you see any areas of conflict in the future for you? In personality?",
+    "zh": "你们觉得将来在性格上会有冲突吗？",
+    "themeIds": [
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "不会；他们欣赏彼此的性格，两人不一样反而让生活不那么乏味、不那么一成不变。",
+      "en": "No; they appreciate each other's personalities, and being different keeps life from being dull and predictable."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Peter 段落",
+      "en": "Peter segment"
+    }
+  },
+  {
+    "id": "f28-048",
+    "filmId": "f28",
+    "personId": "peter",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What have been for you the best times?",
+    "zh": "对你来说，最美好的时光是什么？",
+    "themeIds": [
+      "happiness_regret",
+      "leisure_interests"
+    ],
+    "answerSummary": {
+      "zh": "1977 年欧洲冠军杯决赛上 Tommy Smith 在罗马打进的第二个球；还有他直到不久前所在的本地乐队在酒吧演出、观众反响热烈的时候。",
+      "en": "Tommy Smith's second goal in Rome at the 1977 European Cup final, and the good nights when a local band he played in until recently went down well in pubs."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Peter 段落",
+      "en": "Peter segment"
+    }
+  },
+  {
+    "id": "f28-049",
+    "filmId": "f28",
+    "personId": "peter",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Do you ever get that in your work?",
+    "zh": "你在工作中有过这种感觉吗？",
+    "themeIds": [
+      "work"
+    ],
+    "answerSummary": {
+      "zh": "从来没有；教书从未给过他那种兴奋和交流的感觉。",
+      "en": "Never; teaching gives him none of that excitement or connection."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Peter 段落",
+      "en": "Peter segment"
+    }
+  },
+  {
+    "id": "f28-050",
+    "filmId": "f28",
+    "personId": "peter",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Do you think people change much? Or do you think we saw you, the man, as a 7-year-old boy?",
+    "zh": "你觉得人会变很多吗？还是说，我们在那个 7 岁男孩身上就已经看到了长大后的你？",
+    "themeIds": [
+      "the_series"
+    ],
+    "answerSummary": {
+      "zh": "他曾觉得这种说法太简单，但现在相信它是对的，因为七岁以后人就开始设防，而七岁时想到什么就说什么。",
+      "en": "He once thought the idea too simple but now believes it, because after seven people's defences go up, whereas at seven you just say what you think."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Peter 段落",
+      "en": "Peter segment"
+    }
+  },
+  {
+    "id": "f28-051",
+    "filmId": "f28",
+    "personId": "peter",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "So the boy at 7 is, in a sense, the real you?",
+    "zh": "所以，7 岁时的那个男孩，在某种意义上就是真正的你？",
+    "themeIds": [
+      "the_series"
+    ],
+    "answerSummary": {
+      "zh": "他同意，七岁时的那个男孩就是他最核心的自我。",
+      "en": "He agreed that the seven-year-old is the core of who he is."
+    },
+    "answerQuote": {
+      "zh": "是的，那差不多就是最本质的、最本质的 Peter Davies。",
+      "en": "Yeah, it's sort of the essential, the essential Peter Davies."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Peter 段落",
+      "en": "Peter segment"
+    }
+  },
+  {
+    "id": "f28-052",
+    "filmId": "f28",
+    "personId": "paul",
+    "attribution": "confirmed",
+    "fromRecap": true,
+    "en": "Has he proposed to you?",
+    "zh": "他向你求过婚了吗？",
+    "themeIds": [
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "Susan 说他们先去买了订婚戒指，之后她才提醒他其实还没正式求婚，因为他非常害羞。",
+      "en": "Susan said they bought the engagement ring first and she then had to remind him he hadn't actually asked her, as he is very shy."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Paul 段落",
+      "en": "Paul segment"
+    }
+  },
+  {
+    "id": "f28-053",
+    "filmId": "f28",
+    "personId": "paul",
+    "attribution": "confirmed",
+    "fromRecap": true,
+    "en": "What was it that you fell in love with? What is it about him?",
+    "zh": "你爱上了他的什么？他身上有什么吸引你？",
+    "themeIds": [
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "他那种无助的样子激起了她的母性，还有他长得好看。",
+      "en": "His helplessness, which brings out her mothering instinct, and his good looks."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Paul 段落",
+      "en": "Paul segment"
+    }
+  },
+  {
+    "id": "f28-054",
+    "filmId": "f28",
+    "personId": "paul",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Do you want this for the children?",
+    "zh": "你们希望孩子们也有这样的经历吗？",
+    "themeIds": [
+      "children_next_gen",
+      "home_place"
+    ],
+    "answerSummary": {
+      "zh": "非常希望：旅行可能是最好的教育，在必须自力更生、自己拿主意的环境里生活很有好处。",
+      "en": "Very much: travel can be the best education, and living where you must fend for yourself and use your initiative is good for you."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Paul 段落",
+      "en": "Paul segment"
+    }
+  },
+  {
+    "id": "f28-055",
+    "filmId": "f28",
+    "personId": "paul",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Do you have the right temperament, do you think? To run your own business?",
+    "zh": "你觉得你有那种性格吗？就是自己做生意的性格？",
+    "themeIds": [
+      "work"
+    ],
+    "answerSummary": {
+      "zh": "要是得雇人，他就没有：他心不够硬，在工地上考虑问题也慢；他估计砌砖会是自己一辈子的工作，尽管并非他所愿。",
+      "en": "Not for employing people: he isn't tough enough and is a slow thinker on the job; he expects bricklaying to be his work for life, though not by choice."
+    },
+    "answerQuote": {
+      "zh": "我想这最后大概会成为我一辈子的工作，倒不是我想这样，因为年纪越大干起来越吃力，我觉得。",
+      "en": "I think it'll end up being my job for life, probably, not that I want it that way, cause it gets harder as you get older, I think."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Paul 段落",
+      "en": "Paul segment"
+    }
+  },
+  {
+    "id": "f28-056",
+    "filmId": "f28",
+    "personId": "paul",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Are you ambitious for your children, Paul?",
+    "zh": "Paul，你对孩子们抱有很高的期望吗？",
+    "themeIds": [
+      "children_next_gen",
+      "education"
+    ],
+    "answerSummary": {
+      "zh": "他开玩笑说儿子将来当脑外科医生，但认真讲，他希望孩子们能比自己更进一步，在学校比他学得好，这样就能有他当年没有的选择。",
+      "en": "Joking aside about his son becoming a brain surgeon, he would like them to go a step further than he did and to do better at school, so they have the choice he lacked."
+    },
+    "answerQuote": {
+      "zh": "这么说吧，我希望他在学业上比我强，这样他就有选择。",
+      "en": "Put it this way, I hope he is better at school work than I was, so that he's got a choice."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Paul 段落",
+      "en": "Paul segment"
+    }
+  },
+  {
+    "id": "f28-057",
+    "filmId": "f28",
+    "personId": "paul",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What regrets do you have about your education then?",
+    "zh": "那你对自己受的教育有什么遗憾？",
+    "themeIds": [
+      "education",
+      "happiness_regret"
+    ],
+    "answerSummary": {
+      "zh": "遗憾自己太懒、不够用功；他认为学校需要更多纪律，而且如果私立学校更好，与其买录像机或新电视，不如把钱花在送孩子上私立学校上。",
+      "en": "That he was lazy and didn't work hard enough; he thinks schools need more discipline, and that if private schools are better the money is better spent on them than on a new video or TV."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Paul 段落",
+      "en": "Paul segment"
+    }
+  },
+  {
+    "id": "f28-058",
+    "filmId": "f28",
+    "personId": "paul",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What else do you want for your kids that you didn't have?",
+    "zh": "还有什么是你希望孩子拥有、而你自己没有过的？",
+    "themeIds": [
+      "children_next_gen",
+      "family_upbringing"
+    ],
+    "answerSummary": {
+      "zh": "更幸福的家庭生活；他的童年并不悲惨，但本可以更好。",
+      "en": "A happier family life; his own childhood wasn't miserable, but it could have been better."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Paul 段落",
+      "en": "Paul segment"
+    }
+  },
+  {
+    "id": "f28-059",
+    "filmId": "f28",
+    "personId": "paul",
+    "attribution": "confirmed",
+    "fromRecap": true,
+    "en": "Do you have any regrets about the fact that you weren't closer to him when you were younger?",
+    "zh": "你后悔小时候和父亲不够亲近吗？",
+    "themeIds": [
+      "happiness_regret",
+      "family_upbringing"
+    ],
+    "answerSummary": {
+      "zh": "某种程度上是：父亲一直都在，有事也能找他谈，但他们更像是很少见面的疏远朋友。",
+      "en": "In a way: his father was always there to talk to, but they were more like distant friends who rarely saw each other."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Paul 段落",
+      "en": "Paul segment"
+    }
+  },
+  {
+    "id": "f28-060",
+    "filmId": "f28",
+    "personId": "paul",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What mark has it left on you, the fact that you were brought up within a bad marriage?",
+    "zh": "在一段糟糕的婚姻中长大，给你留下了什么印记？",
+    "themeIds": [
+      "love_marriage",
+      "happiness_regret",
+      "family_upbringing"
+    ],
+    "answerSummary": {
+      "zh": "可能就是他缺乏自信、不善于表达感情；Susan 补充说他总贬低自己只是个砌砖工，不过已经在好转。",
+      "en": "Perhaps his lack of confidence and trouble showing his feelings; Susan added that he runs himself down as just a bricklayer, though he is improving."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Paul 段落",
+      "en": "Paul segment"
+    }
+  },
+  {
+    "id": "f28-061",
+    "filmId": "f28",
+    "personId": "paul",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "So, do you feel there's any conflict ahead? If Sue wants a job and a career?",
+    "zh": "那你觉得将来会有矛盾吗？如果 Sue 想要一份工作、一份事业的话？",
+    "themeIds": [
+      "love_marriage",
+      "work"
+    ],
+    "answerSummary": {
+      "zh": "到目前为止他们都处理得很好；他觉得 Susan 更适合去做生意，他可以留在家里。",
+      "en": "They have managed so far, and he thinks Susan would make the better businesswoman while he stayed at home."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Paul 段落",
+      "en": "Paul segment"
+    }
+  },
+  {
+    "id": "f28-062",
+    "filmId": "f28",
+    "personId": "paul",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "You seemed like such a sad little boy?",
+    "zh": "你那时看起来是个很忧伤的小男孩？",
+    "themeIds": [
+      "childhood_play",
+      "the_series"
+    ],
+    "answerSummary": {
+      "zh": "他笑着说那就是他：常常拉着脸，到了澳大利亚也一样，而且总挨欺负。",
+      "en": "He laughed that that was just him: often long-faced, in Australia too, and always being knocked about."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Paul 段落",
+      "en": "Paul segment"
+    }
+  },
+  {
+    "id": "f28-063",
+    "filmId": "f28",
+    "personId": "paul",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "And do you think it's true that we can see the man in the seven-year-old boy?",
+    "zh": "那你觉得，我们真能在七岁男孩身上看到他长大后的样子吗？",
+    "themeIds": [
+      "the_series"
+    ],
+    "answerSummary": {
+      "zh": "Susan 说是的：他那时温和体贴，现在也一样；而且他至今仍会用“要是……怎么办”来推脱自己不想做的事。",
+      "en": "Susan said yes: he was gentle and caring then and still is, and he still tries to wriggle out of things he doesn't want to do by asking 'what if'."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Paul 段落",
+      "en": "Paul segment"
+    }
+  },
+  {
+    "id": "f28-064",
+    "filmId": "f28",
+    "personId": "paul",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Does he eat greens now?",
+    "zh": "他现在吃青菜吗？",
+    "themeIds": [
+      "childhood_play",
+      "the_series"
+    ],
+    "answerSummary": {
+      "zh": "Susan 说他现在可爱吃了。",
+      "en": "Susan said he is now very fond of them."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Paul 段落",
+      "en": "Paul segment"
+    }
+  },
+  {
+    "id": "f28-r01",
+    "filmId": "f21",
+    "personId": "john",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "How do you see your life at 28? What do you want for yourself then?",
+    "zh": "你怎么看待自己 28 岁时的生活？到那时你想要什么？",
+    "themeIds": [
+      "the_series",
+      "work",
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "21 岁的 John 说，那时他也许会当出庭律师，或许做衡平法方面的业务，而且挺希望那时已经结婚了。",
+      "en": "At 21 John said he might be at the bar, perhaps in chancery work, and would quite like to be married by then."
+    },
+    "sourceId": "film-f21",
+    "locator": {
+      "zh": "见于 28 Up 的 Andrew、John 与 Charles 段落（21 岁时拍摄的旧片段）",
+      "en": "Seen in 28 Up, Andrew, John and Charles segment (footage filmed at 21)"
+    }
+  },
+  {
+    "id": "f28-065",
+    "filmId": "f28",
+    "personId": "andrew",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What qualities do you think it needs to be successful?",
+    "zh": "你觉得要成功需要哪些素质？",
+    "themeIds": [
+      "work"
+    ],
+    "answerSummary": {
+      "zh": "在他这一行，既要有法律功底，也要有让客户安心的待人之道，因为不会沟通，再聪明也没用。",
+      "en": "In his line of work, legal skill plus a reassuring manner with clients, since brilliance is useless if you can't communicate."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Andrew、John 与 Charles 段落",
+      "en": "Andrew, John and Charles segment"
+    }
+  },
+  {
+    "id": "f28-066",
+    "filmId": "f28",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "Do you think it's bad that people like you opt out of the school system?",
+    "zh": "像你这样的人不进公立学校体系，你觉得这是坏事吗？",
+    "themeIds": [
+      "education",
+      "money_class"
+    ],
+    "answerSummary": {
+      "zh": "回答列出了两种观点：人们有权支配自己挣来的钱；而如果有影响力的家庭也得把孩子送进公立学校，公立学校就会变好。",
+      "en": "The reply set out two arguments: people should be free to spend money they have earned, and state schools would improve if influential families had to use them."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Andrew、John 与 Charles 段落",
+      "en": "Andrew, John and Charles segment"
+    }
+  },
+  {
+    "id": "f28-067",
+    "filmId": "f28",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "And what do you feel about that?",
+    "zh": "那你自己怎么看？",
+    "themeIds": [
+      "education",
+      "money_class"
+    ],
+    "answerSummary": {
+      "zh": "回答认为第二种想法不太现实，所以还是应该让每个人都有选择。",
+      "en": "The second idea was judged rather impractical, so everyone should go on having a choice."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Andrew、John 与 Charles 段落",
+      "en": "Andrew, John and Charles segment"
+    }
+  },
+  {
+    "id": "f28-068",
+    "filmId": "f28",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "Do you still read The Financial Times?",
+    "zh": "你还看《金融时报》吗？",
+    "themeIds": [
+      "the_series",
+      "childhood_play"
+    ],
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Andrew、John 与 Charles 段落",
+      "en": "Andrew, John and Charles segment"
+    }
+  },
+  {
+    "id": "f28-069",
+    "filmId": "f28",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": true,
+    "en": "But you don't deny you've had a 'silver spoon'?",
+    "zh": "但你不否认自己是“含着金汤匙出生”的吧？",
+    "themeIds": [
+      "money_class",
+      "education"
+    ],
+    "answerSummary": {
+      "zh": "回答承认上过真正好学校的人都得到过助力，但认为如果考试失利、只能去一所糟糕的公学，那就谈不上什么优势。",
+      "en": "The reply accepted that anyone at a really good school has had a leg-up, but argued that without passing the exams it would have been no real advantage."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Andrew、John 与 Charles 段落",
+      "en": "Andrew, John and Charles segment"
+    }
+  },
+  {
+    "id": "f28-070",
+    "filmId": "f28",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "But you've been lucky, haven't you? What about those that haven't been so lucky?",
+    "zh": "可你一直很幸运，不是吗？那些没那么幸运的人怎么办？",
+    "themeIds": [
+      "money_class"
+    ],
+    "answerSummary": {
+      "zh": "回答承认自己一直非常幸运。",
+      "en": "The reply acknowledged having been very fortunate."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Andrew、John 与 Charles 段落",
+      "en": "Andrew, John and Charles segment"
+    }
+  },
+  {
+    "id": "f28-071",
+    "filmId": "f28",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Do you think people who live off the state are scrounging?",
+    "zh": "你觉得靠国家救济生活的人是在白吃白喝吗？",
+    "themeIds": [
+      "money_class",
+      "work",
+      "society_politics"
+    ],
+    "answerSummary": {
+      "zh": "不是：没有救济金就会有犯罪；他庆幸自己不必去偷，钱用完时，他就找个最暖和的棚子过夜。",
+      "en": "No: without benefits there would be crime; he is glad he need not steal, and when the money runs out he looks for the warmest shed he can find."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f28-072",
+    "filmId": "f28",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Do you eat every day?",
+    "zh": "你每天都能吃上饭吗？",
+    "themeIds": [
+      "health_mortality",
+      "money_class"
+    ],
+    "answerSummary": {
+      "zh": "能，而且比在阿伯丁时吃得好，那时他有时真的吃不饱。",
+      "en": "Yes, and better than at times in Aberdeen, when he really went short of food."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f28-073",
+    "filmId": "f28",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "How do people regard you here?",
+    "zh": "这里的人怎么看你？",
+    "themeIds": [
+      "home_place"
+    ],
+    "answerSummary": {
+      "zh": "把他当作怪人——从他十六岁左右起，别人就一直这么看他。",
+      "en": "As an eccentric, which is how he has been seen since about sixteen."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f28-074",
+    "filmId": "f28",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Do days seem long for you?",
+    "zh": "你觉得日子漫长吗？",
+    "themeIds": [
+      "happiness_regret"
+    ],
+    "answerSummary": {
+      "zh": "有时候是。",
+      "en": "At times, yes."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f28-075",
+    "filmId": "f28",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Do you have any friends anywhere?",
+    "zh": "你在别的地方有朋友吗？",
+    "themeIds": [
+      "home_place"
+    ],
+    "answerSummary": {
+      "zh": "他在英格兰还有几个好朋友。",
+      "en": "He still has a few good friends in England."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f28-076",
+    "filmId": "f28",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": true,
+    "en": "What were your results? How many O levels and A levels did you get?",
+    "zh": "你的考试成绩怎么样？你考了几门 O-level 和 A-level？",
+    "themeIds": [
+      "education"
+    ],
+    "answerSummary": {
+      "zh": "他先说自己考得还行、不想炫耀，然后才说出数字：十门 O-level、四门 A-level，成绩也令人满意。",
+      "en": "After saying he did well enough and wouldn't boast, he gave the figures: ten O levels and four A levels, with satisfactory grades."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f28-077",
+    "filmId": "f28",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "But you talked also about not having enough obstacles in your life. How do you feel about that now?",
+    "zh": "但你也说过，你的人生中障碍不够多。你现在怎么看？",
+    "themeIds": [
+      "happiness_regret",
+      "the_series"
+    ],
+    "answerSummary": {
+      "zh": "他起初不记得说过这话，后来说情况完全反过来了：现在他完全自由，却无事可做。",
+      "en": "At first he couldn't recall saying it, then said things have turned around: he now has complete freedom but nothing to do with it."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f28-078",
+    "filmId": "f28",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What other things about modern society turn you off?",
+    "zh": "现代社会还有哪些东西让你反感？",
+    "themeIds": [
+      "faith_values",
+      "society_politics"
+    ],
+    "answerSummary": {
+      "zh": "廉价的满足、漫无目的，最根本的是完全不动脑子，人们整个周末都守着电视；他认为这是一条慢慢通向洗脑和毁灭的路。",
+      "en": "Cheap satisfactions, aimlessness and above all thoughtlessness, with people plugged into the TV all weekend, which he sees as a slow road to brainwashing and doom."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f28-079",
+    "filmId": "f28",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "I mean, it'll be pretty tough to convince most people that what you have here, the way you live, the way you look, is better than a suburban life?",
+    "zh": "我是说，要让大多数人相信你在这里拥有的一切——你的生活方式、你的样子——比郊区生活更好，恐怕很难吧？",
+    "themeIds": [
+      "home_place",
+      "happiness_regret"
+    ],
+    "answerSummary": {
+      "zh": "他不想说服任何人，因为他自己知道这样更好；他的外表不代表他的感受，要是住在郊区的单间里，他会痛苦不堪。",
+      "en": "He has no wish to persuade anyone, since he knows it is better; his appearance is not how he feels, and in a suburban bedsit he would be desperately unhappy."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f28-080",
+    "filmId": "f28",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Were they upset with what you said about them in the last program?",
+    "zh": "你在上一部片子里说你父母的那些话，他们难过吗？",
+    "themeIds": [
+      "the_series"
+    ],
+    "answerSummary": {
+      "zh": "他肯定他们难过，但他不后悔，因为那是他当时的真实感受；他承认自己当时很刻薄，把怒气撒在了父母身上，也不希望这道伤口一直留着。",
+      "en": "He is sure they were but does not regret it, as it was what he felt; he admits he was venomous and took his anger out on them, and does not want the wound to last."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f28-081",
+    "filmId": "f28",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Why?",
+    "zh": "为什么？",
+    "themeIds": [
+      "children_next_gen"
+    ],
+    "answerSummary": {
+      "zh": "被问到为什么他一直告诉自己永远不要孩子，他说孩子会从他身上遗传到某些东西，不管母亲多么开朗，孩子也很可能不会完全快乐。",
+      "en": "Asked why he had always told himself he would never have children, he said a child would inherit something from him and might well not be fully happy, however cheerful its mother."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f28-082",
+    "filmId": "f28",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "And is all of that lost to you?",
+    "zh": "那这一切对你来说都已经失去了吗？",
+    "themeIds": [
+      "work",
+      "happiness_regret"
+    ],
+    "answerSummary": {
+      "zh": "看来是的：他看不到出路，也看不到眼前的未来；但他仍有地方可去，有一点工作的希望，还在不断求职，而且和那些五十岁人生就完了的人相比，他觉得自己算幸运的。",
+      "en": "It seems so: he sees no way out and no near future, yet he still has a place to go, some prospect of work and keeps applying, and feels fortunate beside people whose lives are over at fifty."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f28-083",
+    "filmId": "f28",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Do you worry about your sanity?",
+    "zh": "你担心自己的精神状况吗？",
+    "themeIds": [
+      "health_mortality"
+    ],
+    "answerSummary": {
+      "zh": "别人有时会担心：他有时行为反常，或者会莫名其妙地非常沮丧、愤怒，旁人看不出原因。",
+      "en": "Other people sometimes do: at times he behaves erratically or gets very frustrated and angry for reasons others can't see."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f28-084",
+    "filmId": "f28",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Have you had treatment?",
+    "zh": "你接受过治疗吗？",
+    "themeIds": [
+      "health_mortality"
+    ],
+    "answerSummary": {
+      "zh": "他偶尔看过医生，但没接受过治疗。",
+      "en": "He has seen doctors now and then but has had no treatment."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f28-085",
+    "filmId": "f28",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "And what have they said to you?",
+    "zh": "那医生对你说了什么？",
+    "themeIds": [
+      "health_mortality"
+    ],
+    "answerSummary": {
+      "zh": "给了很多建议，但他认为最好的良药是善意的话语，而这往往来自医疗行业以外的人。",
+      "en": "Plenty of advice, but he thinks kind words are the best medicine, and they usually come from people outside medicine."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f28-086",
+    "filmId": "f28",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What did they say was wrong with you?",
+    "zh": "他们说你是什么问题？",
+    "themeIds": [
+      "health_mortality"
+    ],
+    "answerSummary": {
+      "zh": "一种神经方面的毛病，他从十六岁起就有，正是它让他离开了大学，也造成了他在工作上的一些困难。",
+      "en": "A nervous complaint he has had since sixteen, which led him to leave university and caused some of his trouble with work."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f28-087",
+    "filmId": "f28",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "So can you lick it?",
+    "zh": "那你能战胜它吗？",
+    "themeIds": [
+      "health_mortality"
+    ],
+    "answerSummary": {
+      "zh": "他说现在还说不准。",
+      "en": "He could not say yet."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f28-088",
+    "filmId": "f28",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "And how has he been treating you?",
+    "zh": "那他（上帝）待你怎么样？",
+    "themeIds": [
+      "faith_values"
+    ],
+    "answerSummary": {
+      "zh": "他更喜欢《旧约》，因为那里的上帝难以预测，这正是他在自己生活中感受到的上帝：有时慷慨仁慈，有时似乎毫无缘由地冷酷。",
+      "en": "He prefers the Old Testament, where God is unpredictable, because that is how he experiences God in his own life: sometimes generous, sometimes harsh for no apparent reason."
+    },
+    "answerQuote": {
+      "zh": "在《旧约》里，上帝非常难以预测，我想这就是我在自己生活中看到的他：有时非常仁慈，有时似乎毫无必要地冷酷。",
+      "en": "In The Old Testament God is very unpredictable and that's, I think, how I see him in my life: sometimes very benevolent, sometimes, seemingly, needlessly unkind."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f28-089",
+    "filmId": "f28",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "If we come back in seven years, how would you like us to find you?",
+    "zh": "如果七年后我们再来，你希望我们看到一个怎样的你？",
+    "themeIds": [
+      "the_series",
+      "work",
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "做着一份有满足感的工作，可能已经结婚生子，收入足以过得比较舒适，还有可以联络的朋友。",
+      "en": "In a satisfying job, probably married with children, earning enough to live fairly comfortably, with friends he could get in touch with."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f28-090",
+    "filmId": "f28",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Do you think, what a waste?",
+    "zh": "你会不会觉得，真是浪费？",
+    "themeIds": [
+      "happiness_regret"
+    ],
+    "answerSummary": {
+      "zh": "他承认，也许吧。",
+      "en": "Perhaps, he conceded."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f28-091",
+    "filmId": "f28",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Why should you accept this? You're better than all of this, aren't you?",
+    "zh": "你为什么要接受这样的处境？你比这一切都强，不是吗？",
+    "themeIds": [
+      "happiness_regret",
+      "faith_values"
+    ],
+    "answerSummary": {
+      "zh": "他不认为自己比任何人强：他只是一个有着自己的困难和障碍的人，和其他人没什么两样。",
+      "en": "He rejected the idea that he is better than anyone: he is simply a person with his own difficulties and hurdles, like everybody else."
+    },
+    "answerQuote": {
+      "zh": "我不比任何事、任何人强。我只是一个有着自己特有的困难、自己特有的障碍的人。",
+      "en": "I'm not better than anything or anybody. I'm just somebody with my own particular difficulties and my own particular obstacles."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f28-092",
+    "filmId": "f28",
+    "personId": "jackie",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "You don't think you're missing out on what they have? Their stake in the future?",
+    "zh": "你不觉得自己错过了她们拥有的东西吗？她们对未来的寄托？",
+    "themeIds": [
+      "children_next_gen"
+    ],
+    "answerSummary": {
+      "zh": "Jackie 不喜欢这种说法，但承认在某种程度上自己确实错过了些什么；同时她觉得，没有这份牵绊，她得到的经历要多得多。",
+      "en": "Jackie disliked the phrasing but admitted that to a degree she is missing out, while feeling she gains far more experience without that tie."
+    },
+    "answerQuote": {
+      "zh": "我确实觉得在某种程度上，是的，我错过了一些，但我想我也得到了多得多的乐趣……不受那份牵绊，我获得的经历要多得多。",
+      "en": "I do feel to a degree that yes, I am missing out, but I think I also get far more pleasure out of... I'm gaining far more experience by not having that tie."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Jackie、Lynn 与 Sue 段落",
+      "en": "Jackie, Lynn and Sue segment"
+    }
+  },
+  {
+    "id": "f28-093",
+    "filmId": "f28",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "Do you have any regrets about it?",
+    "zh": "你对此有什么遗憾吗？",
+    "themeIds": [
+      "education",
+      "happiness_regret"
+    ],
+    "answerSummary": {
+      "zh": "没有：只有当你对现在的自己不满意时，才会有遗憾。",
+      "en": "No: you can only have regrets if you are unhappy with who you are."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Jackie、Lynn 与 Sue 段落",
+      "en": "Jackie, Lynn and Sue segment"
+    }
+  },
+  {
+    "id": "f28-094",
+    "filmId": "f28",
+    "personId": "sue",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "You look at the old film and you see yourselves as seven. Do you think you've changed?",
+    "zh": "你们看着旧片，看到七岁时的自己，觉得自己变了吗？",
+    "themeIds": [
+      "the_series"
+    ],
+    "answerSummary": {
+      "zh": "Sue 说其实没怎么变：她们还是当年那些人，她和 Jackie 一直爱说话，Lynn 一直是比较安静的那个。",
+      "en": "Sue said not really: they are the same people, with her and Jackie always talkative and Lynn always the quieter one."
+    },
+    "answerQuote": {
+      "zh": "我们还是当年那些人。我一直爱说话，Jackie 一直爱说话，Lynn 一直是比较安静的那个。",
+      "en": "We're the same people as we were then. I was always chatty, Jackie was always chatty and Lynn was always the quieter one."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Jackie、Lynn 与 Sue 段落",
+      "en": "Jackie, Lynn and Sue segment"
+    }
+  },
+  {
+    "id": "f28-095",
+    "filmId": "f28",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "But is that depressing or frightening, to think we're all set by the time we're seven and that's it?",
+    "zh": "可是想到我们到七岁就定型了、就这样了，难道不令人沮丧或害怕吗？",
+    "themeIds": [
+      "the_series"
+    ],
+    "answerSummary": {
+      "zh": "她们不认为人七岁就定型了：人会成长，但基本性格那时就已经在了。",
+      "en": "They don't think people are fixed at seven: you develop, but the basic character is already there."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Jackie、Lynn 与 Sue 段落",
+      "en": "Jackie, Lynn and Sue segment"
+    }
+  },
+  {
+    "id": "f28-096",
+    "filmId": "f28",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "But why is it that you three haven't changed so much, do you think?",
+    "zh": "那你们觉得，为什么你们三个变化不大？",
+    "themeIds": [
+      "the_series",
+      "family_upbringing"
+    ],
+    "answerSummary": {
+      "zh": "也许因为她们三人都有稳定的家庭和人际关系，身边的人还是当年那些人。",
+      "en": "Perhaps because all three have had stable families and relationships, with the same people around them now as then."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Jackie、Lynn 与 Sue 段落",
+      "en": "Jackie, Lynn and Sue segment"
+    }
+  },
+  {
+    "id": "f28-097",
+    "filmId": "f28",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "So you three working-class girls don't feel bitter about a society that maybe gives one strata of it more opportunities than another?",
+    "zh": "所以你们三个工人阶级出身的女孩，并不怨恨这个可能让某个阶层比另一个阶层拥有更多机会的社会？",
+    "themeIds": [
+      "money_class"
+    ],
+    "answerSummary": {
+      "zh": "完全不：除了每七年拍一次节目，她们平时几乎不想这件事；她们自由选择了自己的工作，反而觉得那几个男孩和 Suzy 选择更少，路很早就被规划好了，还要达到父母的期望。",
+      "en": "Not at all: they barely think about it except when the programme comes round every seven years, they chose their jobs freely, and they feel the boys and Suzy had less choice, with paths mapped out early and parents' expectations to meet."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Jackie、Lynn 与 Sue 段落",
+      "en": "Jackie, Lynn and Sue segment"
+    }
+  },
+  {
+    "id": "f28-098",
+    "filmId": "f28",
+    "personId": "symon",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "And what is it with Yvonne that you fell in love with?",
+    "zh": "那你爱上了 Yvonne 的什么？",
+    "themeIds": [
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "他说是她的性情：她很体贴。",
+      "en": "Her nature, he said: she is very thoughtful."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Symon 段落",
+      "en": "Symon segment"
+    }
+  },
+  {
+    "id": "f28-099",
+    "filmId": "f28",
+    "personId": "symon",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "When you decided to have the five, did you want to have them close together?",
+    "zh": "你们决定要五个孩子时，是想让他们年龄挨得近一些吗？",
+    "themeIds": [
+      "children_next_gen"
+    ],
+    "answerSummary": {
+      "zh": "是的：年龄差距太大，孩子们就不能一起长大，也不会彼此了解。",
+      "en": "Yes: with a big age gap children never grow up together or get to know each other."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Symon 段落",
+      "en": "Symon segment"
+    }
+  },
+  {
+    "id": "f28-100",
+    "filmId": "f28",
+    "personId": "symon",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Why did you want to have a large family?",
+    "zh": "你为什么想要一个大家庭？",
+    "themeIds": [
+      "children_next_gen"
+    ],
+    "answerSummary": {
+      "zh": "他不觉得那算大家庭；他们就是想要五个，结果正如所愿，三个男孩两个女孩，够忙的。",
+      "en": "He wouldn't call it large; they simply wanted five and got exactly that, three boys and two girls, which keeps them busy."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Symon 段落",
+      "en": "Symon segment"
+    }
+  },
+  {
+    "id": "f28-101",
+    "filmId": "f28",
+    "personId": "symon",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Do you push your kids at school? Those that go to school already?",
+    "zh": "你会逼孩子们好好念书吗？就是那些已经上学的？",
+    "themeIds": [
+      "children_next_gen",
+      "education"
+    ],
+    "answerSummary": {
+      "zh": "他是鼓励而不是逼：听他们讲做了什么，告诉他们哪里做错了，做得好时就表扬。",
+      "en": "He encourages rather than pushes: he listens to what they have done, shows them where they went wrong and praises them when they do well."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Symon 段落",
+      "en": "Symon segment"
+    }
+  },
+  {
+    "id": "f28-102",
+    "filmId": "f28",
+    "personId": "symon",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Do you see maybe your kids are going to be smarter than you are?",
+    "zh": "你是否觉得孩子们将来可能会比你聪明？",
+    "themeIds": [
+      "children_next_gen",
+      "education"
+    ],
+    "answerSummary": {
+      "zh": "是的，他已经看出有两个会比他聪明。",
+      "en": "Yes, he can already see a couple of them will be."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Symon 段落",
+      "en": "Symon segment"
+    }
+  },
+  {
+    "id": "f28-103",
+    "filmId": "f28",
+    "personId": "symon",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "How are you going to handle that?",
+    "zh": "你打算怎么应对？",
+    "themeIds": [
+      "children_next_gen"
+    ],
+    "answerSummary": {
+      "zh": "他打算让孩子们和自己站在一边。",
+      "en": "He intends to keep them as allies."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Symon 段落",
+      "en": "Symon segment"
+    }
+  },
+  {
+    "id": "f28-104",
+    "filmId": "f28",
+    "personId": "symon",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What would you like to give your children that you never had?",
+    "zh": "有什么是你自己从未拥有、但想给孩子们的？",
+    "themeIds": [
+      "children_next_gen",
+      "family_upbringing"
+    ],
+    "answerSummary": {
+      "zh": "他说孩子们已经什么都有了，包括他小时候缺少的东西：一个父亲。",
+      "en": "He said his children already have it all, including what he lacked growing up: a father."
+    },
+    "answerQuote": {
+      "zh": "他们什么都有了，甚至有了我从来没有过的东西。",
+      "en": "They've got everything, they've even got what I never had."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Symon 段落",
+      "en": "Symon segment"
+    }
+  },
+  {
+    "id": "f28-105",
+    "filmId": "f28",
+    "personId": "symon",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Do you encourage that with your children?",
+    "zh": "你也在孩子身上提倡这种纪律吗？",
+    "themeIds": [
+      "children_next_gen"
+    ],
+    "answerSummary": {
+      "zh": "是的：他们每天按时睡觉、起床、上学，因为纪律和规律对他们有好处。",
+      "en": "Yes: they go to bed, get up and leave for school at the same times every day, because discipline and routine are good for them."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Symon 段落",
+      "en": "Symon segment"
+    }
+  },
+  {
+    "id": "f28-106",
+    "filmId": "f28",
+    "personId": "symon",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "But what about in your life? Do you think there has been too routine?",
+    "zh": "那你自己的生活呢？你觉得是不是太按部就班了？",
+    "themeIds": [
+      "work",
+      "happiness_regret"
+    ],
+    "answerSummary": {
+      "zh": "不太觉得：他喜欢有规律、知道接下来要做什么，因为这样就不用承担太多责任。",
+      "en": "Not really: he likes routine and knowing what comes next, because it spares him responsibility."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Symon 段落",
+      "en": "Symon segment"
+    }
+  },
+  {
+    "id": "f28-107",
+    "filmId": "f28",
+    "personId": "symon",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "And did you want to go far? Push yourself?",
+    "zh": "那你想过要有大出息吗？逼自己一把？",
+    "themeIds": [
+      "work",
+      "happiness_regret"
+    ],
+    "answerSummary": {
+      "zh": "不想：他宁愿轻轻松松地过日子。",
+      "en": "No: he would rather go through life without strain."
+    },
+    "answerQuote": {
+      "zh": "不想，我只想轻轻松松地过完这一生。",
+      "en": "No, I want to get through life nice and easy."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Symon 段落",
+      "en": "Symon segment"
+    }
+  },
+  {
+    "id": "f28-108",
+    "filmId": "f28",
+    "personId": "symon",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Are you envious of people who have a lot of money?",
+    "zh": "你羡慕很有钱的人吗？",
+    "themeIds": [
+      "money_class",
+      "happiness_regret"
+    ],
+    "answerSummary": {
+      "zh": "以前也许羡慕过，现在不会：他已经有了想要的，没有谁能给他什么让他更快乐。",
+      "en": "Perhaps once, but not now: he has what he wants, and nobody could give him anything that would make him happier."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Symon 段落",
+      "en": "Symon segment"
+    }
+  },
+  {
+    "id": "f28-109",
+    "filmId": "f28",
+    "personId": "symon",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "I mean, do you think it's hard being a black man in English society today?",
+    "zh": "我是说，你觉得如今在英国社会做一个黑人难吗？",
+    "themeIds": [
+      "society_politics"
+    ],
+    "answerSummary": {
+      "zh": "要看你想要什么：如果只想在这个社会里生活，并不难；如果要和社会对抗，那就难了。",
+      "en": "It depends on what you want: not hard if you just want to live in society, hard if you want to fight it."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Symon 段落",
+      "en": "Symon segment"
+    }
+  },
+  {
+    "id": "f28-110",
+    "filmId": "f28",
+    "personId": "symon",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "And have you ever wanted to fight it?",
+    "zh": "那你想过要和它对抗吗？",
+    "themeIds": [
+      "society_politics"
+    ],
+    "answerSummary": {
+      "zh": "不太想；他觉得没有必要。",
+      "en": "Not really; he sees no need."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Symon 段落",
+      "en": "Symon segment"
+    }
+  },
+  {
+    "id": "f28-111",
+    "filmId": "f28",
+    "personId": "symon",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Does that worry you, that you have that narrow view?",
+    "zh": "你的视野这么窄，会让你担心吗？",
+    "themeIds": [
+      "home_place"
+    ],
+    "answerSummary": {
+      "zh": "他说总有人问他是不是担心什么；他不担心，被追问是否在意时，他说也不太在意。",
+      "en": "He noted that he keeps being asked whether things worry him; they don't, and pressed on whether it concerns him, he said not really."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Symon 段落",
+      "en": "Symon segment"
+    }
+  },
+  {
+    "id": "f28-112",
+    "filmId": "f28",
+    "personId": "symon",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "And what would you want for the future?",
+    "zh": "那你对未来有什么期望？",
+    "themeIds": [
+      "children_next_gen"
+    ],
+    "answerSummary": {
+      "zh": "看着孩子们长大，也许还能看着孙辈长大。",
+      "en": "To see his children grow up, and perhaps their children as well."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Symon 段落",
+      "en": "Symon segment"
+    }
+  },
+  {
+    "id": "f28-113",
+    "filmId": "f28",
+    "personId": "symon",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Looking at some of the earlier films, it would seem that you had a sad childhood. You didn't have a dad and you didn't have a lot of material things?",
+    "zh": "看之前的几部片子，你的童年似乎很不幸：没有父亲，物质上也不宽裕？",
+    "themeIds": [
+      "money_class",
+      "family_upbringing"
+    ],
+    "answerSummary": {
+      "zh": "他不认为那叫不幸，只是不一样：拥有所有物质的东西并不会让人快乐，因为你总会想要下一样。",
+      "en": "He would not call it sad, just different: having every material thing doesn't bring happiness, because you always want the next one."
+    },
+    "sourceId": "film-f28",
+    "locator": {
+      "zh": "Symon 段落",
+      "en": "Symon segment"
+    }
+  }
+]

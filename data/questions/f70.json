@@ -1,0 +1,673 @@
+[
+  {
+    "id": "f70-r01",
+    "filmId": "f14",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "What do you want for yourself, then?",
+    "zh": "那你想为自己求得什么？",
+    "themeIds": [
+      "happiness_regret"
+    ],
+    "answerSummary": {
+      "zh": "回答是希望满足于自己正在做的事，清楚要往哪里去，并能带着温情回顾过去。",
+      "en": "The answer was a wish to be satisfied with what one is doing, to have a clear sense of direction and to look back on the past with affection."
+    },
+    "sourceId": "film-f14",
+    "locator": {
+      "zh": "第 1 集 · 开场（70 Up 重播的旧片片段）",
+      "en": "Part 1 · Opening (archive clip replayed in 70 Up)"
+    }
+  },
+  {
+    "id": "f70-001",
+    "filmId": "f70",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": true,
+    "en": "Do you begrudge people who have wealth?",
+    "zh": "你会怨恨那些有钱的人吗？",
+    "themeIds": [
+      "money_class",
+      "faith_values"
+    ],
+    "answerSummary": {
+      "zh": "Neil 说并不怎么怨恨，但希望有钱人更多地用财富造福人类；他还认为掌权的人应当亲身经历过无家可归之类的困苦。",
+      "en": "Neil said not really, though he wished the rich used their money more for the good of humanity, and argued that people in authority need first-hand experience of hardship such as homelessness."
+    },
+    "sourceId": "film-f70",
+    "locator": {
+      "zh": "第 1 集 · Neil 段落（旧片片段）",
+      "en": "Part 1 · Neil segment (archive footage)"
+    }
+  },
+  {
+    "id": "f70-002",
+    "filmId": "f70",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": true,
+    "en": "Do you accept things more? Is that what you're saying?",
+    "zh": "你现在更能接受现状了？你是这个意思吗？",
+    "themeIds": [
+      "happiness_regret"
+    ],
+    "answerSummary": {
+      "zh": "Neil 说是的，他觉得是这样；此前他刚说过自己比七年前快乐得多。",
+      "en": "Neil said yes, he thought so, having just said he was much happier than seven years earlier."
+    },
+    "sourceId": "film-f70",
+    "locator": {
+      "zh": "第 1 集 · Neil 段落（旧片片段）",
+      "en": "Part 1 · Neil segment (archive footage)"
+    }
+  },
+  {
+    "id": "f70-r03",
+    "filmId": "f21",
+    "personId": "symon",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "You were illegitimate – does this make you particularly nervous of you having an illegitimate child? I mean, does it colour your attitude to that, or what are your feelings about that?",
+    "zh": "你是非婚生的——这会不会让你特别担心自己也会有一个非婚生的孩子？我是说，这会影响你对这件事的态度吗？你对此有什么感受？",
+    "themeIds": [
+      "children_next_gen",
+      "love_marriage",
+      "family_upbringing"
+    ],
+    "answerSummary": {
+      "zh": "Symon 说这一点也不让他担心：时代变了，他二十年前出生时人们只敢私下议论的事，如今已不算什么大事。",
+      "en": "Symon said it did not worry him in the least: times had changed, and what was only whispered about when he was born twenty years earlier was no longer a serious matter."
+    },
+    "sourceId": "film-f21",
+    "locator": {
+      "zh": "第 1 集 · Symon 段落（70 Up 重播的旧片片段）",
+      "en": "Part 1 · Symon segment (archive clip replayed in 70 Up)"
+    }
+  },
+  {
+    "id": "f70-r04",
+    "filmId": "f21",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "So, do you think you knew enough men or knew enough about men to make a decision at this fairly young age to get married? The two of you who are married and the one of you who is looking for a husband?",
+    "zh": "那么，你们觉得自己在这么年轻的时候决定结婚，认识的男人够多吗，或者说对男人了解得够多吗？问的是你们两位已婚的，还有一位正在找丈夫的。",
+    "themeIds": [
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "被说成“正在找丈夫”的那位抗议说自己并没有在找；两位已婚者的回答这里没有出现。",
+      "en": "The one described as looking for a husband objected that she was not out looking for one; the married two's answer is not shown here."
+    },
+    "sourceId": "film-f21",
+    "locator": {
+      "zh": "第 1 集 · Sue 段落（70 Up 重播的旧片片段）",
+      "en": "Part 1 · Sue segment (archive clip replayed in 70 Up)"
+    }
+  },
+  {
+    "id": "f70-r05",
+    "filmId": "f21",
+    "personId": "sue",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "But you would like to be married?",
+    "zh": "但你是想结婚的吧？",
+    "themeIds": [
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "Sue 反问难道不是人人都想吗，说这问题很荒唐，并坚持自己并没有在找结婚对象。",
+      "en": "Sue shot back that surely everybody would, called it a ridiculous question and insisted she was not looking for someone to marry."
+    },
+    "sourceId": "film-f21",
+    "locator": {
+      "zh": "第 1 集 · Sue 段落（70 Up 重播的旧片片段）",
+      "en": "Part 1 · Sue segment (archive clip replayed in 70 Up)"
+    }
+  },
+  {
+    "id": "f70-r06",
+    "filmId": "f63",
+    "personId": "nick",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "So, what about yourself? What about the future for you?",
+    "zh": "那你自己呢？你的未来会怎样？",
+    "themeIds": [
+      "health_mortality"
+    ],
+    "answerSummary": {
+      "zh": "Nick 说自己瘦了很多，患了喉癌、病得很重，预后不明，所以只关注眼前，而不去想长远的未来。",
+      "en": "Nick said he had lost a great deal of weight and was seriously ill with throat cancer, with no clear prognosis, so he was focusing on the short term rather than the long-term future."
+    },
+    "sourceId": "film-f63",
+    "locator": {
+      "zh": "第 1 集 · Nick 段落（70 Up 重播的旧片片段）",
+      "en": "Part 1 · Nick segment (archive clip replayed in 70 Up)"
+    }
+  },
+  {
+    "id": "f70-003",
+    "filmId": "f70",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": true,
+    "en": "What is this nervous complaint?",
+    "zh": "这种神经方面的毛病到底是什么？",
+    "themeIds": [
+      "health_mortality"
+    ],
+    "answerSummary": {
+      "zh": "Neil 说那其实是抑郁症，严重时什么正事都做不了；而硬装作没有抑郁，反而会让他的举止变得反常。",
+      "en": "Neil said it was essentially depression, with spells so bad he could do nothing constructive, and that trying to act as if he were not depressed could make his behaviour erratic."
+    },
+    "sourceId": "film-f70",
+    "locator": {
+      "zh": "第 2 集 · Neil 段落（旧片片段）",
+      "en": "Part 2 · Neil segment (archive footage)"
+    }
+  },
+  {
+    "id": "f70-004",
+    "filmId": "f70",
+    "personId": "jackie",
+    "attribution": "confirmed",
+    "fromRecap": true,
+    "en": "Can you tell me about breaking up with Ian?",
+    "zh": "能跟我说说你和 Ian 分手的事吗？",
+    "themeIds": [
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "Jackie 说不行，她讲不了，并表示抱歉。",
+      "en": "Jackie said no, she couldn't, and apologised."
+    },
+    "sourceId": "film-f70",
+    "locator": {
+      "zh": "第 2 集 · Jackie 段落（旧片片段）",
+      "en": "Part 2 · Jackie segment (archive footage)"
+    }
+  },
+  {
+    "id": "f70-005",
+    "filmId": "f70",
+    "personId": "jackie",
+    "attribution": "confirmed",
+    "fromRecap": true,
+    "en": "Was it painful and…?",
+    "zh": "那很痛苦吗……？",
+    "themeIds": [
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "Jackie 说是的，但这不是可以公开示人的事，她宁愿不谈。",
+      "en": "Jackie said yes, but that it was not for public display and she would rather not talk about it."
+    },
+    "sourceId": "film-f70",
+    "locator": {
+      "zh": "第 2 集 · Jackie 段落（旧片片段）",
+      "en": "Part 2 · Jackie segment (archive footage)"
+    }
+  },
+  {
+    "id": "f70-006",
+    "filmId": "f70",
+    "personId": "jackie",
+    "attribution": "confirmed",
+    "fromRecap": true,
+    "en": "But it was a hard time for you?",
+    "zh": "但那段时间对你来说很难熬吧？",
+    "themeIds": [
+      "love_marriage",
+      "children_next_gen"
+    ],
+    "answerSummary": {
+      "zh": "Jackie 承认那段时间对她、对孩子们、对 Ian 都很难熬，但表示不想深谈。",
+      "en": "Jackie agreed it had been hard for her, for the boys and for Ian as well, but said she was not going into it."
+    },
+    "sourceId": "film-f70",
+    "locator": {
+      "zh": "第 2 集 · Jackie 段落（旧片片段）",
+      "en": "Part 2 · Jackie segment (archive footage)"
+    }
+  },
+  {
+    "id": "f70-007",
+    "filmId": "f70",
+    "personId": "jackie",
+    "attribution": "confirmed",
+    "fromRecap": true,
+    "en": "So, I mean, what are your hopes for the boys?",
+    "zh": "那么，我是说，你对孩子们有什么期望？",
+    "themeIds": [
+      "children_next_gen"
+    ],
+    "sourceId": "film-f70",
+    "locator": {
+      "zh": "第 2 集 · Jackie 段落（旧片片段）",
+      "en": "Part 2 · Jackie segment (archive footage)"
+    }
+  },
+  {
+    "id": "f70-008",
+    "filmId": "f70",
+    "personId": "jackie",
+    "attribution": "confirmed",
+    "fromRecap": true,
+    "en": "So, you think it's not that the ideas of class in the films has been bogus, you think it's more that I've misrepresented certain groups of you?",
+    "zh": "所以你认为，问题不在于这些影片里关于阶级的观念是假的，而更在于我对你们当中某些群体的呈现有失偏颇？",
+    "themeIds": [
+      "the_series",
+      "money_class"
+    ],
+    "answerSummary": {
+      "zh": "Jackie 说在一定程度上是这样，并补充说导演对某些人以及他们将来会走到哪一步抱有先入之见。",
+      "en": "Jackie said yes, to a degree, adding that the director had come to the programme with preconceived ideas about certain people and where they would end up."
+    },
+    "sourceId": "film-f70",
+    "locator": {
+      "zh": "第 2 集 · Jackie 段落（旧片片段）",
+      "en": "Part 2 · Jackie segment (archive footage)"
+    }
+  },
+  {
+    "id": "f70-009",
+    "filmId": "f70",
+    "personId": "tony",
+    "attribution": "confirmed",
+    "fromRecap": true,
+    "en": "What would you vote in the election?",
+    "zh": "选举时你会怎么投票？",
+    "themeIds": [
+      "society_politics"
+    ],
+    "answerSummary": {
+      "zh": "Tony 说应当英国优先、其他人其次；他表示理解来英国的人的处境，但认为他们并非来自饱受战火的国家。",
+      "en": "Tony said Britain should come first and other people second; he said he understood the plight of people coming to the country but argued that they were not coming from war-torn countries."
+    },
+    "sourceId": "film-f70",
+    "locator": {
+      "zh": "第 2 集 · Tony 段落（旧片片段）",
+      "en": "Part 2 · Tony segment (archive footage)"
+    }
+  },
+  {
+    "id": "f70-r07",
+    "filmId": "f56",
+    "personId": "tony",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "But has it changed for the worse because of the Asian…?",
+    "zh": "但它是因为亚裔……而变得更糟了吗？",
+    "themeIds": [
+      "home_place",
+      "society_politics"
+    ],
+    "answerSummary": {
+      "zh": "Tony 说他对此无法评论。",
+      "en": "Tony said he could not comment on that."
+    },
+    "sourceId": "film-f56",
+    "locator": {
+      "zh": "第 2 集 · Tony 段落（70 Up 重播的旧片片段）",
+      "en": "Part 2 · Tony segment (archive clip replayed in 70 Up)"
+    }
+  },
+  {
+    "id": "f70-010",
+    "filmId": "f70",
+    "personId": "john",
+    "attribution": "confirmed",
+    "fromRecap": true,
+    "en": "Are you popular here?",
+    "zh": "你在这里受欢迎吗？",
+    "themeIds": [
+      "money_class"
+    ],
+    "answerSummary": {
+      "zh": "John 说希望还算受欢迎，并说自己认识很多人。",
+      "en": "John said he hoped so, reasonably, and that he knew lots of people."
+    },
+    "sourceId": "film-f70",
+    "locator": {
+      "zh": "第 2 集 · John 段落（旧片片段）",
+      "en": "Part 2 · John segment (archive footage)"
+    }
+  },
+  {
+    "id": "f70-011",
+    "filmId": "f70",
+    "personId": "john",
+    "attribution": "confirmed",
+    "fromRecap": true,
+    "en": "I mean, are there people who don't like you, don't like what you stand for?",
+    "zh": "我是说，有没有人不喜欢你，不喜欢你所代表的东西？",
+    "themeIds": [
+      "money_class",
+      "faith_values"
+    ],
+    "answerSummary": {
+      "zh": "John 说他不觉得自己代表什么；当对方指出他看上去代表财富、餐会俱乐部和猎兔时，他承认有些人可能会反感，但真正认识他之后就不会了。",
+      "en": "John said he did not think he stood for anything; told he might seem to stand for wealth, the Dining Club and beagling, he allowed that some people might be put off until they got to know the real person."
+    },
+    "sourceId": "film-f70",
+    "locator": {
+      "zh": "第 2 集 · John 段落（旧片片段）",
+      "en": "Part 2 · John segment (archive footage)"
+    }
+  },
+  {
+    "id": "f70-012",
+    "filmId": "f70",
+    "personId": "john",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Did you have that conversation with him at any point?",
+    "zh": "你有没有跟他谈过这些？",
+    "themeIds": [
+      "the_series"
+    ],
+    "answerSummary": {
+      "zh": "John 说没有，因为此后他再也没有接受过 Michael Apted 本人的采访。",
+      "en": "John said no, because after that he was never interviewed by Michael Apted himself."
+    },
+    "sourceId": "film-f70",
+    "locator": {
+      "zh": "第 2 集 · John 段落",
+      "en": "Part 2 · John segment"
+    }
+  },
+  {
+    "id": "f70-013",
+    "filmId": "f70",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": true,
+    "en": "There's an assumption that you would have a substantial contribution to the future of English life, and that's good. What happens if you don't make it?",
+    "zh": "人们默认你会对英国社会的未来做出重要贡献，这很好。可如果你没能做到呢？",
+    "themeIds": [
+      "work",
+      "faith_values"
+    ],
+    "answerSummary": {
+      "zh": "回答是大概会失望，但贡献可以在任何层面上做出——哪怕是当兰贝斯最好的清洁工。",
+      "en": "The reply was that he would probably be disappointed, but that a contribution can be made at any level – even as the best dustman in Lambeth."
+    },
+    "sourceId": "film-f70",
+    "locator": {
+      "zh": "第 2 集 · John 段落（旧片片段）",
+      "en": "Part 2 · John segment (archive footage)"
+    }
+  },
+  {
+    "id": "f70-014",
+    "filmId": "f70",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": true,
+    "en": "But is that good enough for you?",
+    "zh": "但这对你来说就够了吗？",
+    "themeIds": [
+      "work",
+      "faith_values"
+    ],
+    "answerSummary": {
+      "zh": "回答是不太够——他必须做些真正有益的事。",
+      "en": "Not really, came the reply – he had to do some sort of positive good."
+    },
+    "sourceId": "film-f70",
+    "locator": {
+      "zh": "第 2 集 · John 段落（旧片片段）",
+      "en": "Part 2 · John segment (archive footage)"
+    }
+  },
+  {
+    "id": "f70-015",
+    "filmId": "f70",
+    "personId": "peter",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "And you took it very personally?",
+    "zh": "你是不是很往心里去？",
+    "themeIds": [
+      "the_series"
+    ],
+    "answerSummary": {
+      "zh": "Peter 说是的，他确实很在意。",
+      "en": "Peter said yes, he did."
+    },
+    "sourceId": "film-f70",
+    "locator": {
+      "zh": "第 2 集 · Peter 段落",
+      "en": "Part 2 · Peter segment"
+    }
+  },
+  {
+    "id": "f70-016",
+    "filmId": "f70",
+    "personId": "peter",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "So, retired?",
+    "zh": "那么，退休了？",
+    "themeIds": [
+      "work"
+    ],
+    "answerSummary": {
+      "zh": "Peter 说没有：别人可能因为他不再教书就说他退休了，但他其实比以往任何时候都忙。",
+      "en": "Peter said no: people might call him retired because he no longer teaches, but he is busier than ever."
+    },
+    "answerQuote": {
+      "zh": "是啊，别人会说我退休了，因为我不再——你知道，我不当老师了。但并没有，我比以前任何时候都忙。",
+      "en": "Yeah, people would say I've retired, because I don't do – you know, I'm not a teacher any more. But, no, I'm busier than ever I was."
+    },
+    "sourceId": "film-f70",
+    "locator": {
+      "zh": "第 2 集 · Peter 段落",
+      "en": "Part 2 · Peter segment"
+    }
+  },
+  {
+    "id": "f70-017",
+    "filmId": "f70",
+    "personId": "jackie",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "And what are you most proud of?",
+    "zh": "那你最引以为傲的是什么？",
+    "themeIds": [
+      "children_next_gen",
+      "happiness_regret"
+    ],
+    "answerSummary": {
+      "zh": "Jackie 说是她的孩子们——她的三个儿子，并强调他们是“她的”儿子。",
+      "en": "Jackie said her children – her three boys – stressing that they are her boys."
+    },
+    "answerQuote": {
+      "zh": "他们是“我的”儿子。是的，我为他们三个都感到非常骄傲。",
+      "en": "And they are MY boys. But, yes, I'm very proud of all three of them."
+    },
+    "sourceId": "film-f70",
+    "locator": {
+      "zh": "第 2 集 · Jackie 段落",
+      "en": "Part 2 · Jackie segment"
+    }
+  },
+  {
+    "id": "f70-018",
+    "filmId": "f70",
+    "personId": "lynn",
+    "attribution": "confirmed",
+    "fromRecap": true,
+    "en": "Do you think about death at all?",
+    "zh": "你会想到死亡吗？",
+    "themeIds": [
+      "health_mortality"
+    ],
+    "answerSummary": {
+      "zh": "Lynn 说她不愿多想，也不确定自己的死会让她担心；真正让她挂心的是最亲近的亲友出事。",
+      "en": "Lynn said she preferred not to dwell on it and was not sure her own death worried her; what would trouble her is something happening to the friends and relatives closest to her."
+    },
+    "sourceId": "film-f70",
+    "locator": {
+      "zh": "第 2 集 · Lynn 段落（旧片片段）",
+      "en": "Part 2 · Lynn segment (archive footage)"
+    }
+  },
+  {
+    "id": "f70-019",
+    "filmId": "f70",
+    "personId": "nick",
+    "attribution": "confirmed",
+    "fromRecap": true,
+    "en": "I mean, what do you think is the greatest danger to our planet?",
+    "zh": "我是说，你认为我们这个星球面临的最大危险是什么？",
+    "themeIds": [
+      "faith_values",
+      "society_politics"
+    ],
+    "answerSummary": {
+      "zh": "Nick 说是污染——这是他从 13 岁起就担心的事，也是他职业生涯的主题；他担心海洋缺氧、只剩水母，鱼类资源锐减、多地干旱，以及粮食供应受威胁导致大量人口流离失所。",
+      "en": "Nick said pollution, a worry since he was 13 and the theme of his working life: he fears oxygen-starved oceans full of jellyfish, collapsing fish stocks, drought, and people displaced as their food supplies fail."
+    },
+    "sourceId": "film-f70",
+    "locator": {
+      "zh": "第 2 集 · Nick 段落（旧片片段）",
+      "en": "Part 2 · Nick segment (archive footage)"
+    }
+  },
+  {
+    "id": "f70-020",
+    "filmId": "f70",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": true,
+    "en": "So, what did you think of it all?",
+    "zh": "那么，你对这一切怎么看？",
+    "themeIds": [
+      "the_series"
+    ],
+    "answerSummary": {
+      "zh": "回答说挺好笑的，还拿片中一个“把头埋在两膝之间的怪小孩”开玩笑。",
+      "en": "The reply was that it was good for a laugh, with a joke about a 'strange kid' on screen sitting with his head between his knees."
+    },
+    "sourceId": "film-f70",
+    "locator": {
+      "zh": "第 2 集 · Nick 段落（旧片片段）",
+      "en": "Part 2 · Nick segment (archive footage)"
+    }
+  },
+  {
+    "id": "f70-021",
+    "filmId": "f70",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": true,
+    "en": "Was it… Is it serious enough?",
+    "zh": "那……它够严肃吗？",
+    "themeIds": [
+      "the_series"
+    ],
+    "answerSummary": {
+      "zh": "回答说它并不严肃，但有娱乐性，也很有意思。",
+      "en": "The reply was that it is not serious, but entertaining and interesting."
+    },
+    "sourceId": "film-f70",
+    "locator": {
+      "zh": "第 2 集 · Nick 段落（旧片片段）",
+      "en": "Part 2 · Nick segment (archive footage)"
+    }
+  },
+  {
+    "id": "f70-022",
+    "filmId": "f70",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": true,
+    "en": "But what are the serious implications of the programme, do you think? Are there any?",
+    "zh": "但你认为这个节目有什么严肃的意义吗？有没有？",
+    "themeIds": [
+      "the_series"
+    ],
+    "answerSummary": {
+      "zh": "回答是没有什么明显的意义。",
+      "en": "The reply was that there were no obvious ones."
+    },
+    "sourceId": "film-f70",
+    "locator": {
+      "zh": "第 2 集 · Nick 段落（旧片片段）",
+      "en": "Part 2 · Nick segment (archive footage)"
+    }
+  },
+  {
+    "id": "f70-023",
+    "filmId": "f70",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "The point of this programme, really, I suppose, is whether or not you can see the man in the seven-year-old. What are your thoughts about that?",
+    "zh": "我想，这个节目真正的要点在于，能不能从七岁的孩子身上看出他长大后的样子。你对此怎么看？",
+    "themeIds": [
+      "the_series"
+    ],
+    "answerSummary": {
+      "zh": "受访者说仍能在七岁的自己身上看到现在的自己——说话依旧拘谨，也不太自信。",
+      "en": "The respondent said they could still see themselves in the seven-year-old – still hesitant in speech and not very confident."
+    },
+    "sourceId": "film-f70",
+    "locator": {
+      "zh": "第 2 集 · 结尾",
+      "en": "Part 2 · Closing"
+    }
+  },
+  {
+    "id": "f70-024",
+    "filmId": "f70",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": true,
+    "en": "So, I have to ask you, did you get married too young?",
+    "zh": "那么，我不得不问你：你是不是结婚太早了？",
+    "themeIds": [
+      "love_marriage",
+      "the_series"
+    ],
+    "answerSummary": {
+      "zh": "回答是没有，随后抗议导演真敢问，因为他几乎每一集都问这个问题。",
+      "en": "The answer was no, followed by a protest that the director had a nerve, since he asked this in virtually every film."
+    },
+    "sourceId": "film-f70",
+    "locator": {
+      "zh": "第 2 集 · 结尾（旧片片段）",
+      "en": "Part 2 · Closing (archive footage)"
+    }
+  },
+  {
+    "id": "f70-025",
+    "filmId": "f70",
+    "personId": "andrew",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "It's coming to an end now. How does that feel?",
+    "zh": "节目快要结束了。你感觉如何？",
+    "themeIds": [
+      "the_series"
+    ],
+    "answerSummary": {
+      "zh": "Andrew 开玩笑说感觉好极了，随后说从 7 岁到 70 岁正好首尾呼应，是收尾的好时候——再拍七年就有点勉强了。",
+      "en": "Andrew joked that it felt wonderful, then said seven to seventy made a neat symmetry and a good point to stop – another seven years might be pushing it."
+    },
+    "answerQuote": {
+      "zh": "从 7 岁到 70 岁，正好首尾呼应，不是吗？这是收尾的好时候。",
+      "en": "There's a good symmetry between 7 and 70, isn't there? That's a good time to close it."
+    },
+    "sourceId": "film-f70",
+    "locator": {
+      "zh": "第 2 集 · 结尾",
+      "en": "Part 2 · Closing"
+    }
+  }
+]

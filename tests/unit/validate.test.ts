@@ -93,6 +93,20 @@ describe('validateDataset', () => {
     expect(validateDataset(ds)).toEqual([])
   })
 
+  it('state evidence must cite a question about the same person in the same film', () => {
+    const ds = makeFixture()
+    const v = row(ds, 'andrew', 'f07').dims.outlook
+    if (v.status !== 'confirmed') throw new Error('fixture changed')
+    expect(codes(ds)).not.toContain<ErrorCode>('DANGLING_REF')
+    ds.questions[0].personId = 'suzy'
+    expect(validateDataset(ds).some((e) => e.code === 'DANGLING_REF' && /not about andrew/.test(e.message))).toBe(true)
+    const ds2 = makeFixture()
+    const v2 = row(ds2, 'andrew', 'f35').dims.work
+    if (v2.status !== 'confirmed') throw new Error('fixture changed')
+    v2.questionIds = ['f07-001']
+    expect(validateDataset(ds2).some((e) => e.code === 'DANGLING_REF' && /film/.test(e.message))).toBe(true)
+  })
+
   it('missing en text', () => {
     const ds = makeFixture()
     ds.groups[0].name.en = ''

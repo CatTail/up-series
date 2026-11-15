@@ -1,0 +1,641 @@
+[
+  {
+    "id": "f07-001",
+    "filmId": "f07",
+    "personId": "suzy",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Tell me, do you have any boyfriends, Suzy?",
+    "zh": "告诉我，你有男朋友吗，Suzy？",
+    "themeIds": [
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "Suzy 说有：一个住在苏格兰的 13 岁男孩；他白天去上学时，她在那边会觉得孤单。",
+      "en": "Suzy says she does: a 13-year-old boy who lives in Scotland, and she gets lonely there while he is away at school."
+    },
+    "answerQuote": {
+      "zh": "他住在苏格兰，我想他 13 岁了。",
+      "en": "He lives up in Scotland, and I think he's 13."
+    },
+    "sourceId": "film-f07",
+    "locator": {
+      "zh": "开场介绍 · Suzy",
+      "en": "Introductions · Suzy"
+    }
+  },
+  {
+    "id": "f07-002",
+    "filmId": "f07",
+    "personId": "tony",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Is it important to fight?",
+    "zh": "打架重要吗？",
+    "themeIds": [
+      "childhood_play"
+    ],
+    "answerSummary": {
+      "zh": "Tony 回答：是的。",
+      "en": "Tony answers: yes."
+    },
+    "answerQuote": {
+      "zh": "是的。",
+      "en": "Yes."
+    },
+    "sourceId": "film-f07",
+    "locator": {
+      "zh": "打架段落 · Tony",
+      "en": "Fighting segment · Tony"
+    }
+  },
+  {
+    "id": "f07-003",
+    "filmId": "f07",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "Yeah, tell me about it.",
+    "zh": "嗯，跟我说说。",
+    "themeIds": [
+      "childhood_play"
+    ],
+    "answerSummary": {
+      "zh": "孩子说，有个伙伴在盥洗室朝自己扔肥皂，自己一路追进教室，把对方揍了一下。",
+      "en": "The child describes being hit with soap by a friend in the washroom, chasing him into the classroom and walloping him."
+    },
+    "sourceId": "film-f07",
+    "locator": {
+      "zh": "打架段落",
+      "en": "Fighting segment"
+    }
+  },
+  {
+    "id": "f07-004",
+    "filmId": "f07",
+    "personId": "jackie",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Jacqueline, what do you think about boys fighting?",
+    "zh": "Jacqueline，你怎么看男孩子打架？",
+    "themeIds": [
+      "childhood_play"
+    ],
+    "answerSummary": {
+      "zh": "Jackie 觉得打架很傻，因为老师一进来，你只会挨一顿骂。",
+      "en": "Jackie thinks fighting is silly, because if the teacher walks in, all you get is a telling-off."
+    },
+    "answerQuote": {
+      "zh": "嗯，打架真的很傻，因为你要是打架，老师一走进教室，你只会挨骂。",
+      "en": "Well, it's really silly to fight, 'cause if you fight and Miss comes in the classroom, you only get told off."
+    },
+    "sourceId": "film-f07",
+    "locator": {
+      "zh": "打架段落 · Jackie",
+      "en": "Fighting segment · Jackie"
+    }
+  },
+  {
+    "id": "f07-005",
+    "filmId": "f07",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "What did Sir say?",
+    "zh": "老师怎么说？",
+    "themeIds": [
+      "education"
+    ],
+    "answerSummary": {
+      "zh": "孩子说，老师表示这学期会看看怎么处理。",
+      "en": "The child reports that the teacher said they would look into it this term."
+    },
+    "sourceId": "film-f07",
+    "locator": {
+      "zh": "纪律段落",
+      "en": "Discipline segment"
+    }
+  },
+  {
+    "id": "f07-006",
+    "filmId": "f07",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "Have you had to speak to anyone?",
+    "zh": "你有没有不得不找谁谈过话？",
+    "themeIds": [
+      "education"
+    ],
+    "answerSummary": {
+      "zh": "回答是还没有。",
+      "en": "The answer is no, not yet."
+    },
+    "sourceId": "film-f07",
+    "locator": {
+      "zh": "纪律段落",
+      "en": "Discipline segment"
+    }
+  },
+  {
+    "id": "f07-007",
+    "filmId": "f07",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "Do you think House Captains should be elected, or appointed by Sir?",
+    "zh": "你们觉得舍长（House Captain）应该选举产生，还是由老师任命？",
+    "themeIds": [
+      "education"
+    ],
+    "answerSummary": {
+      "zh": "孩子们意见不一：一个说应该任命，另一个觉得选举更公平。",
+      "en": "The children disagree: one says they should be appointed, another thinks elections would be fairer."
+    },
+    "sourceId": "film-f07",
+    "locator": {
+      "zh": "纪律段落",
+      "en": "Discipline segment"
+    }
+  },
+  {
+    "id": "f07-008",
+    "filmId": "f07",
+    "personId": "andrew",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What time do you go to bed?",
+    "zh": "你几点上床睡觉？",
+    "themeIds": [
+      "childhood_play"
+    ],
+    "answerSummary": {
+      "zh": "Andrew 说六点洗澡，七点上床，然后看书看到七点半。",
+      "en": "Andrew has a bath at six, goes to bed at seven and reads until half past."
+    },
+    "sourceId": "film-f07",
+    "locator": {
+      "zh": "放学后段落 · Andrew",
+      "en": "After-school segment · Andrew"
+    }
+  },
+  {
+    "id": "f07-009",
+    "filmId": "f07",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "And then what time do you go to bed?",
+    "zh": "然后你几点上床睡觉？",
+    "themeIds": [
+      "childhood_play"
+    ],
+    "answerSummary": {
+      "zh": "孩子说，前一天晚上直到七点才上床。",
+      "en": "The child says that the night before, bedtime wasn't until seven."
+    },
+    "sourceId": "film-f07",
+    "locator": {
+      "zh": "放学后段落",
+      "en": "After-school segment"
+    }
+  },
+  {
+    "id": "f07-010",
+    "filmId": "f07",
+    "personId": "symon",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Tell me, do you have any girlfriends?",
+    "zh": "告诉我，你有女朋友吗？",
+    "themeIds": [
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "Symon 说没有几个。",
+      "en": "Symon says he doesn't have many."
+    },
+    "sourceId": "film-f07",
+    "locator": {
+      "zh": "男孩与女孩段落 · Symon",
+      "en": "Boys and girls segment · Symon"
+    }
+  },
+  {
+    "id": "f07-011",
+    "filmId": "f07",
+    "personId": "symon",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What do you think about girls?",
+    "zh": "你觉得女孩子怎么样？",
+    "themeIds": [
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "Symon 说自己不太看得上女孩子。",
+      "en": "Symon says girls don't impress him much."
+    },
+    "answerQuote": {
+      "zh": "不怎么样。我不太看得上女孩子。",
+      "en": "Not much. I don't think much of girls."
+    },
+    "sourceId": "film-f07",
+    "locator": {
+      "zh": "男孩与女孩段落 · Symon",
+      "en": "Boys and girls segment · Symon"
+    }
+  },
+  {
+    "id": "f07-012",
+    "filmId": "f07",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "And what happens then?",
+    "zh": "然后会怎么样？",
+    "themeIds": [
+      "childhood_play",
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "孩子们解释说，女孩子们会一起尖叫，被抓到的人就会被亲。",
+      "en": "The children explain that the girls all scream, and whoever is caught gets kissed."
+    },
+    "sourceId": "film-f07",
+    "locator": {
+      "zh": "男孩与女孩段落",
+      "en": "Boys and girls segment"
+    }
+  },
+  {
+    "id": "f07-013",
+    "filmId": "f07",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Is she?",
+    "zh": "她是这样吗？",
+    "themeIds": [
+      "love_marriage",
+      "childhood_play"
+    ],
+    "answerSummary": {
+      "zh": "Neil 说是的，还讲她总是命令他把桌子、椅子往前挪，动不动就冲他发脾气。",
+      "en": "Neil says she is, and describes how she keeps ordering him to move his desk and chair forward and gets cross with him."
+    },
+    "sourceId": "film-f07",
+    "locator": {
+      "zh": "男孩与女孩段落 · Neil",
+      "en": "Boys and girls segment · Neil"
+    }
+  },
+  {
+    "id": "f07-014",
+    "filmId": "f07",
+    "personId": "paul",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Would you like to get married, Paul?",
+    "zh": "你想结婚吗，Paul？",
+    "themeIds": [
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "Paul 说他不想结婚，因为老婆可能会逼他吃他讨厌的青菜。",
+      "en": "Paul says he wouldn't want to marry, because a wife might make him eat greens, which he hates."
+    },
+    "answerQuote": {
+      "zh": "比如说你有个老婆，比如说你得吃她们给你做的饭，再比如说我不喜欢吃青菜，我真的不喜欢，再比如说她说“给你什么就得吃什么”，可我不喜欢吃青菜，所以她要是给我青菜，那就完了。",
+      "en": "Say you had a wife, say you had to eat what they cooked you, and say I don't like greens, well I don't, and say she said \"you have to eat what you get give\", so I don't like greens, so if she gives me greens, then that's it."
+    },
+    "sourceId": "film-f07",
+    "locator": {
+      "zh": "婚姻与孩子段落 · Paul",
+      "en": "Marriage and children segment · Paul"
+    }
+  },
+  {
+    "id": "f07-015",
+    "filmId": "f07",
+    "personId": "suzy",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Would you like to have a nanny to look after them or do you want to look after them?",
+    "zh": "你想请保姆照顾他们，还是想自己照顾他们？",
+    "themeIds": [
+      "children_next_gen",
+      "money_class"
+    ],
+    "answerSummary": {
+      "zh": "Suzy 说宁愿请保姆来照顾孩子。",
+      "en": "Suzy would rather have a nanny look after her children."
+    },
+    "sourceId": "film-f07",
+    "locator": {
+      "zh": "婚姻与孩子段落 · Suzy",
+      "en": "Marriage and children segment · Suzy"
+    }
+  },
+  {
+    "id": "f07-016",
+    "filmId": "f07",
+    "personId": "jackie",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "And what about you, Jackie?",
+    "zh": "那你呢，Jackie？",
+    "themeIds": [
+      "children_next_gen",
+      "family_upbringing"
+    ],
+    "answerSummary": {
+      "zh": "Jackie 讲起自己家：妈妈生了五个女儿，她说这是因为妈妈倒了七年霉；家里人原本都盼着最小的宝宝是个男孩。",
+      "en": "Jackie talks about her own family: her mum has five girls, which Jackie puts down to seven years' bad luck, and they had all hoped the newest baby would be a boy."
+    },
+    "answerQuote": {
+      "zh": "我妈妈呀，因为她有五个女儿，她倒了七年霉，所以她才有五个女儿。",
+      "en": "My mum, 'cause she got five girls, she had seven years bad luck, that's why she's got five girls."
+    },
+    "sourceId": "film-f07",
+    "locator": {
+      "zh": "婚姻与孩子段落 · Jackie",
+      "en": "Marriage and children segment · Jackie"
+    }
+  },
+  {
+    "id": "f07-017",
+    "filmId": "f07",
+    "personId": "andrew",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "And what do you think about girlfriends at your age now?",
+    "zh": "那你觉得，像你现在这个年纪，交女朋友怎么样？",
+    "themeIds": [
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "Andrew 说他有一个，但不怎么看得上她。",
+      "en": "Andrew says he has one but doesn't think much of her."
+    },
+    "answerQuote": {
+      "zh": "我有一个，但我不怎么看得上她。",
+      "en": "I've got one but I don't think much of her."
+    },
+    "sourceId": "film-f07",
+    "locator": {
+      "zh": "男孩与女孩段落 · Andrew",
+      "en": "Boys and girls segment · Andrew"
+    }
+  },
+  {
+    "id": "f07-018",
+    "filmId": "f07",
+    "personId": "nick",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Do you have a girlfriend?",
+    "zh": "你有女朋友吗？",
+    "themeIds": [
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "Nick 拒绝回答，说自己不回答这类问题。",
+      "en": "Nick refuses, saying he doesn't answer that kind of question."
+    },
+    "answerQuote": {
+      "zh": "我不想回答这个。这类问题我不回答。",
+      "en": "I don't want to answer that. I don't answer those kind of questions."
+    },
+    "sourceId": "film-f07",
+    "locator": {
+      "zh": "男孩与女孩段落 · Nick",
+      "en": "Boys and girls segment · Nick"
+    }
+  },
+  {
+    "id": "f07-019",
+    "filmId": "f07",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "What do you like about it?",
+    "zh": "你喜欢它哪一点？",
+    "themeIds": [
+      "money_class"
+    ],
+    "answerSummary": {
+      "zh": "孩子说，自己通常先看标题，再读内容。",
+      "en": "The child says they usually look at the headlines first and then read the story."
+    },
+    "sourceId": "film-f07",
+    "locator": {
+      "zh": "金钱与阶级段落",
+      "en": "Money and class segment"
+    }
+  },
+  {
+    "id": "f07-020",
+    "filmId": "f07",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "What would you do if you had lots of money, about £2?",
+    "zh": "如果你有很多钱，大概 2 英镑，你会做什么？",
+    "themeIds": [
+      "money_class",
+      "faith_values"
+    ],
+    "answerSummary": {
+      "zh": "回答是会拿这笔钱去帮助穷人。",
+      "en": "The answer is that the money would go to helping the poor."
+    },
+    "sourceId": "film-f07",
+    "locator": {
+      "zh": "金钱与阶级段落",
+      "en": "Money and class segment"
+    }
+  },
+  {
+    "id": "f07-021",
+    "filmId": "f07",
+    "personId": "symon",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What do you think about rich people?",
+    "zh": "你觉得有钱人怎么样？",
+    "themeIds": [
+      "money_class"
+    ],
+    "answerSummary": {
+      "zh": "Symon 不以为然：有钱人以为自己什么都能做，还让别人替他们干所有的活。",
+      "en": "Symon is unimpressed: rich people think they can do anything and get others to do all their work."
+    },
+    "sourceId": "film-f07",
+    "locator": {
+      "zh": "金钱与阶级段落 · Symon",
+      "en": "Money and class segment · Symon"
+    }
+  },
+  {
+    "id": "f07-022",
+    "filmId": "f07",
+    "personId": "jackie",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Jacqueline, what do you think about coloured people? You said to me once that you liked them but what do you really think about them?",
+    "zh": "Jacqueline，你怎么看有色人种？你跟我说过一次你喜欢他们，但你心里到底是怎么想的？",
+    "themeIds": [
+      "society_politics"
+    ],
+    "answerSummary": {
+      "zh": "Jackie 说他们人很好，跟我们没什么两样，唯一的不同只是皮肤是棕色的。",
+      "en": "Jackie says they are nice and no different from us; the only difference is that their skin is brown."
+    },
+    "answerQuote": {
+      "zh": "嗯，他们挺好的，其实跟我们一样，只有一点不同，就是他们的皮肤是棕色的，而我们是白的。我们算是有点粉红色的。",
+      "en": "Well they're nice, they're just the same as us really but one thing, it's only 'cause their skin's brown, and we're white. Sort of pinkish, we are."
+    },
+    "sourceId": "film-f07",
+    "locator": {
+      "zh": "偏见段落 · Jackie",
+      "en": "Prejudice segment · Jackie"
+    }
+  },
+  {
+    "id": "f07-023",
+    "filmId": "f07",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "Tell me, what did you three think about the other children that you met today, and all that?",
+    "zh": "告诉我，你们三个觉得今天见到的其他孩子怎么样？",
+    "themeIds": [
+      "money_class",
+      "childhood_play"
+    ],
+    "answerSummary": {
+      "zh": "孩子们觉得有些孩子太粗野——一个说自己背上挨了一下——还有些挺脏的。",
+      "en": "The children found some of the others too rough — one says they were hit in the back — and some rather dirty."
+    },
+    "sourceId": "film-f07",
+    "locator": {
+      "zh": "聚会段落",
+      "en": "Party segment"
+    }
+  },
+  {
+    "id": "f07-024",
+    "filmId": "f07",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "What do you think about them?",
+    "zh": "你觉得他们怎么样？",
+    "themeIds": [
+      "money_class",
+      "childhood_play"
+    ],
+    "answerSummary": {
+      "zh": "这个孩子说自己和他们玩得很自然，觉得他们挺好的。",
+      "en": "This child says they played with the others quite naturally and found them rather nice."
+    },
+    "sourceId": "film-f07",
+    "locator": {
+      "zh": "聚会段落",
+      "en": "Party segment"
+    }
+  },
+  {
+    "id": "f07-025",
+    "filmId": "f07",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "What about the girls?",
+    "zh": "那女孩子们呢？",
+    "themeIds": [
+      "childhood_play"
+    ],
+    "answerSummary": {
+      "zh": "孩子说喜欢其中一个女孩，但一个男孩都不喜欢。",
+      "en": "The child liked one of the girls but none of the boys."
+    },
+    "sourceId": "film-f07",
+    "locator": {
+      "zh": "聚会段落",
+      "en": "Party segment"
+    }
+  },
+  {
+    "id": "f07-026",
+    "filmId": "f07",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "Why?",
+    "zh": "为什么？",
+    "themeIds": [
+      "childhood_play"
+    ],
+    "answerSummary": {
+      "zh": "孩子讨厌一个男孩：自己拉了他的围巾，他就凶巴巴地吼，在公园里还到处打人。",
+      "en": "The child dislikes a boy who snapped at them for pulling his scarf and went round the park punching everyone."
+    },
+    "sourceId": "film-f07",
+    "locator": {
+      "zh": "聚会段落",
+      "en": "Party segment"
+    }
+  },
+  {
+    "id": "f07-027",
+    "filmId": "f07",
+    "personId": "charles",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What about university, Charles?",
+    "zh": "那大学呢，Charles？",
+    "themeIds": [
+      "education"
+    ],
+    "answerSummary": {
+      "zh": "Charles 说自己也许会去牛津。",
+      "en": "Charles says Oxford is a possibility."
+    },
+    "answerQuote": {
+      "zh": "我可能会去牛津。",
+      "en": "I might go to Oxford."
+    },
+    "sourceId": "film-f07",
+    "locator": {
+      "zh": "未来打算段落 · Charles",
+      "en": "Future plans segment · Charles"
+    }
+  },
+  {
+    "id": "f07-028",
+    "filmId": "f07",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "And tell me about coach driving.",
+    "zh": "那跟我说说开长途汽车的事。",
+    "themeIds": [
+      "work"
+    ],
+    "answerSummary": {
+      "zh": "Neil 描述自己会载人去乡下和海边，用喇叭告诉他们到了哪里、接下来要做什么。",
+      "en": "Neil describes driving people to the countryside and the seaside, telling them over a loudspeaker where they are and what they will do."
+    },
+    "answerQuote": {
+      "zh": "嗯，我要载人去乡下，有时候带他们去海边，我会在大巴上装一个大喇叭，告诉他们我们到了哪儿、要去做什么、这条路叫什么名字，诸如此类。",
+      "en": "Well I'm going to take people to the country, and sometimes take them to the seaside, and I'll have a big, loud speaker in the motor coach and tell them whereabouts we are and what we're going to do, and what the name of the road is and all about that."
+    },
+    "sourceId": "film-f07",
+    "locator": {
+      "zh": "未来打算段落 · Neil",
+      "en": "Future plans segment · Neil"
+    }
+  }
+]

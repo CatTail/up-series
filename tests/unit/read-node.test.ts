@@ -46,4 +46,13 @@ describe('readDatasetFromDisk', () => {
     writeFixture(dir, 'nick')
     expect(readDatasetFromDisk(dir).finals.map((f) => f.personId)).not.toContain('nick')
   })
+
+  it('skip option ignores matching files (even malformed ones)', () => {
+    const dir = mkdtempSync(join(tmpdir(), 'up-data-'))
+    writeFixture(dir)
+    writeFileSync(join(dir, 'questions/f28.json'), '[{"half-written')
+    expect(() => readDatasetFromDisk(dir)).toThrow(/questions\/f28.json/)
+    const got = readDatasetFromDisk(dir, { skip: (k) => k.startsWith('questions/') && k !== 'questions/f07.json' })
+    expect(got.questions.map((q) => q.id)).toEqual(['f07-001'])
+  })
 })

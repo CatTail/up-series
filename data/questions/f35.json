@@ -1,0 +1,1262 @@
+[
+  {
+    "id": "f35-001",
+    "filmId": "f35",
+    "personId": "tony",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What's it mean to you when you see the girls on a horse?",
+    "zh": "看到女儿们骑在马上，对你来说意味着什么？",
+    "themeIds": [
+      "children_next_gen"
+    ],
+    "answerSummary": {
+      "zh": "他说看着女儿们骑马，常常会在她们身上看到自己，并说让孩子得到自己从未有过的机会，正是人生的意义所在。",
+      "en": "He said that watching his daughters ride he often sees himself in them, and that giving your children the chances you never had is what life is about."
+    },
+    "answerQuote": {
+      "zh": "可人生不就是这样吗？给孩子们所有的机会，让他们得到你自己从来没有过的好处。",
+      "en": "But that's what life's all about, isn't it? Giving your kids all the opportunities that give them the benefits that you never had."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Tony 段落",
+      "en": "Tony segment"
+    }
+  },
+  {
+    "id": "f35-002",
+    "filmId": "f35",
+    "personId": "tony",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "And you let it go?",
+    "zh": "而你就这样放下了？",
+    "themeIds": [
+      "work",
+      "happiness_regret"
+    ],
+    "answerSummary": {
+      "zh": "他承认，自己放弃了曾经视为生命的赛马生涯。",
+      "en": "He agreed that he had given up the horse-racing life that had once meant everything to him."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Tony 段落",
+      "en": "Tony segment"
+    }
+  },
+  {
+    "id": "f35-003",
+    "filmId": "f35",
+    "personId": "tony",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "If you were to break up, what do you think it would be over?",
+    "zh": "如果你们要分开，你觉得会是因为什么？",
+    "themeIds": [
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "他说如果分开，只会是因为第三者，不会是因为孩子；一想到别的男人来抚养他的孩子，他就心碎。",
+      "en": "He said it would only be over someone else, never the children, and that the thought of another man raising his kids would break his heart."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Tony 段落",
+      "en": "Tony segment"
+    }
+  },
+  {
+    "id": "f35-004",
+    "filmId": "f35",
+    "personId": "tony",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Why do you think you're too soft with them?",
+    "zh": "你为什么觉得自己对他们太心软了？",
+    "themeIds": [
+      "children_next_gen"
+    ],
+    "answerSummary": {
+      "zh": "他说那是因为他太爱他们了。",
+      "en": "He said it is because he loves them so much."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Tony 段落",
+      "en": "Tony segment"
+    }
+  },
+  {
+    "id": "f35-005",
+    "filmId": "f35",
+    "personId": "tony",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Do you bring them up the way that you were brought up?",
+    "zh": "你是按照自己被带大的方式来养育他们的吗？",
+    "themeIds": [
+      "children_next_gen",
+      "family_upbringing"
+    ],
+    "answerSummary": {
+      "zh": "他回忆自己小时候常常吃不上饭、穿兄弟们穿过的旧衣服，并说这对他并没有什么坏处。",
+      "en": "He recalled a poor upbringing with missed meals and his brothers' hand-me-down clothes, and said it never did him any harm."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Tony 段落",
+      "en": "Tony segment"
+    }
+  },
+  {
+    "id": "f35-006",
+    "filmId": "f35",
+    "personId": "tony",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Does he do his fair share of the housework?",
+    "zh": "他会分担应做的那份家务吗？",
+    "themeIds": [
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "他的妻子 Debbie 说他在家什么家务都不做，连一个杯子都不会从一个房间拿到另一个房间。",
+      "en": "His wife Debbie said he does nothing at all around the house, not even carrying a cup from one room to another."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Tony 段落",
+      "en": "Tony segment"
+    }
+  },
+  {
+    "id": "f35-007",
+    "filmId": "f35",
+    "personId": "tony",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "When you buried him, what did you put in his coffin?",
+    "zh": "你安葬他的时候，在他的棺材里放了什么？",
+    "themeIds": [
+      "health_mortality",
+      "family_upbringing"
+    ],
+    "answerSummary": {
+      "zh": "他说他在父亲的棺材里放了三张牌、一副“皇冠与锚”骰子、一张投注单和一支笔，因为这些就是父亲的全部生活。",
+      "en": "He said he put three cards, crown-and-anchor dice, a betting slip and a pen in his father's coffin, because those things were his father's whole life."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Tony 段落",
+      "en": "Tony segment"
+    }
+  },
+  {
+    "id": "f35-008",
+    "filmId": "f35",
+    "personId": "suzy",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Is discipline important?",
+    "zh": "管教重要吗？",
+    "themeIds": [
+      "children_next_gen"
+    ],
+    "answerSummary": {
+      "zh": "回答是：当然重要，谁都不想养出三个没规矩、没礼貌的孩子，尽管有些日子整天都在冲他们喊。",
+      "en": "The answer was that it must be, as nobody wants to raise three unruly, rude children, though some days are spent just shouting at them."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Suzy 段落",
+      "en": "Suzy segment"
+    }
+  },
+  {
+    "id": "f35-009",
+    "filmId": "f35",
+    "personId": "suzy",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Do you think in some way it might be too secluded and safe for them?",
+    "zh": "你会不会觉得，这里在某种程度上对他们来说太与世隔绝、太安全了？",
+    "themeIds": [
+      "children_next_gen",
+      "home_place"
+    ],
+    "answerSummary": {
+      "zh": "她承认有可能，说孩子们在这里过着备受呵护的生活，而他们总有一天要面对外面的世界，这让她有点害怕。",
+      "en": "She agreed it could be, saying it slightly frightens her that her children lead such a sheltered life when they will have to face the world one day."
+    },
+    "answerQuote": {
+      "zh": "这让我有点害怕，他们在这里过的是一种被宠着、护着的生活，而他们总有一天要闯进外面的世界。我只希望我能帮他们应付过去。",
+      "en": "That's something that slightly frightens me that it is, it's a very cosseted life that they have here and they've got to hit the world at some point. I just hope that I can help them cope with it."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Suzy 段落",
+      "en": "Suzy segment"
+    }
+  },
+  {
+    "id": "f35-010",
+    "filmId": "f35",
+    "personId": "suzy",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Do you ever worry that the roof might fall in and you'll be out of this and whatever?",
+    "zh": "你有没有担心过哪天天塌下来，你们会失去眼前这一切？",
+    "themeIds": [
+      "money_class",
+      "home_place"
+    ],
+    "answerSummary": {
+      "zh": "回答是：担心过，去年就曾很认真地想过，如果情况不好转，他们可能会失去这一切。",
+      "en": "The answer was yes: last year it had crossed the speaker's mind hard that they could lose all this if things did not pick up."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Suzy 段落",
+      "en": "Suzy segment"
+    }
+  },
+  {
+    "id": "f35-011",
+    "filmId": "f35",
+    "personId": "bruce",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "So is this your missionary dream come true?",
+    "zh": "那么，这算是你的传教士梦想成真了吗？",
+    "themeIds": [
+      "work"
+    ],
+    "answerSummary": {
+      "zh": "他说不完全是：他在伦敦当老师，这次来这里一个学期，是为了了解他在伦敦所教的许多男孩的家乡背景。",
+      "en": "He said not exactly: he is a teacher in London who has come for a term to learn about the background of many of the boys he teaches there."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Bruce 段落",
+      "en": "Bruce segment"
+    }
+  },
+  {
+    "id": "f35-012",
+    "filmId": "f35",
+    "personId": "bruce",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What do you like about Sylhet?",
+    "zh": "你喜欢锡尔赫特（Sylhet）的什么？",
+    "themeIds": [
+      "home_place"
+    ],
+    "answerSummary": {
+      "zh": "他说主要是这里的人和他们的热情好客，并讲到一家住在单间里的人请他进门一起吃饭。",
+      "en": "He said it is mainly the people and their hospitality, describing being welcomed for a meal by a family living in a one-room flat."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Bruce 段落",
+      "en": "Bruce segment"
+    }
+  },
+  {
+    "id": "f35-013",
+    "filmId": "f35",
+    "personId": "bruce",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Has a country like this got any future?",
+    "zh": "像这样的国家还有前途吗？",
+    "themeIds": [
+      "money_class",
+      "society_politics"
+    ],
+    "answerSummary": {
+      "zh": "他说这个国家需要大量帮助，贫困在加剧，这与英国的统治不无关系，而富裕国家根本不够在乎。",
+      "en": "He said the country needs a great deal of help, that poverty is growing, that British rule is part of the story, and that rich countries simply do not care enough."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Bruce 段落",
+      "en": "Bruce segment"
+    }
+  },
+  {
+    "id": "f35-014",
+    "filmId": "f35",
+    "personId": "bruce",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Well, you're getting on a bit, aren't you worried?",
+    "zh": "嗯，你年纪也不小了，不担心吗？",
+    "themeIds": [
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "他说不太担心，他一向乐观，但也承认自己的拘谨让他永远不知道本来可能会发生什么。",
+      "en": "He said not particularly, as he is always optimistic, though his reserve means he never knows what might have been."
+    },
+    "answerQuote": {
+      "zh": "嗯，不太担心，我一向很乐观。谁知道明天会遇到谁呢，不过我想这就是拘谨的麻烦。",
+      "en": "Well, not particularly, I'm always optimistic. Who knows who I might meet tomorrow, but I think that's the trouble with reserve."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Bruce 段落",
+      "en": "Bruce segment"
+    }
+  },
+  {
+    "id": "f35-015",
+    "filmId": "f35",
+    "personId": "bruce",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What are the qualities in a woman that you look for?",
+    "zh": "你在女性身上看重哪些品质？",
+    "themeIds": [
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "他说是一个合得来的人，不一定要漂亮，还开玩笑说不希望这变成一段婚介录像。",
+      "en": "He said someone he gets on with, not necessarily attractive, and joked that he did not want this to turn into a dating-agency video."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Bruce 段落",
+      "en": "Bruce segment"
+    }
+  },
+  {
+    "id": "f35-016",
+    "filmId": "f35",
+    "personId": "bruce",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Do you miss him?",
+    "zh": "你想念他吗？",
+    "themeIds": [
+      "health_mortality",
+      "happiness_regret",
+      "family_upbringing"
+    ],
+    "answerSummary": {
+      "zh": "他说希望自己当初和父亲亲近到会想念他的程度，并遗憾没能和父亲更亲近。",
+      "en": "He said he wishes he had been close enough to his father to miss him, and regrets not getting closer."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Bruce 段落",
+      "en": "Bruce segment"
+    }
+  },
+  {
+    "id": "f35-017",
+    "filmId": "f35",
+    "personId": "bruce",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Is money important to you?",
+    "zh": "钱对你来说重要吗？",
+    "themeIds": [
+      "money_class",
+      "faith_values"
+    ],
+    "answerSummary": {
+      "zh": "他说不太重要，他的钱够生活，他很反感人们那么看重钱。",
+      "en": "He said not really, he has enough to live on, and he finds it horrible how much people care about money."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Bruce 段落",
+      "en": "Bruce segment"
+    }
+  },
+  {
+    "id": "f35-018",
+    "filmId": "f35",
+    "personId": "bruce",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "This film is about opportunity, do you think you've made the most of your opportunities?",
+    "zh": "这部片子讲的是机会，你觉得自己充分利用了你的机会吗？",
+    "themeIds": [
+      "happiness_regret",
+      "money_class"
+    ],
+    "answerSummary": {
+      "zh": "他说是的：他的机会就是去做自己觉得有意义的事，而他已经找到了让他有成就感的工作。",
+      "en": "He said yes: his opportunity was to do what he found fulfilling, and he has found rewarding work."
+    },
+    "answerQuote": {
+      "zh": "我充分利用了我的机会，因为我找到了一件让我觉得有回报的事，那就是我的机会。",
+      "en": "I've made the most of my opportunity because I've found something to do that I find rewarding and that was my opportunity."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Bruce 段落",
+      "en": "Bruce segment"
+    }
+  },
+  {
+    "id": "f35-019",
+    "filmId": "f35",
+    "personId": "sue",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Are you ready for a long-term relationship?",
+    "zh": "你准备好进入一段长期的感情了吗？",
+    "themeIds": [
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "她说人永远不会真正准备好，这种事要么发生要么不发生，但如果真的来了，她不会拒绝。",
+      "en": "She said you are never really ready, it either happens or it does not, but she would not turn one away."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Jackie、Lynn 与 Sue 段落",
+      "en": "Jackie, Lynn and Sue segment"
+    }
+  },
+  {
+    "id": "f35-020",
+    "filmId": "f35",
+    "personId": "jackie",
+    "attribution": "confirmed",
+    "fromRecap": true,
+    "en": "Got any plans?",
+    "zh": "有什么打算吗？",
+    "themeIds": [
+      "children_next_gen"
+    ],
+    "answerSummary": {
+      "zh": "她开玩笑地把这个念头一口回绝了。",
+      "en": "She brushed the idea off with a joke."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Jackie、Lynn 与 Sue 段落（旧片段回顾）",
+      "en": "Jackie, Lynn and Sue segment (archive footage)"
+    }
+  },
+  {
+    "id": "f35-021",
+    "filmId": "f35",
+    "personId": "sue",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Why did you have a child out of a marriage that wasn't working?",
+    "zh": "在一段已经出了问题的婚姻里，你为什么还要生孩子？",
+    "themeIds": [
+      "children_next_gen",
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "她说她想要不止一个孩子，因为自己就是独生女，而且希望孩子们是同一对父母所生。",
+      "en": "She said she wanted more than one child, having been an only child herself, and wanted her children to have the same mother and father."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Jackie、Lynn 与 Sue 段落",
+      "en": "Jackie, Lynn and Sue segment"
+    }
+  },
+  {
+    "id": "f35-022",
+    "filmId": "f35",
+    "personId": "sue",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "How did you feel about living off Social Security?",
+    "zh": "靠社会救济生活，你有什么感受？",
+    "themeIds": [
+      "money_class"
+    ],
+    "answerSummary": {
+      "zh": "她说她非常讨厌那样，也许是出于老派的观念，但人总得做对自己和孩子最好的事。",
+      "en": "She said she really hated it, perhaps out of old-fashioned values, but that you have to do what is best for you and the children."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Jackie、Lynn 与 Sue 段落",
+      "en": "Jackie, Lynn and Sue segment"
+    }
+  },
+  {
+    "id": "f35-023",
+    "filmId": "f35",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "And how did you deal with it?",
+    "zh": "那你是怎么面对的？",
+    "themeIds": [
+      "health_mortality",
+      "family_upbringing"
+    ],
+    "answerSummary": {
+      "zh": "她说自己至今仍在消化这件事，母亲在精神上一直与她同在，可能是她这辈子最好的朋友。",
+      "en": "She said she is still dealing with it, that her mother is still with her in spirit and was probably the best friend she will ever have."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Jackie、Lynn 与 Sue 段落",
+      "en": "Jackie, Lynn and Sue segment"
+    }
+  },
+  {
+    "id": "f35-024",
+    "filmId": "f35",
+    "personId": "lynn",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "In your brain?",
+    "zh": "在脑子里？",
+    "themeIds": [
+      "health_mortality"
+    ],
+    "answerSummary": {
+      "zh": "她确认是在脑部。",
+      "en": "She confirmed it was in her brain."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Jackie、Lynn 与 Sue 段落",
+      "en": "Jackie, Lynn and Sue segment"
+    }
+  },
+  {
+    "id": "f35-025",
+    "filmId": "f35",
+    "personId": "lynn",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "And what can they do about it?",
+    "zh": "那他们能做些什么？",
+    "themeIds": [
+      "health_mortality"
+    ],
+    "answerSummary": {
+      "zh": "她说目前没什么办法，因为位置离视神经太近，外科医生暂时不想动手术。",
+      "en": "She said not much for now, because the surgeon does not want to operate so close to the optic nerve."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Jackie、Lynn 与 Sue 段落",
+      "en": "Jackie, Lynn and Sue segment"
+    }
+  },
+  {
+    "id": "f35-026",
+    "filmId": "f35",
+    "personId": "lynn",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "So is it frightening to know that you have this condition?",
+    "zh": "那么，知道自己有这种病，会害怕吗？",
+    "themeIds": [
+      "health_mortality"
+    ],
+    "answerSummary": {
+      "zh": "她说大约害怕了一个星期，但后来克服了恐惧，现在一点也不担心了。",
+      "en": "She said it was frightening for about a week, but she has since overcome the fear and it no longer worries her."
+    },
+    "answerQuote": {
+      "zh": "大概怕了一个星期，但后来它在我心里找到了自己的位置，排进了我的轻重缓急里，我克服了对它的恐惧，现在它一点也不让我担心了。",
+      "en": "It was for about a week but it got itself into its own place within my system, where sort of amongst my rungs of priorities, and I overcame the fear of it, now it doesn't worry me at all."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Jackie、Lynn 与 Sue 段落",
+      "en": "Jackie, Lynn and Sue segment"
+    }
+  },
+  {
+    "id": "f35-027",
+    "filmId": "f35",
+    "personId": "sue",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "So are these good times, Sue?",
+    "zh": "Sue，那现在算是好日子吗？",
+    "themeIds": [
+      "happiness_regret"
+    ],
+    "answerSummary": {
+      "zh": "她说不算是：她有两个可爱的孩子，但又站在了一个十字路口，独自一人，重新开始。",
+      "en": "She said not particularly: she has two lovely children, but she is at another crossroads, on her own and starting again."
+    },
+    "answerQuote": {
+      "zh": "不算是。我现在有两个可爱的孩子，但对我来说这只是又一个十字路口。",
+      "en": "Not particularly, no. I've got two lovely children now but it's just another crossroads for me now."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Jackie、Lynn 与 Sue 段落",
+      "en": "Jackie, Lynn and Sue segment"
+    }
+  },
+  {
+    "id": "f35-028",
+    "filmId": "f35",
+    "personId": "sue",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Are you changing?",
+    "zh": "你在改变吗？",
+    "themeIds": [
+      "happiness_regret"
+    ],
+    "answerSummary": {
+      "zh": "她说自己只是在成长，随着境况变化不断调整。",
+      "en": "She said she is simply growing up and adapting as her circumstances change."
+    },
+    "answerQuote": {
+      "zh": "我只是在长大。我觉得人永远不会停止成长，环境在变，所以我只是在适应。",
+      "en": "I'm just growing up. I don't think you ever stop growing up, the circumstances are changing so I'm just adapting."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Jackie、Lynn 与 Sue 段落",
+      "en": "Jackie, Lynn and Sue segment"
+    }
+  },
+  {
+    "id": "f35-029",
+    "filmId": "f35",
+    "personId": "nick",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Is Madison a friendly place?",
+    "zh": "麦迪逊（Madison）是个友好的地方吗？",
+    "themeIds": [
+      "home_place"
+    ],
+    "answerSummary": {
+      "zh": "回答是：这里非常友好，是个小社区，还有鹿跑过，人们比在英国更有礼貌。",
+      "en": "The answer was that it is very friendly, a small community with deer running through, where people are more polite than in England."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Nick 段落",
+      "en": "Nick segment"
+    }
+  },
+  {
+    "id": "f35-030",
+    "filmId": "f35",
+    "personId": "nick",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "People saw the last film and thought this marriage isn't going to work, this marriage isn't going to last, did you get that response?",
+    "zh": "人们看了上一部片子，觉得这段婚姻行不通、长久不了，你们听到过这样的反应吗？",
+    "themeIds": [
+      "love_marriage",
+      "the_series"
+    ],
+    "answerSummary": {
+      "zh": "回答是：这种反应令人费解，因为他们夫妻俩当时只是想坦诚地说出自己在婚姻上有多努力。",
+      "en": "The answer was that the reaction was a mystery, since the couple had only been trying to be honest about how hard they were working at the marriage."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Nick 段落",
+      "en": "Nick segment"
+    }
+  },
+  {
+    "id": "f35-031",
+    "filmId": "f35",
+    "personId": "nick",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Do you miss England?",
+    "zh": "你想念英国吗？",
+    "themeIds": [
+      "home_place",
+      "family_upbringing"
+    ],
+    "answerSummary": {
+      "zh": "他说非常想念，还谈到父母和兄弟 Andrew 来看望他，以及他失聪的兄弟 Christopher。",
+      "en": "He said very much, and talked about visits from his parents and his brother Andrew, and about his deaf brother Christopher."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Nick 段落",
+      "en": "Nick segment"
+    }
+  },
+  {
+    "id": "f35-032",
+    "filmId": "f35",
+    "personId": "nick",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Is it painful for you?",
+    "zh": "这对你来说痛苦吗？",
+    "themeIds": [
+      "health_mortality",
+      "family_upbringing"
+    ],
+    "answerSummary": {
+      "zh": "他说让他动情的是回想当年确认 Christopher 失聪的时候：他曾盼望奇迹发生，后来告诉自己，希望他不聋，就等于希望这个人不存在。",
+      "en": "He said the emotional part was remembering when it became clear Christopher was deaf, hoping for a miracle, and then deciding that wishing it away would mean wishing that person did not exist."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Nick 段落",
+      "en": "Nick segment"
+    }
+  },
+  {
+    "id": "f35-033",
+    "filmId": "f35",
+    "personId": "nick",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Do you think you can build a life here?",
+    "zh": "你觉得你能在这里建立起自己的生活吗？",
+    "themeIds": [
+      "home_place"
+    ],
+    "answerSummary": {
+      "zh": "回答是：他们在努力，但远离自己的出身背景、没有任何支持网络，是非常困难的。",
+      "en": "The answer was that they are trying, but it is very hard to be so far from your background with no support network."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Nick 段落",
+      "en": "Nick segment"
+    }
+  },
+  {
+    "id": "f35-034",
+    "filmId": "f35",
+    "personId": "nick",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Have you travelled a long way since that seven-year-old in his big muddy boots?",
+    "zh": "从那个穿着沾满泥巴的大靴子的七岁男孩到现在，你是不是走了很长一段路？",
+    "themeIds": [
+      "happiness_regret",
+      "the_series"
+    ],
+    "answerSummary": {
+      "zh": "他说走了很远很远，但当年的很多个性仍在，依然容易难为情；他也承认“七岁看到老”这句话很有道理。",
+      "en": "He said an awful long way, yet much of the same personality is still there, still easily embarrassed, and he accepts there is a lot in the saying about the boy at seven."
+    },
+    "answerQuote": {
+      "zh": "我想是走了很远很远。我是说，我相信当年那个性格的很多部分现在都还在。",
+      "en": "I suppose an awful long way, yes. I mean I'm sure there's lot of the same personality that was in there is still here."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Nick 段落",
+      "en": "Nick segment"
+    }
+  },
+  {
+    "id": "f35-035",
+    "filmId": "f35",
+    "personId": "andrew",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What was the biggest surprise about having children?",
+    "zh": "有了孩子以后，最让你意外的是什么？",
+    "themeIds": [
+      "children_next_gen"
+    ],
+    "answerSummary": {
+      "zh": "回答是：他们俩在如何养育孩子上，想法并不一定一致。",
+      "en": "The answer was that the two of them did not necessarily agree on how to bring the children up."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Andrew 与 John 段落",
+      "en": "Andrew and John segment"
+    }
+  },
+  {
+    "id": "f35-036",
+    "filmId": "f35",
+    "personId": "andrew",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Does money concern you a lot?",
+    "zh": "钱让你很操心吗？",
+    "themeIds": [
+      "money_class"
+    ],
+    "answerSummary": {
+      "zh": "回答是：只要有足够的钱过得舒适，这就是应该追求的目标。",
+      "en": "The answer was that having enough to be comfortable is what one should aim for."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Andrew 与 John 段落",
+      "en": "Andrew and John segment"
+    }
+  },
+  {
+    "id": "f35-037",
+    "filmId": "f35",
+    "personId": "andrew",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Is the family unit the most important thing in your lives, more than your own ambition or…?",
+    "zh": "家庭是不是你们生活中最重要的东西，比你自己的抱负还重要，还是……？",
+    "themeIds": [
+      "children_next_gen",
+      "work"
+    ],
+    "answerSummary": {
+      "zh": "回答是：有了孩子以后，抱负就变了，工作上的成功变成了可以和家人一起分享的东西。",
+      "en": "The answer was that ambition changes once you have children, and success at work becomes something to enjoy with your family."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Andrew 与 John 段落",
+      "en": "Andrew and John segment"
+    }
+  },
+  {
+    "id": "f35-038",
+    "filmId": "f35",
+    "personId": "john",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Do you think you and Claire could live here?",
+    "zh": "你觉得你和 Claire 能住在这里吗？",
+    "themeIds": [
+      "home_place"
+    ],
+    "answerSummary": {
+      "zh": "他说七年后再问他吧。",
+      "en": "He said to ask him again in seven years' time."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Andrew 与 John 段落",
+      "en": "Andrew and John segment"
+    }
+  },
+  {
+    "id": "f35-039",
+    "filmId": "f35",
+    "personId": null,
+    "attribution": "film_only",
+    "fromRecap": false,
+    "en": "What's been the effect of being in these films on you?",
+    "zh": "参与这些片子对你有什么影响？",
+    "themeIds": [
+      "the_series"
+    ],
+    "answerSummary": {
+      "zh": "回答是：几乎没什么影响，只是偶尔会被陌生人认出来，而他尽量不谈这件事。",
+      "en": "The answer was that it had had little effect, apart from occasionally being recognised by strangers, which he tries not to talk about."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Andrew 与 John 段落",
+      "en": "Andrew and John segment"
+    }
+  },
+  {
+    "id": "f35-040",
+    "filmId": "f35",
+    "personId": "paul",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Do you think about England much when you're in Australia?",
+    "zh": "你在澳大利亚的时候常想起英国吗？",
+    "themeIds": [
+      "home_place"
+    ],
+    "answerSummary": {
+      "zh": "回答是一句玩笑：只有有板球比赛的时候才会想。",
+      "en": "The joking answer was: only when the cricket is on."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Paul 段落",
+      "en": "Paul segment"
+    }
+  },
+  {
+    "id": "f35-041",
+    "filmId": "f35",
+    "personId": "paul",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Is there any way you would want to be a father any differently from the way your father was to you?",
+    "zh": "在做父亲这件事上，你有没有想在哪些方面跟你父亲对你的方式不一样？",
+    "themeIds": [
+      "children_next_gen",
+      "family_upbringing"
+    ],
+    "answerSummary": {
+      "zh": "他说希望能有更多亲密的身体接触，因为他和父亲连拥抱都很少。",
+      "en": "He said he would like more close physical contact, as he and his father rarely even hug."
+    },
+    "answerQuote": {
+      "zh": "我希望能有更多接触，亲密的、真正身体上的亲近。我和我爸在这方面一模一样，我们要是拥抱一下，那都是少有的事。",
+      "en": "I'd like there to be more contact, close, actual physical contact, close. My dad and I are exactly the same like that, we, you know, if we hug it's unusual."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Paul 段落",
+      "en": "Paul segment"
+    }
+  },
+  {
+    "id": "f35-042",
+    "filmId": "f35",
+    "personId": "paul",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What keeps this marriage together?",
+    "zh": "是什么让这段婚姻维系下来的？",
+    "themeIds": [
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "夫妻俩回答说，靠的是有时候忍住不说，还有包容：他们也会大吵，但从不把气留到第二天。",
+      "en": "The couple answered that it takes holding your tongue at times and tolerance: they have big arguments but never carry them into the next day."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Paul 段落",
+      "en": "Paul segment"
+    }
+  },
+  {
+    "id": "f35-043",
+    "filmId": "f35",
+    "personId": "paul",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Do the two of you have a dream?",
+    "zh": "你们两个有什么梦想吗？",
+    "themeIds": [
+      "home_place"
+    ],
+    "answerSummary": {
+      "zh": "回答是：一直想搬到乡下，有一处小房产，过更轻松的生活。",
+      "en": "The answer was a long-held wish to move to a small property in the country for a more relaxed way of life."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Paul 段落",
+      "en": "Paul segment"
+    }
+  },
+  {
+    "id": "f35-044",
+    "filmId": "f35",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "How do you manage for money these days?",
+    "zh": "你这些日子在钱上是怎么应付的？",
+    "themeIds": [
+      "money_class"
+    ],
+    "answerSummary": {
+      "zh": "他说自己仍然靠社会救济生活，他希望不是这样。",
+      "en": "He said he still lives on Social Security, which he wishes were not the case."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f35-045",
+    "filmId": "f35",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Is the community important to you?",
+    "zh": "社区对你来说重要吗？",
+    "themeIds": [
+      "home_place"
+    ],
+    "answerSummary": {
+      "zh": "他说必须重要，因为这是他生活的地方；这里的人对他很好，他想回馈设得兰群岛。",
+      "en": "He said it has to be, since this is where he lives; people have been kind to him and he wants to give something back to Shetland."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f35-046",
+    "filmId": "f35",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "You directed it last year and you're not this year, why is that?",
+    "zh": "你去年导演了这部戏，今年却没有，为什么？",
+    "themeIds": [
+      "leisure_interests"
+    ],
+    "answerSummary": {
+      "zh": "他说在一次预备会议上，大家没有推举他担任导演。",
+      "en": "He said that at a preliminary meeting his name was not put forward as the director they wanted."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f35-047",
+    "filmId": "f35",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Why would that be?",
+    "zh": "为什么会这样？",
+    "themeIds": [
+      "leisure_interests"
+    ],
+    "answerSummary": {
+      "zh": "他说可能是因为他当导演比较专断，开排前就对演出有既定的想法，不喜欢别人偏离。",
+      "en": "He said probably because he is quite an authoritative director with a fixed idea of the performance, and does not like people straying from it."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f35-048",
+    "filmId": "f35",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "There was enormous reaction to you in the previous film, what do people see in you, do you think?",
+    "zh": "上一部片子播出后，人们对你反响强烈，你觉得人们在你身上看到了什么？",
+    "themeIds": [
+      "the_series"
+    ],
+    "answerSummary": {
+      "zh": "他说人们把他看成一个顶住了从众压力的人，纷纷写信向他倾诉问题；这让他害怕，因为他当时无处可去，也不觉得自己的人生成功。",
+      "en": "He said people saw him as someone who had resisted the pressure to conform and wrote to him with their problems, which frightened him because he had nowhere to go and did not feel his life was a success."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f35-049",
+    "filmId": "f35",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Have you given up on women?",
+    "zh": "你已经对女人死心了吗？",
+    "themeIds": [
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "他说差不多吧：像所有未婚的人一样，他也盼着有人出现，但找到一个能容忍他的人的机会很小。",
+      "en": "He said almost: like every unmarried person he hopes someone will come along, but the chances of finding someone who would put up with him are slim."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f35-050",
+    "filmId": "f35",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What would you look for in a woman?",
+    "zh": "你会在女人身上寻找什么？",
+    "themeIds": [
+      "love_marriage"
+    ],
+    "answerSummary": {
+      "zh": "他说更重要的是女人会在他身上找什么，而他给不了可靠，只能给出真诚和同情心。",
+      "en": "He said what matters more is what a woman would look for in him, and he cannot offer reliability, only sincerity and compassion."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f35-051",
+    "filmId": "f35",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Are you getting better or worse, do you think, your state?",
+    "zh": "你觉得你的状态是在变好还是变坏？",
+    "themeIds": [
+      "health_mortality"
+    ],
+    "answerSummary": {
+      "zh": "他说没有明显变化，不过自从来到设得兰群岛后，他没有那么抑郁了。",
+      "en": "He said there has been no significant change, though he has not been as depressed since coming to Shetland."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f35-052",
+    "filmId": "f35",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Are you having any medical treatment for your mood changes?",
+    "zh": "你的情绪波动有在接受什么治疗吗？",
+    "themeIds": [
+      "health_mortality"
+    ],
+    "answerSummary": {
+      "zh": "他说没有，已经很多年没有了，因为他不想依赖人造药物。",
+      "en": "He said no, not for many years, because he does not want to depend on man-made substances."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f35-053",
+    "filmId": "f35",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Do you ever think you're going mad?",
+    "zh": "你有没有想过自己快疯了？",
+    "themeIds": [
+      "health_mortality"
+    ],
+    "answerSummary": {
+      "zh": "他说他不是觉得，而是知道；但又补充说，他觉得这是一个疯狂的世界。",
+      "en": "He said he does not think it, he knows it, but added that he thinks it is a mad world."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f35-054",
+    "filmId": "f35",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "So do you think you have failed?",
+    "zh": "那么，你觉得自己失败了吗？",
+    "themeIds": [
+      "happiness_regret"
+    ],
+    "answerSummary": {
+      "zh": "他说自己没法真正判断。",
+      "en": "He said he could not really judge."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f35-055",
+    "filmId": "f35",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Do you feel you've failed yourself?",
+    "zh": "你觉得自己辜负了自己吗？",
+    "themeIds": [
+      "happiness_regret"
+    ],
+    "answerSummary": {
+      "zh": "他回答说他的人生还没有结束。",
+      "en": "He replied that his life is not over yet."
+    },
+    "answerQuote": {
+      "zh": "嗯，我的人生还没结束。",
+      "en": "Well, my life isn't over."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f35-056",
+    "filmId": "f35",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "Can you think what you'd like to be doing in the year 2000?",
+    "zh": "你能想到 2000 年时你想做些什么吗？",
+    "themeIds": [
+      "happiness_regret",
+      "work"
+    ],
+    "answerSummary": {
+      "zh": "他说他能想到很多想做的事，但真正的问题是他很可能会在做什么。",
+      "en": "He said he can think of many things he would like to be doing, but the real question is what he is likely to be doing."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  },
+  {
+    "id": "f35-057",
+    "filmId": "f35",
+    "personId": "neil",
+    "attribution": "confirmed",
+    "fromRecap": false,
+    "en": "What are you likely to be doing?",
+    "zh": "那你很可能会在做什么？",
+    "themeIds": [
+      "happiness_regret"
+    ],
+    "answerSummary": {
+      "zh": "他说这是个可怕的问题，最可能的答案是他会在伦敦街头无家可归地游荡，不过运气好的话不会这样。",
+      "en": "He called it a horrible question and said the most likely answer is that he will be wandering homeless in London, though with luck that will not happen."
+    },
+    "answerQuote": {
+      "zh": "这是个可怕的问题。我倾向于认为，最可能的答案是我会无家可归地在伦敦街头游荡，不过运气好的话，这不会发生。",
+      "en": "That's a horrible question. I tend to think most likely the answer is I will be wandering homeless around the streets of London but with a bit of luck that won't happen."
+    },
+    "sourceId": "film-f35",
+    "locator": {
+      "zh": "Neil 段落",
+      "en": "Neil segment"
+    }
+  }
+]
