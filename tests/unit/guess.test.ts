@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import { buildIndex } from '../../src/lib/data/index.ts'
-import { buildRound, makeRng, roundOrder } from '../../src/lib/guess.ts'
+import { buildRound, makeRng, maskNames, roundOrder } from '../../src/lib/guess.ts'
 import { makeFixture } from '../fixtures/dataset.ts'
 
 const idx = buildIndex(makeFixture())
@@ -68,5 +68,25 @@ describe('guess', () => {
     const o = roundOrder(idx, makeRng(5))
     expect([...o].sort()).toEqual(['andrew', 'charles', 'lynn', 'nick', 'suzy'])
     expect(roundOrder(idx, makeRng(5))).toEqual(o)
+  })
+
+  it('maskNames hides participant names and common variants in both languages', () => {
+    expect(maskNames('Jacqueline, what do you think? Ask Jackie and Suzi.')).toBe('……, what do you think? Ask …… and …….')
+    expect(maskNames('Would you like to get married, Paul?')).toBe('Would you like to get married, ……?')
+    expect(maskNames('Paul，你想结婚吗？')).toBe('……，你想结婚吗？')
+    expect(maskNames('Pauline and Bruces')).toBe('Pauline and Bruces')
+  })
+
+  it('the 7-year prompt never shows a name: prefers an unnamed question, else masks', () => {
+    const ds = makeFixture()
+    const named = { ...ds.questions[0], id: 'f07-000', en: 'Andrew, what newspaper do you read?', zh: 'Andrew，你读什么报纸？' }
+    ds.questions.unshift(named)
+    const r1 = buildRound('andrew', buildIndex(ds), makeRng(1))
+    expect(r1.prompt?.id).toBe('f07-001')
+    ds.questions = ds.questions.filter((q) => q.id !== 'f07-001')
+    const r2 = buildRound('andrew', buildIndex(ds), makeRng(1))
+    expect(r2.prompt?.id).toBe('f07-000')
+    expect(r2.prompt?.en).toBe('……, what newspaper do you read?')
+    expect(r2.prompt?.zh).toBe('……，你读什么报纸？')
   })
 })
