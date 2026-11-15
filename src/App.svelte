@@ -5,6 +5,7 @@
   import { loadDataset } from './lib/data/load.ts'
   import { initLang, t } from './lib/i18n.svelte.ts'
   import { router, startRouter } from './lib/router.svelte.ts'
+  import Compare from './views/Compare.svelte'
   import Overview from './views/Overview.svelte'
   import Person from './views/Person.svelte'
 
@@ -21,6 +22,8 @@
     <Overview {idx} age={route.age} />
   {:else if route.name === 'person'}
     {#key route.id}<Person {idx} id={route.id} />{/key}
+  {:else if route.name === 'compare'}
+    <Compare {idx} a={route.a} b={route.b} />
   {:else}
     <h1 class="placeholder">{t(`nav.${route.name}`)}</h1>
   {/if}
