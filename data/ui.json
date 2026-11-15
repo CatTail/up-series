@@ -23,10 +23,6 @@
     "zh": "问题库",
     "en": "Questions"
   },
-  "nav.compare": {
-    "zh": "对比",
-    "en": "Compare"
-  },
   "lang.toggle": {
     "zh": "切换语言",
     "en": "Switch language"
@@ -88,32 +84,16 @@
     "en": "Fourteen lives, from 7 to 70"
   },
   "overview.lede": {
-    "zh": "每条线是一个人，按 1964 年的出身分组上色。拖动滑杆，看同一年龄时每个人的状态。",
-    "en": "Each line is one person, coloured by where they started in 1964. Drag the slider to compare everyone at the same age."
-  },
-  "overview.age": {
-    "zh": "年龄",
-    "en": "Age"
+    "zh": "每条线是一个人，按 1964 年的出身分组上色。点上方的年龄或线上的点，在图上展开那个年龄每个人的状态。",
+    "en": "Each line is a person, coloured by their 1964 starting point. Click an age or any dot to read everyone’s state at that age."
   },
   "overview.ageLabel": {
     "zh": "{age} 岁 · {year} · {title}",
     "en": "Age {age} · {year} · {title}"
   },
-  "overview.tableView": {
-    "zh": "表格视图",
-    "en": "Table view"
-  },
-  "overview.chartView": {
-    "zh": "图形视图",
-    "en": "Chart view"
-  },
   "overview.groupHint": {
     "zh": "点分组可以高亮",
     "en": "Click a group to highlight it"
-  },
-  "overview.chipsLabel": {
-    "zh": "{age} 岁时的状态",
-    "en": "Where they were at {age}"
   },
   "overview.lifelineAria": {
     "zh": "14 位人物在十部影片中的出镜生命线",
@@ -206,26 +186,6 @@
   "src.film": {
     "zh": "{title} · {locator}",
     "en": "{title} · {locator}"
-  },
-  "compare.title": {
-    "zh": "两人对比",
-    "en": "Side by side"
-  },
-  "compare.lede": {
-    "zh": "任选两个人：十个年龄排成列，六个维度排成行，逐格对照。点一个格子可以看出处。",
-    "en": "Pick two people: ten ages across, six dimensions down. Click a cell to see its sources."
-  },
-  "compare.pickA": {
-    "zh": "第一个人",
-    "en": "First person"
-  },
-  "compare.pickB": {
-    "zh": "第二个人",
-    "en": "Second person"
-  },
-  "compare.vs": {
-    "zh": "对比",
-    "en": "vs"
   },
   "questions.title": {
     "zh": "问题库",
@@ -454,5 +414,53 @@
   "p.close": {
     "zh": "）",
     "en": ")"
+  },
+  "overview.theme": {
+    "zh": "主题",
+    "en": "Theme"
+  },
+  "overview.themeAll": {
+    "zh": "全部",
+    "en": "All"
+  },
+  "overview.origin": {
+    "zh": "出身",
+    "en": "Origin"
+  },
+  "overview.openAge": {
+    "zh": "展开 {age} 岁",
+    "en": "Open age {age}"
+  },
+  "overview.closeAge": {
+    "zh": "收起",
+    "en": "Close"
+  },
+  "overview.pin": {
+    "zh": "对比 {name}",
+    "en": "Compare {name}"
+  },
+  "overview.unpin": {
+    "zh": "移除 {name}",
+    "en": "Remove {name}"
+  },
+  "overview.pinned": {
+    "zh": "对比",
+    "en": "Comparing"
+  },
+  "overview.clearPins": {
+    "zh": "清除",
+    "en": "Clear"
+  },
+  "overview.compareHint": {
+    "zh": "勾选名字可以把几个人放在一起看；不展开年龄时，显示他们每个年龄的状态。",
+    "en": "Tick names to line people up; with no age open, they show their state at every age."
+  },
+  "overview.openPerson": {
+    "zh": "{name} 的个人页",
+    "en": "{name}’s page"
+  },
+  "overview.filmQuestions": {
+    "zh": "这一部的问答（{n}）",
+    "en": "Questions in this film ({n})"
   }
 }

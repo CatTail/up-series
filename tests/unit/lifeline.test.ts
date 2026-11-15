@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import { buildIndex } from '../../src/lib/data/index.ts'
-import { layoutLifelines } from '../../src/lib/viz/lifeline.ts'
+import { layoutLifelines, lensColumns, lensRow, lifelineTopology } from '../../src/lib/viz/lifeline.ts'
 import { makeFixture } from '../fixtures/dataset.ts'
 
 const idx = buildIndex(makeFixture())
@@ -61,5 +61,82 @@ describe('layoutLifelines', () => {
   it('x positions span label width to the right edge', () => {
     expect(L.xOf(0)).toBe(170)
     expect(L.xOf(9)).toBeLessThan(980)
+  })
+})
+
+describe('lifelineTopology', () => {
+  const topo = (id: string) => lifelineTopology(idx.person(id as never), idx.films)
+  it('is index based: charles is absent from f28 to f63, special at f70', () => {
+    const t = topo('charles')
+    expect(t.markers.map((m) => m.kind)).toEqual(['present', 'present', 'present', 'absent', 'absent', 'absent', 'absent', 'absent', 'absent', 'special'])
+    expect(t.segments.map((s) => s.style)).toEqual(['solid', 'solid', 'faded', 'faded', 'faded', 'faded', 'faded', 'faded', 'faded'])
+  })
+  it('splits the segment holding a death: solid to the death, faded after', () => {
+    const t = topo('nick')
+    expect(t.death).toMatchObject({ i: 8, label: '† 2023' })
+    expect(t.death!.f).toBeGreaterThan(0)
+    expect(t.death!.f).toBeLessThan(1)
+    const last = t.segments.filter((s) => s.i === 8)
+    expect(last).toEqual([
+      expect.objectContaining({ t0: 0, t1: t.death!.f, style: 'solid' }),
+      expect.objectContaining({ t0: t.death!.f, t1: 1, style: 'faded' }),
+    ])
+  })
+  it('stops at deceased films', () => {
+    const t = topo('lynn')
+    expect(t.segments.map((s) => s.i)).toEqual([0, 1, 2, 3, 4, 5, 6])
+    expect(t.markers).toHaveLength(8)
+  })
+})
+
+describe('lensColumns', () => {
+  const sum = (xs: number[]) => xs.reduce((a, b) => a + b, 0)
+  it('equal columns when no age is open', () => {
+    const c = lensColumns(10, null)
+    expect(c.widths.every((w) => Math.abs(w - 10) < 1e-9)).toBe(true)
+    expect(c.lefts[0]).toBe(0)
+    expect(c.centres[3]).toBeCloseTo(35)
+  })
+  it('the open column takes `wide` percent, the rest share what is left', () => {
+    const c = lensColumns(10, 3, 55)
+    expect(c.widths[3]).toBe(55)
+    expect(c.widths[0]).toBeCloseTo(5)
+    expect(sum(c.widths)).toBeCloseTo(100)
+    expect(c.lefts[4]).toBeCloseTo(15 + 55)
+    expect(c.lefts[9] + c.widths[9]).toBeCloseTo(100)
+  })
+})
+
+describe('lensRow', () => {
+  const topo = (id: string) => lifelineTopology(idx.person(id as never), idx.films)
+  it('without cards, markers sit at column centres and segments join centres', () => {
+    const c = lensColumns(10, null)
+    const r = lensRow(topo('andrew'), c, () => false)
+    expect(r.markers.map((m) => m.x)).toEqual(c.centres)
+    expect(r.segments[0]).toMatchObject({ x: c.centres[0], style: 'solid' })
+    expect(r.segments[0].w).toBeCloseTo(c.centres[1] - c.centres[0])
+  })
+  it('a card column anchors lines at its edges and puts the marker on its left edge', () => {
+    const c = lensColumns(10, 3)
+    const r = lensRow(topo('andrew'), c, (i) => i === 3)
+    expect(r.markers[3].x).toBe(c.lefts[3])
+    const into = r.segments.find((s) => s.i === 2)!
+    const out = r.segments.find((s) => s.i === 3)!
+    expect(into.x + into.w).toBeCloseTo(c.lefts[3])
+    expect(out.x).toBeCloseTo(c.lefts[3] + c.widths[3])
+    expect(out.x + out.w).toBeCloseTo(c.centres[4])
+  })
+  it('a death next to an open column is placed between the card edge and the next node, never under the card', () => {
+    const c = lensColumns(10, 7)
+    const r = lensRow(topo('lynn'), c, (i) => i === 7)
+    const edge = c.lefts[7] + c.widths[7]
+    expect(r.death!.x).toBeGreaterThan(edge)
+    expect(r.death!.x).toBeLessThan(c.centres[8])
+    expect(r.death!.label).toBe('† 2013')
+  })
+  it('drops zero-length segments between two adjacent cards', () => {
+    const c = lensColumns(10, null)
+    const r = lensRow(topo('andrew'), c, () => true)
+    expect(r.segments).toEqual([])
   })
 })

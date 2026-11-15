@@ -30,9 +30,18 @@ describe('parseRoute / toHash', () => {
     expect(parseRoute('#/overview?age=36')).toEqual({ name: 'overview' })
     expect(toHash({ name: 'overview', age: 35 })).toBe('#/overview?age=35')
   })
-  it('compare', () => {
-    expect(parseRoute('#/compare?a=andrew&b=charles')).toEqual({ name: 'compare', a: 'andrew', b: 'charles' })
-    expect(toHash({ name: 'compare', a: 'lynn' })).toBe('#/compare?a=lynn')
+  it('overview dim and people', () => {
+    expect(parseRoute('#/overview?age=28&dim=work&people=andrew,tony')).toEqual({ name: 'overview', age: 28, dim: 'work', people: ['andrew', 'tony'] })
+    expect(parseRoute('#/overview?dim=nope&people=zed,andrew,andrew')).toEqual({ name: 'overview', people: ['andrew'] })
+    expect(parseRoute('#/overview?people=')).toEqual({ name: 'overview' })
+    const h = '#/overview?age=28&dim=work&people=andrew,tony'
+    expect(toHash(parseRoute(h))).toBe(h)
+    expect(toHash({ name: 'overview', people: [] })).toBe('#/overview')
+  })
+  it('legacy compare links open the overview with both people ticked', () => {
+    expect(parseRoute('#/compare?a=andrew&b=charles')).toEqual({ name: 'overview', people: ['andrew', 'charles'] })
+    expect(parseRoute('#/compare?a=lynn')).toEqual({ name: 'overview', people: ['lynn'] })
+    expect(parseRoute('#/compare')).toEqual({ name: 'overview' })
     expect(parseRoute('#/guess')).toEqual({ name: 'guess' })
     expect(toHash({ name: 'origins' })).toBe('#/origins')
   })

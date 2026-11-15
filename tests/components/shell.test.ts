@@ -20,9 +20,9 @@ const navTexts = () => Array.from(document.querySelectorAll('nav [data-tab]')).m
 describe('app shell', () => {
   it('defaults to Chinese and switches to English', async () => {
     render(App)
-    expect(navTexts()).toEqual(['缘起', '总览', '猜一猜', '问题库', '对比'])
+    expect(navTexts()).toEqual(['缘起', '总览', '猜一猜', '问题库'])
     await userEvent.click(screen.getByRole('button', { name: 'EN' }))
-    expect(navTexts()).toEqual(['Origins', 'Overview', 'Guess', 'Questions', 'Compare'])
+    expect(navTexts()).toEqual(['Origins', 'Overview', 'Guess', 'Questions'])
     expect(localStorage.getItem('up-lang')).toBe('en')
     expect(document.documentElement.lang).toBe('en')
   })
@@ -30,14 +30,23 @@ describe('app shell', () => {
   it('keeps English after a reload', async () => {
     localStorage.setItem('up-lang', 'en')
     render(App)
-    expect(navTexts()).toEqual(['Origins', 'Overview', 'Guess', 'Questions', 'Compare'])
+    expect(navTexts()).toEqual(['Origins', 'Overview', 'Guess', 'Questions'])
   })
 
   it('hash change switches the active tab', async () => {
     render(App)
-    location.hash = '#/compare'
+    location.hash = '#/questions'
     window.dispatchEvent(new HashChangeEvent('hashchange'))
-    await vi.waitFor(() => expect(document.querySelector('nav [aria-current="page"]')?.getAttribute('data-tab')).toBe('compare'))
+    await vi.waitFor(() => expect(document.querySelector('nav [aria-current="page"]')?.getAttribute('data-tab')).toBe('questions'))
+  })
+
+  it('old compare links open the overview with both people ticked', async () => {
+    render(App)
+    location.hash = '#/compare?a=andrew&b=tony'
+    window.dispatchEvent(new HashChangeEvent('hashchange'))
+    await vi.waitFor(() => expect(document.querySelector('nav [aria-current="page"]')?.getAttribute('data-tab')).toBe('overview'))
+    const ids = Array.from(document.querySelectorAll('.row[data-person]')).map((r) => (r as HTMLElement).dataset.person)
+    expect(ids.slice(0, 2)).toEqual(['andrew', 'tony'])
   })
 
   it('every ui.json key resolves in both languages', async () => {

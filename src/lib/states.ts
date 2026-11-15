@@ -26,16 +26,24 @@ export function cellView(idx: DataIndex, personId: PersonId, filmId: FilmId, dim
 
 const SUMMARY_DIMS: DimKey[] = ['work', 'family', 'residence', 'education', 'events']
 
-/** One-line state for the overview chips. */
-export function chipSummary(idx: DataIndex, personId: PersonId, filmId: FilmId): CellView {
+/** A cell's view, plus the dimension a summary was taken from. */
+export type NodeView = CellView & { dim?: DimKey }
+
+/** One-line state when no theme is chosen: the first confirmed of work, family, home, education, events. */
+export function chipSummary(idx: DataIndex, personId: PersonId, filmId: FilmId): NodeView {
   const person = idx.person(personId)
   const p = person.participation[filmId]
   if (NON_PARTICIPATING.includes(p)) return participationView(p, person.participationNotes?.[filmId])
   for (const d of SUMMARY_DIMS) {
     const c = cellView(idx, personId, filmId, d)
-    if (c.kind === 'text') return c
+    if (c.kind === 'text') return { ...c, dim: d }
   }
   return { kind: 'not_found' }
+}
+
+/** What a node on the overview shows: the chosen theme, or the summary. */
+export function nodeState(idx: DataIndex, personId: PersonId, filmId: FilmId, dim?: DimKey): NodeView {
+  return dim ? cellView(idx, personId, filmId, dim) : chipSummary(idx, personId, filmId)
 }
 
 export type StatusMarks = { special?: 'audio_only' | 'archival_interview'; died?: string }

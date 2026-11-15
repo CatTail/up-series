@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import { buildIndex } from '../../src/lib/data/index.ts'
-import { cellView, chipSummary } from '../../src/lib/states.ts'
+import { cellView, chipSummary, nodeState } from '../../src/lib/states.ts'
 import { makeFixture } from '../fixtures/dataset.ts'
 
 describe('cellView / chipSummary', () => {
@@ -30,8 +30,8 @@ describe('cellView / chipSummary', () => {
     expect(chipSummary(buildIndex(ds2), 'suzy', 'f70')).toMatchObject({ kind: 'text', text: { en: 'Returned' } })
   })
 
-  it('chipSummary picks work when confirmed', () => {
-    expect(chipSummary(idx, 'andrew', 'f35')).toMatchObject({ kind: 'text', text: { en: 'Solicitor' } })
+  it('chipSummary picks work when confirmed, and says which dimension it came from', () => {
+    expect(chipSummary(idx, 'andrew', 'f35')).toMatchObject({ kind: 'text', text: { en: 'Solicitor' }, dim: 'work' })
   })
   it('audio_only cell without facts is not_found; absent cell without note has no note key', () => {
     expect(chipSummary(idx, 'charles', 'f70')).toEqual({ kind: 'not_found' })
@@ -42,5 +42,12 @@ describe('cellView / chipSummary', () => {
   })
   it('cellView passes questionIds for confirmed dims', () => {
     expect(cellView(idx, 'andrew', 'f07', 'outlook')).toMatchObject({ kind: 'text', questionIds: ['f07-001'] })
+  })
+
+  it('nodeState: a theme shows that dimension, no theme shows the summary', () => {
+    expect(nodeState(idx, 'andrew', 'f07', 'outlook')).toMatchObject({ kind: 'text', text: { en: 'Reads the Financial Times' } })
+    expect(nodeState(idx, 'andrew', 'f35', 'outlook')).toEqual({ kind: 'not_found' })
+    expect(nodeState(idx, 'andrew', 'f35')).toMatchObject({ kind: 'text', dim: 'work' })
+    expect(nodeState(idx, 'charles', 'f35', 'work')).toEqual({ kind: 'participation', p: 'absent' })
   })
 })

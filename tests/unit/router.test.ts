@@ -20,7 +20,7 @@ describe('router scroll behaviour', () => {
     expect(spy).toHaveBeenCalledWith(0, 0)
   })
 
-  it('keeps the scroll position for in-page changes (filters, slider)', () => {
+  it('keeps the scroll position for in-page changes (filters, open age)', () => {
     navigate({ name: 'questions', film: 'f28' })
     spy.mockClear()
     navigate({ name: 'questions', film: 'f35' })
@@ -30,7 +30,7 @@ describe('router scroll behaviour', () => {
   })
 
   it('link clicks (hashchange) to another page also scroll to the top', () => {
-    location.hash = '#/compare'
+    location.hash = '#/guess'
     window.dispatchEvent(new HashChangeEvent('hashchange'))
     expect(spy).toHaveBeenCalledWith(0, 0)
   })
