@@ -76,7 +76,7 @@
                 {:else if m.kind === 'absent'}
                   <circle class="mk hollow" cx={m.x} cy={r.y} r={4} data-marker={m.kind} />
                 {:else}
-                  <rect class="mk" x={m.x - 5} y={r.y - 5} width={10} height={10} transform={`rotate(45 ${m.x} ${r.y})`} stroke={c} data-marker={m.kind} />
+                  <rect class="mk special" x={m.x - 5} y={r.y - 5} width={10} height={10} transform={`rotate(45 ${m.x} ${r.y})`} style:stroke={c} data-marker={m.kind} />
                 {/if}
                 <circle
                   class="hit"
@@ -122,7 +122,7 @@
   .seg { stroke-width: 2; stroke-linecap: round; }
   .mk { stroke: var(--surface); stroke-width: 2; }
   .mk.hollow { fill: var(--surface); stroke: var(--muted); stroke-width: 1.5; }
-  rect.mk { fill: var(--surface); }
+  rect.mk.special { fill: var(--surface); stroke-width: 2; }
   .hit { fill: transparent; cursor: default; }
   .tick { stroke: var(--ink2); stroke-width: 1.5; }
   .note { font-size: 11px; fill: var(--ink2); }

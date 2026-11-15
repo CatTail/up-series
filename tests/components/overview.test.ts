@@ -65,6 +65,12 @@ describe('Overview', () => {
     expect(tip).toHaveTextContent(t('status.absent'))
   })
 
+  it('special (audio-only / archival) markers are stroked in the group colour, so they stay visible', () => {
+    render(Overview, { idx })
+    const m = document.querySelector('[data-marker="special"]') as SVGElement
+    expect(m.style.stroke).toBe('var(--series-1)')
+  })
+
   it('person names link to the person page', async () => {
     render(Overview, { idx })
     const link = document.querySelector('a[data-person-link="nick"]') as Element

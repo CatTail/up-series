@@ -21,9 +21,9 @@
   <header class="phead">
     <h1><span class="dot" style:background={`var(${group.colorVar})`}></span>{person.fullName}</h1>
     <span class="tag">{pick(group.name)}</span>
-    <span class="tag">{pick(person.background)}</span>
     {#if person.born}<span class="tag">{t('person.born', { date: person.born })}</span>{/if}
     {#if person.died}<span class="tag">{t('person.died', { date: person.died })}</span>{/if}
+    <p class="bg">{pick(person.background)}</p>
     <SourceList {idx} ids={person.sourceIds} />
   </header>
   <Lifelines {idx} people={[person]} labels={false} ariaLabel={person.name} />
@@ -83,6 +83,7 @@
   .phead { display: flex; gap: 8px 12px; align-items: baseline; flex-wrap: wrap; margin-bottom: 6px; }
   h1 { margin: 0 8px 0 0; font-size: 24px; }
   .dot { display: inline-block; width: 12px; height: 12px; border-radius: 50%; margin-right: 8px; }
+  .bg { flex-basis: 100%; margin: 2px 0 0; color: var(--ink2); max-width: 50em; }
   .tag { font-size: 12px; border: 1px solid var(--axis); border-radius: 999px; padding: 0 8px; color: var(--ink2); }
   .wave { display: grid; grid-template-columns: 110px 1fr; gap: 14px; border-top: 1px solid var(--grid); padding: 12px 0; }
   .wave.off { color: var(--ink2); }
