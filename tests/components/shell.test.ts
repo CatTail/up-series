@@ -20,9 +20,9 @@ const navTexts = () => Array.from(document.querySelectorAll('nav [data-tab]')).m
 describe('app shell', () => {
   it('defaults to Chinese and switches to English', async () => {
     render(App)
-    expect(navTexts()).toEqual(['缘起', '总览', '猜一猜', '问题库'])
+    expect(navTexts()).toEqual(['缘起', '总览', '人物', '猜一猜', '问题库'])
     await userEvent.click(screen.getByRole('button', { name: 'EN' }))
-    expect(navTexts()).toEqual(['Origins', 'Overview', 'Guess', 'Questions'])
+    expect(navTexts()).toEqual(['Origins', 'Overview', 'People', 'Guess', 'Questions'])
     expect(localStorage.getItem('up-lang')).toBe('en')
     expect(document.documentElement.lang).toBe('en')
   })
@@ -30,7 +30,7 @@ describe('app shell', () => {
   it('keeps English after a reload', async () => {
     localStorage.setItem('up-lang', 'en')
     render(App)
-    expect(navTexts()).toEqual(['Origins', 'Overview', 'Guess', 'Questions'])
+    expect(navTexts()).toEqual(['Origins', 'Overview', 'People', 'Guess', 'Questions'])
   })
 
   it('hash change switches the active tab', async () => {
@@ -40,7 +40,21 @@ describe('app shell', () => {
     await vi.waitFor(() => expect(document.querySelector('nav [aria-current="page"]')?.getAttribute('data-tab')).toBe('questions'))
   })
 
-  it('old compare links open the overview with both people ticked', async () => {
+  it('person pages and the people index have their own tab', async () => {
+    render(App)
+    const active = () => document.querySelector('nav [aria-current="page"]')?.getAttribute('data-tab')
+    expect(document.querySelector('nav [data-tab="person"]')?.getAttribute('href')).toBe('#/person')
+    location.hash = '#/person/nick'
+    window.dispatchEvent(new HashChangeEvent('hashchange'))
+    await vi.waitFor(() => expect(active()).toBe('person'))
+    expect(document.querySelector('header.phead')).toHaveTextContent('Nick')
+    location.hash = '#/person'
+    window.dispatchEvent(new HashChangeEvent('hashchange'))
+    await vi.waitFor(() => expect(document.querySelectorAll('a.pcard').length).toBeGreaterThan(0))
+    expect(active()).toBe('person')
+  })
+
+  it('old compare links open the overview with both people selected', async () => {
     render(App)
     location.hash = '#/compare?a=andrew&b=tony'
     window.dispatchEvent(new HashChangeEvent('hashchange'))

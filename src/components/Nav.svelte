@@ -4,8 +4,8 @@
   import LangToggle from './LangToggle.svelte'
 
   let { route }: { route: Route } = $props()
-  const tabs = ['origins', 'overview', 'guess', 'questions'] as const
-  const active = $derived(route.name === 'person' ? 'overview' : route.name)
+  const tabs = ['origins', 'overview', 'person', 'guess', 'questions'] as const
+  const active = $derived(route.name)
 </script>
 
 <header class="bar">

@@ -88,10 +88,12 @@ describe('Overview', () => {
     expect(card('andrew', 'f35')).not.toHaveTextContent('律师')
   })
 
-  it('ticking people moves them to the top and, with no age open, fills every age for them', async () => {
+  it('selecting people by name moves them to the top and, with no age open, fills every age for them', async () => {
     render(Overview, { idx, age: 35 })
-    await userEvent.click(screen.getByRole('checkbox', { name: t('overview.pin', { name: 'Nick' }) }))
-    await userEvent.click(screen.getByRole('checkbox', { name: t('overview.pin', { name: 'Charles' }) }))
+    expect(screen.getByRole('button', { name: 'Nick' })).toHaveAttribute('aria-pressed', 'false')
+    await userEvent.click(screen.getByRole('button', { name: 'Nick' }))
+    await userEvent.click(screen.getByRole('button', { name: 'Charles' }))
+    expect(screen.getByRole('button', { name: 'Nick' })).toHaveAttribute('aria-pressed', 'true')
     expect(location.hash).toBe('#/overview?people=nick,charles')
     expect(rowIds().slice(0, 2)).toEqual(['nick', 'charles'])
     expect(rowIds()).toHaveLength(idx.peopleOrdered.length)
@@ -185,9 +187,16 @@ describe('Overview', () => {
     expect(document.querySelector('.row[data-person="lynn"] .dlabel')).not.toHaveClass('after')
   })
 
-  it('person names link to the person page', () => {
+  it('clicking a name selects the person for comparison instead of opening their page', async () => {
     render(Overview, { idx })
-    expect(document.querySelector('a[data-person-link="nick"]')!.getAttribute('href')).toBe('#/person/nick')
+    expect(document.querySelector('.row .name a')).toBeNull()
+    expect(document.querySelector('.row input[type="checkbox"]')).toBeNull()
+    await userEvent.click(screen.getByRole('button', { name: 'Lynn' }))
+    expect(location.hash).toBe('#/overview?people=lynn')
+    expect(rowIds()[0]).toBe('lynn')
+    await userEvent.click(screen.getByRole('button', { name: 'Lynn' }))
+    expect(location.hash).toBe('#/overview')
+    expect(screen.getByRole('button', { name: 'Lynn' })).toHaveAttribute('aria-pressed', 'false')
   })
 
   it('switching to English keeps the open age and theme', async () => {

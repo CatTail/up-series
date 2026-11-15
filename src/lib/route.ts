@@ -6,7 +6,7 @@ export const AGES = [7, 14, 21, 28, 35, 42, 49, 56, 63, 70] as const
 export type Route =
   | { name: 'origins' }
   | { name: 'overview'; age?: number; dim?: DimKey; people?: PersonId[] }
-  | { name: 'person'; id: PersonId }
+  | { name: 'person'; id?: PersonId }
   | { name: 'guess' }
   | { name: 'questions'; film?: FilmId; person?: PersonId; theme?: string; q?: string; open?: string }
 
@@ -43,7 +43,8 @@ export function parseRoute(hash: string): Route {
       })
     }
     case 'person':
-      return isPerson(parts[1] ?? null) ? { name: 'person', id: parts[1] as PersonId } : { name: 'origins' }
+      // No id (or an unknown one) is the people index.
+      return isPerson(parts[1] ?? null) ? { name: 'person', id: parts[1] as PersonId } : { name: 'person' }
     case 'guess':
       return { name: 'guess' }
     case 'questions': {
@@ -75,7 +76,7 @@ export function toHash(r: Route): string {
   }
   switch (r.name) {
     case 'person':
-      return `#/person/${r.id}`
+      return r.id ? `#/person/${r.id}` : '#/person'
     case 'overview':
       return `#/overview${q([['age', r.age], ['dim', r.dim], ['people', r.people?.join(',')]])}`
     case 'questions':

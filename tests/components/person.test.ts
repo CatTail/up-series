@@ -95,4 +95,14 @@ describe('Person page', () => {
     expect(document.body.textContent).not.toMatch(/[：；（）]/)
     expect(screen.getAllByText(t('dim.education')).length).toBeGreaterThan(0)
   })
+
+  it('a name strip above the header switches person and marks the current one', () => {
+    const idx = buildIndex(makeFixture())
+    render(Person, { idx, id: 'lynn' })
+    const strip = screen.getByRole('navigation', { name: t('people.strip') })
+    const links = Array.from(strip.querySelectorAll('a')) as HTMLAnchorElement[]
+    expect(links.map((a) => a.textContent?.trim())).toEqual(idx.peopleOrdered.map((p) => p.name))
+    expect(links.find((a) => a.getAttribute('href') === '#/person/lynn')).toHaveAttribute('aria-current', 'page')
+    expect(links.filter((a) => a.hasAttribute('aria-current'))).toHaveLength(1)
+  })
 })

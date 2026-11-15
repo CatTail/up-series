@@ -5,8 +5,11 @@ describe('parseRoute / toHash', () => {
   it('person route', () => {
     expect(parseRoute('#/person/nick')).toEqual({ name: 'person', id: 'nick' })
   })
-  it('invalid person id falls back to origins', () => {
-    expect(parseRoute('#/person/zzz')).toEqual({ name: 'origins' })
+  it('the person index, and invalid person ids, are the person route without an id', () => {
+    expect(parseRoute('#/person')).toEqual({ name: 'person' })
+    expect(parseRoute('#/person/zzz')).toEqual({ name: 'person' })
+    expect(toHash({ name: 'person' })).toBe('#/person')
+    expect(toHash({ name: 'person', id: 'tony' })).toBe('#/person/tony')
   })
   it('empty and unknown hashes are origins', () => {
     expect(parseRoute('')).toEqual({ name: 'origins' })

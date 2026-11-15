@@ -9,6 +9,7 @@
   import Guess from './views/Guess.svelte'
   import Origins from './views/Origins.svelte'
   import Overview from './views/Overview.svelte'
+  import People from './views/People.svelte'
   import Person from './views/Person.svelte'
   import Questions from './views/Questions.svelte'
 
@@ -23,7 +24,7 @@
   {#if route.name === 'overview'}
     <Overview {idx} age={route.age} dim={route.dim} people={route.people} />
   {:else if route.name === 'person'}
-    {#key route.id}<Person {idx} id={route.id} />{/key}
+    {#if route.id}{#key route.id}<Person {idx} id={route.id} />{/key}{:else}<People {idx} />{/if}
   {:else if route.name === 'guess'}
     <Guess {idx} />
   {:else if route.name === 'questions'}

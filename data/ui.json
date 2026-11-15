@@ -435,10 +435,6 @@
     "zh": "收起",
     "en": "Close"
   },
-  "overview.pin": {
-    "zh": "对比 {name}",
-    "en": "Compare {name}"
-  },
   "overview.unpin": {
     "zh": "移除 {name}",
     "en": "Remove {name}"
@@ -452,8 +448,8 @@
     "en": "Clear"
   },
   "overview.compareHint": {
-    "zh": "勾选名字可以把几个人放在一起看；不展开年龄时，显示他们每个年龄的状态。",
-    "en": "Tick names to line people up; with no age open, they show their state at every age."
+    "zh": "点名字可以把几个人放在一起看；不展开年龄时，显示他们每个年龄的状态。",
+    "en": "Click names to line people up; with no age open, they show their state at every age."
   },
   "overview.openPerson": {
     "zh": "{name} 的个人页",
@@ -462,5 +458,25 @@
   "overview.filmQuestions": {
     "zh": "这一部的问答（{n}）",
     "en": "Questions in this film ({n})"
+  },
+  "nav.person": {
+    "zh": "人物",
+    "en": "People"
+  },
+  "people.title": {
+    "zh": "14 个人",
+    "en": "The fourteen"
+  },
+  "people.lede": {
+    "zh": "系列跟拍的 14 个人，按 1964 年的出身分组。点一张卡片，看这个人从 7 岁到 70 岁的经历。",
+    "en": "The fourteen people the series follows, grouped by where they started in 1964. Open a card to follow one life from 7 to 70."
+  },
+  "people.strip": {
+    "zh": "选择人物",
+    "en": "Choose a person"
+  },
+  "overview.pinHint": {
+    "zh": "点击加入或移出对比",
+    "en": "Click to add to or remove from the comparison"
   }
 }

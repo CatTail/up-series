@@ -34,7 +34,7 @@
   const template = $derived(cols.widths.map((w) => `${w}%`).join(' '))
   const topo = $derived(new Map(idx.peopleOrdered.map((p) => [p.id, lifelineTopology(p, idx.films)])))
   const pinned = $derived(new Set(picked))
-  /** Ticked people first (in the order they were ticked), then everyone else by origin group. */
+  /** Selected people first (in the order they were picked), then everyone else by origin group. */
   const rows = $derived.by(() => {
     const rest = idx.peopleOrdered.filter((p) => !pinned.has(p.id))
     return [
@@ -45,7 +45,7 @@
       }),
     ]
   })
-  /** A cell holds a card in the open column, or — with no age open — anywhere on a ticked row. */
+  /** A cell holds a card in the open column, or — with no age open — anywhere on a selected row. */
   const hasCard = (pid: PersonId, i: number) => (open !== null ? i === open : pinned.has(pid))
 
   let expanded = $state<string | null>(null)
@@ -123,8 +123,7 @@
       >
         <div class="name">
           {#if r.first}<i class="strip" aria-hidden="true"></i>{/if}
-          <input type="checkbox" checked={r.pinned} aria-label={t('overview.pin', { name: p.name })} onchange={() => onpin(p.id)} />
-          <a href={`#/person/${p.id}`} data-person-link={p.id}>{p.name}</a>
+          <button type="button" class="who" aria-pressed={r.pinned} title={t('overview.pinHint')} onclick={() => onpin(p.id)}>{p.name}</button>
         </div>
         <div class="track" style:grid-template-columns={template}>
           {#each L.segments as s (s.key)}
@@ -202,11 +201,14 @@
   .row.gap { margin-top: 8px; }
   .row.pinned + .row:not(.pinned) { margin-top: 12px; }
   .row.dimmed { opacity: 0.25; }
-  .name { position: relative; display: flex; align-items: center; gap: 5px; padding-left: 10px; font-size: 13px; min-width: 0; }
-  .name a { color: var(--ink); text-decoration: none; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-  .name a:hover, .name a:focus-visible { text-decoration: underline; }
-  .row.pinned .name a { font-weight: 600; }
-  .name input { margin: 0; width: 12px; height: 12px; accent-color: var(--ink); cursor: pointer; }
+  .name { position: relative; display: flex; align-items: center; gap: 5px; padding-left: 6px; font-size: 13px; min-width: 0; }
+  .who {
+    all: unset; box-sizing: border-box; max-width: 100%; padding: 0 8px; border: 1px solid transparent; border-radius: 999px;
+    color: var(--ink); cursor: pointer; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  .who:hover { border-color: var(--axis); }
+  .who:focus-visible { outline: 2px solid var(--ink); outline-offset: 1px; }
+  .who[aria-pressed='true'] { border-color: var(--ink); font-weight: 600; }
   .strip { position: absolute; left: 0; top: 50%; width: 4px; height: 12px; margin-top: -6px; border-radius: 2px; background: var(--c); }
 
   .track { position: relative; align-items: center; min-height: 24px; }

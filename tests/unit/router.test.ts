@@ -13,6 +13,9 @@ describe('router scroll behaviour', () => {
   afterEach(() => stop())
 
   it('scrolls to the top when the page changes', () => {
+    navigate({ name: 'person' })
+    expect(spy).toHaveBeenCalledWith(0, 0)
+    spy.mockClear()
     navigate({ name: 'person', id: 'nick' })
     expect(spy).toHaveBeenCalledWith(0, 0)
     spy.mockClear()

@@ -1,6 +1,7 @@
 <script lang="ts">
   import CellText from '../components/CellText.svelte'
   import Lifelines from '../components/Lifelines.svelte'
+  import PersonStrip from '../components/PersonStrip.svelte'
   import QA from '../components/QA.svelte'
   import SourceList from '../components/SourceList.svelte'
   import type { DataIndex } from '../lib/data/index.ts'
@@ -18,6 +19,7 @@
 </script>
 
 <article>
+  <PersonStrip {idx} current={id} />
   <header class="phead">
     <h1><span class="dot" style:background={`var(${group.colorVar})`}></span>{person.fullName}</h1>
     <span class="tag">{pick(group.name)}</span>

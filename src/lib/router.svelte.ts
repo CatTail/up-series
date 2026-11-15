@@ -2,8 +2,8 @@ import { parseRoute, toHash, type Route } from './route.ts'
 
 export const router = $state<{ route: Route }>({ route: parseRoute(typeof location === 'undefined' ? '' : location.hash) })
 
-/** A "page" is the route name plus the person shown; filters and the slider stay on the same page. */
-const pageKey = (r: Route) => (r.name === 'person' ? `person/${r.id}` : r.name)
+/** A "page" is the route name plus the person shown (none = the index); filters and the open age stay on the same page. */
+const pageKey = (r: Route) => (r.name === 'person' ? `person/${r.id ?? ''}` : r.name)
 
 function setRoute(next: Route) {
   const changedPage = pageKey(next) !== pageKey(router.route)

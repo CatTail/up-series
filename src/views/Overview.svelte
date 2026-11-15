@@ -34,7 +34,7 @@
     theme = d
     sync()
   }
-  /** Ticking someone closes the open age, so their rows fill with every age straight away. */
+  /** Selecting someone closes the open age, so their rows fill with every age straight away. */
   function togglePin(id: PersonId) {
     if (picked.includes(id)) picked = picked.filter((x) => x !== id)
     else {
