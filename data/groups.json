@@ -1,0 +1,32 @@
+[
+  {
+    "id": "priv",
+    "name": { "zh": "富裕家庭 · 私立学校", "en": "Affluent · private school" },
+    "colorVar": "--series-1",
+    "order": 0
+  },
+  {
+    "id": "east",
+    "name": { "zh": "伦敦东区 · 公立小学", "en": "East End · state primary" },
+    "colorVar": "--series-2",
+    "order": 1
+  },
+  {
+    "id": "home",
+    "name": { "zh": "儿童之家", "en": "Children's home" },
+    "colorVar": "--series-3",
+    "order": 2
+  },
+  {
+    "id": "rural",
+    "name": { "zh": "约克郡山谷农场", "en": "Yorkshire Dales farm" },
+    "colorVar": "--series-4",
+    "order": 3
+  },
+  {
+    "id": "lpool",
+    "name": { "zh": "利物浦郊区", "en": "Liverpool suburb" },
+    "colorVar": "--series-5",
+    "order": 4
+  }
+]

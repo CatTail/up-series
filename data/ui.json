@@ -1,0 +1,438 @@
+{
+  "app.title": {
+    "zh": "人生七年：从 7 岁到 70 岁",
+    "en": "Up: from 7 to 70"
+  },
+  "nav.brand": {
+    "zh": "7 Up → 70 Up",
+    "en": "7 Up → 70 Up"
+  },
+  "nav.origins": {
+    "zh": "缘起",
+    "en": "Origins"
+  },
+  "nav.overview": {
+    "zh": "总览",
+    "en": "Overview"
+  },
+  "nav.guess": {
+    "zh": "猜一猜",
+    "en": "Guess"
+  },
+  "nav.questions": {
+    "zh": "问题库",
+    "en": "Questions"
+  },
+  "nav.compare": {
+    "zh": "对比",
+    "en": "Compare"
+  },
+  "lang.toggle": {
+    "zh": "切换语言",
+    "en": "Switch language"
+  },
+  "dim.education": {
+    "zh": "教育",
+    "en": "Education"
+  },
+  "dim.work": {
+    "zh": "工作 / 职业",
+    "en": "Work"
+  },
+  "dim.family": {
+    "zh": "婚姻与家庭",
+    "en": "Family"
+  },
+  "dim.residence": {
+    "zh": "居住地",
+    "en": "Home"
+  },
+  "dim.events": {
+    "zh": "重大事件",
+    "en": "Key events"
+  },
+  "dim.outlook": {
+    "zh": "本人看法",
+    "en": "In their words"
+  },
+  "state.notFound": {
+    "zh": "未查到",
+    "en": "Not found"
+  },
+  "status.present": {
+    "zh": "出镜",
+    "en": "Filmed"
+  },
+  "status.absent": {
+    "zh": "未出镜",
+    "en": "Not filmed"
+  },
+  "status.audio_only": {
+    "zh": "仅录音和照片",
+    "en": "Audio and photos only"
+  },
+  "status.archival_interview": {
+    "zh": "生前录制的访谈",
+    "en": "Interview recorded before death"
+  },
+  "status.footage_only": {
+    "zh": "只出现在旧片段中",
+    "en": "Archive footage only"
+  },
+  "status.deceased": {
+    "zh": "已去世",
+    "en": "Deceased"
+  },
+  "overview.title": {
+    "zh": "14 个人，从 7 岁到 70 岁",
+    "en": "Fourteen lives, from 7 to 70"
+  },
+  "overview.lede": {
+    "zh": "每条线是一个人，按 1964 年的出身分组上色。拖动滑杆，看同一年龄时每个人的状态。",
+    "en": "Each line is one person, coloured by where they started in 1964. Drag the slider to compare everyone at the same age."
+  },
+  "overview.age": {
+    "zh": "年龄",
+    "en": "Age"
+  },
+  "overview.ageLabel": {
+    "zh": "{age} 岁 · {year} · {title}",
+    "en": "Age {age} · {year} · {title}"
+  },
+  "overview.tableView": {
+    "zh": "表格视图",
+    "en": "Table view"
+  },
+  "overview.chartView": {
+    "zh": "图形视图",
+    "en": "Chart view"
+  },
+  "overview.groupHint": {
+    "zh": "点分组可以高亮",
+    "en": "Click a group to highlight it"
+  },
+  "overview.chipsLabel": {
+    "zh": "{age} 岁时的状态",
+    "en": "Where they were at {age}"
+  },
+  "overview.lifelineAria": {
+    "zh": "14 位人物在十部影片中的出镜生命线",
+    "en": "Lifelines of the 14 participants across the ten films"
+  },
+  "legend.present": {
+    "zh": "出镜",
+    "en": "Filmed"
+  },
+  "legend.absent": {
+    "zh": "未出镜 / 只有旧片段",
+    "en": "Not filmed / archive only"
+  },
+  "legend.special": {
+    "zh": "仅录音 / 生前访谈",
+    "en": "Audio only / archival interview"
+  },
+  "legend.death": {
+    "zh": "去世",
+    "en": "Died"
+  },
+  "mark.audio_only": {
+    "zh": "仅录音",
+    "en": "Audio only"
+  },
+  "mark.archival_interview": {
+    "zh": "生前访谈",
+    "en": "Archival interview"
+  },
+  "age.short": {
+    "zh": "{age} 岁",
+    "en": "{age}"
+  },
+  "person.born": {
+    "zh": "生于 {date}",
+    "en": "Born {date}"
+  },
+  "person.died": {
+    "zh": "† {date}",
+    "en": "† {date}"
+  },
+  "person.final": {
+    "zh": "最终",
+    "en": "Where they ended up"
+  },
+  "person.finalAsOf": {
+    "zh": "截至 {title}",
+    "en": "As of {title}"
+  },
+  "person.qa": {
+    "zh": "导演的提问",
+    "en": "The director asked"
+  },
+  "person.questions": {
+    "zh": "在问题库中查看全部 {n} 个问题",
+    "en": "See all {n} questions in the library"
+  },
+  "person.evidence": {
+    "zh": "片中问答",
+    "en": "From the film"
+  },
+  "qa.q": {
+    "zh": "问",
+    "en": "Q"
+  },
+  "qa.a": {
+    "zh": "答",
+    "en": "A"
+  },
+  "qa.summary": {
+    "zh": "回答要点",
+    "en": "Answer, in brief"
+  },
+  "qa.quote": {
+    "zh": "原话",
+    "en": "In their words"
+  },
+  "qa.filmOnly": {
+    "zh": "只归到影片",
+    "en": "Film only"
+  },
+  "qa.fromRecap": {
+    "zh": "来自回放",
+    "en": "From a recap"
+  },
+  "src.label": {
+    "zh": "出处",
+    "en": "Source"
+  },
+  "src.film": {
+    "zh": "{title} · {locator}",
+    "en": "{title} · {locator}"
+  },
+  "compare.title": {
+    "zh": "两人对比",
+    "en": "Side by side"
+  },
+  "compare.lede": {
+    "zh": "任选两个人：十个年龄排成列，六个维度排成行，逐格对照。点一个格子可以看出处。",
+    "en": "Pick two people: ten ages across, six dimensions down. Click a cell to see its sources."
+  },
+  "compare.pickA": {
+    "zh": "第一个人",
+    "en": "First person"
+  },
+  "compare.pickB": {
+    "zh": "第二个人",
+    "en": "Second person"
+  },
+  "compare.vs": {
+    "zh": "对比",
+    "en": "vs"
+  },
+  "questions.title": {
+    "zh": "问题库",
+    "en": "Question library"
+  },
+  "questions.lede": {
+    "zh": "十部片里导演问过的问题。点开一条，可以看到回答要点、出处，以及同一个人在其他年龄被问到的同类问题。",
+    "en": "Questions the film-makers asked across the ten films. Open one to see the answer in brief, the source, and similar questions to the same person at other ages."
+  },
+  "questions.search": {
+    "zh": "搜索问题（中 / 英）…",
+    "en": "Search questions (English / 中文)…"
+  },
+  "questions.films": {
+    "zh": "影片",
+    "en": "Film"
+  },
+  "questions.people": {
+    "zh": "人物",
+    "en": "Person"
+  },
+  "questions.themes": {
+    "zh": "主题",
+    "en": "Theme"
+  },
+  "questions.coverage": {
+    "zh": "收录情况",
+    "en": "Coverage"
+  },
+  "questions.count": {
+    "zh": "共 {n} 条",
+    "en": "{n} questions"
+  },
+  "questions.empty": {
+    "zh": "没有找到符合条件的问题。",
+    "en": "No questions match."
+  },
+  "questions.more": {
+    "zh": "显示更多（还有 {n} 条）",
+    "en": "Show more ({n} left)"
+  },
+  "questions.clear": {
+    "zh": "清除筛选",
+    "en": "Clear filters"
+  },
+  "questions.related": {
+    "zh": "同类问题 · 其他年龄",
+    "en": "Similar questions at other ages"
+  },
+  "questions.expand": {
+    "zh": "展开",
+    "en": "Details"
+  },
+  "questions.asked": {
+    "zh": "提问对象",
+    "en": "Asked"
+  },
+  "coverage.full": {
+    "zh": "完整",
+    "en": "Full"
+  },
+  "coverage.partial": {
+    "zh": "部分",
+    "en": "Partial"
+  },
+  "coverage.none": {
+    "zh": "未收录",
+    "en": "Not covered"
+  },
+  "guess.title": {
+    "zh": "猜一猜：七岁看老？",
+    "en": "Guess: does seven make the man?"
+  },
+  "guess.lede": {
+    "zh": "每轮给出一个孩子 1964 年的出身和 7 岁时说的话，猜猜这个人最后的样子。三个选项都是真实的结局，其中两个属于别人。",
+    "en": "Each round shows one child’s 1964 background and something they said at seven. Guess where they ended up. All three options are real outcomes — two belong to other people."
+  },
+  "guess.progress": {
+    "zh": "第 {i} / {n} 位",
+    "en": "{i} of {n}"
+  },
+  "guess.child": {
+    "zh": "一个 7 岁的孩子",
+    "en": "A seven-year-old"
+  },
+  "guess.prompt": {
+    "zh": "7 岁时被问到",
+    "en": "Asked at seven"
+  },
+  "guess.noPrompt": {
+    "zh": "7 岁时的原话未能确认。",
+    "en": "Their words at seven could not be confirmed."
+  },
+  "guess.question": {
+    "zh": "你觉得这个孩子最后……",
+    "en": "Where do you think this child ended up?"
+  },
+  "guess.reveal": {
+    "zh": "揭晓 →",
+    "en": "Reveal →"
+  },
+  "guess.next": {
+    "zh": "下一位 →",
+    "en": "Next →"
+  },
+  "guess.right": {
+    "zh": "猜对了",
+    "en": "Right"
+  },
+  "guess.wrong": {
+    "zh": "没猜中",
+    "en": "Not quite"
+  },
+  "guess.answer": {
+    "zh": "答案：{name}",
+    "en": "Answer: {name}"
+  },
+  "guess.score": {
+    "zh": "已经猜了 {n} 个，猜中 {k} 个",
+    "en": "{k} right out of {n} so far"
+  },
+  "guess.done": {
+    "zh": "你从 7 岁看到了最后，{n} 个人里猜中了 {k} 个。",
+    "en": "From seven to the end: you got {k} of {n}."
+  },
+  "guess.doneSub": {
+    "zh": "这部片的出发点是“七岁看老”。你的结果，离它有多远？",
+    "en": "The series began with “give me the child until seven”. How close did you come?"
+  },
+  "guess.again": {
+    "zh": "再玩一次",
+    "en": "Play again"
+  },
+  "guess.asOf": {
+    "zh": "答案取自 {title}（{status}）",
+    "en": "Outcome as of {title} ({status})"
+  },
+  "guess.profile": {
+    "zh": "看 {name} 的完整经历 →",
+    "en": "See {name}’s full story →"
+  },
+  "guess.hiddenName": {
+    "zh": "名字先藏起来，揭晓时再显示。",
+    "en": "The name stays hidden until you reveal."
+  },
+  "origins.kicker": {
+    "zh": "英国纪录片《人生七年》（Up 系列），1964—2026",
+    "en": "The Up series, 1964–2026"
+  },
+  "origins.films": {
+    "zh": "十部影片",
+    "en": "Ten films"
+  },
+  "origins.themesTitle": {
+    "zh": "导演问了什么，想了解什么",
+    "en": "What the film-makers asked, and why"
+  },
+  "origins.themesLede": {
+    "zh": "按主题整理。每张卡片给出一个代表性的问题，以及这类问题背后的意图：有出处的引用原话，没有出处的标为“解读”。点开进入问题库。",
+    "en": "Grouped by theme. Each card shows a representative question and the intent behind it — quoted where a source says so, marked “interpretation” where it does not. Click to open the library."
+  },
+  "origins.cta": {
+    "zh": "看 14 个人的生命线 →",
+    "en": "See the fourteen lifelines →"
+  },
+  "origins.example": {
+    "zh": "例如",
+    "en": "For example"
+  },
+  "origins.count": {
+    "zh": "{n} 个问题",
+    "en": "{n} questions"
+  },
+  "badge.sourced": {
+    "zh": "有出处",
+    "en": "Sourced"
+  },
+  "badge.interpretation": {
+    "zh": "解读",
+    "en": "Interpretation"
+  },
+  "badge.quote": {
+    "zh": "原话",
+    "en": "Quote"
+  },
+  "film.director": {
+    "zh": "导演",
+    "en": "Director"
+  },
+  "about.title": {
+    "zh": "关于本站",
+    "en": "About"
+  },
+  "about.purpose": {
+    "zh": "这是一个个人整理的可视化项目，与 ITV、BBC 及影片制作方没有关联。",
+    "en": "An independent visualization. Not affiliated with ITV, the BBC or the film-makers."
+  },
+  "about.sources": {
+    "zh": "所有事实都来自公开资料：维基百科、新闻报道与影评、访谈，以及影片本身。每条事实都标了出处；查不到的就写“未查到”，不做推测。",
+    "en": "Every fact comes from public sources — Wikipedia, news coverage and reviews, interviews, and the films themselves — and carries its source. Where nothing could be found the page says “Not found” rather than guessing."
+  },
+  "about.copyright": {
+    "zh": "片中内容只收录导演提问的原文；回答用我们自己的话转述。原话摘录每人每部片最多 3 条、每条不超过两句。不收录截图、视频或字幕全文。",
+    "en": "From the films we include the interviewers’ questions verbatim; answers are paraphrased in our own words. Direct quotes are capped at three per person per film, two sentences each. No stills, video or full transcripts."
+  },
+  "about.translation": {
+    "zh": "中文译文由 AI 翻译，可能有不准确之处；在中文模式下，鼠标悬停在问答上可以看到英文原文。",
+    "en": "Chinese translations are machine-made (AI) and may be imperfect; in Chinese mode, hover over a question or quote to see the English original."
+  }
+}

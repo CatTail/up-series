@@ -1,0 +1,511 @@
+[
+  {
+    "id": "andrew",
+    "name": "Andrew",
+    "fullName": "Andrew Brackfield",
+    "group": "priv",
+    "background": {
+      "zh": "1964 年，他是伦敦富人区肯辛顿（Kensington）同一所私立预备学校里被选中的三个男孩之一。",
+      "en": "In 1964 he was one of three boys filmed at the same private pre-preparatory school in Kensington, a wealthy district of London."
+    },
+    "participation": {
+      "f07": "present",
+      "f14": "present",
+      "f21": "present",
+      "f28": "present",
+      "f35": "present",
+      "f42": "present",
+      "f49": "present",
+      "f56": "present",
+      "f63": "present",
+      "f70": "present"
+    },
+    "sourceIds": [
+      "wiki-up-series",
+      "sbs-cast-2026",
+      "cbs-up-children-2013",
+      "guardian-mangan-2026"
+    ]
+  },
+  {
+    "id": "charles",
+    "name": "Charles",
+    "fullName": "Charles Furneaux",
+    "group": "priv",
+    "background": {
+      "zh": "1964 年，他是伦敦肯辛顿同一所私立预备学校里被选中的三个男孩之一。",
+      "en": "In 1964 he was one of three boys filmed at the same private pre-preparatory school in Kensington, London."
+    },
+    "participation": {
+      "f07": "present",
+      "f14": "present",
+      "f21": "present",
+      "f28": "absent",
+      "f35": "absent",
+      "f42": "absent",
+      "f49": "absent",
+      "f56": "absent",
+      "f63": "footage_only",
+      "f70": "audio_only"
+    },
+    "participationNotes": {
+      "f28": {
+        "zh": "从 28 Up 起不再参与拍摄，起因是与导演 Michael Apted 的矛盾。他后来说，自己被和两个“并不是我朋友”的男孩归为一类，有种被困住的感觉。",
+        "en": "Stopped taking part from 28 Up, after a clash with director Michael Apted. He later said he had felt typecast alongside two boys who \"weren't mates of mine\" and trapped in a situation \"that wasn't me\"."
+      },
+      "f35": {
+        "zh": "未参与拍摄（21 Up 之后退出）。",
+        "en": "Did not take part (left the series after 21 Up)."
+      },
+      "f42": {
+        "zh": "未参与拍摄（21 Up 之后退出）。",
+        "en": "Did not take part (left the series after 21 Up)."
+      },
+      "f49": {
+        "zh": "未参与拍摄（21 Up 之后退出）。",
+        "en": "Did not take part (left the series after 21 Up)."
+      },
+      "f56": {
+        "zh": "未参与拍摄（21 Up 之后退出）。",
+        "en": "Did not take part (left the series after 21 Up)."
+      },
+      "f63": {
+        "zh": "未参与拍摄。据维基百科，片中关于他的内容几乎全部删去，只在与 Andrew、John 的合影旧镜头里一闪而过。",
+        "en": "Did not take part. According to Wikipedia, references to him were removed except for fleeting archive shots alongside Andrew and John."
+      },
+      "f70": {
+        "zh": "没有出镜：只提供了画外音评论，片中只用了几张他的照片，脸部被刻意遮挡。",
+        "en": "Did not appear on camera: he contributed voiceover commentary and is seen only in photographs with his face deliberately obscured."
+      }
+    },
+    "sourceIds": [
+      "wiki-up-series",
+      "thenation-pedersen-2020",
+      "sbs-cast-2026",
+      "cbs-up-children-2013",
+      "tvguide-charles-2026",
+      "guardian-mangan-2026",
+      "independent-chilton-2026"
+    ]
+  },
+  {
+    "id": "john",
+    "name": "John",
+    "fullName": "John Brisby",
+    "group": "priv",
+    "background": {
+      "zh": "1964 年，他是伦敦肯辛顿同一所私立预备学校里被选中的三个男孩之一。",
+      "en": "In 1964 he was one of three boys filmed at the same private pre-preparatory school in Kensington, London."
+    },
+    "participation": {
+      "f07": "present",
+      "f14": "present",
+      "f21": "present",
+      "f28": "absent",
+      "f35": "present",
+      "f42": "absent",
+      "f49": "present",
+      "f56": "present",
+      "f63": "present",
+      "f70": "present"
+    },
+    "participationNotes": {
+      "f28": {
+        "zh": "拒绝参与 28 Up。SBS 称原因是他对参与这个系列心情复杂。",
+        "en": "Declined to take part in 28 Up; SBS attributes this to his mixed feelings about the series."
+      },
+      "f35": {
+        "zh": "回归，部分原因是为他的慈善机构 Friends of Bulgaria 做宣传。",
+        "en": "Returned, in part to promote his charity, Friends of Bulgaria."
+      },
+      "f42": {
+        "zh": "再次拒绝参与，49 Up 时回归。",
+        "en": "Declined again; he returned for 49 Up."
+      }
+    },
+    "sourceIds": [
+      "wiki-up-series",
+      "thenation-pedersen-2020",
+      "sbs-cast-2026",
+      "cbs-up-children-2013",
+      "guardian-mangan-2026",
+      "independent-chilton-2026"
+    ]
+  },
+  {
+    "id": "suzy",
+    "name": "Suzy",
+    "fullName": "Suzanne Lusk",
+    "group": "priv",
+    "background": {
+      "zh": "她出身富裕家庭，有保姆照顾；1964 年在伦敦一所私立女子学校里被拍摄。",
+      "en": "She came from a well-off family and had a nanny; in 1964 she was filmed at a private girls' school in London."
+    },
+    "participation": {
+      "f07": "present",
+      "f14": "present",
+      "f21": "present",
+      "f28": "present",
+      "f35": "present",
+      "f42": "present",
+      "f49": "present",
+      "f56": "present",
+      "f63": "footage_only",
+      "f70": "present"
+    },
+    "participationNotes": {
+      "f63": {
+        "zh": "选择不参与 63 Up，片中只出现了她在前几部里的旧镜头。",
+        "en": "Chose not to take part in 63 Up; she appears only in footage from earlier films."
+      },
+      "f70": {
+        "zh": "在最后一部 70 Up 中回归。",
+        "en": "Returned for the final film, 70 Up."
+      }
+    },
+    "sourceIds": [
+      "wiki-up-series",
+      "thenation-pedersen-2020",
+      "sbs-cast-2026",
+      "slant-apted-2019",
+      "televisual-kapadia-2026",
+      "independent-chilton-2026"
+    ]
+  },
+  {
+    "id": "bruce",
+    "name": "Bruce",
+    "fullName": "Bruce Balden",
+    "group": "priv",
+    "background": {
+      "zh": "1964 年，他在一所管教严格的私立寄宿学校读书。他的父亲是驻扎在当时南罗得西亚的军人，7 岁的他说最大的心愿是见到远在六千英里外的爸爸，长大想当传教士。",
+      "en": "In 1964 he was at a strict private boarding school. His father was a soldier stationed in what was then Southern Rhodesia; at seven he said his heart's desire was to see his father, 6,000 miles away, and that he wanted to be a missionary."
+    },
+    "participation": {
+      "f07": "present",
+      "f14": "present",
+      "f21": "present",
+      "f28": "present",
+      "f35": "present",
+      "f42": "present",
+      "f49": "present",
+      "f56": "present",
+      "f63": "present",
+      "f70": "present"
+    },
+    "sourceIds": [
+      "wiki-up-series",
+      "thenation-pedersen-2020",
+      "sbs-cast-2026",
+      "cbs-up-children-2013"
+    ]
+  },
+  {
+    "id": "jackie",
+    "name": "Jackie",
+    "fullName": "Jackie Bassett",
+    "group": "east",
+    "background": {
+      "zh": "1964 年，她是伦敦东区工人阶级街区同一所小学里被选中的三个女孩之一。",
+      "en": "In 1964 she was one of three girls from the same primary school in a working-class area of London's East End."
+    },
+    "participation": {
+      "f07": "present",
+      "f14": "present",
+      "f21": "present",
+      "f28": "present",
+      "f35": "present",
+      "f42": "present",
+      "f49": "present",
+      "f56": "present",
+      "f63": "present",
+      "f70": "present"
+    },
+    "sourceIds": [
+      "wiki-up-series",
+      "sbs-cast-2026",
+      "cbs-up-children-2013",
+      "saga-70up-2026",
+      "bfi-seven-up-book"
+    ]
+  },
+  {
+    "id": "lynn",
+    "name": "Lynn",
+    "fullName": "Lynn Johnson",
+    "group": "east",
+    "background": {
+      "zh": "1964 年，她是伦敦东区同一所小学里被选中的三个女孩之一。7 岁时她说将来打算去 Woolworths 百货店工作。",
+      "en": "In 1964 she was one of three girls from the same primary school in London's East End. At seven she said she planned to work at Woolworths."
+    },
+    "died": "2013",
+    "participation": {
+      "f07": "present",
+      "f14": "present",
+      "f21": "present",
+      "f28": "present",
+      "f35": "present",
+      "f42": "present",
+      "f49": "present",
+      "f56": "present",
+      "f63": "deceased",
+      "f70": "deceased"
+    },
+    "participationNotes": {
+      "f63": {
+        "zh": "Lynn 于 2013 年因突发疾病去世，享年 57 岁，是系列中第一位去世的参与者。63 Up 里由她的丈夫 Russ 和两个女儿讲述她的离世。",
+        "en": "Lynn died in 2013, aged 57, after a sudden illness — the first participant to die. In 63 Up her husband Russ and their two daughters talk about her death."
+      },
+      "f70": {
+        "zh": "70 Up 里有对 Lynn 的怀念，她被深情地回忆为三个好朋友中的一员；据维基百科，Jackie 在片中谈到失去这位儿时好友。",
+        "en": "70 Up remembers Lynn fondly as one of the trio of friends; according to Wikipedia, Jackie speaks about losing her childhood friend."
+      }
+    },
+    "sourceIds": [
+      "wiki-up-series",
+      "sbs-cast-2026",
+      "cbs-up-children-2013",
+      "saga-70up-2026",
+      "thesenior-70up-2026",
+      "televisual-kapadia-2026",
+      "guardian-mangan-2026"
+    ]
+  },
+  {
+    "id": "sue",
+    "name": "Sue",
+    "fullName": "Susan Davis",
+    "group": "east",
+    "background": {
+      "zh": "1964 年，她是伦敦东区同一所小学里被选中的三个女孩之一。",
+      "en": "In 1964 she was one of three girls from the same primary school in London's East End."
+    },
+    "participation": {
+      "f07": "present",
+      "f14": "present",
+      "f21": "present",
+      "f28": "present",
+      "f35": "present",
+      "f42": "present",
+      "f49": "present",
+      "f56": "present",
+      "f63": "present",
+      "f70": "present"
+    },
+    "sourceIds": [
+      "wiki-up-series",
+      "sbs-cast-2026",
+      "cbs-up-children-2013",
+      "saga-70up-2026"
+    ]
+  },
+  {
+    "id": "tony",
+    "name": "Tony",
+    "fullName": "Tony Walker",
+    "group": "east",
+    "background": {
+      "zh": "伦敦东区的男孩，1964 年在一所公立小学读书，7 岁时就想当骑师。",
+      "en": "An East End boy at a state primary school in 1964; at seven he wanted to be a jockey."
+    },
+    "participation": {
+      "f07": "present",
+      "f14": "present",
+      "f21": "present",
+      "f28": "present",
+      "f35": "present",
+      "f42": "present",
+      "f49": "present",
+      "f56": "present",
+      "f63": "present",
+      "f70": "present"
+    },
+    "sourceIds": [
+      "wiki-up-series",
+      "sbs-cast-2026",
+      "cbs-up-children-2013",
+      "guardian-mangan-2026"
+    ]
+  },
+  {
+    "id": "paul",
+    "name": "Paul",
+    "fullName": "Paul Kligerman",
+    "group": "home",
+    "background": {
+      "zh": "父母离婚后，他住进了米德尔塞克斯（Middlesex）的一家儿童之家，1964 年和同一家儿童之家的另一个男孩一起在那里被拍摄。",
+      "en": "After his parents divorced, he lived in a children's home in Middlesex, where he was filmed in 1964 with another boy from the home."
+    },
+    "participation": {
+      "f07": "present",
+      "f14": "present",
+      "f21": "present",
+      "f28": "present",
+      "f35": "present",
+      "f42": "present",
+      "f49": "present",
+      "f56": "present",
+      "f63": "present",
+      "f70": "present"
+    },
+    "sourceIds": [
+      "wiki-up-series",
+      "entertainmentdaily-paul-2026",
+      "cbs-up-children-2013",
+      "sbs-cast-2026",
+      "guardian-mangan-2026"
+    ]
+  },
+  {
+    "id": "symon",
+    "name": "Symon",
+    "fullName": "Symon Basterfield",
+    "group": "home",
+    "background": {
+      "zh": "1964 年，他住在一家儿童之家，父亲不在身边。他是系列中唯一的非白人孩子。",
+      "en": "In 1964 he lived in a children's home, with his father absent from his life. He was the only non-white child in the series."
+    },
+    "participation": {
+      "f07": "present",
+      "f14": "present",
+      "f21": "present",
+      "f28": "present",
+      "f35": "absent",
+      "f42": "present",
+      "f49": "present",
+      "f56": "present",
+      "f63": "present",
+      "f70": "present"
+    },
+    "participationNotes": {
+      "f35": {
+        "zh": "未参与 35 Up，当时他正在办离婚。",
+        "en": "Did not take part in 35 Up; he was in the middle of a divorce at the time."
+      }
+    },
+    "sourceIds": [
+      "wiki-up-series",
+      "thenation-pedersen-2020",
+      "sbs-cast-2026",
+      "cbs-up-children-2013",
+      "entertainmentdaily-paul-2026",
+      "guardian-mangan-2026"
+    ]
+  },
+  {
+    "id": "nick",
+    "name": "Nick",
+    "fullName": "William Nicholas Hitchon",
+    "group": "rural",
+    "background": {
+      "zh": "约克郡山谷（Yorkshire Dales）一户农家的儿子，家里在 Littondale 务农。1964 年，他是唯一一个来自约克郡乡村小村庄的男孩，在一所只有一间教室的小学校读书。",
+      "en": "A farmer's son from the Yorkshire Dales; his family farmed in Littondale. In 1964 he was the only boy chosen from a small country village in Yorkshire, and went to a tiny one-room school."
+    },
+    "died": "2023-07-23",
+    "participation": {
+      "f07": "present",
+      "f14": "present",
+      "f21": "present",
+      "f28": "present",
+      "f35": "present",
+      "f42": "present",
+      "f49": "present",
+      "f56": "present",
+      "f63": "present",
+      "f70": "archival_interview"
+    },
+    "participationNotes": {
+      "f70": {
+        "zh": "Nick 于 2023 年 7 月 23 日去世，享年 65 岁。他身患绝症，主动联系制片人 Claire Lewis，希望录制最后一次访谈；访谈在他去世前不久拍摄，用在了 70 Up 里。",
+        "en": "Nick died on 23 July 2023, aged 65. Terminally ill, he contacted producer Claire Lewis wanting to record a final interview; it was filmed shortly before his death and is used in 70 Up."
+      }
+    },
+    "sourceIds": [
+      "wiki-up-series",
+      "uw-engineering-hitchon-2023",
+      "captimes-hitchon-2023",
+      "the-hitchon-2021",
+      "the-hitchon-2026",
+      "ladbible-hitchon-2026",
+      "tvguide-nick-2026",
+      "guardian-conlan-2026",
+      "guardian-mangan-2026",
+      "independent-chilton-2026",
+      "sbs-cast-2026"
+    ]
+  },
+  {
+    "id": "peter",
+    "name": "Peter",
+    "fullName": "Peter Davies",
+    "group": "lpool",
+    "background": {
+      "zh": "1964 年，他是利物浦中产阶级郊区同一所小学里被选中的两个男孩之一。7 岁时他想当宇航员。",
+      "en": "In 1964 he was one of two boys from the same primary school in a middle-class Liverpool suburb. At seven he wanted to be an astronaut."
+    },
+    "participation": {
+      "f07": "present",
+      "f14": "present",
+      "f21": "present",
+      "f28": "present",
+      "f35": "absent",
+      "f42": "absent",
+      "f49": "absent",
+      "f56": "present",
+      "f63": "present",
+      "f70": "present"
+    },
+    "participationNotes": {
+      "f35": {
+        "zh": "他在 28 Up 里批评撒切尔政府的政策，遭到媒体抨击，此后连续三部没有参与。",
+        "en": "After criticising Thatcher-era policies in 28 Up he faced a press backlash, and stayed out of the next three films."
+      },
+      "f42": {
+        "zh": "未参与（28 Up 引发媒体抨击后，他连续三部缺席）。",
+        "en": "Did not take part (the second of three films he missed after the press backlash over 28 Up)."
+      },
+      "f49": {
+        "zh": "未参与（28 Up 引发媒体抨击后，他连续三部缺席）。",
+        "en": "Did not take part (the third of three films he missed after the press backlash over 28 Up)."
+      },
+      "f56": {
+        "zh": "回归，条件是可以借此宣传他的乐队 The Good Intentions。",
+        "en": "Returned, on condition that he could promote his band, The Good Intentions."
+      }
+    },
+    "sourceIds": [
+      "wiki-up-series",
+      "thenation-pedersen-2020",
+      "sbs-cast-2026",
+      "cbs-up-children-2013"
+    ]
+  },
+  {
+    "id": "neil",
+    "name": "Neil",
+    "fullName": "Neil Hughes",
+    "group": "lpool",
+    "background": {
+      "zh": "1964 年，他是利物浦郊区同一所小学里被选中的两个男孩之一。7 岁时他想当宇航员或长途汽车司机。",
+      "en": "In 1964 he was one of two boys from the same primary school in a Liverpool suburb. At seven he wanted to be an astronaut or a coach driver."
+    },
+    "participation": {
+      "f07": "present",
+      "f14": "present",
+      "f21": "present",
+      "f28": "present",
+      "f35": "present",
+      "f42": "present",
+      "f49": "present",
+      "f56": "present",
+      "f63": "present",
+      "f70": "present"
+    },
+    "sourceIds": [
+      "wiki-up-series",
+      "thenation-pedersen-2020",
+      "sbs-cast-2026",
+      "guardian-conlan-2026"
+    ]
+  }
+]

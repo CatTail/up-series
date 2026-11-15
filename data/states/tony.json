@@ -1,0 +1,245 @@
+{
+  "rows": [
+    {
+      "personId": "tony",
+      "filmId": "f07",
+      "dims": {
+        "education": {
+          "status": "not_found"
+        },
+        "work": {
+          "status": "not_found"
+        },
+        "family": {
+          "status": "not_found"
+        },
+        "residence": {
+          "status": "not_found"
+        },
+        "events": {
+          "status": "not_found"
+        },
+        "outlook": {
+          "status": "not_found"
+        }
+      }
+    },
+    {
+      "personId": "tony",
+      "filmId": "f14",
+      "dims": {
+        "education": {
+          "status": "not_found"
+        },
+        "work": {
+          "status": "not_found"
+        },
+        "family": {
+          "status": "not_found"
+        },
+        "residence": {
+          "status": "not_found"
+        },
+        "events": {
+          "status": "not_found"
+        },
+        "outlook": {
+          "status": "not_found"
+        }
+      }
+    },
+    {
+      "personId": "tony",
+      "filmId": "f21",
+      "dims": {
+        "education": {
+          "status": "not_found"
+        },
+        "work": {
+          "status": "not_found"
+        },
+        "family": {
+          "status": "not_found"
+        },
+        "residence": {
+          "status": "not_found"
+        },
+        "events": {
+          "status": "not_found"
+        },
+        "outlook": {
+          "status": "not_found"
+        }
+      }
+    },
+    {
+      "personId": "tony",
+      "filmId": "f28",
+      "dims": {
+        "education": {
+          "status": "not_found"
+        },
+        "work": {
+          "status": "not_found"
+        },
+        "family": {
+          "status": "not_found"
+        },
+        "residence": {
+          "status": "not_found"
+        },
+        "events": {
+          "status": "not_found"
+        },
+        "outlook": {
+          "status": "not_found"
+        }
+      }
+    },
+    {
+      "personId": "tony",
+      "filmId": "f35",
+      "dims": {
+        "education": {
+          "status": "not_found"
+        },
+        "work": {
+          "status": "not_found"
+        },
+        "family": {
+          "status": "not_found"
+        },
+        "residence": {
+          "status": "not_found"
+        },
+        "events": {
+          "status": "not_found"
+        },
+        "outlook": {
+          "status": "not_found"
+        }
+      }
+    },
+    {
+      "personId": "tony",
+      "filmId": "f42",
+      "dims": {
+        "education": {
+          "status": "not_found"
+        },
+        "work": {
+          "status": "not_found"
+        },
+        "family": {
+          "status": "not_found"
+        },
+        "residence": {
+          "status": "not_found"
+        },
+        "events": {
+          "status": "not_found"
+        },
+        "outlook": {
+          "status": "not_found"
+        }
+      }
+    },
+    {
+      "personId": "tony",
+      "filmId": "f49",
+      "dims": {
+        "education": {
+          "status": "not_found"
+        },
+        "work": {
+          "status": "not_found"
+        },
+        "family": {
+          "status": "not_found"
+        },
+        "residence": {
+          "status": "not_found"
+        },
+        "events": {
+          "status": "not_found"
+        },
+        "outlook": {
+          "status": "not_found"
+        }
+      }
+    },
+    {
+      "personId": "tony",
+      "filmId": "f56",
+      "dims": {
+        "education": {
+          "status": "not_found"
+        },
+        "work": {
+          "status": "not_found"
+        },
+        "family": {
+          "status": "not_found"
+        },
+        "residence": {
+          "status": "not_found"
+        },
+        "events": {
+          "status": "not_found"
+        },
+        "outlook": {
+          "status": "not_found"
+        }
+      }
+    },
+    {
+      "personId": "tony",
+      "filmId": "f63",
+      "dims": {
+        "education": {
+          "status": "not_found"
+        },
+        "work": {
+          "status": "not_found"
+        },
+        "family": {
+          "status": "not_found"
+        },
+        "residence": {
+          "status": "not_found"
+        },
+        "events": {
+          "status": "not_found"
+        },
+        "outlook": {
+          "status": "not_found"
+        }
+      }
+    },
+    {
+      "personId": "tony",
+      "filmId": "f70",
+      "dims": {
+        "education": {
+          "status": "not_found"
+        },
+        "work": {
+          "status": "not_found"
+        },
+        "family": {
+          "status": "not_found"
+        },
+        "residence": {
+          "status": "not_found"
+        },
+        "events": {
+          "status": "not_found"
+        },
+        "outlook": {
+          "status": "not_found"
+        }
+      }
+    }
+  ],
+  "final": null
+}

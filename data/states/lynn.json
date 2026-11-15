@@ -1,0 +1,293 @@
+{
+  "rows": [
+    {
+      "personId": "lynn",
+      "filmId": "f07",
+      "dims": {
+        "education": {
+          "status": "not_found"
+        },
+        "work": {
+          "status": "not_found"
+        },
+        "family": {
+          "status": "not_found"
+        },
+        "residence": {
+          "status": "not_found"
+        },
+        "events": {
+          "status": "not_found"
+        },
+        "outlook": {
+          "status": "not_found"
+        }
+      }
+    },
+    {
+      "personId": "lynn",
+      "filmId": "f14",
+      "dims": {
+        "education": {
+          "status": "not_found"
+        },
+        "work": {
+          "status": "not_found"
+        },
+        "family": {
+          "status": "not_found"
+        },
+        "residence": {
+          "status": "not_found"
+        },
+        "events": {
+          "status": "not_found"
+        },
+        "outlook": {
+          "status": "not_found"
+        }
+      }
+    },
+    {
+      "personId": "lynn",
+      "filmId": "f21",
+      "dims": {
+        "education": {
+          "status": "not_found"
+        },
+        "work": {
+          "status": "not_found"
+        },
+        "family": {
+          "status": "not_found"
+        },
+        "residence": {
+          "status": "not_found"
+        },
+        "events": {
+          "status": "not_found"
+        },
+        "outlook": {
+          "status": "not_found"
+        }
+      }
+    },
+    {
+      "personId": "lynn",
+      "filmId": "f28",
+      "dims": {
+        "education": {
+          "status": "not_found"
+        },
+        "work": {
+          "status": "not_found"
+        },
+        "family": {
+          "status": "not_found"
+        },
+        "residence": {
+          "status": "not_found"
+        },
+        "events": {
+          "status": "not_found"
+        },
+        "outlook": {
+          "status": "not_found"
+        }
+      }
+    },
+    {
+      "personId": "lynn",
+      "filmId": "f35",
+      "dims": {
+        "education": {
+          "status": "not_found"
+        },
+        "work": {
+          "status": "not_found"
+        },
+        "family": {
+          "status": "not_found"
+        },
+        "residence": {
+          "status": "not_found"
+        },
+        "events": {
+          "status": "not_found"
+        },
+        "outlook": {
+          "status": "not_found"
+        }
+      }
+    },
+    {
+      "personId": "lynn",
+      "filmId": "f42",
+      "dims": {
+        "education": {
+          "status": "not_found"
+        },
+        "work": {
+          "status": "not_found"
+        },
+        "family": {
+          "status": "not_found"
+        },
+        "residence": {
+          "status": "not_found"
+        },
+        "events": {
+          "status": "not_found"
+        },
+        "outlook": {
+          "status": "not_found"
+        }
+      }
+    },
+    {
+      "personId": "lynn",
+      "filmId": "f49",
+      "dims": {
+        "education": {
+          "status": "not_found"
+        },
+        "work": {
+          "status": "not_found"
+        },
+        "family": {
+          "status": "not_found"
+        },
+        "residence": {
+          "status": "not_found"
+        },
+        "events": {
+          "status": "not_found"
+        },
+        "outlook": {
+          "status": "not_found"
+        }
+      }
+    },
+    {
+      "personId": "lynn",
+      "filmId": "f56",
+      "dims": {
+        "education": {
+          "status": "not_found"
+        },
+        "work": {
+          "status": "not_found"
+        },
+        "family": {
+          "status": "not_found"
+        },
+        "residence": {
+          "status": "not_found"
+        },
+        "events": {
+          "status": "not_found"
+        },
+        "outlook": {
+          "status": "not_found"
+        }
+      }
+    },
+    {
+      "personId": "lynn",
+      "filmId": "f63",
+      "dims": {
+        "education": {
+          "status": "not_applicable",
+          "reason": {
+            "zh": "已去世",
+            "en": "Deceased"
+          }
+        },
+        "work": {
+          "status": "not_applicable",
+          "reason": {
+            "zh": "已去世",
+            "en": "Deceased"
+          }
+        },
+        "family": {
+          "status": "not_applicable",
+          "reason": {
+            "zh": "已去世",
+            "en": "Deceased"
+          }
+        },
+        "residence": {
+          "status": "not_applicable",
+          "reason": {
+            "zh": "已去世",
+            "en": "Deceased"
+          }
+        },
+        "events": {
+          "status": "not_applicable",
+          "reason": {
+            "zh": "已去世",
+            "en": "Deceased"
+          }
+        },
+        "outlook": {
+          "status": "not_applicable",
+          "reason": {
+            "zh": "已去世",
+            "en": "Deceased"
+          }
+        }
+      }
+    },
+    {
+      "personId": "lynn",
+      "filmId": "f70",
+      "dims": {
+        "education": {
+          "status": "not_applicable",
+          "reason": {
+            "zh": "已去世",
+            "en": "Deceased"
+          }
+        },
+        "work": {
+          "status": "not_applicable",
+          "reason": {
+            "zh": "已去世",
+            "en": "Deceased"
+          }
+        },
+        "family": {
+          "status": "not_applicable",
+          "reason": {
+            "zh": "已去世",
+            "en": "Deceased"
+          }
+        },
+        "residence": {
+          "status": "not_applicable",
+          "reason": {
+            "zh": "已去世",
+            "en": "Deceased"
+          }
+        },
+        "events": {
+          "status": "not_applicable",
+          "reason": {
+            "zh": "已去世",
+            "en": "Deceased"
+          }
+        },
+        "outlook": {
+          "status": "not_applicable",
+          "reason": {
+            "zh": "已去世",
+            "en": "Deceased"
+          }
+        }
+      }
+    }
+  ],
+  "final": null
+}
