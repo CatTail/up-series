@@ -84,12 +84,15 @@ describe('Person page', () => {
   })
 
   it('EN toggle switches all dims', async () => {
-    render(Person, { idx: buildIndex(makeFixture()), id: 'andrew' })
+    const ds = makeFixture()
+    ds.people.find((p) => p.id === 'andrew')!.participationNotes = { f35: { zh: '注', en: 'A note' } }
+    render(Person, { idx: buildIndex(ds), id: 'andrew' })
     setLang('en')
     await new Promise((r) => setTimeout(r))
     expect(dim('f35', 'work')).toHaveTextContent('Solicitor')
     expect(dim('f14', 'work')).toHaveTextContent('Not found')
     expect(document.body).not.toHaveTextContent('未查到')
+    expect(document.body.textContent).not.toMatch(/[：；（）]/)
     expect(screen.getAllByText(t('dim.education')).length).toBeGreaterThan(0)
   })
 })

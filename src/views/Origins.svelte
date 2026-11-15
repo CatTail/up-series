@@ -73,7 +73,7 @@
           <p class="intent"><Bi text={th.intent} /></p>
           {#if th.sourceIds.length}<SourceList {idx} ids={th.sourceIds} />{/if}
           {#if ex}
-            <p class="ex"><span class="muted">{t('origins.example')}（{idx.film(ex.filmId).title}）：</span><Bi text={{ zh: ex.zh, en: ex.en }} original={ex.en} /></p>
+            <p class="ex"><span class="muted">{t('origins.example')}{t('p.open')}{idx.film(ex.filmId).title}{t('p.close')}{t('p.colon')}</span><Bi text={{ zh: ex.zh, en: ex.en }} original={ex.en} /></p>
           {/if}
           <a class="open" href={toHash({ name: 'questions', theme: th.id })}>{t('origins.count', { n: byTheme.get(th.id)?.length ?? 0 })} →</a>
         </article>

@@ -37,7 +37,7 @@
       <div class="age">{t('age.short', { age: f.age })}<small>{f.year} · {f.title}</small></div>
       <div>
         {#if p !== 'present'}
-          <p class="status">{t(`status.${p}`)}{#if note}<span class="note">（{pick(note)}）</span>{/if}</p>
+          <p class="status">{t(`status.${p}`)}{#if note}<span class="note">{t('p.open')}{pick(note)}{t('p.close')}</span>{/if}</p>
         {/if}
         <div class="dims">
           {#each DIM_KEYS as d (d)}

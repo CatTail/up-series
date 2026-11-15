@@ -9,7 +9,7 @@
 
 {#if sources.length}
   <span class="src">
-    {t('src.label')}：{#each sources as s, i (s.id)}{#if i > 0}；{/if}{#if s.kind === 'film'}<span class="film">{locator ? t('src.film', { title: s.title, locator: pick(locator) }) : s.title}</span>{:else}<a href={s.url} target="_blank" rel="noopener noreferrer">{s.publisher} · {s.title}</a>{/if}{/each}
+    {t('src.label')}{t('p.colon')}{#each sources as s, i (s.id)}{#if i > 0}{t('p.sep')}{/if}{#if s.kind === 'film'}<span class="film">{locator ? t('src.film', { title: s.title, locator: pick(locator) }) : s.title}</span>{:else}<a href={s.url} target="_blank" rel="noopener noreferrer">{s.publisher} · {s.title}</a>{/if}{/each}
   </span>
 {/if}
 

@@ -665,8 +665,8 @@
         "events": {
           "status": "confirmed",
           "text": {
-            "zh": "前一年秋天中风；录完最后一次访谈三天后，于 2023 年 7 月 23 日因喉癌去世。",
-            "en": "After a stroke the previous autumn, he recorded a final interview and died of throat cancer on 23 July 2023, three days later."
+            "zh": "前一年秋天中风；录完最后一次访谈后不久，于 2023 年 7 月 23 日因喉癌去世。",
+            "en": "After a stroke the previous autumn, he recorded a final interview and died of throat cancer shortly afterwards, on 23 July 2023."
           },
           "sourceIds": [
             "film-f70",

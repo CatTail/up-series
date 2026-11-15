@@ -29,7 +29,7 @@ export function layoutLifelines(
   groups: Group[],
   opts: { width: number; labelWidth: number; rowHeight: number; groupGap: number; top: number; rightPad?: number },
 ): LifelineLayout {
-  const right = opts.width - (opts.rightPad ?? 90)
+  const right = opts.width - (opts.rightPad ?? 130)
   const x = scaleLinear().domain([0, Math.max(films.length - 1, 1)]).range([opts.labelWidth, right])
   const xOf = (i: number) => x(i)
   const gOrder = new Map(groups.map((g) => [g.id, g.order]))

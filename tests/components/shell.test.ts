@@ -54,3 +54,17 @@ describe('app shell', () => {
   })
 })
 
+describe('footer', () => {
+  afterEach(() => cleanup())
+  it('shows the about notes including the translation disclaimer, in both languages', async () => {
+    setLang('zh')
+    render(App)
+    const footer = document.querySelector('footer.about') as HTMLElement
+    expect(footer).toHaveTextContent(t('about.translation'))
+    expect(footer).toHaveTextContent(t('about.copyright'))
+    expect(footer).toHaveTextContent(t('about.gaps'))
+    setLang('en')
+    await new Promise((r) => setTimeout(r))
+    expect(footer).toHaveTextContent('machine-made (AI)')
+  })
+})

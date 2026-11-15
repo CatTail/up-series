@@ -66,6 +66,7 @@ describe('Guess view', () => {
     expect(document.querySelector('.score')!.textContent).not.toBe(before)
     expect(document.querySelector('.score')).toHaveTextContent(/right out of 2 so far/)
     expect(document.body).not.toHaveTextContent('猜')
+    expect(document.body.textContent).not.toMatch(/[：；（）]/)
   })
 
   it('shows a summary after the last round', async () => {

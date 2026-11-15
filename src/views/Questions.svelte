@@ -112,8 +112,8 @@
         {#if isOpen}
           {@const rel = relatedQuestions(x, all)}
           <div class="detail">
-            {#if x.answerSummary}<p><b>{t('qa.summary')}：</b><Bi text={x.answerSummary} /></p>{/if}
-            {#if x.answerQuote}<p class="quote"><b>{t('qa.quote')}：</b>“<Bi text={x.answerQuote} original={x.answerQuote.en} />”</p>{/if}
+            {#if x.answerSummary}<p><b>{t('qa.summary')}{t('p.colon')}</b><Bi text={x.answerSummary} /></p>{/if}
+            {#if x.answerQuote}<p class="quote"><b>{t('qa.quote')}{t('p.colon')}</b>“<Bi text={x.answerQuote} original={x.answerQuote.en} />”</p>{/if}
             <SourceList {idx} ids={[x.sourceId]} locator={x.locator} />
             {#if rel.length}
               <h3>{t('questions.related')}</h3>

@@ -50,5 +50,6 @@ describe('Origins', () => {
     await new Promise((r) => setTimeout(r))
     expect(document.querySelector('[data-block="maxim"]')).toHaveTextContent('Give me a child until he is seven and I will give you the man.')
     expect(document.body).not.toHaveTextContent('解读')
+    expect(document.body.textContent).not.toMatch(/[：；（）]/)
   })
 })

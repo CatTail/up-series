@@ -76,8 +76,8 @@
         {#if round.prompt}
           <div class="qa">
             <div class="muted">{t('guess.prompt')}</div>
-            <div><b>{t('qa.q')}：</b><Bi text={{ zh: round.prompt.zh, en: round.prompt.en }} original={round.prompt.en} /></div>
-            {#if round.prompt.answerQuote}<div><b>{t('qa.a')}：</b>“<Bi text={round.prompt.answerQuote} original={round.prompt.answerQuote.en} />”</div>{/if}
+            <div><b>{t('qa.q')}{t('p.colon')}</b><Bi text={{ zh: round.prompt.zh, en: round.prompt.en }} original={round.prompt.en} /></div>
+            {#if round.prompt.answerQuote}<div><b>{t('qa.a')}{t('p.colon')}</b>“<Bi text={round.prompt.answerQuote} original={round.prompt.answerQuote.en} />”</div>{/if}
           </div>
         {:else}
           <p class="muted">{t('guess.noPrompt')}</p>

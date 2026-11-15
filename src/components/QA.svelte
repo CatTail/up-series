@@ -9,9 +9,9 @@
 </script>
 
 <div class="qa" data-q={q.id}>
-  <div><b>{t('qa.q')}：</b><Bi text={{ zh: q.zh, en: q.en }} original={q.en} /></div>
-  {#if q.answerSummary}<div class="sum"><b>{t('qa.summary')}：</b><Bi text={q.answerSummary} /></div>{/if}
-  {#if showQuote && q.answerQuote}<div class="quote"><b>{t('qa.quote')}：</b>“<Bi text={q.answerQuote} original={q.answerQuote.en} />”</div>{/if}
+  <div><b>{t('qa.q')}{t('p.colon')}</b><Bi text={{ zh: q.zh, en: q.en }} original={q.en} /></div>
+  {#if q.answerSummary}<div class="sum"><b>{t('qa.summary')}{t('p.colon')}</b><Bi text={q.answerSummary} /></div>{/if}
+  {#if showQuote && q.answerQuote}<div class="quote"><b>{t('qa.quote')}{t('p.colon')}</b>“<Bi text={q.answerQuote} original={q.answerQuote.en} />”</div>{/if}
   <div class="meta">
     {#if q.attribution === 'film_only'}<span class="tag">{t('qa.filmOnly')}</span>{/if}
     {#if q.fromRecap}<span class="tag">{t('qa.fromRecap')}</span>{/if}

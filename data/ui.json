@@ -434,5 +434,25 @@
   "about.translation": {
     "zh": "中文译文由 AI 翻译，可能有不准确之处；在中文模式下，鼠标悬停在问答上可以看到英文原文。",
     "en": "Chinese translations are machine-made (AI) and may be imperfect; in Chinese mode, hover over a question or quote to see the English original."
+  },
+  "about.gaps": {
+    "zh": "已知缺口：14 人 × 10 个年龄 × 6 个维度共 840 格，其中 545 格有出处，219 格未查到，76 格因缺席或去世不适用。70 Up（2026）播出不久，公开资料较少。一些新闻网站拒绝了我们的抓取工具，我们没有绕过；The Guardian、The Independent 和 Slant 的文章由使用者提供原文。早期几部按主题剪辑，很多问题无法确认是问谁的，只归到影片。",
+    "en": "Known gaps: of the 840 cells (14 people × 10 ages × 6 dimensions), 545 are sourced, 219 could not be found and 76 do not apply (absent or deceased). 70 Up (2026) is recent, so public coverage is thin. Some news sites refused our fetching tool and we did not work around them; the Guardian, Independent and Slant articles were supplied as text by the user. The early films are cut by topic, so many questions can only be attributed to the film, not to a person."
+  },
+  "p.colon": {
+    "zh": "：",
+    "en": ": "
+  },
+  "p.sep": {
+    "zh": "；",
+    "en": "; "
+  },
+  "p.open": {
+    "zh": "（",
+    "en": " ("
+  },
+  "p.close": {
+    "zh": "）",
+    "en": ")"
   }
 }

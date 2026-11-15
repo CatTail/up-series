@@ -75,6 +75,8 @@ describe('Questions view', () => {
     expect(row('f28-001')).toHaveTextContent('Film only')
     expect(row('f28-001').querySelector('.primary')).toHaveTextContent('What does it take to be a good cabbie?')
     expect(document.body).not.toHaveTextContent('只归到影片')
+    await fireEvent.click(row('f28-001').querySelector('button.expand')!)
+    expect(document.body.textContent).not.toMatch(/[：；（）]/)
   })
 
   it('#/questions?theme=work opens with the work theme selected', () => {

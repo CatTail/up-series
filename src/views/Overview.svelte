@@ -43,7 +43,7 @@
     <span><i class="k-present" aria-hidden="true"></i>{t('legend.present')}</span>
     <span><i class="k-absent" aria-hidden="true"></i>{t('legend.absent')}</span>
     <span><i class="k-special" aria-hidden="true"></i>{t('legend.special')}</span>
-    <span><span aria-hidden="true">† </span>{t('legend.death')}</span>
+    <span><span aria-hidden="true">†&nbsp;</span>{t('legend.death')}</span>
     <button type="button" class="view" aria-pressed={table} onclick={() => (table = !table)}>{t('overview.tableView')}</button>
   </div>
   {#if table}

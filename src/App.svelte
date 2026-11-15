@@ -1,5 +1,6 @@
 <script lang="ts">
   import { onMount } from 'svelte'
+  import About from './components/About.svelte'
   import Nav from './components/Nav.svelte'
   import { buildIndex } from './lib/data/index.ts'
   import { loadDataset } from './lib/data/load.ts'
@@ -20,8 +21,7 @@
 
 <Nav {route} />
 <main data-route={route.name}>
-  {#if false}
-  {:else if route.name === 'overview'}
+  {#if route.name === 'overview'}
     <Overview {idx} age={route.age} />
   {:else if route.name === 'person'}
     {#key route.id}<Person {idx} id={route.id} />{/key}
@@ -35,3 +35,4 @@
     <Origins {idx} />
   {/if}
 </main>
+<About />
