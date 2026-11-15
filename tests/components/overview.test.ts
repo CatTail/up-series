@@ -23,11 +23,14 @@ describe('Overview', () => {
     expect(location.hash).toBe('#/overview?age=35')
   })
 
-  it('slider at 70 shows Lynn deceased and Charles audio-only', async () => {
+  it('slider at 70 shows Lynn deceased, Charles audio-only, Nick archival interview and his death', async () => {
     render(Overview, { idx, age: 70 })
     expect(chip('lynn')).toHaveTextContent('已去世')
     expect(chip('suzy')).not.toHaveTextContent('已去世')
-    expect(chip('nick')).toHaveTextContent(t('state.notFound'))
+    expect(chip('charles')).toHaveTextContent(t('mark.audio_only'))
+    expect(chip('nick')).toHaveTextContent(t('mark.archival_interview'))
+    expect(chip('nick')).toHaveTextContent('† 2023')
+    expect(chip('andrew')).not.toHaveTextContent('†')
   })
 
   it('slider at 63 shows Suzy archive footage only', async () => {

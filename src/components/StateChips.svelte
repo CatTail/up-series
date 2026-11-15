@@ -1,8 +1,9 @@
 <script lang="ts">
   import type { DataIndex } from '../lib/data/index.ts'
   import type { GroupId } from '../lib/data/types.ts'
-  import { chipSummary } from '../lib/states.ts'
+  import { chipSummary, statusMarks } from '../lib/states.ts'
   import CellText from './CellText.svelte'
+  import Marks from './Marks.svelte'
 
   let { idx, filmIndex, highlight = null }: { idx: DataIndex; filmIndex: number; highlight?: GroupId | null } = $props()
   const film = $derived(idx.films[filmIndex])
@@ -13,6 +14,7 @@
     {@const c = chipSummary(idx, p.id, film.id)}
     <a class="chip" class:off={c.kind === 'participation'} class:dim={highlight && highlight !== p.group} href={`#/person/${p.id}`} data-person={p.id}>
       <b><span class="dot" style:background={`var(${idx.group(p.group).colorVar})`}></span>{p.name}</b>
+      <Marks marks={statusMarks(idx, p.id, film.id)} />
       <CellText cell={c} withNote={false} />
     </a>
   {/each}

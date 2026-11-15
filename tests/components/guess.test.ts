@@ -3,11 +3,15 @@ import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { buildIndex } from '../../src/lib/data/index.ts'
 import { setLang, t } from '../../src/lib/i18n.svelte.ts'
 import Guess from '../../src/views/Guess.svelte'
+import { resetGuess } from '../../src/lib/guess-store.svelte.ts'
 import { makeFixture } from '../fixtures/dataset.ts'
 
 const idx = buildIndex(makeFixture())
 const names = idx.peopleOrdered.map((p) => p.name)
-beforeEach(() => setLang('zh'))
+beforeEach(() => {
+  setLang('zh')
+  resetGuess()
+})
 afterEach(() => {
   cleanup()
   vi.useRealTimers()
@@ -67,6 +71,30 @@ describe('Guess view', () => {
     expect(document.querySelector('.score')).toHaveTextContent(/right out of 2 so far/)
     expect(document.body).not.toHaveTextContent('猜')
     expect(document.body.textContent).not.toMatch(/[：；（）]/)
+  })
+
+  it('keeps progress when leaving the page (e.g. via the profile link) and coming back', async () => {
+    render(Guess, { idx, seed: 5 })
+    await answer(0)
+    await next()
+    await answer(1)
+    await next()
+    const score = document.querySelector('.score')!.textContent
+    const opts = options().map((o) => o.dataset.person)
+    cleanup()
+    render(Guess, { idx, seed: 99 })
+    expect(screen.getByText(t('guess.progress', { i: 3, n: 5 }))).toBeInTheDocument()
+    expect(document.querySelector('.score')!.textContent).toBe(score)
+    expect(options().map((o) => o.dataset.person)).toEqual(opts)
+  })
+
+  it('a revealed round stays revealed after coming back', async () => {
+    render(Guess, { idx, seed: 5 })
+    await answer(0)
+    cleanup()
+    render(Guess, { idx })
+    expect(document.querySelector('.result')).not.toBeNull()
+    expect(document.querySelectorAll('.result line.seg').length).toBeGreaterThanOrEqual(7)
   })
 
   it('shows a summary after the last round', async () => {

@@ -42,6 +42,14 @@ describe('layoutLifelines', () => {
     expect(d.x).toBeLessThan(L.xOf(9))
     expect(row('andrew').death).toBeUndefined()
   })
+  it('the line is solid only up to a death; the rest (e.g. to an archival interview) is faded', () => {
+    const r = row('nick')
+    const d = r.death!.x
+    expect(r.segments.filter((s) => s.style === 'solid' && s.x2 > d + 0.01)).toEqual([])
+    expect(r.segments.find((s) => s.x1 === L.xOf(8) && s.x2 === d)?.style).toBe('solid')
+    expect(r.segments.find((s) => s.x1 === d && s.x2 === L.xOf(9))?.style).toBe('faded')
+  })
+
   it('groups separated by groupGap', () => {
     const ys = L.rows.map((r) => r.y)
     // fixture order: andrew, charles, suzy (priv) | lynn (east) | nick (rural)

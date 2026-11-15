@@ -1,12 +1,13 @@
 <script lang="ts">
   import CellText from '../components/CellText.svelte'
+  import Marks from '../components/Marks.svelte'
   import SourceList from '../components/SourceList.svelte'
   import type { DataIndex } from '../lib/data/index.ts'
   import type { PersonId } from '../lib/data/types.ts'
   import { DIM_KEYS } from '../lib/data/types.ts'
   import { t } from '../lib/i18n.svelte.ts'
   import { navigate } from '../lib/router.svelte.ts'
-  import { cellView } from '../lib/states.ts'
+  import { cellView, statusMarks } from '../lib/states.ts'
 
   let { idx, a, b }: { idx: DataIndex; a?: PersonId; b?: PersonId } = $props()
   const all = $derived(idx.peopleOrdered)
@@ -65,9 +66,10 @@
                 {@const key = `${p.id}/${f.id}/${d}`}
                 <td class:off={c.kind === 'participation'} class:open={open === key}>
                   <button type="button" onclick={() => (open = open === key ? null : key)} aria-expanded={open === key}>
+                    <Marks marks={statusMarks(idx, p.id, f.id)} />
                     <CellText cell={c} withNote={open === key} />
                   </button>
-                  {#if open === key && c.kind === 'text'}<SourceList {idx} ids={c.sourceIds} />{/if}
+                  {#if open === key && c.kind === 'text'}<SourceList {idx} ids={c.sourceIds} />{:else if open === key && c.kind === 'participation' && c.note}<SourceList {idx} ids={p.sourceIds} />{/if}
                 </td>
               {/each}
             </tr>

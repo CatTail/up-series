@@ -3,61 +3,61 @@
   import Bi from '../components/Bi.svelte'
   import Lifelines from '../components/Lifelines.svelte'
   import type { DataIndex } from '../lib/data/index.ts'
-  import { buildRound, makeRng, roundOrder, type GuessRound, type GuessState } from '../lib/guess.ts'
+  import { ensureGame, guess, newGame, nextRound } from '../lib/guess-store.svelte.ts'
   import { pick, t } from '../lib/i18n.svelte.ts'
 
   let { idx, seed }: { idx: DataIndex; seed?: number } = $props()
 
-  let rng = makeRng(untrack(() => seed) ?? Date.now() % 2147483647)
-  let game = $state<GuessState>({ order: [], i: 0, answers: [] })
-  let round = $state<GuessRound | null>(null)
-  let chosen = $state<number | null>(null)
-  let revealed = $state(false)
-  let reveal = $state(0)
+  untrack(() => ensureGame(idx, seed))
+  const s = $derived(guess.s!)
+  const game = $derived(s.game)
+  const round = $derived(s.round)
+  const last = $derived(idx.films.length - 1)
   let timer: ReturnType<typeof setInterval> | undefined
 
-  function start() {
-    game = { order: roundOrder(idx, rng), i: 0, answers: [] }
-    load()
-  }
-  function load() {
-    stop()
-    chosen = null
-    revealed = false
-    reveal = 0
-    round = game.i < game.order.length ? buildRound(game.order[game.i], idx, rng) : null
-  }
   function stop() {
     if (timer) clearInterval(timer)
     timer = undefined
   }
   const reducedMotion = () => typeof matchMedia === 'function' && matchMedia('(prefers-reduced-motion: reduce)').matches
 
+  function choose(k: number) {
+    s.chosen = k
+  }
   function doReveal() {
-    if (!round || chosen === null) return
-    revealed = true
-    game.answers.push({ personId: round.personId, chosen, correct: chosen === round.correct })
-    const last = idx.films.length - 1
+    if (!round || s.chosen === null || s.revealed) return
+    s.revealed = true
+    game.answers.push({ personId: round.personId, chosen: s.chosen, correct: s.chosen === round.correct })
     if (reducedMotion()) {
-      reveal = last
+      s.reveal = last
       return
     }
-    reveal = 0
+    s.reveal = 0
     timer = setInterval(() => {
-      reveal += 1
-      if (reveal >= last) stop()
+      s.reveal += 1
+      if (s.reveal >= last) stop()
     }, 300)
   }
   function next() {
-    game.i += 1
-    load()
+    stop()
+    nextRound(idx)
   }
-  onDestroy(stop)
-  start()
+  function again() {
+    stop()
+    newGame(idx)
+  }
+  onDestroy(() => {
+    stop()
+    // leaving mid-animation: show the full line when coming back
+    if (guess.s?.revealed) guess.s.reveal = last
+  })
 
   const score = $derived(game.answers.filter((a) => a.correct).length)
   const person = $derived(round ? idx.person(round.personId) : null)
   const lastFilm = $derived(idx.films[idx.films.length - 1])
+  const chosen = $derived(s.chosen)
+  const revealed = $derived(s.revealed)
+  const reveal = $derived(s.reveal)
 </script>
 
 <section>
@@ -98,7 +98,7 @@
               class:right={revealed && k === round.correct}
               class:wrong={revealed && k === chosen && k !== round.correct}
               disabled={revealed}
-              onclick={() => (chosen = k)}
+              onclick={() => choose(k)}
             >
               <Bi text={o.text} />
               {#if revealed}<small class="who">— {idx.person(o.personId).name}</small>{/if}
@@ -130,7 +130,7 @@
           <li><a href={`#/person/${a.personId}`}>{idx.person(a.personId).name}</a> · {a.correct ? t('guess.right') : t('guess.wrong')}</li>
         {/each}
       </ul>
-      <button type="button" class="btn" onclick={start}>{t('guess.again')}</button>
+      <button type="button" class="btn" onclick={again}>{t('guess.again')}</button>
     </div>
   {/if}
 </section>

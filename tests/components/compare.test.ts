@@ -40,6 +40,15 @@ describe('Compare', () => {
     expect(row[9]).toHaveClass('off')
   })
 
+  it('audio-only and archival-interview columns are marked in every row', () => {
+    render(Compare, { idx, a: 'charles', b: 'nick' })
+    for (const d of ['education', 'work', 'outlook']) {
+      expect(cells('charles', d)[9]).toHaveTextContent(t('mark.audio_only'))
+      expect(cells('nick', d)[9]).toHaveTextContent(t('mark.archival_interview'))
+      expect(cells('nick', d)[8]).not.toHaveTextContent(t('mark.archival_interview'))
+    }
+  })
+
   it('changing a person updates the route', async () => {
     render(Compare, { idx, a: 'andrew', b: 'charles' })
     await userEvent.selectOptions(screen.getByLabelText(t('compare.pickB')), 'lynn')
@@ -61,6 +70,17 @@ describe('Compare', () => {
     const cell = cells('andrew', 'work')[4]
     expect(cell.querySelector('.src')).toBeNull()
     await fireEvent.click(cell.querySelector('button')!)
+    expect(cell).toHaveTextContent('Wikipedia · Up (film series)')
+  })
+
+  it('expanding an absent cell with a participation note shows the note with its source', async () => {
+    const ds = makeFixture()
+    ds.people.find((p) => p.id === 'charles')!.participationNotes!.f35 = { zh: '本人拒绝参加', en: 'Declined' }
+    render(Compare, { idx: buildIndex(ds), a: 'andrew', b: 'charles' })
+    const cell = cells('charles', 'work')[4]
+    expect(cell).not.toHaveTextContent('本人拒绝参加')
+    await fireEvent.click(cell.querySelector('button')!)
+    expect(cell).toHaveTextContent('本人拒绝参加')
     expect(cell).toHaveTextContent('Wikipedia · Up (film series)')
   })
 

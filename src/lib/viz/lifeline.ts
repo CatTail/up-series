@@ -48,13 +48,6 @@ export function layoutLifelines(
       const kind = MARKER[parts[i]]
       return kind ? [{ filmId: f.id, x: xOf(i), kind, p: parts[i] }] : []
     })
-    const segments: LifelineRow['segments'] = []
-    for (let i = 0; i < films.length - 1; i++) {
-      const a = parts[i]
-      const b = parts[i + 1]
-      if (a === 'deceased' || b === 'deceased') continue
-      segments.push({ x1: xOf(i), x2: xOf(i + 1), style: isGap(a) || isGap(b) ? 'faded' : 'solid', from: films[i].id, to: films[i + 1].id })
-    }
     let death: LifelineRow['death']
     if (person.died) {
       const dy = yearOf(person.died)
@@ -62,6 +55,23 @@ export function layoutLifelines(
       if (i >= 0) {
         const f = (dy - films[i].year) / (films[i + 1].year - films[i].year)
         death = { x: xOf(i) + (xOf(i + 1) - xOf(i)) * f, label: `† ${person.died.slice(0, 4)}` }
+      }
+    }
+    // The life line ends at a death; anything drawn after it (to an archival interview) is faded.
+    const segments: LifelineRow['segments'] = []
+    for (let i = 0; i < films.length - 1; i++) {
+      const a = parts[i]
+      const b = parts[i + 1]
+      if (a === 'deceased' || b === 'deceased') continue
+      const x1 = xOf(i)
+      const x2 = xOf(i + 1)
+      const style = isGap(a) || isGap(b) ? 'faded' : 'solid'
+      const seg = { from: films[i].id, to: films[i + 1].id }
+      if (death && death.x > x1 && death.x < x2) {
+        segments.push({ ...seg, x1, x2: death.x, style })
+        segments.push({ ...seg, x1: death.x, x2, style: 'faded' })
+      } else {
+        segments.push({ ...seg, x1, x2, style: death && x1 >= death.x ? 'faded' : style })
       }
     }
     return { personId: person.id, groupId: person.group, y, markers, segments, death }

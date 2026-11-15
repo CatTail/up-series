@@ -22,6 +22,14 @@ describe('cellView / chipSummary', () => {
   it('nick f70 → not_found when no confirmed dims', () => {
     expect(chipSummary(idx, 'nick', 'f70')).toEqual({ kind: 'not_found' })
   })
+  it('chipSummary falls back to events when nothing else is confirmed', () => {
+    const ds2 = makeFixture()
+    ds2.states.find((s) => s.personId === 'suzy' && s.filmId === 'f70')!.dims.events = {
+      status: 'confirmed', text: { zh: '回归', en: 'Returned' }, sourceIds: ['wiki-up'],
+    }
+    expect(chipSummary(buildIndex(ds2), 'suzy', 'f70')).toMatchObject({ kind: 'text', text: { en: 'Returned' } })
+  })
+
   it('chipSummary picks work when confirmed', () => {
     expect(chipSummary(idx, 'andrew', 'f35')).toMatchObject({ kind: 'text', text: { en: 'Solicitor' } })
   })

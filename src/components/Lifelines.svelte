@@ -63,7 +63,7 @@
                 <text class="name" x={L.xOf(0) - 18} y={r.y + 4} text-anchor="end">{person.name}</text>
               </a>
             {/if}
-            {#each r.segments as s (s.from)}
+            {#each r.segments as s (`${s.from}-${s.x1}`)}
               {#if (filmIndex.get(s.to) ?? 0) <= revealUpTo}
                 <line class="seg" x1={s.x1} x2={s.x2} y1={r.y} y2={r.y} stroke={c} opacity={s.style === 'faded' ? 0.28 : 1} data-seg={`${r.personId}/${s.from}`} data-style={s.style} />
               {/if}

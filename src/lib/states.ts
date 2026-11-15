@@ -24,7 +24,7 @@ export function cellView(idx: DataIndex, personId: PersonId, filmId: FilmId, dim
   return { kind: 'not_found' }
 }
 
-const SUMMARY_DIMS: DimKey[] = ['work', 'family', 'residence', 'education']
+const SUMMARY_DIMS: DimKey[] = ['work', 'family', 'residence', 'education', 'events']
 
 /** One-line state for the overview chips. */
 export function chipSummary(idx: DataIndex, personId: PersonId, filmId: FilmId): CellView {
@@ -36,4 +36,16 @@ export function chipSummary(idx: DataIndex, personId: PersonId, filmId: FilmId):
     if (c.kind === 'text') return c
   }
   return { kind: 'not_found' }
+}
+
+export type StatusMarks = { special?: 'audio_only' | 'archival_interview'; died?: string }
+
+/** Badges that must accompany any state shown for this film: special appearances, and a death before the film aired. */
+export function statusMarks(idx: DataIndex, personId: PersonId, filmId: FilmId): StatusMarks {
+  const person = idx.person(personId)
+  const p = person.participation[filmId]
+  const marks: StatusMarks = {}
+  if (p === 'audio_only' || p === 'archival_interview') marks.special = p
+  if (person.died && p !== 'deceased' && Number(person.died.slice(0, 4)) < idx.film(filmId).year) marks.died = person.died.slice(0, 4)
+  return marks
 }
