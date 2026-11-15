@@ -5,22 +5,56 @@
       "filmId": "f07",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他的求学生涯始于他所住的伦敦附近的儿童之家。",
+            "en": "His schooling began at the children's home near London where he lived."
+          },
+          "sourceIds": [
+            "film-f28"
+          ]
         },
         "work": {
           "status": "not_found"
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "父母已离婚，他被留给父亲抚养。",
+            "en": "His parents had divorced and he had been left with his father."
+          },
+          "sourceIds": [
+            "wiki-up-series",
+            "cbs-up-children-2013"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "住在米德尔塞克斯郡特威克纳姆的慈善儿童之家（Shaftesbury Homes）。",
+            "en": "Lives in a charity-supported Shaftesbury Homes children's home in Twickenham, Middlesex."
+          },
+          "sourceIds": [
+            "film-f07",
+            "film-f21",
+            "wiki-up-series"
+          ]
         },
         "events": {
           "status": "not_found"
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他说不想结婚，因为老婆可能会逼他吃青菜。",
+            "en": "Says he wouldn't want to marry, because a wife might make him eat greens."
+          },
+          "sourceIds": [
+            "film-f07"
+          ],
+          "questionIds": [
+            "f07-014"
+          ]
         }
       }
     },
@@ -32,19 +66,60 @@
           "status": "not_found"
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "尚未决定职业，曾考虑当银行会计、汽车钣金工和体育老师。",
+            "en": "Undecided about a career; he had considered bank accountant, panel beater and PE teacher."
+          },
+          "sourceIds": [
+            "film-f14"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "和父亲及继母一起生活，他们已移民澳大利亚。",
+            "en": "Lives with his father and stepmother, who had emigrated to Australia."
+          },
+          "sourceIds": [
+            "sbs-cast-2026",
+            "wiki-up-series"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "住在澳大利亚墨尔本一带。",
+            "en": "Lives in the Melbourne area of Australia."
+          },
+          "sourceIds": [
+            "film-f14",
+            "wiki-up-series"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "八岁随家人移民澳大利亚，起初住在当地一家儿童之家。",
+            "en": "Emigrated to Australia with his family at eight, at first living in a children's home there."
+          },
+          "sourceIds": [
+            "film-f14",
+            "film-f63"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "觉得在儿童之家时某种程度上更快乐，那里人人是朋友，但也乐于住在家里。",
+            "en": "Feels he was happier in a way at the home, where everyone was a friend, but is glad to be home."
+          },
+          "sourceIds": [
+            "film-f14"
+          ],
+          "questionIds": [
+            "f14-007"
+          ]
         }
       }
     },
@@ -56,19 +131,67 @@
           "status": "not_found"
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "砌砖工，去年六月成为所在公司的初级合伙人。",
+            "en": "Bricklayer; he was made a junior partner in his firm the previous June."
+          },
+          "sourceIds": [
+            "film-f21",
+            "film-f28"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "有女友 Sue（后来成为他的妻子）；他与父亲和继母都不亲近。",
+            "en": "Has a girlfriend, Sue, whom he later married; he is not close to his father or stepmother."
+          },
+          "sourceIds": [
+            "film-f21",
+            "wiki-up-series",
+            "sbs-cast-2026"
+          ],
+          "questionIds": [
+            "f21-043"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "住在澳大利亚墨尔本一带。",
+            "en": "Lives in the Melbourne area, Australia."
+          },
+          "sourceIds": [
+            "wiki-up-series",
+            "film-f28",
+            "entertainmentdaily-paul-2026"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "到伦敦时与 Symon 重访昔日的儿童之家；21 岁时，此前从无联系的母亲来看他。",
+            "en": "Visiting London, he toured his old children's home with Symon; at 21 his mother, out of contact until then, visited him."
+          },
+          "sourceIds": [
+            "film-f21",
+            "film-f63",
+            "film-f70"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他说一切开始好转，他不再觉得自己是个没希望的人。",
+            "en": "Says things have started to come good and he no longer sees himself as a no-hoper."
+          },
+          "sourceIds": [
+            "film-f21"
+          ],
+          "questionIds": [
+            "f21-047"
+          ]
         }
       }
     },
@@ -77,22 +200,72 @@
       "filmId": "f28",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他说自己上学时很懒，不够用功。",
+            "en": "Says he was lazy and didn't work hard enough at school."
+          },
+          "sourceIds": [
+            "film-f28"
+          ],
+          "questionIds": [
+            "f28-057"
+          ]
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "砌砖工；曾自立门户当分包商，后来与人合伙，但没有成功。",
+            "en": "Bricklayer; he went out on his own as a subcontractor, then took a partner, which didn't work out."
+          },
+          "sourceIds": [
+            "film-f28",
+            "film-f35"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "与兼职理发师 Susan 结婚，育有 Katie 和 Robert 两个孩子。",
+            "en": "Married to Susan, a part-time hairdresser; they have two children, Katie and Robert."
+          },
+          "sourceIds": [
+            "film-f28"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "住在墨尔本一个工人阶级郊区，房子是 18 个月前买的。",
+            "en": "Lives in a working-class suburb of Melbourne, in a house bought 18 months earlier."
+          },
+          "sourceIds": [
+            "film-f28"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "与 Sue 结婚并生了两个孩子；四年前两人开旧货车环游澳大利亚七个月。",
+            "en": "Married Sue and had two children; four years earlier the couple spent seven months touring Australia in a van."
+          },
+          "sourceIds": [
+            "film-f28",
+            "sbs-cast-2026"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他认为砌砖大概会是自己一辈子的工作，尽管并非所愿。",
+            "en": "Expects bricklaying to be his job for life, though not by choice."
+          },
+          "sourceIds": [
+            "film-f28"
+          ],
+          "questionIds": [
+            "f28-055"
+          ]
         }
       }
     },
@@ -101,22 +274,69 @@
       "filmId": "f35",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他说自己从没受过商业培训，更像手艺人而非生意人。",
+            "en": "Says he has never had any business training and is more a tradesperson than a businessman."
+          },
+          "sourceIds": [
+            "film-f35"
+          ]
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "分包生意失败后，他在建筑行业做过多份工作。",
+            "en": "Has had a variety of building-trade jobs since his subcontracting venture didn't work out."
+          },
+          "sourceIds": [
+            "film-f35"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "与 Sue 结婚约 13 年，育有 Katy 和 Robert 两个孩子。",
+            "en": "Married to Sue for about 13 years; they have two children, Katy and Robert."
+          },
+          "sourceIds": [
+            "film-f35"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "住在墨尔本一个工人阶级郊区。",
+            "en": "Lives in a working-class suburb of Melbourne."
+          },
+          "sourceIds": [
+            "film-f35",
+            "film-f42"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "带 Sue、Katy 和 Robert 去英国，首次探望那边的家人。",
+            "en": "Brought Sue, Katy and Robert to England to visit his family there for the first time."
+          },
+          "sourceIds": [
+            "film-f35",
+            "wiki-up-series"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他希望与孩子有更多亲密的身体接触，而不像他和父亲那样。",
+            "en": "Wants more close physical contact with his children than he had with his own father."
+          },
+          "sourceIds": [
+            "film-f35"
+          ],
+          "questionIds": [
+            "f35-041"
+          ]
         }
       }
     },
@@ -125,22 +345,67 @@
       "filmId": "f42",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "两三年前他重返学校，考取了木工证书。",
+            "en": "Two or three years earlier he went back to school and took a carpentry certificate."
+          },
+          "sourceIds": [
+            "film-f42"
+          ]
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "在一家塑料公司安装工业标牌；离开砌砖行业后换过十到十五份工作。",
+            "en": "Installs industrial signs for a plastics company, after 10 to 15 jobs since bricklaying."
+          },
+          "sourceIds": [
+            "film-f42"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "与 Sue 结婚 20 年，孩子是 Katy 和 Robert。",
+            "en": "Married to Sue for 20 years; their children are Katy and Robert."
+          },
+          "sourceIds": [
+            "film-f42"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "住在墨尔本另一个郊区，新房几乎是旧房的两倍大。",
+            "en": "Lives in another Melbourne suburb, in a house nearly twice the size of the old one."
+          },
+          "sourceIds": [
+            "film-f42"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "年初还清旧房贷款后搬家；迎来结婚 20 周年。",
+            "en": "Moved house early in the year after paying off the old one; marked 20 years of marriage."
+          },
+          "sourceIds": [
+            "film-f42"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他说自己学会了与缺乏自信共处，但始终没能完全克服。",
+            "en": "Says he has learned to live with his lack of confidence but never fully overcome it."
+          },
+          "sourceIds": [
+            "film-f42"
+          ],
+          "questionIds": [
+            "f42-032"
+          ]
         }
       }
     },
@@ -152,19 +417,65 @@
           "status": "not_found"
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "仍在工厂制作标牌，已干了十年，担心以自己的技能难找全职工作。",
+            "en": "Still in his factory job making signs, ten years in, and worried about finding full-time work at his skill level."
+          },
+          "sourceIds": [
+            "film-f49",
+            "wiki-up-series"
+          ],
+          "questionIds": [
+            "f49-039",
+            "f49-040"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "与 Sue 仍是夫妻；Katy 考上大学读考古，Robert 学成汽车修理工；已有两个孙辈。",
+            "en": "Married to Sue; Katy got a place at university to study archaeology, Robert has trained as a car mechanic, and they have two grandchildren."
+          },
+          "sourceIds": [
+            "film-f49"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "住在澳大利亚墨尔本一带。",
+            "en": "Lives in Australia, in the Melbourne area."
+          },
+          "sourceIds": [
+            "film-f49",
+            "wiki-up-series"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "工作问题打击了自尊，他求助于医生；被请回英国与 Symon 重聚。",
+            "en": "Saw a doctor for help after problems at work lowered his self-esteem; flown to England to reunite with Symon."
+          },
+          "sourceIds": [
+            "film-f49",
+            "wiki-up-series"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他说自己已没什么抱负，如今靠跑步获得内心平静。",
+            "en": "Says he no longer really has ambitions, and now finds his peace through running."
+          },
+          "sourceIds": [
+            "film-f49"
+          ],
+          "questionIds": [
+            "f49-040",
+            "f49-047"
+          ]
         }
       }
     },
@@ -176,19 +487,61 @@
           "status": "not_found"
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "在一家退休村做维修和杂活，Susan 也在那里工作。",
+            "en": "Does maintenance and odd jobs at a retirement village where Susan also works."
+          },
+          "sourceIds": [
+            "film-f56",
+            "wiki-up-series",
+            "cbs-up-children-2013"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "与 Susan 仍是夫妻；Katie 上过大学；Robert 夫妇有五个孩子。",
+            "en": "Married to Susan; Katie went to university, and Robert and his wife Stacey have five children."
+          },
+          "sourceIds": [
+            "film-f56",
+            "cbs-up-children-2013"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "住在澳大利亚墨尔本一带。",
+            "en": "Lives in the Melbourne area, Australia."
+          },
+          "sourceIds": [
+            "wiki-up-series"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "开始在 Susan 工作的退休村做维修；夫妇俩曾去约克郡看望 Katie。",
+            "en": "Started a maintenance job at the retirement village where Susan works; the couple visited Katie in Yorkshire."
+          },
+          "sourceIds": [
+            "film-f56",
+            "wiki-up-series"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "夫妇俩认为，至今仍相守、未遭不幸就是成功。",
+            "en": "The couple count it a success that they are still together and have been spared tragedy."
+          },
+          "sourceIds": [
+            "film-f56"
+          ],
+          "questionIds": [
+            "f56-020"
+          ]
         }
       }
     },
@@ -203,16 +556,57 @@
           "status": "not_found"
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "与 Susan 结婚 40 年，有六个孙辈；女儿 Katie 是教师，已有伴侣。",
+            "en": "Married to Susan for 40 years; six grandchildren; daughter Katie is a schoolteacher with a partner."
+          },
+          "sourceIds": [
+            "film-f63"
+          ],
+          "questionIds": [
+            "f63-068"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "住在澳大利亚墨尔本一带，Symon 夫妇来此与他共度圣诞。",
+            "en": "Lives in the Melbourne area, Australia, where Symon and Vienetta came to spend Christmas."
+          },
+          "sourceIds": [
+            "film-f63",
+            "wiki-up-series"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "父亲约四年前去世；第六个孙辈 Brody 出生；Symon 夫妇从英国来访。",
+            "en": "His father died about four years earlier; a sixth grandchild, Brody, arrived; Symon and Vienetta visited from England."
+          },
+          "sourceIds": [
+            "film-f63",
+            "film-f70",
+            "entertainmentdaily-paul-2026",
+            "wiki-up-series"
+          ],
+          "questionIds": [
+            "f63-068"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他认为人生不该有遗憾，庆幸遇到 Susan，只是或许想多要几个孩子。",
+            "en": "Sees no place for regrets and feels lucky to have met Susan, though he might have liked more children."
+          },
+          "sourceIds": [
+            "film-f63"
+          ],
+          "questionIds": [
+            "f63-077"
+          ]
         }
       }
     },
@@ -227,10 +621,27 @@
           "status": "not_found"
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "与 Sue 结婚四十多年仍相守；已有了孙辈，很疼爱他们。",
+            "en": "Still married to Sue after more than four decades; a grandfather who dotes on his grandchildren."
+          },
+          "sourceIds": [
+            "entertainmentdaily-paul-2026",
+            "guardian-mangan-2026",
+            "wiki-up-series"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "住在澳大利亚。",
+            "en": "Lives in Australia."
+          },
+          "sourceIds": [
+            "guardian-mangan-2026",
+            "wiki-up-series"
+          ]
         },
         "events": {
           "status": "not_found"
@@ -241,5 +652,18 @@
       }
     }
   ],
-  "final": null
+  "final": {
+    "personId": "paul",
+    "asOfFilmId": "f70",
+    "text": {
+      "zh": "住在澳大利亚，结婚四十多年仍与妻子相守，已有了孙辈，称家庭是“百分之百最重要的事”。",
+      "en": "Lives in Australia, still married after more than four decades, and is a grandfather who says family is \"100% the main thing\"."
+    },
+    "sourceIds": [
+      "guardian-mangan-2026",
+      "entertainmentdaily-paul-2026",
+      "wiki-up-series",
+      "film-f70"
+    ]
+  }
 }

@@ -5,7 +5,15 @@
       "filmId": "f07",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他在伦敦肯辛顿一所高级私立学前预备学校读书。",
+            "en": "He attends an exclusive pre-prep school in Kensington, London."
+          },
+          "sourceIds": [
+            "film-f07",
+            "wiki-up-series"
+          ]
         },
         "work": {
           "status": "not_found"
@@ -20,7 +28,17 @@
           "status": "not_found"
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "被问到上大学的事，他说自己也许会去牛津。",
+            "en": "Asked about university, he says he might go to Oxford."
+          },
+          "sourceIds": [
+            "film-f07"
+          ],
+          "questionIds": [
+            "f07-027"
+          ]
         }
       }
     },
@@ -29,7 +47,15 @@
       "filmId": "f14",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他在马尔堡公学（Marlborough College）读书。",
+            "en": "He is at Marlborough College."
+          },
+          "sourceIds": [
+            "film-f14",
+            "p-charles-wiki-tvproducer"
+          ]
         },
         "work": {
           "status": "not_found"
@@ -53,7 +79,18 @@
       "filmId": "f21",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他没能进牛津，正在杜伦大学读历史。",
+            "en": "He is reading history at Durham University, having not got into Oxford."
+          },
+          "sourceIds": [
+            "film-f21",
+            "sbs-cast-2026"
+          ],
+          "questionIds": [
+            "f21-027"
+          ]
         },
         "work": {
           "status": "not_found"
@@ -68,7 +105,17 @@
           "status": "not_found"
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他说很高兴没进牛津，躲开了从马尔堡到牛剑的“传送带”。",
+            "en": "He says he is pleased he did not get into Oxford, avoiding the Marlborough-to-Oxbridge \"conveyor belt\"."
+          },
+          "sourceIds": [
+            "film-f21"
+          ],
+          "questionIds": [
+            "f21-027"
+          ]
         }
       }
     },
@@ -105,11 +152,16 @@
           }
         },
         "events": {
-          "status": "not_applicable",
-          "reason": {
-            "zh": "未出镜",
-            "en": "Not filmed"
-          }
+          "status": "confirmed",
+          "text": {
+            "zh": "（事后得知）他拒绝参加本集；导演自承在电话里“暴跳如雷”，两人关系就此破裂。",
+            "en": "(Learned later) He declined to take part; the director admitted he \"went berserk\" in a phone call, which destroyed their relationship."
+          },
+          "sourceIds": [
+            "film-f28",
+            "thenation-pedersen-2020",
+            "wiki-up-series"
+          ]
         },
         "outlook": {
           "status": "not_applicable",
@@ -153,11 +205,14 @@
           }
         },
         "events": {
-          "status": "not_applicable",
-          "reason": {
-            "zh": "未出镜",
-            "en": "Not filmed"
-          }
+          "status": "confirmed",
+          "text": {
+            "zh": "（事后得知）未出镜；旁白说他现为 BBC 制片人，前一年结婚，不愿上电视。",
+            "en": "(Learned later) Absent; the narration says he is now a BBC producer, married the year before, and prefers not to be on television."
+          },
+          "sourceIds": [
+            "film-f35"
+          ]
         },
         "outlook": {
           "status": "not_applicable",
@@ -201,11 +256,15 @@
           }
         },
         "events": {
-          "status": "not_applicable",
-          "reason": {
-            "zh": "未出镜",
-            "en": "Not filmed"
-          }
+          "status": "confirmed",
+          "text": {
+            "zh": "（事后得知）未出镜；旁白说他现任 Channel 4 科学纪录片主编。",
+            "en": "(Learned later) Absent; the narration says he is now Editor of Science Documentaries at Channel 4."
+          },
+          "sourceIds": [
+            "film-f42",
+            "p-charles-wiki-tvproducer"
+          ]
         },
         "outlook": {
           "status": "not_applicable",
@@ -249,11 +308,15 @@
           }
         },
         "events": {
-          "status": "not_applicable",
-          "reason": {
-            "zh": "未出镜",
-            "en": "Not filmed"
-          }
+          "status": "confirmed",
+          "text": {
+            "zh": "（事后得知）导演 2005 年称，因拒绝把他从本集旧片段中删去，他曾试图起诉导演。",
+            "en": "(Learned later) In 2005 the director alleged he had tried to sue when refused removal from this film's archive sequences."
+          },
+          "sourceIds": [
+            "wiki-up-series",
+            "p-charles-wiki-tvproducer"
+          ]
         },
         "outlook": {
           "status": "not_applicable",
@@ -297,11 +360,15 @@
           }
         },
         "events": {
-          "status": "not_applicable",
-          "reason": {
-            "zh": "未出镜",
-            "en": "Not filmed"
-          }
+          "status": "confirmed",
+          "text": {
+            "zh": "（事后得知）除旧片段外，本集不再提及他。",
+            "en": "(Learned later) Apart from old footage, he is no longer mentioned in this film."
+          },
+          "sourceIds": [
+            "p-charles-wiki-tvproducer",
+            "film-f56"
+          ]
         },
         "outlook": {
           "status": "not_applicable",
@@ -345,11 +412,14 @@
           }
         },
         "events": {
-          "status": "not_applicable",
-          "reason": {
-            "zh": "只出现在旧片段中",
-            "en": "Archive footage only"
-          }
+          "status": "confirmed",
+          "text": {
+            "zh": "（事后得知）关于他的内容几乎全删，只在与 Andrew、John 的合影中一闪而过。",
+            "en": "(Learned later) All references to him were removed, except fleeting glimpses in joint shots with Andrew and John."
+          },
+          "sourceIds": [
+            "wiki-up-series"
+          ]
         },
         "outlook": {
           "status": "not_applicable",
@@ -365,10 +435,26 @@
       "filmId": "f70",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "杜伦大学现代史毕业（1978 年，二级一等）；他说之后去了牛津，再进 BBC 培训计划。",
+            "en": "A Durham modern history graduate (2:1, 1978); he says he then went to Oxford before the BBC trainee scheme."
+          },
+          "sourceIds": [
+            "p-charles-wiki-tvproducer",
+            "film-f70"
+          ]
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "已退休的电视制片人和纪录片人，约 2017 年退休。",
+            "en": "A retired television producer and documentary maker; he retired around 2017."
+          },
+          "sourceIds": [
+            "tvguide-charles-2026",
+            "p-charles-wiki-tvproducer"
+          ]
         },
         "family": {
           "status": "not_found"
@@ -377,7 +463,17 @@
           "status": "not_found"
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "自 21 岁后首次回归，只录画外音；他提供的照片刻意遮住了脸。",
+            "en": "Returned for the first time since age 21, by voiceover only; the photos he supplied obscure his face."
+          },
+          "sourceIds": [
+            "tvguide-charles-2026",
+            "p-charles-wiki-tvproducer",
+            "wiki-up-series",
+            "film-f70"
+          ]
         },
         "outlook": {
           "status": "not_found"
@@ -385,5 +481,17 @@
       }
     }
   ],
-  "final": null
+  "final": {
+    "personId": "charles",
+    "asOfFilmId": "f70",
+    "text": {
+      "zh": "已退休的电视制片人和纪录片人。他说，攀登和“外面的世界”是他人生的下一阶段。",
+      "en": "A retired television producer and documentary maker. He says climbing and the \"out-there world\" are the next part of his life."
+    },
+    "sourceIds": [
+      "tvguide-charles-2026",
+      "p-charles-wiki-tvproducer",
+      "film-f70"
+    ]
+  }
 }

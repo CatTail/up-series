@@ -5,16 +5,41 @@
       "filmId": "f07",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "在伦敦东区的一所小学读书。",
+            "en": "Attends a primary school in London's East End."
+          },
+          "sourceIds": [
+            "film-f07",
+            "wiki-up-series"
+          ]
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "7 岁时他说长大后想当骑师。",
+            "en": "At seven he says he wants to be a jockey when he grows up."
+          },
+          "sourceIds": [
+            "film-f07",
+            "wiki-up-series",
+            "cbs-up-children-2013"
+          ]
         },
         "family": {
           "status": "not_found"
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "在伦敦东区长大。",
+            "en": "Growing up in London's East End."
+          },
+          "sourceIds": [
+            "sbs-cast-2026",
+            "cbs-up-children-2013"
+          ]
         },
         "events": {
           "status": "not_found"
@@ -29,22 +54,66 @@
       "filmId": "f14",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "已从小学升入现代中学，明年四月将离校。",
+            "en": "Has moved from elementary school to a secondary modern, and will leave school next April."
+          },
+          "sourceIds": [
+            "film-f14"
+          ]
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "课余时间都泡在埃普索姆的 Tommy Gosling 赛马马房，离校后将在那里工作。",
+            "en": "Spends all his free time at Tommy Gosling's racing stables in Epsom, where he will work after leaving school."
+          },
+          "sourceIds": [
+            "film-f14",
+            "wiki-up-series"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "父亲替他联系了马房；父母一直希望他当骑师。",
+            "en": "His father arranged the stable place for him; his parents had always wanted him to be a jockey."
+          },
+          "sourceIds": [
+            "film-f14"
+          ],
+          "questionIds": [
+            "f14-002"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "在伦敦东区长大。",
+            "en": "Growing up in London's East End."
+          },
+          "sourceIds": [
+            "sbs-cast-2026",
+            "film-f49"
+          ]
         },
         "events": {
           "status": "not_found"
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "一心想当骑师；若知道当不成，就离开赛马圈，去学开出租车。",
+            "en": "Set on being a jockey; if he knew he couldn't make it, he would leave racing and learn the taxi trade."
+          },
+          "sourceIds": [
+            "film-f14"
+          ],
+          "questionIds": [
+            "f14-067",
+            "f14-068"
+          ]
         }
       }
     },
@@ -53,22 +122,79 @@
       "filmId": "f21",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "15 岁离开东区的现代中学，现正备考伦敦出租车司机的“知识”考试。",
+            "en": "Left his East End secondary modern school at 15; now studying for the taxi Knowledge."
+          },
+          "sourceIds": [
+            "film-f21"
+          ]
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "骑摩托车跑路线备考“知识”，并在 Hackney Wick 赛狗场替赌客跑腿下注。",
+            "en": "Learning the Knowledge on his motorbike and running bets for punters at Hackney Wick dog track."
+          },
+          "sourceIds": [
+            "film-f21",
+            "film-f28"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "没有女朋友；他说家人中最爱妈妈。",
+            "en": "Has no girlfriend; of his close family, he says he loves his mum best."
+          },
+          "sourceIds": [
+            "film-f21"
+          ],
+          "questionIds": [
+            "f21-063"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "住在伦敦东区，说自己在那里扎了根，不想离开。",
+            "en": "Lives in London's East End, where he says he is firmly rooted and would not want to leave."
+          },
+          "sourceIds": [
+            "film-f21"
+          ],
+          "questionIds": [
+            "f21-064"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "15 岁离校到埃普索姆当学徒骑师，只骑过三场比赛便放弃了。",
+            "en": "Left school at 15 to be an apprentice jockey in Epsom, rode in only three races, then gave up racing."
+          },
+          "sourceIds": [
+            "film-f21",
+            "wiki-up-series"
+          ],
+          "questionIds": [
+            "f21-057"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他承认自己当骑师不够格，并说人生就是一场你死我活的竞争。",
+            "en": "He accepts he simply wasn't good enough to be a jockey, and calls life one big rat race."
+          },
+          "sourceIds": [
+            "film-f21"
+          ],
+          "questionIds": [
+            "f21-060",
+            "f21-068"
+          ]
         }
       }
     },
@@ -77,22 +203,71 @@
       "filmId": "f28",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "一边开出租车，一边上表演课。",
+            "en": "Is taking acting lessons alongside his cab driving."
+          },
+          "sourceIds": [
+            "film-f28",
+            "film-f35"
+          ]
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "开着自己的伦敦出租车，并已做了六年电影临时演员。",
+            "en": "Drives his own London cab and has worked as a film extra for six years."
+          },
+          "sourceIds": [
+            "film-f28",
+            "film-f35"
+          ],
+          "questionIds": [
+            "f28-001"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "与 Debbie 结婚，育有 Nicky 和 Jodie 两个孩子，第三胎预计三月出生。",
+            "en": "Married to Debbie with two children, Nicky and Jodie; a third baby is due in March."
+          },
+          "sourceIds": [
+            "film-f28",
+            "wiki-up-series"
+          ],
+          "questionIds": [
+            "f28-002",
+            "f28-003"
+          ]
         },
         "residence": {
           "status": "not_found"
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "考取了“知识”执照，如 21 岁时所誓言，成了伦敦出租车司机。",
+            "en": "Gained the Knowledge and became a London taxi driver, as he had vowed at 21."
+          },
+          "sourceIds": [
+            "film-f28",
+            "wiki-up-series"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他的人生哲学是永不停步：人生不等人，要趁早尽量多做。",
+            "en": "His philosophy is never to keep still: life waits for nobody, so cram in as much as you can."
+          },
+          "sourceIds": [
+            "film-f28"
+          ],
+          "questionIds": [
+            "f28-009"
+          ]
         }
       }
     },
@@ -104,19 +279,62 @@
           "status": "not_found"
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "与 Debbie 合开一辆伦敦出租车，她跑白班、他跑夜班，并兼做临时演员。",
+            "en": "Shares a London cab with Debbie, who drives days while he drives nights, and works as a film extra."
+          },
+          "sourceIds": [
+            "film-f35"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "与 Debbie 结婚，有儿子 Nicky（13 岁）和女儿 Jodie、Perry。",
+            "en": "Married to Debbie; they have a son, Nicky, 13, and two daughters, Jodie and Perry."
+          },
+          "sourceIds": [
+            "film-f35"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "一家人住在伦敦北部。",
+            "en": "The family lives in North London."
+          },
+          "sourceIds": [
+            "film-f35"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "父母相继去世；Debbie 流产后又生下 Perry；与姻亲合伙开的酒吧也已放弃。",
+            "en": "Both his parents died; Debbie lost a baby and later had Perry; a pub run in partnership with a brother-in-law was given up."
+          },
+          "sourceIds": [
+            "film-f35",
+            "film-f42",
+            "wiki-up-series"
+          ],
+          "questionIds": [
+            "f35-007"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他说，人生就是要给孩子自己从未有过的机会。",
+            "en": "He says life is about giving your kids the opportunities you never had."
+          },
+          "sourceIds": [
+            "film-f35"
+          ],
+          "questionIds": [
+            "f35-001"
+          ]
         }
       }
     },
@@ -128,19 +346,68 @@
           "status": "not_found"
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "仍是伦敦出租车司机，他跑夜班、Debbie 跑白班，并靠电视工作补贴收入。",
+            "en": "Still a London cabbie, working nights while Debbie drives days, and earning extra from TV jobs."
+          },
+          "sourceIds": [
+            "film-f42"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "与 Debbie 育有三个孩子；长子 Nicky 是家具抛光师，还和他同队踢球。",
+            "en": "Married to Debbie with three children; eldest son Nicky is a French polisher and plays football alongside him."
+          },
+          "sourceIds": [
+            "film-f42",
+            "film-f63"
+          ],
+          "questionIds": [
+            "f42-002"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "1993 年离开东区，现住埃塞克斯郡伍德福德。",
+            "en": "Lives in Woodford, Essex, having left the East End in 1993."
+          },
+          "sourceIds": [
+            "film-f42",
+            "wiki-up-series"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "1993 年搬到伍德福德；Debbie 发现他出轨，婚姻险些破裂。",
+            "en": "Moved to Woodford in 1993; Debbie found out about his infidelity and the marriage nearly ended."
+          },
+          "sourceIds": [
+            "film-f42",
+            "wiki-up-series",
+            "cbs-up-children-2013"
+          ],
+          "questionIds": [
+            "f42-003",
+            "f42-004"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他确信，两年的努力和决心就能让家里摆脱财务困境。",
+            "en": "He is sure two years of hard work and determination will get them out of their financial hole."
+          },
+          "sourceIds": [
+            "film-f42"
+          ],
+          "questionIds": [
+            "f42-001"
+          ]
         }
       }
     },
@@ -152,19 +419,58 @@
           "status": "not_found"
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他和 Debbie 仍开伦敦出租车，现改为租车，他还偶尔接电视工作。",
+            "en": "He and Debbie still work as London cabbies, now hiring a cab, and he takes occasional TV jobs."
+          },
+          "sourceIds": [
+            "film-f49"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "与 Debbie 育有三个子女，还有几个年幼的孙辈；他说自己亲手照看孙辈。",
+            "en": "Married to Debbie with three children, Nicky, Jodie and Perry, and young grandchildren; he calls himself a hands-on granddad."
+          },
+          "sourceIds": [
+            "film-f49"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "仍住伍德福德的家，并用二次抵押贷款在西班牙买了度假屋。",
+            "en": "Keeps the family house in Woodford and has bought a holiday home in Spain with a second mortgage."
+          },
+          "sourceIds": [
+            "film-f49",
+            "wiki-up-series"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "将房子二次抵押买下西班牙度假屋，打算在那里开体育酒吧；夫妻说如今很幸福。",
+            "en": "Remortgaged the house to buy a holiday home in Spain, where he plans a sports bar; the couple say they are now happy."
+          },
+          "sourceIds": [
+            "film-f49"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他现在的梦想就是和家人一起健康快乐，他说自己已经做到了。",
+            "en": "His dream now is simply to be happy and healthy with his family, which he says he already is."
+          },
+          "sourceIds": [
+            "film-f49"
+          ],
+          "questionIds": [
+            "f49-003"
+          ]
         }
       }
     },
@@ -176,19 +482,68 @@
           "status": "not_found"
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "仍是伦敦出租车司机；他说经济衰退后十辆车只抢两单生意。",
+            "en": "Still a London cabbie; he says the recession has left ten cabs for every two jobs."
+          },
+          "sourceIds": [
+            "film-f56"
+          ],
+          "questionIds": [
+            "f56-089"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "与 Debbie 结婚 32 年，育有三个孩子；外孙女 Toni 与他们同住。",
+            "en": "Married to Debbie for 32 years, with three children; granddaughter Toni, Jodie's daughter, lives with them."
+          },
+          "sourceIds": [
+            "film-f56"
+          ],
+          "questionIds": [
+            "f56-091"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "与几个子女同住伦敦的家，另在西班牙有第二套房。",
+            "en": "Shares a London home with several of his children and also owns a second home in Spain."
+          },
+          "sourceIds": [
+            "cbs-up-children-2013",
+            "film-f56"
+          ],
+          "questionIds": [
+            "f56-088"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "经济衰退让他在西班牙的生意计划落空；儿子 Nicky 在父母资助下考取出租车执照。",
+            "en": "The recession scuttled his business plans in Spain; son Nicky got his cab badge with his parents' funding."
+          },
+          "sourceIds": [
+            "film-f56",
+            "cbs-up-children-2013"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他说子女和孙辈就是他的一切，自己非常幸运。",
+            "en": "He says his children and grandchildren are his life and that he is very lucky."
+          },
+          "sourceIds": [
+            "film-f56"
+          ],
+          "questionIds": [
+            "f56-091"
+          ]
         }
       }
     },
@@ -200,19 +555,72 @@
           "status": "not_found"
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "仍开伦敦出租车，但因 Uber 收入少了约三分之一；仍接表演工作。",
+            "en": "Still drives a London cab but has lost about a third of his income to Uber; he still takes acting work."
+          },
+          "sourceIds": [
+            "film-f63"
+          ],
+          "questionIds": [
+            "f63-003",
+            "f63-005"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "与 Debbie 育有三个孩子、六个孙辈；外孙女 Toni 由夫妻俩带大。",
+            "en": "Married to Debbie with three children and six grandchildren; the couple brought up granddaughter Toni."
+          },
+          "sourceIds": [
+            "film-f63"
+          ],
+          "questionIds": [
+            "f63-007"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "回到埃塞克斯郡，住在林间一个 50 岁以上人士的社区。",
+            "en": "Back in Essex, living in an over-50s community surrounded by forest."
+          },
+          "sourceIds": [
+            "film-f63",
+            "wiki-up-series"
+          ],
+          "questionIds": [
+            "f63-006"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "西班牙生意计划落空，卖房回国；患肺栓塞后幸存，需终身服用华法林。",
+            "en": "Sold up in Spain and came home when his business plans collapsed; survived a pulmonary embolism and is on warfarin for life."
+          },
+          "sourceIds": [
+            "film-f63"
+          ],
+          "questionIds": [
+            "f63-002",
+            "f63-009"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他说在西班牙创业的梦想已化为泡影，并希望自己仍在那里。",
+            "en": "He says his dreams of a business in Spain went out the window, and he wishes he were still there."
+          },
+          "sourceIds": [
+            "film-f63"
+          ],
+          "questionIds": [
+            "f63-002"
+          ]
         }
       }
     },
@@ -224,10 +632,26 @@
           "status": "not_found"
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "伦敦出租车司机出身，70 岁时说自己半退休的生活很快乐。",
+            "en": "A London cabbie, he says at 70 he is very happy in his semi-retirement."
+          },
+          "sourceIds": [
+            "film-f70",
+            "p-tony-ladbible-2026",
+            "p-tony-tvguide-firstlook-2026"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他说自己和妻子已相伴 46 年。",
+            "en": "He says he and his wife are still together after 46 years."
+          },
+          "sourceIds": [
+            "film-f70"
+          ]
         },
         "residence": {
           "status": "not_found"
@@ -241,5 +665,18 @@
       }
     }
   ],
-  "final": null
+  "final": {
+    "personId": "tony",
+    "asOfFilmId": "f70",
+    "text": {
+      "zh": "70 岁时，他是半退休的伦敦出租车司机，与妻子相伴 46 年；他称放弃赛马是一生最大的错误。",
+      "en": "At 70 he is a semi-retired London cab driver, still with his wife after 46 years; he calls quitting horse racing his biggest mistake."
+    },
+    "sourceIds": [
+      "film-f70",
+      "guardian-mangan-2026",
+      "wiki-up-series",
+      "p-tony-ladbible-2026"
+    ]
+  }
 }

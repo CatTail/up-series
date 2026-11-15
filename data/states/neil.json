@@ -5,22 +5,58 @@
       "filmId": "f07",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "在利物浦郊区一所小学读书，是该校被选中拍片的两个男孩之一。",
+            "en": "Attends a primary school in a Liverpool suburb, one of two boys chosen from it for the film."
+          },
+          "sourceIds": [
+            "film-f07",
+            "sbs-cast-2026"
+          ]
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "7 岁时他想当宇航员，当不成就当长途汽车司机。",
+            "en": "At seven he wants to be an astronaut, or failing that a coach driver."
+          },
+          "sourceIds": [
+            "film-f07",
+            "sbs-cast-2026"
+          ],
+          "questionIds": [
+            "f07-028"
+          ]
         },
         "family": {
           "status": "not_found"
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "住在利物浦郊区，他说比起乡下更喜欢住在城里。",
+            "en": "Lives in a Liverpool suburb and says he prefers living in town to the country."
+          },
+          "sourceIds": [
+            "film-f07"
+          ]
         },
         "events": {
           "status": "not_found"
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他想象自己开大巴载人去乡下和海边，用喇叭告诉乘客到了哪里。",
+            "en": "Pictures himself driving coach trips to the country and seaside, telling passengers over a loudspeaker where they are."
+          },
+          "sourceIds": [
+            "film-f07"
+          ],
+          "questionIds": [
+            "f07-028"
+          ]
         }
       }
     },
@@ -29,19 +65,53 @@
       "filmId": "f14",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "和朋友 Peter 一样，在利物浦郊区当地的综合中学上学。",
+            "en": "Attends a local comprehensive school in his Liverpool suburb, like his friend Peter."
+          },
+          "sourceIds": [
+            "film-f14",
+            "film-f42",
+            "sbs-cast-2026"
+          ]
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "仍想当长途汽车司机，他说这与自己想去旅行有关。",
+            "en": "Still interested in being a coach driver, which he links to wanting to travel."
+          },
+          "sourceIds": [
+            "sbs-cast-2026",
+            "film-f14",
+            "film-f42"
+          ]
         },
         "family": {
           "status": "not_found"
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "住在利物浦郊区。",
+            "en": "Lives in a Liverpool suburb."
+          },
+          "sourceIds": [
+            "film-f14"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "升入综合中学，起初觉得学校大得多，很难适应。",
+            "en": "Has moved up to a comprehensive school, which he found much bigger and hard to settle into at first."
+          },
+          "sourceIds": [
+            "film-f14",
+            "film-f21",
+            "film-f70"
+          ]
         },
         "outlook": {
           "status": "not_found"
@@ -53,22 +123,79 @@
       "filmId": "f21",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "在利物浦的综合中学考得四门 A-level，后读了一学期便离开阿伯丁大学。",
+            "en": "Got four A-levels at a Liverpool comprehensive, then walked out of Aberdeen University after one term."
+          },
+          "sourceIds": [
+            "film-f21"
+          ],
+          "questionIds": [
+            "f21-087"
+          ]
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "在伦敦的建筑工地打零工。",
+            "en": "Doing casual labour on a building site in London."
+          },
+          "sourceIds": [
+            "film-f21",
+            "film-f28"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "父母都是教师；他说只要父母让他按自己的方式生活，就能相处得好。",
+            "en": "Both his parents are teachers; he says he gets on with them if they let him live his own way."
+          },
+          "sourceIds": [
+            "film-f21"
+          ],
+          "questionIds": [
+            "f21-094"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "住在伦敦一处擅自占住的空房里。",
+            "en": "Lives in a squat in London."
+          },
+          "sourceIds": [
+            "film-f21",
+            "film-f28",
+            "wiki-up-series"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "1975 年底离开阿伯丁大学，来到伦敦想重新开始生活。",
+            "en": "Left Aberdeen University at the end of 1975 and moved to London to start a new life."
+          },
+          "sourceIds": [
+            "film-f21"
+          ],
+          "questionIds": [
+            "f21-087"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他说自己从未有过可反抗的安稳：“我这辈子一直在半空中乱踢。”",
+            "en": "Says he never had stability to kick against: \"I've been kicking in mid-air the whole of my life.\""
+          },
+          "sourceIds": [
+            "film-f21"
+          ],
+          "questionIds": [
+            "f21-103"
+          ]
         }
       }
     },
@@ -77,22 +204,78 @@
       "filmId": "f28",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "有十门 O-level 和四门 A-level；读了一学期便从阿伯丁大学辍学。",
+            "en": "Has ten O levels and four A levels; dropped out of Aberdeen University after one term."
+          },
+          "sourceIds": [
+            "film-f28"
+          ],
+          "questionIds": [
+            "f28-076"
+          ]
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "已失业三年，靠社会救济金生活；上一份工作是在青年旅舍做饭。",
+            "en": "Unemployed for three years and living on social security; his last job was cooking in a youth hostel."
+          },
+          "sourceIds": [
+            "film-f28"
+          ],
+          "questionIds": [
+            "f28-071"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "经历一段艰难时期后已与父母和好；他一直告诉自己永远不要孩子。",
+            "en": "Has made up quite well with his parents after bad times; he always told himself he would never have children."
+          },
+          "sourceIds": [
+            "film-f28"
+          ],
+          "questionIds": [
+            "f28-080",
+            "f28-081"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "居无定所：在北威尔士农场度过夏天后，刚到苏格兰西部高地。",
+            "en": "No settled home: after a summer on a North Wales farm, he has just arrived in Scotland's Western Highlands."
+          },
+          "sourceIds": [
+            "film-f28",
+            "wiki-up-series"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "过去七年一直在英国各地漂泊，最近三年失业。",
+            "en": "Has spent the seven years moving around Britain, unemployed for the last three of them."
+          },
+          "sourceIds": [
+            "film-f28"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他说自己并不比任何人强，只是一个有自己特殊困难和障碍的人。",
+            "en": "Says he is not better than anybody, just somebody with his own particular difficulties and obstacles."
+          },
+          "sourceIds": [
+            "film-f28"
+          ],
+          "questionIds": [
+            "f28-091"
+          ]
         }
       }
     },
@@ -101,22 +284,78 @@
       "filmId": "f35",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "上过当地综合中学和阿伯丁大学，读了一学期就辍学。",
+            "en": "Went to a local comprehensive and Aberdeen University, dropping out after a term."
+          },
+          "sourceIds": [
+            "film-f35"
+          ]
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "靠社会救济金生活；去年执导村里的童话剧，正筹办职业巡演剧团。",
+            "en": "Lives on Social Security; directed last year's village pantomime and is trying to organise a touring theatre company."
+          },
+          "sourceIds": [
+            "film-f35"
+          ],
+          "questionIds": [
+            "f35-044",
+            "f35-046"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "未婚；他认为找到能容忍自己的人的机会很小。",
+            "en": "Unmarried; he thinks his chances of finding someone who would put up with him are slim."
+          },
+          "sourceIds": [
+            "film-f35"
+          ],
+          "questionIds": [
+            "f35-049"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "住在设得兰群岛的一套政府廉租公寓。",
+            "en": "Lives in a council flat in the Shetland Islands."
+          },
+          "sourceIds": [
+            "film-f35"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "约两年前在设得兰群岛定居；今年未被选为童话剧导演。",
+            "en": "Settled in the Shetland Islands a couple of years ago; this year he was not chosen to direct the pantomime."
+          },
+          "sourceIds": [
+            "film-f35"
+          ],
+          "questionIds": [
+            "f35-046"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "担心自己会流落伦敦街头，盼望运气好能避免；他说人生还没结束。",
+            "en": "Fears ending up wandering homeless around London, though with luck he won't; insists his life isn't over."
+          },
+          "sourceIds": [
+            "film-f35"
+          ],
+          "questionIds": [
+            "f35-057",
+            "f35-055"
+          ]
         }
       }
     },
@@ -125,22 +364,77 @@
       "filmId": "f42",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "受过对外英语教学培训，并取得开放大学学士学位。",
+            "en": "Has trained to teach English as a foreign language and gained an Open University BA."
+          },
+          "sourceIds": [
+            "film-f42",
+            "wiki-up-series"
+          ]
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "在哈克尼任自由民主党区议员（无薪），完全靠国家救济生活。",
+            "en": "An unpaid Liberal Democrat councillor in Hackney, he lives entirely on state benefit."
+          },
+          "sourceIds": [
+            "film-f42"
+          ],
+          "questionIds": [
+            "f42-056"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "未婚；渴望与女性建立稳定关系，但从未实现。",
+            "en": "Not married; he hankers after a stable relationship with a woman but has never achieved one."
+          },
+          "sourceIds": [
+            "film-f42"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "住在伦敦，在哈克尼区议会任职。",
+            "en": "Lives in London, where he serves on Hackney Council."
+          },
+          "sourceIds": [
+            "film-f42",
+            "film-f49"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "从设得兰搬到伦敦，在 Bruce 家借住两个月；1996 年当选哈克尼区议员，后连任。",
+            "en": "Moved from Shetland to London, lodging with Bruce for two months; elected to Hackney Council in 1996 and re-elected."
+          },
+          "sourceIds": [
+            "film-f42",
+            "wiki-up-series"
+          ],
+          "questionIds": [
+            "f42-054",
+            "f42-055"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "被问到现在是否是人生好时光，他说从没这么忙过，也从没接触过这么多人。",
+            "en": "Asked if this is a good time in his life, he says he has never been busier or in contact with so many people."
+          },
+          "sourceIds": [
+            "film-f42"
+          ],
+          "questionIds": [
+            "f42-057"
+          ]
         }
       }
     },
@@ -149,22 +443,76 @@
       "filmId": "f49",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "完成进一步培训，获卡莱尔主教重新授予平信徒读经员资格。",
+            "en": "Completed further training and was re-licensed as a lay reader by the Bishop of Carlisle."
+          },
+          "sourceIds": [
+            "film-f49"
+          ]
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "任坎布里亚自由民主党区议员，并竞选郡议员；每周一天在乐施会做义工。",
+            "en": "Liberal Democrat district councillor in Cumbria, standing for the county council; volunteers one day a week for Oxfam."
+          },
+          "sourceIds": [
+            "film-f49"
+          ],
+          "questionIds": [
+            "f49-095",
+            "f49-097"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "从未结婚，目前没有女友；曾有过一段近两年的恋情。",
+            "en": "Has never married and has no girlfriend; he once had a girlfriend for nearly two years."
+          },
+          "sourceIds": [
+            "film-f49"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "住在英格兰西北部坎布里亚的一套前政府公寓。",
+            "en": "Lives in a former council flat in Cumbria, in North West England."
+          },
+          "sourceIds": [
+            "film-f49"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "2000 年辞去哈克尼议席，迁居坎布里亚，2003 年当选伊登区沙普选区议员；父亲去世。",
+            "en": "Resigned his Hackney seat in 2000, moved to Cumbria, won Shap ward on Eden District Council in 2003; his father died."
+          },
+          "sourceIds": [
+            "wiki-up-series",
+            "p-neil-leap-shap",
+            "film-f49"
+          ],
+          "questionIds": [
+            "f49-101"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他说自己能在长久关系中快乐，但为没发生的事后悔或愤怒毫无意义。",
+            "en": "Says he could be happy in a lasting relationship, but sees little point in regret or anger over what hasn't happened."
+          },
+          "sourceIds": [
+            "film-f49"
+          ],
+          "questionIds": [
+            "f49-102"
+          ]
         }
       }
     },
@@ -176,19 +524,65 @@
           "status": "not_found"
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "任坎布里亚自由民主党议员，津贴微薄，兼任平信徒牧师；始终找不到有薪工作。",
+            "en": "Liberal Democrat councillor in Cumbria on a derisory allowance and a licensed lay minister; he has found no paid career."
+          },
+          "sourceIds": [
+            "film-f56",
+            "cbs-up-children-2013"
+          ],
+          "questionIds": [
+            "f56-021"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "独居；他说谈过几段恋爱，但都没有持续下去。",
+            "en": "Lives alone; he says he has had several relationships, but none has lasted."
+          },
+          "sourceIds": [
+            "film-f56"
+          ],
+          "questionIds": [
+            "f56-028"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "住在英格兰西北部的坎布里亚。",
+            "en": "Lives in Cumbria, in North West England."
+          },
+          "sourceIds": [
+            "film-f56"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "2006 年应邀赴澳大利亚演讲；2010 年参选卡莱尔选区国会议员，名列第三。",
+            "en": "Was invited to Australia in 2006 to give a talk; stood for Parliament in Carlisle in 2010, finishing third."
+          },
+          "sourceIds": [
+            "film-f56",
+            "wiki-up-series"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他说人在不自知时最快乐，比如与老朋友轻松吃饭或散步聊天。",
+            "en": "Says people are happiest when unaware of it, such as over a relaxed meal or a walk with old friends."
+          },
+          "sourceIds": [
+            "film-f56"
+          ],
+          "questionIds": [
+            "f56-032"
+          ]
         }
       }
     },
@@ -200,19 +594,76 @@
           "status": "not_found"
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "任郡议员，收入足以维持生活，不再领救济；最近重获英格兰教会读经员资格。",
+            "en": "A county councillor whose pay covers his needs, so he no longer claims benefits; recently re-licensed as a Church of England reader."
+          },
+          "sourceIds": [
+            "film-f63"
+          ],
+          "questionIds": [
+            "f63-091",
+            "f63-093"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "已婚，但幸福四年多后与妻子已很少见面；父母均已去世。",
+            "en": "Married, but after four-plus happy years he and his wife now rarely see each other; both his parents have died."
+          },
+          "sourceIds": [
+            "film-f63"
+          ],
+          "questionIds": [
+            "f63-086",
+            "f63-084"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "仍住在坎布里亚，但在法国买了一栋房子。",
+            "en": "Still lives in Cumbria but has bought a house in France."
+          },
+          "sourceIds": [
+            "film-f63",
+            "wiki-up-series"
+          ],
+          "questionIds": [
+            "f63-088"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "结婚；用母亲的部分遗产在法国买房；2013、2017 年当选坎布里亚郡议会伊登湖区议员。",
+            "en": "Married; bought a house in France partly with his mother's legacy; elected to Cumbria County Council (Eden Lakes) in 2013 and 2017."
+          },
+          "sourceIds": [
+            "film-f63",
+            "wiki-up-series",
+            "p-neil-leap-edenlakes-2013"
+          ],
+          "questionIds": [
+            "f63-086",
+            "f63-089"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "议会或教会工作办成事时他就快乐，但遗憾自己作为作家毫无成就。",
+            "en": "Happy when something goes right through council or church work, but regrets having had no success as a writer."
+          },
+          "sourceIds": [
+            "film-f63"
+          ],
+          "questionIds": [
+            "f63-096",
+            "f63-092"
+          ]
         }
       }
     },
@@ -224,16 +675,49 @@
           "status": "not_found"
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "已退休；每周在法国一家书店做半天义工。",
+            "en": "Has retired; he volunteers half a day a week in a bookshop in France."
+          },
+          "sourceIds": [
+            "film-f70"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "与妻子仍有婚姻关系但已分居；这段婚姻实际只维持了四年。",
+            "en": "Still married but separated from his wife; the marriage was active for only four years."
+          },
+          "sourceIds": [
+            "film-f70",
+            "wiki-up-series"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "独自住在法国，就是他多年来度假时去的那栋房子。",
+            "en": "Lives alone in France, in the house he visited on holiday for many years."
+          },
+          "sourceIds": [
+            "film-f70",
+            "guardian-mangan-2026",
+            "wiki-up-series"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "2019 年大选参选沃金顿选区，名列第四；已退休并从坎布里亚迁居法国。",
+            "en": "Stood for Workington at the 2019 general election, finishing fourth; has retired and moved from Cumbria to France."
+          },
+          "sourceIds": [
+            "wiki-up-series",
+            "p-neil-wiki-workington",
+            "film-f70"
+          ]
         },
         "outlook": {
           "status": "not_found"
@@ -241,5 +725,17 @@
       }
     }
   ],
-  "final": null
+  "final": {
+    "personId": "neil",
+    "asOfFilmId": "f70",
+    "text": {
+      "en": "A former local councillor and lay preacher, he has retired and lives alone in France, separated from his wife; he says he is as happy as he can be given his life.",
+      "zh": "曾任地方议员和平信徒传道人，现已退休，与妻子分居，独自住在法国；他说以他的人生而言，这已是他能有的最大快乐。"
+    },
+    "sourceIds": [
+      "film-f70",
+      "guardian-mangan-2026",
+      "wiki-up-series"
+    ]
+  }
 }

@@ -5,19 +5,51 @@
       "filmId": "f07",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "就读离家四英里的单间教室乡村小学（Arncliffe School）。",
+            "en": "Goes to a one-room village school four miles from home, Arncliffe School."
+          },
+          "sourceIds": [
+            "film-f07",
+            "film-f42"
+          ]
         },
         "work": {
           "status": "not_found"
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "农家之子；他说村里除了他还在襁褓中的弟弟，就只有他一个小孩。",
+            "en": "A farmer's son; he says he is the only child in his village apart from his baby brother."
+          },
+          "sourceIds": [
+            "film-f07",
+            "film-f28",
+            "film-f42"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "住在约克郡山谷 Arncliffe 村的一个小农场。",
+            "en": "Lives in the Yorkshire Dales, on a small farm in the village of Arncliffe."
+          },
+          "sourceIds": [
+            "film-f07",
+            "wiki-up-series"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "加入本系列；影片首播时他只有 6 岁。",
+            "en": "Joins the series; he was only 6 when the film was first broadcast."
+          },
+          "sourceIds": [
+            "wiki-up-series"
+          ]
         },
         "outlook": {
           "status": "not_found"
@@ -29,22 +61,63 @@
       "filmId": "f14",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "获奖学金进入约克郡一所寄宿学校，在校寄宿。",
+            "en": "Won a scholarship to a Yorkshire boarding school, where he boards."
+          },
+          "sourceIds": [
+            "film-f14"
+          ]
         },
         "work": {
           "status": "not_found"
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "父亲务农；他最小的弟弟是聋人。",
+            "en": "His father farms; his youngest brother is deaf."
+          },
+          "sourceIds": [
+            "film-f14"
+          ],
+          "questionIds": [
+            "f14-022"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "在约克郡山谷的家庭农场和寄宿学校两地生活。",
+            "en": "Lives between the family farm in the Yorkshire Dales and his boarding school."
+          },
+          "sourceIds": [
+            "film-f14"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "自上一部影片以来，他获奖学金进入约克郡一所寄宿学校。",
+            "en": "Since the first film he has won a scholarship to a Yorkshire boarding school."
+          },
+          "sourceIds": [
+            "film-f14"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "对务农毫无兴趣；他说自己喜欢物理和化学，而在农场做不了这些。",
+            "en": "Not interested in farming; he says he is interested in physics and chemistry, which he cannot pursue there."
+          },
+          "sourceIds": [
+            "film-f14"
+          ],
+          "questionIds": [
+            "f14-021"
+          ]
         }
       }
     },
@@ -53,22 +126,65 @@
       "filmId": "f21",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "在牛津大学 Merton College 读物理，正读大二。",
+            "en": "In his second year reading physics at Merton College, Oxford."
+          },
+          "sourceIds": [
+            "film-f21"
+          ]
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "仍是学生；他说如果自己够格，希望从事科研。",
+            "en": "Still a student; he would like to go into research if he proves good enough."
+          },
+          "sourceIds": [
+            "film-f21"
+          ],
+          "questionIds": [
+            "f21-002"
+          ]
         },
         "family": {
           "status": "not_found"
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "作为学生在牛津大学 Merton College 求学。",
+            "en": "At Oxford University, at Merton College, as a student."
+          },
+          "sourceIds": [
+            "film-f21"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "已从寄宿学校升入牛津大学读物理。",
+            "en": "Has moved on from boarding school to Oxford University to read physics."
+          },
+          "sourceIds": [
+            "film-f21",
+            "film-f28"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "不接受“最成功的人”之说，认为自己还没做成什么特别的事；也在刻意克服害羞。",
+            "en": "Rejects being called the big success, saying he has done nothing very special yet; he has consciously worked at being less shy."
+          },
+          "sourceIds": [
+            "film-f21"
+          ],
+          "questionIds": [
+            "f21-005",
+            "f21-001"
+          ]
         }
       }
     },
@@ -77,22 +193,79 @@
       "filmId": "f28",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "读完物理学位后用两年半拿到博士；1981 年获牛津大学工程科学博士。",
+            "en": "Finished a physics degree, then a PhD in two and a half years; Oxford awarded his PhD in engineering science in 1981."
+          },
+          "sourceIds": [
+            "film-f28",
+            "uw-engineering-hitchon-2023"
+          ]
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "威斯康星大学助理教授，核物理学家，从事核聚变研究，年薪 3 万美元。",
+            "en": "Assistant professor at the University of Wisconsin, a nuclear physicist doing fusion research, earning $30,000 a year."
+          },
+          "sourceIds": [
+            "film-f28"
+          ],
+          "questionIds": [
+            "f28-027"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "与 Jackie 结婚四年，两人是在牛津读书时相识的；正考虑如何兼顾孩子与两份事业。",
+            "en": "Married four years to Jackie, whom he met when both were Oxford students; they are weighing children against two careers."
+          },
+          "sourceIds": [
+            "film-f28"
+          ],
+          "questionIds": [
+            "f28-028",
+            "f28-034"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "1982 年 11 月移居美国，在威斯康星大学工作。",
+            "en": "Lives in America, having moved there in November 1982 to work at the University of Wisconsin."
+          },
+          "sourceIds": [
+            "film-f28",
+            "uw-engineering-hitchon-2023"
+          ],
+          "questionIds": [
+            "f28-030"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "博士毕业后在英国原子能管理局的核聚变实验室工作，1982 年 11 月移居美国。",
+            "en": "After his PhD he worked at the UK Atomic Energy Authority's fusion laboratory, then emigrated to America in November 1982."
+          },
+          "sourceIds": [
+            "film-f28"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他不觉得自己辜负了英国：英国把他培养得很好，却对他受训要做的工作毫无兴趣。",
+            "en": "He doesn't feel he let England down: it trained him superbly, then showed no interest in the work he was trained for."
+          },
+          "sourceIds": [
+            "film-f28"
+          ],
+          "questionIds": [
+            "f28-033"
+          ]
         }
       }
     },
@@ -104,19 +277,61 @@
           "status": "not_found"
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "威斯康星大学副教授，一心推进研究，同时培养学生。",
+            "en": "Associate professor at the University of Wisconsin, ambitious to push his research forward and to train his students."
+          },
+          "sourceIds": [
+            "film-f35"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "与 Jackie 仍是夫妻；有一个一岁的儿子 Adam，两人决定不让他上镜。",
+            "en": "Married to Jackie; they have a one-year-old son, Adam, whom they have decided to keep out of the film."
+          },
+          "sourceIds": [
+            "film-f35"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "住在 Madison，他说那是个很友好的小社区，常有鹿出没。",
+            "en": "Lives in Madison, which he calls a very friendly small community with deer running through."
+          },
+          "sourceIds": [
+            "film-f35"
+          ],
+          "questionIds": [
+            "f35-029"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "儿子 Adam 出生；他已是副教授；Jackie 不满此前的呈现方式，此后不再出镜。",
+            "en": "Son Adam was born; he is now an associate professor; Jackie no longer appears, having disliked how she was portrayed."
+          },
+          "sourceIds": [
+            "film-f35",
+            "sbs-cast-2026"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他觉得自己从七岁起走了很远，但很多性格仍没变，依旧容易难为情。",
+            "en": "He feels he has come an awful long way since seven, yet much of the same personality remains, still easily embarrassed."
+          },
+          "sourceIds": [
+            "film-f35"
+          ],
+          "questionIds": [
+            "f35-034"
+          ]
         }
       }
     },
@@ -128,19 +343,62 @@
           "status": "not_found"
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "威斯康星大学电气工程系正教授兼副系主任，主管研究生项目；近一年半写了两本书。",
+            "en": "Full professor and associate chair of Electrical Engineering at Wisconsin, running its graduate programme; has spent 18 months writing two books."
+          },
+          "sourceIds": [
+            "film-f42"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "与在同校任新闻学教授的 Jackie 结婚；育有一个八岁的儿子。",
+            "en": "Married to Jackie, a professor of journalism at the university; they have one son, aged eight."
+          },
+          "sourceIds": [
+            "film-f42"
+          ],
+          "questionIds": [
+            "f42-020"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "仍住在美国；今年回约克郡山谷探亲，距上次回乡已有五年。",
+            "en": "Still lives in America; this year he went back to the Dales, his first visit in five years."
+          },
+          "sourceIds": [
+            "film-f42",
+            "wiki-up-series"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "父亲腿疾缠身，即将退休，农场牲畜已卖掉；他已升为正教授。",
+            "en": "His father, plagued by leg trouble, is retiring and the farm's stock has been sold; he is now a full professor."
+          },
+          "sourceIds": [
+            "film-f42"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他以身为约克郡山谷人为荣，远离故土让他非常难受，但还看不到回去的办法。",
+            "en": "Proud to be a Dales person, he finds being away from his roots terribly hard but sees no way back yet."
+          },
+          "sourceIds": [
+            "film-f42"
+          ],
+          "questionIds": [
+            "f42-024",
+            "f42-025"
+          ]
         }
       }
     },
@@ -152,19 +410,70 @@
           "status": "not_found"
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "教本科生，他说教书的冲动一直都在；他已被迫放弃核聚变研究。",
+            "en": "Teaches undergraduates, a compulsion he says was always in him; he has had to abandon his fusion research."
+          },
+          "sourceIds": [
+            "film-f49"
+          ],
+          "questionIds": [
+            "f49-054"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "六年前与 Jackie 离婚，儿子 Adam 时年 10 岁；现娶 Cryss 为妻。",
+            "en": "Divorced from Jackie six years ago, when son Adam was 10; now married to Cryss."
+          },
+          "sourceIds": [
+            "film-f49",
+            "wiki-up-series"
+          ],
+          "questionIds": [
+            "f49-055",
+            "f49-057"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他住 Madison，妻子住五小时车程外的 Minneapolis，隔周末往返。",
+            "en": "Lives in Madison; his wife Cryss lives in Minneapolis, five hours' drive away, and they alternate weekends."
+          },
+          "sourceIds": [
+            "film-f49",
+            "wiki-up-series"
+          ],
+          "questionIds": [
+            "f49-061"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "与 Jackie 离婚；核聚变研究受挫后被迫放弃；再婚。",
+            "en": "Divorced Jackie, abandoned his troubled fusion research and remarried."
+          },
+          "sourceIds": [
+            "film-f49",
+            "sbs-cast-2026"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他一直想念英国，说自己本就不是该远走他乡的那种人。",
+            "en": "He always misses England and says he was never the sort of person who should have moved very far."
+          },
+          "sourceIds": [
+            "film-f49"
+          ],
+          "questionIds": [
+            "f49-060"
+          ]
         }
       }
     },
@@ -176,19 +485,63 @@
           "status": "not_found"
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "UW–Madison 电气工程教授；他说核聚变在有生之年不会实现，只好另找方向。",
+            "en": "Professor of Electrical Engineering at UW–Madison; he says fusion won't come in his lifetime, so he had to find something else."
+          },
+          "sourceIds": [
+            "film-f56",
+            "wiki-up-series"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "与“新妻子”Cryss 结婚；父母离婚时儿子 Adam 10 岁。",
+            "en": "Married to Cryss, his 'new wife'; his son Adam was 10 when his parents divorced."
+          },
+          "sourceIds": [
+            "film-f56",
+            "wiki-up-series"
+          ],
+          "questionIds": [
+            "f56-057"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "仍在美国 UW–Madison；很少回英国探望家人。",
+            "en": "Still in America at UW–Madison; trips back to England to see family are rare."
+          },
+          "sourceIds": [
+            "film-f56",
+            "wiki-up-series"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "与 Suzy 一起受访，两人因同样的乡村出身而成为朋友。",
+            "en": "Interviewed jointly with Suzy, having become friends through their shared rural upbringing."
+          },
+          "sourceIds": [
+            "wiki-up-series"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他说若在英国有大学职位，他会“毫不犹豫”地留下，但英国似乎并不需要他这样的人。",
+            "en": "He says he would have stayed in England 'in a heartbeat' for a university job, but England didn't seem to want people like him."
+          },
+          "sourceIds": [
+            "film-f56"
+          ],
+          "questionIds": [
+            "f56-055"
+          ]
         }
       }
     },
@@ -200,19 +553,72 @@
           "status": "not_found"
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "仍在 UW–Madison 任教授、教书；他说学生们很棒，会尽量坚持带下去。",
+            "en": "Still teaching as a professor at UW–Madison; he calls his students wonderful and is hanging in with them as long as he can."
+          },
+          "sourceIds": [
+            "film-f63",
+            "wiki-up-series"
+          ],
+          "questionIds": [
+            "f63-028"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "与 Cryss 结婚，他说妻子在他患病期间简直是天使；儿子 Adam。",
+            "en": "Married to Cryss, who he says has been a complete angel about his illness; son Adam."
+          },
+          "sourceIds": [
+            "film-f63",
+            "wiki-up-series"
+          ],
+          "questionIds": [
+            "f63-027"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "仍在美国 UW–Madison。",
+            "en": "Still in the US, at UW–Madison."
+          },
+          "sourceIds": [
+            "wiki-up-series",
+            "the-hitchon-2021"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他身患喉癌、病情严重；父亲已去世，终年八十五岁左右。",
+            "en": "He is seriously ill with throat cancer, and his father has died in his mid-80s."
+          },
+          "sourceIds": [
+            "film-f63",
+            "the-hitchon-2021"
+          ],
+          "questionIds": [
+            "f63-031",
+            "f63-032"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他说最伤心的是自己患病及其对身边人的影响；他不为自己害怕，而为他们担心。",
+            "en": "His saddest thing is his illness and its effect on those around him; he fears not for himself but for them."
+          },
+          "sourceIds": [
+            "film-f63"
+          ],
+          "questionIds": [
+            "f63-032",
+            "f63-033"
+          ]
         }
       }
     },
@@ -224,16 +630,51 @@
           "status": "not_found"
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "2022 年春从 UW–Madison 教授职位退休，他自 1982 年起在该校任教。",
+            "en": "Retired in spring 2022 from his UW–Madison professorship, held since 1982."
+          },
+          "sourceIds": [
+            "wiki-up-series",
+            "ladbible-hitchon-2026"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "与 Cryss 结婚；身后留下妻子和儿子 Adam。",
+            "en": "Married to Cryss; he was survived by her and his son Adam."
+          },
+          "sourceIds": [
+            "film-f70",
+            "uw-engineering-hitchon-2023",
+            "captimes-hitchon-2023"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "住在美国威斯康星州。",
+            "en": "Lived in Wisconsin, US."
+          },
+          "sourceIds": [
+            "tvguide-nick-2026"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "前一年秋天中风；录完最后一次访谈三天后，于 2023 年 7 月 23 日因喉癌去世。",
+            "en": "After a stroke the previous autumn, he recorded a final interview and died of throat cancer on 23 July 2023, three days later."
+          },
+          "sourceIds": [
+            "film-f70",
+            "wiki-up-series",
+            "tvguide-nick-2026",
+            "the-hitchon-2026",
+            "captimes-hitchon-2023"
+          ]
         },
         "outlook": {
           "status": "not_found"
@@ -241,5 +682,19 @@
       }
     }
   ],
-  "final": null
+  "final": {
+    "personId": "nick",
+    "asOfFilmId": "f70",
+    "text": {
+      "en": "A retired professor of electrical and computer engineering in Wisconsin, married with one son. He died of throat cancer on 23 July 2023, aged 65, shortly after recording a final interview.",
+      "zh": "退休前是美国威斯康星州的电气与计算机工程教授，已婚，有一个儿子。2023 年 7 月 23 日因喉癌去世，终年 65 岁，去世前不久刚录完最后一次访谈。"
+    },
+    "sourceIds": [
+      "wiki-up-series",
+      "captimes-hitchon-2023",
+      "uw-engineering-hitchon-2023",
+      "tvguide-nick-2026",
+      "film-f70"
+    ]
+  }
 }

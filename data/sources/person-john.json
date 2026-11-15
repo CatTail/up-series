@@ -1,0 +1,34 @@
+[
+  {
+    "id": "p-john-wiki",
+    "url": "https://en.wikipedia.org/wiki/John_Brisby",
+    "title": "John Brisby",
+    "publisher": "Wikipedia",
+    "accessed": "2026-11-15",
+    "kind": "wiki"
+  },
+  {
+    "id": "p-john-4sb",
+    "url": "https://4stonebuildings.com/barrister/john-brisby-kc/",
+    "title": "John Brisby KC",
+    "publisher": "4 Stone Buildings",
+    "accessed": "2026-11-15",
+    "kind": "other"
+  },
+  {
+    "id": "p-john-bsb",
+    "url": "https://www.barstandardsboard.org.uk/barristers-register/182D7A3F478F6607B949B5B33C0B8A24.html",
+    "title": "The Barristers' Register: Mr John Constant Shannon Mcburney Brisby KC",
+    "publisher": "Bar Standards Board",
+    "accessed": "2026-11-15",
+    "kind": "other"
+  },
+  {
+    "id": "p-john-fob",
+    "url": "https://friendsofbulgaria.org.uk/about-us/excutive-council/",
+    "title": "Executive Council",
+    "publisher": "Friends of Bulgaria",
+    "accessed": "2026-11-15",
+    "kind": "other"
+  }
+]

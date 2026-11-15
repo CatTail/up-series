@@ -5,16 +5,47 @@
       "filmId": "f07",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他在萨里郡一所私立寄宿学校读书。",
+            "en": "He attends a private boarding school in Surrey."
+          },
+          "sourceIds": [
+            "film-f07",
+            "wiki-up-series"
+          ]
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "七岁时他的志向是当传教士。",
+            "en": "At seven his ambition is to become a missionary."
+          },
+          "sourceIds": [
+            "film-f07",
+            "wiki-up-series"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他不和父母同住；父亲是驻南罗得西亚的军人，远在六千英里外。",
+            "en": "He does not live with his parents; his father, a soldier in Southern Rhodesia, is 6,000 miles away."
+          },
+          "sourceIds": [
+            "film-f07",
+            "wiki-up-series"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他住在萨里郡的私立寄宿学校，不与父母同住。",
+            "en": "He lives at his private boarding school in Surrey rather than with his parents."
+          },
+          "sourceIds": [
+            "film-f07"
+          ]
         },
         "events": {
           "status": "not_found"
@@ -29,22 +60,77 @@
       "filmId": "f14",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他就读于伦敦圣保罗公学，11 岁起在那里寄宿。",
+            "en": "He is at St Paul's School in London, which he joined as a boarder at 11."
+          },
+          "sourceIds": [
+            "film-f14",
+            "film-f35",
+            "film-f63"
+          ]
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他不再想当传教士，说自己没法跟人谈论这些。",
+            "en": "He no longer wants to be a missionary, saying he could not talk about it to people."
+          },
+          "sourceIds": [
+            "film-f14",
+            "sbs-cast-2026"
+          ],
+          "questionIds": [
+            "f14-063"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他与继父相处融洽，偶尔见到从罗得西亚回来的父亲。",
+            "en": "He gets on well with his stepfather and sees his father, who comes over from Rhodesia, occasionally."
+          },
+          "sourceIds": [
+            "film-f14"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他寄宿在伦敦的圣保罗公学。",
+            "en": "He boards at St Paul's School in London."
+          },
+          "sourceIds": [
+            "film-f63",
+            "film-f14"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他 11 岁转入伦敦圣保罗公学寄宿，14 岁时去了罗得西亚（今津巴布韦）。",
+            "en": "He moved to St Paul's School in London as a boarder at 11, and at 14 went out to Rhodesia (now Zimbabwe)."
+          },
+          "sourceIds": [
+            "film-f63",
+            "film-f56",
+            "film-f35"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他说自己对信仰有兴趣，但宁愿把它留给自己。",
+            "en": "He says he is interested in faith himself but would rather keep it private."
+          },
+          "sourceIds": [
+            "film-f14"
+          ],
+          "questionIds": [
+            "f14-063",
+            "f14-064"
+          ]
         }
       }
     },
@@ -53,22 +139,70 @@
       "filmId": "f21",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他在牛津大学大学学院读数学，正值最后一年。",
+            "en": "He is in his final year reading mathematics at University College, Oxford."
+          },
+          "sourceIds": [
+            "film-f21",
+            "wiki-up-series"
+          ]
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他想找绘制地图的工作，但觉得这次大概错过了机会。",
+            "en": "He would like a job making maps, but thinks he has probably missed the chance this time."
+          },
+          "sourceIds": [
+            "film-f21"
+          ],
+          "questionIds": [
+            "f21-072"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他没有女朋友；母亲离婚后，他与继父和一位半血亲姐妹相处融洽。",
+            "en": "He has no girlfriend; since his mother's divorce he has got on well with his stepfather and half-sister."
+          },
+          "sourceIds": [
+            "film-f21"
+          ],
+          "questionIds": [
+            "f21-074"
+          ]
         },
         "residence": {
           "status": "not_found"
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "上大学前九个月的空档里，他在一所残障儿童学校教书，还在班伯里污水处理厂干过。",
+            "en": "In a nine-month gap before university he taught at a school for handicapped children and worked at Banbury sewage works."
+          },
+          "sourceIds": [
+            "film-f21"
+          ],
+          "questionIds": [
+            "f21-075"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他说影响自己最深的，是不想辜负为供他上学而辛苦工作的母亲。",
+            "en": "He says his strongest influence is not wanting to let down his mother, who worked hard to get him through school."
+          },
+          "sourceIds": [
+            "film-f21"
+          ],
+          "questionIds": [
+            "f21-074"
+          ]
         }
       }
     },
@@ -77,22 +211,78 @@
       "filmId": "f28",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他读过预备学校、名牌公学和牛津大学，在牛津读数学。",
+            "en": "He went to a prep school, a major public school and Oxford, where he read maths."
+          },
+          "sourceIds": [
+            "film-f28",
+            "film-f56"
+          ],
+          "questionIds": [
+            "f28-016"
+          ]
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "在伦敦金融城工作三年后，他在伦敦东区 Tony 的母校教数学。",
+            "en": "After three years working in the City, he teaches maths at Tony's old school in London's East End."
+          },
+          "sourceIds": [
+            "film-f28",
+            "film-f49",
+            "film-f70"
+          ],
+          "questionIds": [
+            "f28-012"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他说非常希望拥有自己的家庭，觉得这是自己应当满足的需要。",
+            "en": "He says he would very much like a family of his own, a need he feels he ought to fulfil."
+          },
+          "sourceIds": [
+            "film-f28"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他住在伦敦东区的一套市政公寓里，步行即可到学校。",
+            "en": "He lives in a council flat in London's East End, within walking distance of his school."
+          },
+          "sourceIds": [
+            "film-f28",
+            "film-f35"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他离开金融城的保险公司，毫无经验地转行教书，五周内就站上讲台。",
+            "en": "He left an insurance company in the City to go into teaching with no experience, and was in a classroom within five weeks."
+          },
+          "sourceIds": [
+            "film-f28",
+            "wiki-up-series"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他并不失望：教书工作很难，而取得的成绩令他满足。",
+            "en": "He feels no disappointment: his teaching job is difficult, and he finds its successes satisfying."
+          },
+          "sourceIds": [
+            "film-f28"
+          ],
+          "questionIds": [
+            "f28-016"
+          ]
         }
       }
     },
@@ -101,22 +291,74 @@
       "filmId": "f35",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他拥有牛津大学的数学学位。",
+            "en": "He holds a mathematics degree from Oxford."
+          },
+          "sourceIds": [
+            "film-f56"
+          ]
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他是伦敦的教师，在孟加拉国锡尔赫特待一学期，教数学和英语并协助设计课程。",
+            "en": "A London teacher, he is spending a term in Sylhet, Bangladesh, teaching maths and English and helping design courses."
+          },
+          "sourceIds": [
+            "film-f35",
+            "wiki-up-series"
+          ],
+          "questionIds": [
+            "f35-011"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他还没有结婚，说大概是没遇到合适的人。",
+            "en": "He has not married, saying he supposes he has not met the right person."
+          },
+          "sourceIds": [
+            "film-f35"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "这一学期他住在孟加拉国锡尔赫特市中心的简陋住处。",
+            "en": "For the term he lives in primitive lodgings in the middle of Sylhet, Bangladesh."
+          },
+          "sourceIds": [
+            "film-f35"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他的父亲从津巴布韦退休回英国后，约三年前去世，享年 72 岁。",
+            "en": "His father, who had retired to England from Zimbabwe, died about three years earlier, aged 72."
+          },
+          "sourceIds": [
+            "film-f35"
+          ],
+          "questionIds": [
+            "f35-016"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他说自己把握住了机会，找到了让他有成就感的工作。",
+            "en": "He says he has made the most of his opportunity by finding work he finds rewarding."
+          },
+          "sourceIds": [
+            "film-f35"
+          ],
+          "questionIds": [
+            "f35-018"
+          ]
         }
       }
     },
@@ -125,22 +367,82 @@
       "filmId": "f42",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他拥有牛津大学的数学学位。",
+            "en": "He holds a mathematics degree from Oxford."
+          },
+          "sourceIds": [
+            "film-f56"
+          ]
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他在伦敦东区一所天主教女校任数学系主任，已在那里工作约五年。",
+            "en": "He heads the maths department at a Roman Catholic girls' school in London's East End, where he has been about five years."
+          },
+          "sourceIds": [
+            "film-f42",
+            "film-f49",
+            "film-f56"
+          ],
+          "questionIds": [
+            "f42-028"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "去年夏天他与同校教师 Penny 结婚；两人说也许会要孩子。",
+            "en": "He married Penny, a teacher at his school, the previous summer; they say they may have children."
+          },
+          "sourceIds": [
+            "film-f42",
+            "wiki-up-series"
+          ],
+          "questionIds": [
+            "f42-026",
+            "f42-030"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他住在伦敦；Neil 从设得兰搬到伦敦后，在他家借住了约两个月。",
+            "en": "He lives in London; Neil lodged with him for about two months after moving there from Shetland."
+          },
+          "sourceIds": [
+            "film-f42",
+            "film-f49",
+            "wiki-up-series",
+            "p-bruce-wiki-neil"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他去年夏天与 Penny 结婚，Neil 在婚礼上担任朗读。",
+            "en": "He married Penny the previous summer, and Neil gave a reading at the wedding."
+          },
+          "sourceIds": [
+            "film-f42",
+            "wiki-up-series"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他形容自己正处于知足的中年状态，庆幸找到了 Penny。",
+            "en": "He describes himself as contentedly middle-aged and feels lucky to have found Penny."
+          },
+          "sourceIds": [
+            "film-f42"
+          ],
+          "questionIds": [
+            "f42-029",
+            "f42-030"
+          ]
         }
       }
     },
@@ -149,22 +451,83 @@
       "filmId": "f49",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他拥有牛津大学的数学学位。",
+            "en": "He holds a mathematics degree from Oxford."
+          },
+          "sourceIds": [
+            "film-f56"
+          ]
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他在圣奥尔本斯学校教数学，那是一所大型男子私校，预科阶段招收女生。",
+            "en": "He teaches maths at St Albans, a large boys' independent school with girls in the sixth form."
+          },
+          "sourceIds": [
+            "film-f49",
+            "wiki-up-series"
+          ],
+          "questionIds": [
+            "f49-023"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他和 Penny 育有两个年幼的儿子 Henry 和 George。",
+            "en": "He and Penny have two young sons, Henry and George."
+          },
+          "sourceIds": [
+            "film-f49",
+            "film-f56",
+            "sbs-cast-2026"
+          ],
+          "questionIds": [
+            "f49-029",
+            "f49-030"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "五年前，全家从伦敦东区搬到他的新学校——赫特福德郡圣奥尔本斯学校附近。",
+            "en": "Five years earlier the family moved from the East End to be near his new school, St Albans School in Hertfordshire."
+          },
+          "sourceIds": [
+            "film-f49",
+            "wiki-up-series"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他被市内学校的教学消磨殆尽，转到圣奥尔本斯学校；他和 Penny 生了两个儿子。",
+            "en": "Worn down by inner-city teaching, he moved to St Albans School; he and Penny had two sons."
+          },
+          "sourceIds": [
+            "film-f49",
+            "wiki-up-series"
+          ],
+          "questionIds": [
+            "f49-024"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他意外地发现自己知足、还算幸福，但觉得梦想已让位于日常家庭生活。",
+            "en": "He is surprised to find himself contented and reasonably happy, though he feels dreams give way to everyday family life."
+          },
+          "sourceIds": [
+            "film-f49"
+          ],
+          "questionIds": [
+            "f49-036",
+            "f49-037"
+          ]
         }
       }
     },
@@ -173,13 +536,35 @@
       "filmId": "f56",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他拥有牛津大学的数学学位。",
+            "en": "He holds a mathematics degree from Oxford."
+          },
+          "sourceIds": [
+            "film-f56"
+          ]
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他仍在圣奥尔本斯学校教数学，说自己乐于只做一名普通数学老师。",
+            "en": "He still teaches maths at St Albans School and says he is happy just being an ordinary maths teacher."
+          },
+          "sourceIds": [
+            "film-f56",
+            "cbs-up-children-2013"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他和 Penny 有两个儿子 Henry 和 George，都在 Penny 任教的贵格会学校上学。",
+            "en": "He and Penny have two sons, Henry and George, who attend the local Quaker school where Penny teaches."
+          },
+          "sourceIds": [
+            "film-f56"
+          ]
         },
         "residence": {
           "status": "not_found"
@@ -188,7 +573,17 @@
           "status": "not_found"
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他把与父亲的隔阂归因于分离和距离，两人之间有许多需要弥补。",
+            "en": "He puts the gap with his father down to separation and distance, leaving a lot of ground to make up."
+          },
+          "sourceIds": [
+            "film-f56"
+          ],
+          "questionIds": [
+            "f56-069"
+          ]
         }
       }
     },
@@ -197,13 +592,41 @@
       "filmId": "f63",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他拥有牛津大学的数学学位。",
+            "en": "He holds a mathematics degree from Oxford."
+          },
+          "sourceIds": [
+            "film-f56"
+          ]
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他的工作生涯大体结束，只在 Penny 的学校兼一点课，并任贵格会司库。",
+            "en": "Most of his working life is over; he teaches a little at Penny's school and is treasurer for the Quakers."
+          },
+          "sourceIds": [
+            "film-f63"
+          ],
+          "questionIds": [
+            "f63-037"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他与任预科部主任的 Penny 结婚；两个儿子分别 19 岁和 17 岁。",
+            "en": "He is married to Penny, a head of sixth form; their two sons are 19 and 17."
+          },
+          "sourceIds": [
+            "film-f63"
+          ],
+          "questionIds": [
+            "f63-035",
+            "f63-038"
+          ]
         },
         "residence": {
           "status": "not_found"
@@ -212,7 +635,17 @@
           "status": "not_found"
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "回首往事，他觉得有很多美好：幸福的婚姻、两个出色的儿子和一份事业。",
+            "en": "Looking back, he sees much to be fond of: a happy marriage, two fine sons and a body of work."
+          },
+          "sourceIds": [
+            "film-f63"
+          ],
+          "questionIds": [
+            "f63-046"
+          ]
         }
       }
     },
@@ -221,10 +654,26 @@
       "filmId": "f70",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他拥有牛津大学的数学学位。",
+            "en": "He holds a mathematics degree from Oxford."
+          },
+          "sourceIds": [
+            "film-f56"
+          ]
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他已完全退休，不再教书。",
+            "en": "He has retired completely from teaching."
+          },
+          "sourceIds": [
+            "film-f70",
+            "wiki-up-series",
+            "guardian-mangan-2026"
+          ]
         },
         "family": {
           "status": "not_found"
@@ -233,7 +682,16 @@
           "status": "not_found"
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他现已完全退休，在当地皇家救生艇协会（RNLI）做志愿者，每周三晚参加训练。",
+            "en": "He has now retired completely, and volunteers with the local RNLI lifeboat branch, training on Wednesday evenings."
+          },
+          "sourceIds": [
+            "film-f70",
+            "guardian-mangan-2026",
+            "wiki-up-series"
+          ]
         },
         "outlook": {
           "status": "not_found"
@@ -241,5 +699,17 @@
       }
     }
   ],
-  "final": null
+  "final": {
+    "personId": "bruce",
+    "asOfFilmId": "f70",
+    "text": {
+      "en": "Fully retired after a long career as a maths teacher, he starts each day walking the dogs on the beach, sings in a choir and volunteers with the RNLI lifeboat service.",
+      "zh": "他在长期担任数学教师后已完全退休，每天以在海滩遛狗开始，参加合唱团，并在皇家救生艇协会（RNLI）做志愿者。"
+    },
+    "sourceIds": [
+      "film-f70",
+      "guardian-mangan-2026",
+      "wiki-up-series"
+    ]
+  }
 }

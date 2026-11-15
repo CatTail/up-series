@@ -5,7 +5,16 @@
       "filmId": "f07",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "在伦敦一所时髦的私立女子走读学校上学。",
+            "en": "Attends a fashionable private girls' day school in London."
+          },
+          "sourceIds": [
+            "film-f07",
+            "wiki-up-series",
+            "sbs-cast-2026"
+          ]
         },
         "work": {
           "status": "not_found"
@@ -20,7 +29,17 @@
           "status": "not_found"
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "说自己有男朋友，是苏格兰一个 13 岁的男孩；他去上学时她在那边很孤单。",
+            "en": "Says she has a boyfriend, a 13-year-old in Scotland, and feels lonely there while he is at school."
+          },
+          "sourceIds": [
+            "film-f07"
+          ],
+          "questionIds": [
+            "f07-001"
+          ]
         }
       }
     },
@@ -29,7 +48,15 @@
       "filmId": "f14",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "在女子寄宿学校 Southover Manor 读书。",
+            "en": "Attends Southover Manor, a girls' boarding school."
+          },
+          "sourceIds": [
+            "film-f14",
+            "sbs-cast-2026"
+          ]
         },
         "work": {
           "status": "not_found"
@@ -38,13 +65,34 @@
           "status": "not_found"
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "住在苏格兰珀斯郡她父亲那座 4000 英亩的庄园里。",
+            "en": "Lives on her father's 4,000-acre estate in Perthshire, Scotland."
+          },
+          "sourceIds": [
+            "film-f14"
+          ],
+          "questionIds": [
+            "f14-012"
+          ]
         },
         "events": {
           "status": "not_found"
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "她说珀斯郡的社交生活“挺有意思”；她骑马、游泳，打网球、乒乓球和槌球。",
+            "en": "Calls the social life in Perthshire 'quite fun'; she rides, swims and plays tennis, table tennis and croquet."
+          },
+          "sourceIds": [
+            "film-f14"
+          ],
+          "questionIds": [
+            "f14-011",
+            "f14-012"
+          ]
         }
       }
     },
@@ -53,22 +101,67 @@
       "filmId": "f21",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "16 岁离开学校，去了巴黎，并上了秘书学校。",
+            "en": "Left school at 16, went to Paris and attended secretarial college."
+          },
+          "sourceIds": [
+            "film-f21",
+            "wiki-up-series"
+          ],
+          "questionIds": [
+            "f21-010"
+          ]
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "做秘书工作。",
+            "en": "Works as a secretary."
+          },
+          "sourceIds": [
+            "sbs-cast-2026",
+            "film-f21"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "她说自己对婚姻很悲观，目前不想结婚，也不想要孩子。",
+            "en": "Says she is very cynical about marriage and has no desire to marry or have children for now."
+          },
+          "sourceIds": [
+            "film-f21",
+            "sbs-cast-2026"
+          ]
         },
         "residence": {
           "status": "not_found"
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "她 14 岁后不久父母离异；16 岁时她离开学校去了巴黎。",
+            "en": "Her parents split up soon after she turned 14; she left school at 16 for Paris."
+          },
+          "sourceIds": [
+            "film-f21",
+            "wiki-up-series"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "她说自己就是对学校没兴趣，只想离开。",
+            "en": "Says she simply wasn't interested in school and just wanted to get away."
+          },
+          "sourceIds": [
+            "film-f21"
+          ],
+          "questionIds": [
+            "f21-010"
+          ]
         }
       }
     },
@@ -80,19 +173,62 @@
           "status": "not_found"
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "选择专心抚养家庭，而不是发展事业。",
+            "en": "Chose to focus on raising her family rather than pursuing a career."
+          },
+          "sourceIds": [
+            "thesenior-70up-2026",
+            "sbs-cast-2026",
+            "film-f28"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "与 Rupert 结婚五年，有两个儿子 Thomas 和 Oliver。",
+            "en": "Married to Rupert for five years, with two sons, Thomas and Oliver."
+          },
+          "sourceIds": [
+            "film-f28",
+            "sbs-cast-2026",
+            "wiki-up-series"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "住在巴斯附近的一个小村庄。",
+            "en": "Lives in a small village near Bath."
+          },
+          "sourceIds": [
+            "film-f28"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "与 Rupert 结婚并生了两个儿子；父亲约在三年前去世。",
+            "en": "Married Rupert and had two sons; her father died about three years before filming."
+          },
+          "sourceIds": [
+            "film-f28"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "她把幸福部分归功于 Rupert；21 岁时她没有方向，如今觉得自己太安定，不会走偏。",
+            "en": "Credits Rupert in part for her happiness; at 21 she had no direction, and now feels too settled to go off the rails."
+          },
+          "sourceIds": [
+            "film-f28"
+          ],
+          "questionIds": [
+            "f28-025",
+            "f28-026"
+          ]
         }
       }
     },
@@ -107,16 +243,41 @@
           "status": "not_found"
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "已与 Rupert 结婚，育有三个孩子：Thomas、Oliver 和女儿 Laura。",
+            "en": "Married to Rupert, with three children: Thomas, Oliver and daughter Laura."
+          },
+          "sourceIds": [
+            "film-f35",
+            "sbs-cast-2026"
+          ]
         },
         "residence": {
           "status": "not_found"
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "生下女儿 Laura 并搬了家；Rupert 辞去律所合伙人自己开公司；母亲确诊肺癌。",
+            "en": "Had a daughter, Laura, and moved house; Rupert left his law partnership for his own company; her mother was diagnosed with lung cancer."
+          },
+          "sourceIds": [
+            "film-f35"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "她担心孩子们的生活太受呵护，将来难以面对外面的世界，希望能帮他们应付。",
+            "en": "Worries her children's very cosseted life may leave them unready for the world, and hopes to help them cope."
+          },
+          "sourceIds": [
+            "film-f35"
+          ],
+          "questionIds": [
+            "f35-009"
+          ]
         }
       }
     },
@@ -125,22 +286,62 @@
       "filmId": "f42",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "完成了一个丧亲辅导课程。",
+            "en": "Completed a bereavement counselling course."
+          },
+          "sourceIds": [
+            "film-f42"
+          ]
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "过去 15 年在家带孩子；约四年前开始从事丧亲辅导。",
+            "en": "Stayed home 15 years raising her children; got into bereavement counselling about four years before filming."
+          },
+          "sourceIds": [
+            "film-f42",
+            "wiki-up-series",
+            "sbs-cast-2026"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "与 Rupert 结婚，育有三个孩子；长子 Tom 16 岁。",
+            "en": "Married to Rupert with three children; eldest son Tom is 16."
+          },
+          "sourceIds": [
+            "film-f42"
+          ]
         },
         "residence": {
           "status": "not_found"
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "母亲被查出癌症晚期，在她完成辅导课程后不久去世；Rupert 的公司经营良好。",
+            "en": "Her mother, diagnosed with terminal cancer, died soon after Suzy finished her counselling course; Rupert's company was doing well."
+          },
+          "sourceIds": [
+            "film-f42"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "她希望孩子们的家庭生活比她当年更安稳，只盼自己健康长寿，看着他们长大独立。",
+            "en": "Hopes her children have a more stable home life than she had, and wants to stay healthy long enough to see them grow up."
+          },
+          "sourceIds": [
+            "film-f42"
+          ],
+          "questionIds": [
+            "f42-006"
+          ]
         }
       }
     },
@@ -155,16 +356,49 @@
           "status": "not_found"
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "已婚 27 年；Tom 在伦敦工作，Ollie 住在家里，Laura 在读 AS 课程。",
+            "en": "Married to Rupert for 27 years; Tom works in London, Ollie lives at home and Laura is doing AS levels."
+          },
+          "sourceIds": [
+            "film-f49"
+          ],
+          "questionIds": [
+            "f49-050"
+          ]
         },
         "residence": {
           "status": "not_found"
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "长子大学毕业后去伦敦工作生活；她说打算满 50 岁后退出这个系列。",
+            "en": "Her eldest son graduated and moved to London; she said she planned to bow out of the series at 50."
+          },
+          "sourceIds": [
+            "film-f49",
+            "wiki-up-series"
+          ],
+          "questionIds": [
+            "f49-050",
+            "f49-053"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "她觉得拍片非常痛苦；她不外向、不自信，看重隐私，羡慕年轻人的自信。",
+            "en": "Finds the films very painful; not outgoing or confident, she values her privacy and wishes she had young people's confidence."
+          },
+          "sourceIds": [
+            "film-f49"
+          ],
+          "questionIds": [
+            "f49-050",
+            "f49-051"
+          ]
         }
       }
     },
@@ -176,16 +410,44 @@
           "status": "not_found"
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "做丧亲辅导工作；她说自己没有成功的事业，但感到充实。",
+            "en": "Works as a bereavement counsellor; she says she has not had a successful career but feels fulfilled."
+          },
+          "sourceIds": [
+            "cbs-up-children-2013",
+            "film-f56"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "仍与 Rupert 保持婚姻，有两个成年儿子和一个女儿；女儿和长子上了大学。",
+            "en": "Still married to Rupert, with two grown sons and a daughter; her daughter and eldest son went to university."
+          },
+          "sourceIds": [
+            "cbs-up-children-2013",
+            "film-f56"
+          ],
+          "questionIds": [
+            "f56-056"
+          ]
         },
         "residence": {
           "status": "not_found"
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "尽管 49 岁时说要退出，她还是再次参与，称是出于“一种可笑的忠诚感”。",
+            "en": "Despite saying at 49 she would bow out, she took part again, citing 'this ridiculous sense of loyalty'."
+          },
+          "sourceIds": [
+            "film-f56",
+            "cbs-up-children-2013",
+            "wiki-up-series"
+          ]
         },
         "outlook": {
           "status": "not_found"
@@ -225,11 +487,17 @@
           }
         },
         "events": {
-          "status": "not_applicable",
-          "reason": {
-            "zh": "只出现在旧片段中",
-            "en": "Archive footage only"
-          }
+          "status": "confirmed",
+          "text": {
+            "zh": "（事后得知）她决定不参与 63 Up；2019 年一篇访谈中，采访者把原因归于拍摄带来的心理包袱。",
+            "en": "(Learned later) She chose not to take part in 63 Up; a 2019 interviewer put this down to the baggage of making the programme."
+          },
+          "sourceIds": [
+            "film-f63",
+            "wiki-up-series",
+            "thenation-pedersen-2020",
+            "slant-apted-2019"
+          ]
         },
         "outlook": {
           "status": "not_applicable",
@@ -257,7 +525,14 @@
           "status": "not_found"
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "缺席 63 Up 后回归最后一部；她说比她年轻的朋友相继离世，让她庆幸自己身体还算健康。",
+            "en": "Returned for the final film after sitting out 63 Up; she said younger friends' deaths made her feel fortunate to be reasonably healthy."
+          },
+          "sourceIds": [
+            "wiki-up-series"
+          ]
         },
         "outlook": {
           "status": "not_found"
@@ -265,5 +540,18 @@
       }
     }
   ],
-  "final": null
+  "final": {
+    "personId": "suzy",
+    "asOfFilmId": "f70",
+    "text": {
+      "zh": "她育有三个孩子，后来成为丧亲辅导员；她说自己荒废了学业，但庆幸身体还算健康。",
+      "en": "A mother of three who became a bereavement counsellor, she says she threw away her education but feels fortunate to be in reasonably good health."
+    },
+    "sourceIds": [
+      "wiki-up-series",
+      "thesenior-70up-2026",
+      "film-f70",
+      "sbs-cast-2026"
+    ]
+  }
 }

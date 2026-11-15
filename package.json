@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "vite",
     "test": "vitest run",
-    "validate": "node scripts/validate-data.ts data",
-    "build": "npm run validate && vite build",
+    "validate": "STRICT_FINALS=1 node scripts/validate-data.ts data",
+    "build": "npm run validate && vite build && node scripts/check-dist.ts dist/index.html",
     "check": "svelte-check --tsconfig ./tsconfig.json"
   },
   "devDependencies": {

@@ -5,7 +5,15 @@
       "filmId": "f07",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "就读肯辛顿一所高级私立预备学校；计划升入 Charterhouse，再读剑桥三一学堂。",
+            "en": "Attends an exclusive pre-prep school in Kensington; plans to go on to Charterhouse and then Trinity Hall, Cambridge."
+          },
+          "sourceIds": [
+            "film-f07",
+            "film-f14"
+          ]
         },
         "work": {
           "status": "not_found"
@@ -29,7 +37,14 @@
       "filmId": "f14",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "在 Charterhouse 公学就读，正是他七岁时说要去的学校。",
+            "en": "At Charterhouse, the school he said at seven he would attend."
+          },
+          "sourceIds": [
+            "film-f14"
+          ]
         },
         "work": {
           "status": "not_found"
@@ -53,10 +68,26 @@
       "filmId": "f21",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "在剑桥大学三一学院读法律，正读最后一年。",
+            "en": "In his last year at Trinity College, Cambridge, reading Law."
+          },
+          "sourceIds": [
+            "film-f21",
+            "wiki-up-series"
+          ]
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "希望成为事务律师，并且“相当成功”；说取得资格后再重新考虑。",
+            "en": "Wants to become a solicitor \"and also fairly successful\"; says he will rethink after qualifying."
+          },
+          "sourceIds": [
+            "film-f21",
+            "film-f28"
+          ]
         },
         "family": {
           "status": "not_found"
@@ -77,22 +108,68 @@
       "filmId": "f28",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "曾就读 Charterhouse 公学，后在剑桥大学读法律。",
+            "en": "Went to Charterhouse and read law at Cambridge."
+          },
+          "sourceIds": [
+            "film-f28"
+          ]
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "在伦敦金融城一家大型律所任事务律师。",
+            "en": "A solicitor working for a large firm in the City of London."
+          },
+          "sourceIds": [
+            "film-f28",
+            "film-f35"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "18 个月前与 Jane 结婚；Jane 全职做秘书。",
+            "en": "Married Jane 18 months ago; she works full-time as a secretary."
+          },
+          "sourceIds": [
+            "film-f28"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "平日住伦敦的公寓；周末在 Sussex 乡间改造一座旧谷仓。",
+            "en": "A London flat during the week; weekends in the Sussex countryside, converting an old barn."
+          },
+          "sourceIds": [
+            "film-f28"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "与 Jane 结婚；两人在父母资助下买下 Sussex 一座旧谷仓。",
+            "en": "Married Jane; with financial help from their parents they bought an old barn in Sussex."
+          },
+          "sourceIds": [
+            "film-f28"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他认为在他这一行要成功，既要有法律功底，也要善于与客户相处。",
+            "en": "Says success in his work needs legal ability plus a good \"bedside manner\" with clients."
+          },
+          "sourceIds": [
+            "film-f28"
+          ],
+          "questionIds": [
+            "f28-065"
+          ]
         }
       }
     },
@@ -101,22 +178,68 @@
       "filmId": "f35",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "曾就读 Charterhouse 公学和剑桥大学，在剑桥读法律。",
+            "en": "Went to Charterhouse and Cambridge, where he read Law."
+          },
+          "sourceIds": [
+            "film-f35"
+          ]
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "在伦敦金融城一家大型律所的公司业务部任合伙人。",
+            "en": "A partner in the corporate department of a large firm of solicitors in the City."
+          },
+          "sourceIds": [
+            "film-f35"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "与 Jane 已婚，有两个年幼的孩子 Alexander 和 Timothy。",
+            "en": "Married to Jane, with two young children, Alexander and Timothy."
+          },
+          "sourceIds": [
+            "film-f35"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "已从伦敦市中心搬到 Wimbledon。",
+            "en": "Has moved from central London to Wimbledon."
+          },
+          "sourceIds": [
+            "film-f35"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "上一部之后：两个孩子出生，搬到 Wimbledon，并成为律所合伙人。",
+            "en": "Since the last film: two children born, a move to Wimbledon, and partnership at his firm."
+          },
+          "sourceIds": [
+            "film-f35"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "与 Jane 一起被问到金钱与抱负时，两人的回答是：够过得舒适就是目标；有了孩子，抱负也随之改变。",
+            "en": "Interviewed with Jane about money and ambition, they answer that having enough to be comfortable is the aim and that children change one's ambition."
+          },
+          "sourceIds": [
+            "film-f35"
+          ],
+          "questionIds": [
+            "f35-036",
+            "f35-037"
+          ]
         }
       }
     },
@@ -125,13 +248,34 @@
       "filmId": "f42",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "曾就读 Charterhouse 公学和剑桥大学，在剑桥读法律。",
+            "en": "Went to Charterhouse and Cambridge, where he read Law."
+          },
+          "sourceIds": [
+            "film-f42"
+          ]
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "在金融城一家大型律所公司业务部工作，35 岁时已是合伙人；已干了 20 年。",
+            "en": "Works in the corporate department of a large City law firm, where he became a partner by 35; 20 years in the job."
+          },
+          "sourceIds": [
+            "film-f42"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "与全职妈妈 Jane 已婚；儿子 Alexander 快十几岁，另有 Timothy。",
+            "en": "Married to Jane, a full-time mother; their sons are Alexander, nearing his teens, and Timothy."
+          },
+          "sourceIds": [
+            "film-f42"
+          ]
         },
         "residence": {
           "status": "not_found"
@@ -140,7 +284,18 @@
           "status": "not_found"
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他把一路走来归功于坚持、不愿放弃，也许还因为不太爱冒险。",
+            "en": "Credits persistence, a dislike of giving up and perhaps not being too adventurous for pulling him through."
+          },
+          "sourceIds": [
+            "film-f42"
+          ],
+          "questionIds": [
+            "f42-018",
+            "f42-019"
+          ]
         }
       }
     },
@@ -149,22 +304,67 @@
       "filmId": "f49",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "曾就读 Charterhouse 公学和剑桥大学，在剑桥读法律。",
+            "en": "Went to Charterhouse and Cambridge, where he read law."
+          },
+          "sourceIds": [
+            "film-f49"
+          ]
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "在律所干了二十多年后离开，转到一家大型工业气体公司。",
+            "en": "Has left the law firm, after over 20 years, for a large industrial gases company."
+          },
+          "sourceIds": [
+            "film-f49"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "与 Jane 已婚；Alexander 在纽卡斯尔读大一，Timothy 上寄宿学校。",
+            "en": "Married to Jane; son Alexander is in his first year at university in Newcastle, Timothy at boarding school."
+          },
+          "sourceIds": [
+            "film-f49"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "住在伦敦，乡间另有一处房子：他们改造的一座有 200 年历史的谷仓。",
+            "en": "Lives in London, with a second home in the country: a 200-year-old barn they have converted."
+          },
+          "sourceIds": [
+            "film-f49"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "离开工作了二十多年的律所，转投一家工业气体公司。",
+            "en": "Left the law firm where he had worked for over 20 years to join an industrial gases company."
+          },
+          "sourceIds": [
+            "film-f49"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他希望孩子们成长时自己能多在家陪伴，而不是待在办公室。",
+            "en": "Wishes he had spent more time at home with the children as they grew up, rather than in the office."
+          },
+          "sourceIds": [
+            "film-f49"
+          ],
+          "questionIds": [
+            "f49-092"
+          ]
         }
       }
     },
@@ -173,22 +373,68 @@
       "filmId": "f56",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "曾就读 Charterhouse 公学和剑桥大学，在剑桥读法律。",
+            "en": "Went to Charterhouse and Cambridge, where he read law."
+          },
+          "sourceIds": [
+            "film-f56"
+          ]
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "在一家英国大型工业公司的法务部工作；公司被德国企业收购后他保住了职位。",
+            "en": "Works in the legal department of a large British industrial company, and kept his job after a German takeover."
+          },
+          "sourceIds": [
+            "film-f56"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "与 Jane 结婚 28 年；Alexander 任职金丝雀码头，Timothy 刚毕业。",
+            "en": "Married to Jane for 28 years; Alexander works in Canary Wharf, and Timothy has just graduated from university."
+          },
+          "sourceIds": [
+            "film-f56",
+            "cbs-up-children-2013"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "住在伦敦，乡间另有一处房子，即结婚时买下的谷仓。",
+            "en": "Lives in London, with a second home in the country: the barn bought when they married."
+          },
+          "sourceIds": [
+            "film-f56"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "公司被德国企业收购，他保住了工作；儿子 Timothy 大学毕业。",
+            "en": "His company was taken over by a German firm and he kept his job; son Timothy graduated."
+          },
+          "sourceIds": [
+            "film-f56"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他和 Jane 说，像 Timothy 毕业、Alexander 找到第一份工作这样的时刻，最让他们感慨。",
+            "en": "He and Jane say moments like Timothy's graduation and Alexander's first job are what make them reflect."
+          },
+          "sourceIds": [
+            "film-f56"
+          ],
+          "questionIds": [
+            "f56-083"
+          ]
         }
       }
     },
@@ -197,22 +443,77 @@
       "filmId": "f63",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "曾就读 Charterhouse 公学和剑桥大学，在剑桥读法律。",
+            "en": "Went to Charterhouse and Cambridge, where he read law."
+          },
+          "sourceIds": [
+            "film-f63"
+          ]
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他说自己已工作 40 年，今年年底就要退休。",
+            "en": "Says he has been working for 40 years and will retire at the end of this year."
+          },
+          "sourceIds": [
+            "film-f63"
+          ],
+          "questionIds": [
+            "f63-014"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "与 Jane 已婚；Alexander 约三年半前成婚，Timothy 在伯明翰读计算机。",
+            "en": "Married to Jane; Alexander married about three and a half years ago, and Timothy studies computer science at Birmingham."
+          },
+          "sourceIds": [
+            "film-f63"
+          ],
+          "questionIds": [
+            "f63-011"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "住在伦敦，乡间另有一处房子，即结婚前后买下的谷仓。",
+            "en": "Lives in London, with a second home in the country: the barn they bought around their marriage."
+          },
+          "sourceIds": [
+            "film-f63"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "儿子 Alexander 约三年半前结婚；Andrew 将于今年年底退休。",
+            "en": "Son Alexander married about three and a half years ago; Andrew will retire at the end of this year."
+          },
+          "sourceIds": [
+            "film-f63"
+          ],
+          "questionIds": [
+            "f63-011",
+            "f63-014"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他觉得自己一直非常幸运，同时也认同这是努力换来的。",
+            "en": "Feels he has been very fortunate, while agreeing that he worked for it."
+          },
+          "sourceIds": [
+            "film-f63"
+          ],
+          "questionIds": [
+            "f63-016"
+          ]
         }
       }
     },
@@ -221,10 +522,25 @@
       "filmId": "f70",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他的求学之路最终止于剑桥大学三一学院。",
+            "en": "His academic career culminated in studying at Trinity College, Cambridge."
+          },
+          "sourceIds": [
+            "wiki-up-series"
+          ]
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "上一部之后已退休；此前在一家工业气体公司任内部律师。",
+            "en": "Retired since the last film; he had been an in-house lawyer for an industrial gases company."
+          },
+          "sourceIds": [
+            "film-f70",
+            "wiki-up-series"
+          ]
         },
         "family": {
           "status": "not_found"
@@ -233,13 +549,42 @@
           "status": "not_found"
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "上一部之后退休；他说花了好一阵子才适应退休生活。",
+            "en": "Retired since the last film; says it took him quite a while to get used to it."
+          },
+          "sourceIds": [
+            "film-f70"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他说从 7 岁到 70 岁首尾呼应，是收尾的好时候；再拍七年就有点勉强了。",
+            "en": "Says 7 to 70 is a good symmetry and a good time to end; another seven years might be pushing it."
+          },
+          "sourceIds": [
+            "film-f70"
+          ],
+          "questionIds": [
+            "f70-025"
+          ]
         }
       }
     }
   ],
-  "final": null
+  "final": {
+    "personId": "andrew",
+    "asOfFilmId": "f70",
+    "text": {
+      "zh": "已退休，此前工作了 40 年，最后在一家工业气体公司任内部律师。他说希望当年少把工作放在首位，多陪陪家人。",
+      "en": "Retired after 40 years of working, latterly as an in-house lawyer for an industrial gases company. He wishes he had spent more time with his family rather than prioritising work."
+    },
+    "sourceIds": [
+      "film-f70",
+      "wiki-up-series",
+      "guardian-mangan-2026"
+    ]
+  }
 }

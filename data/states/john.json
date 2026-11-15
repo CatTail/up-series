@@ -5,7 +5,15 @@
       "filmId": "f07",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "在肯辛顿一所精英私立学前预备学校就读。",
+            "en": "Attended an exclusive pre-prep school in Kensington."
+          },
+          "sourceIds": [
+            "film-f07",
+            "wiki-up-series"
+          ]
         },
         "work": {
           "status": "not_found"
@@ -29,7 +37,15 @@
       "filmId": "f14",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "通过入学考试，在 Westminster School 做周寄宿生。",
+            "en": "Passed the entrance exam and is a weekly boarder at Westminster School."
+          },
+          "sourceIds": [
+            "film-f14",
+            "p-john-wiki"
+          ]
         },
         "work": {
           "status": "not_found"
@@ -53,7 +69,15 @@
       "filmId": "f21",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "在牛津大学 Christ Church 学院读法律，正读最后一年。",
+            "en": "In his final year reading Law at Christ Church, Oxford."
+          },
+          "sourceIds": [
+            "film-f21",
+            "p-john-wiki"
+          ]
         },
         "work": {
           "status": "not_found"
@@ -68,7 +92,19 @@
           "status": "not_found"
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他想象不出比英国更好的地方；他说到 28 岁时也许已当上出庭律师，也挺想那时已经结婚。",
+            "en": "He can't imagine anywhere as nice as England; he thought that by 28 he might be at the bar, and would quite like to be married by then."
+          },
+          "sourceIds": [
+            "film-f21",
+            "film-f28"
+          ],
+          "questionIds": [
+            "f21-042",
+            "f28-r01"
+          ]
         }
       }
     },
@@ -105,11 +141,15 @@
           }
         },
         "events": {
-          "status": "not_applicable",
-          "reason": {
-            "zh": "未出镜",
-            "en": "Not filmed"
-          }
+          "status": "confirmed",
+          "text": {
+            "zh": "（事后得知）他刚宣布订婚，拒绝接受采访；70 岁时他说当时不满自己在片中的形象。",
+            "en": "(Learned later) Newly engaged, he declined to be interviewed; at 70 he said he had been unhappy with his portrayal."
+          },
+          "sourceIds": [
+            "film-f28",
+            "film-f70"
+          ]
         },
         "outlook": {
           "status": "not_applicable",
@@ -125,22 +165,70 @@
       "filmId": "f35",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "曾就读 Westminster School，后在牛津大学 Christ Church 学院读法律。",
+            "en": "Went to Westminster School and read Law at Christ Church, Oxford."
+          },
+          "sourceIds": [
+            "film-f35"
+          ]
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "出庭律师，在高等法院衡平法庭执业，专攻公司法。",
+            "en": "A barrister in the Chancery division of the High Court, specialising in company law."
+          },
+          "sourceIds": [
+            "film-f35"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "已与 Claire 结婚，她是一位前驻保加利亚大使的女儿。",
+            "en": "Married to Claire, daughter of a former ambassador to Bulgaria."
+          },
+          "sourceIds": [
+            "film-f35",
+            "p-john-wiki"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "在伦敦有一处住宅，在乡间另有一处。",
+            "en": "Has a house in London and another in the country."
+          },
+          "sourceIds": [
+            "film-f35",
+            "film-f49"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "拒绝参与 28 岁那集后回归，他说这次只是为了让观众关注保加利亚的困境。",
+            "en": "Returned after refusing to take part at 28, saying he did so only to draw attention to Bulgaria's problems."
+          },
+          "sourceIds": [
+            "film-f35",
+            "thenation-pedersen-2020"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "被问及他和 Claire 能否住在保加利亚的家族土地上，他说：七年后再问我吧。",
+            "en": "Asked if he and Claire could live on the family land in Bulgaria, he said: ask me in seven years."
+          },
+          "sourceIds": [
+            "film-f35"
+          ],
+          "questionIds": [
+            "f35-038"
+          ]
         }
       }
     },
@@ -177,11 +265,15 @@
           }
         },
         "events": {
-          "status": "not_applicable",
-          "reason": {
-            "zh": "未出镜",
-            "en": "Not filmed"
-          }
+          "status": "confirmed",
+          "text": {
+            "zh": "（事后得知）他决定不参与本片；旁白称他已成为御用大律师（1996 年获任）。",
+            "en": "(Learned later) Decided not to take part; the film notes he had become a QC, which he did in 1996."
+          },
+          "sourceIds": [
+            "film-f42",
+            "p-john-4sb"
+          ]
         },
         "outlook": {
           "status": "not_applicable",
@@ -197,19 +289,48 @@
       "filmId": "f49",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "先后就读 Westminster School 和牛津大学 Christ Church 学院（法律）。",
+            "en": "Went to Westminster, then read Law at Christ Church, Oxford."
+          },
+          "sourceIds": [
+            "film-f49"
+          ]
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "仍是出庭律师，现为御用大律师（QC）；同时投身慈善机构 Friends of Bulgaria。",
+            "en": "Still a barrister, now a QC; also active in his charity Friends of Bulgaria."
+          },
+          "sourceIds": [
+            "film-f49"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "与 Claire 已婚；两人一起在保加利亚为有才华的孩子颁奖。",
+            "en": "Married to Claire; together they give prizes to talented children in Bulgaria."
+          },
+          "sourceIds": [
+            "film-f49"
+          ]
         },
         "residence": {
           "status": "not_found"
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "缺席上一部后回归本系列。",
+            "en": "Returned to the series after not appearing in the previous film."
+          },
+          "sourceIds": [
+            "cbs-up-children-2013",
+            "film-f42"
+          ]
         },
         "outlook": {
           "status": "not_found"
@@ -221,19 +342,50 @@
       "filmId": "f56",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "读完 Westminster 后在牛津 Christ Church 读法律；他说靠奖学金上的牛津。",
+            "en": "Read Law at Christ Church, Oxford, after Westminster; he says he won a scholarship to Oxford."
+          },
+          "sourceIds": [
+            "film-f56",
+            "wiki-up-series"
+          ]
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "仍是御用大律师，主要做诉讼；他说庆幸有一群很好的事务所同事。",
+            "en": "Still a barrister and QC, doing largely litigation, and feels blessed in his chambers."
+          },
+          "sourceIds": [
+            "film-f56",
+            "wiki-up-series"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "自 1985 年起与 Claire 结婚。",
+            "en": "Married to Claire since 1985."
+          },
+          "sourceIds": [
+            "film-f56",
+            "p-john-wiki"
+          ]
         },
         "residence": {
           "status": "not_found"
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "上次出镜后，一位旧金山的电影导演寄来一大笔捐款，帮助了他在保加利亚的慈善工作。",
+            "en": "After his last appearance, a San Francisco film director sent a large donation that helped his charity work in Bulgaria."
+          },
+          "sourceIds": [
+            "film-f56"
+          ]
         },
         "outlook": {
           "status": "not_found"
@@ -245,22 +397,70 @@
       "filmId": "f63",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "读完 Westminster 后参军一年多，再靠奖学金进牛津 Christ Church 读法律。",
+            "en": "Went to Westminster, did over a year in the Army, then read Law at Christ Church, Oxford, on a scholarship."
+          },
+          "sourceIds": [
+            "film-f63"
+          ]
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "仍是出庭律师和御用大律师（QC），现任慈善机构 Friends of Bulgaria 主席。",
+            "en": "Still a barrister and QC, and now chairman of the charity Friends of Bulgaria."
+          },
+          "sourceIds": [
+            "film-f63"
+          ],
+          "questionIds": [
+            "f63-078"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "与 Claire 已婚。",
+            "en": "Married to Claire."
+          },
+          "sourceIds": [
+            "film-f63"
+          ],
+          "questionIds": [
+            "f63-081"
+          ]
         },
         "residence": {
           "status": "not_found"
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "约两年前他从马上重重摔下，导致脑出血。",
+            "en": "About two years earlier, a bad fall from a horse gave him a brain haemorrhage."
+          },
+          "sourceIds": [
+            "film-f63"
+          ],
+          "questionIds": [
+            "f63-079"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他说没有遗憾，无论处境如何，总是尽量往好处做；对他最重要的是妻子、家人、朋友和家。",
+            "en": "He has no regrets and always tries to make the best of everything, even in a bad situation; his wife, family, friends and homes matter most."
+          },
+          "sourceIds": [
+            "film-f63"
+          ],
+          "questionIds": [
+            "f63-081",
+            "f63-082"
+          ]
         }
       }
     },
@@ -269,16 +469,47 @@
       "filmId": "f70",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "曾就读 Westminster；影片回顾他在牛津 Christ Church 读法律。",
+            "en": "Went to Westminster School; the film recalls him reading Law at Christ Church, Oxford."
+          },
+          "sourceIds": [
+            "film-f70"
+          ]
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "仍在伦敦 4 Stone Buildings 执业，是衡平法商事御用大律师（KC）。",
+            "en": "Still a practising chancery commercial barrister and KC at 4 Stone Buildings in London."
+          },
+          "sourceIds": [
+            "film-f70",
+            "p-john-4sb",
+            "p-john-bsb"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "与 Claire 已婚。",
+            "en": "Married to Claire."
+          },
+          "sourceIds": [
+            "film-f70",
+            "p-john-wiki"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "住在伦敦和北安普敦郡。",
+            "en": "Lives in London and Northamptonshire."
+          },
+          "sourceIds": [
+            "p-john-wiki"
+          ]
         },
         "events": {
           "status": "not_found"
@@ -289,5 +520,19 @@
       }
     }
   ],
-  "final": null
+  "final": {
+    "personId": "john",
+    "asOfFilmId": "f70",
+    "text": {
+      "zh": "70 岁时他仍在伦敦执业，是商事领域的御用大律师；已婚，并担任一家援助保加利亚的慈善机构主席。",
+      "en": "At 70 he still practises as a commercial barrister and King's Counsel in London, is married, and chairs a charity helping Bulgaria."
+    },
+    "sourceIds": [
+      "film-f70",
+      "p-john-bsb",
+      "p-john-4sb",
+      "p-john-wiki",
+      "p-john-fob"
+    ]
+  }
 }

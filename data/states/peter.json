@@ -5,16 +5,40 @@
       "filmId": "f07",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "在利物浦一个中产阶级郊区读小学；他和 Neil 是该校被选中的两个男孩。",
+            "en": "Attends a primary school in a middle-class Liverpool suburb; he and Neil are the two boys chosen from it."
+          },
+          "sourceIds": [
+            "sbs-cast-2026",
+            "wiki-up-series"
+          ]
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "7 岁时他想当宇航员。",
+            "en": "At seven he wants to be an astronaut."
+          },
+          "sourceIds": [
+            "sbs-cast-2026",
+            "wiki-up-series"
+          ]
         },
         "family": {
           "status": "not_found"
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "在利物浦一个中产阶级郊区长大。",
+            "en": "Grows up in a middle-class Liverpool suburb."
+          },
+          "sourceIds": [
+            "thenation-pedersen-2020",
+            "film-f56"
+          ]
         },
         "events": {
           "status": "not_found"
@@ -29,16 +53,37 @@
       "filmId": "f14",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "和 Neil 在利物浦郊区的同一所综合中学读书。",
+            "en": "Attends a comprehensive school in a Liverpool suburb, the same one as Neil."
+          },
+          "sourceIds": [
+            "film-f14"
+          ]
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他已完全放弃当宇航员的念头，说那只是 7 岁孩子的想象。",
+            "en": "He has completely changed his mind about becoming an astronaut, calling it a seven-year-old's imagination."
+          },
+          "sourceIds": [
+            "film-f14"
+          ]
         },
         "family": {
           "status": "not_found"
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "住在利物浦郊区。",
+            "en": "Lives in a Liverpool suburb."
+          },
+          "sourceIds": [
+            "film-f14"
+          ]
         },
         "events": {
           "status": "not_found"
@@ -53,7 +98,14 @@
       "filmId": "f21",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "在伦敦大学读历史，正读最后一年。",
+            "en": "In his final year at London University, reading history."
+          },
+          "sourceIds": [
+            "film-f21"
+          ]
         },
         "work": {
           "status": "not_found"
@@ -62,13 +114,38 @@
           "status": "not_found"
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "在伦敦北部与另外三名学生合租一套公寓。",
+            "en": "Shares a flat in North London with three other students."
+          },
+          "sourceIds": [
+            "film-f21"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "已离开利物浦到伦敦上大学；他记得那天下着大雨，父母到车站送行。",
+            "en": "Has left Liverpool to study in London; he remembers his parents seeing him off at the station in pouring rain."
+          },
+          "sourceIds": [
+            "film-f21"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "毕业后做什么还没着落，但这并不让他沮丧，甚至可能让他有点兴奋。",
+            "en": "Not knowing what job he will have after graduating doesn't depress him; perhaps it even excites him."
+          },
+          "sourceIds": [
+            "film-f21"
+          ],
+          "questionIds": [
+            "f21-097",
+            "f21-098"
+          ]
         }
       }
     },
@@ -77,22 +154,78 @@
       "filmId": "f28",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "伦敦大学毕业后接受教师培训，并在师范学院认识了妻子。",
+            "en": "Graduated from London University and trained as a teacher; he met his wife at teacher training college."
+          },
+          "sourceIds": [
+            "film-f28",
+            "film-f56"
+          ]
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "在一所综合中学教书；他说教师不受重视，工资低得可怜。",
+            "en": "Teaches in a comprehensive school; he says teachers are undervalued and their pay is abysmal."
+          },
+          "sourceIds": [
+            "film-f28"
+          ],
+          "questionIds": [
+            "f28-049"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "与 Rachel 结婚四年，暂时没有生孩子的打算。",
+            "en": "Married to Rachel for four years; they have no plans for children yet."
+          },
+          "sourceIds": [
+            "film-f28"
+          ],
+          "questionIds": [
+            "f28-039"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他和 Rachel 刚在莱斯特市中心买下第一套房子，一栋联排住宅。",
+            "en": "He and Rachel have just bought their first home, a terraced house in the centre of Leicester."
+          },
+          "sourceIds": [
+            "film-f28"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "上一部之后他与 Rachel 结婚并买了第一套房；直到不久前他还在一支本地乐队演出。",
+            "en": "Since the last film he has married Rachel and bought a first home; until recently he played in a local band."
+          },
+          "sourceIds": [
+            "film-f28"
+          ],
+          "questionIds": [
+            "f28-048"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他觉得自己远没有得到和别人一样公平的机会，教书也从没让他兴奋过。",
+            "en": "He feels he has had nothing like as fair a chance as others, and gets no excitement from teaching."
+          },
+          "sourceIds": [
+            "film-f28"
+          ],
+          "questionIds": [
+            "f28-044",
+            "f28-049"
+          ]
         }
       }
     },
@@ -129,11 +262,15 @@
           }
         },
         "events": {
-          "status": "not_applicable",
-          "reason": {
-            "zh": "未出镜",
-            "en": "Not filmed"
-          }
+          "status": "confirmed",
+          "text": {
+            "zh": "（事后得知）他批评撒切尔政府后遭小报攻击，因此退出；不久他也离开教职，但与节目无关。",
+            "en": "(Learned later) He quit the series after tabloid attacks over his criticism of Thatcher's government, and left teaching soon after, for unrelated reasons."
+          },
+          "sourceIds": [
+            "film-f56",
+            "wiki-up-series"
+          ]
         },
         "outlook": {
           "status": "not_applicable",
@@ -177,11 +314,15 @@
           }
         },
         "events": {
-          "status": "not_applicable",
-          "reason": {
-            "zh": "未出镜",
-            "en": "Not filmed"
-          }
+          "status": "confirmed",
+          "text": {
+            "zh": "（事后得知）据 42 Up 导演评论，他已离婚、学法律当了律师、再婚生子，并搬回利物浦。",
+            "en": "(Learned later) The 42 Up director's commentary said he had divorced, studied law, become a lawyer, remarried, had children and moved back to Liverpool."
+          },
+          "sourceIds": [
+            "wiki-up-series",
+            "sbs-cast-2026"
+          ]
         },
         "outlook": {
           "status": "not_applicable",
@@ -245,22 +386,76 @@
       "filmId": "f56",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "拥有伦敦大学历史学位；离开教职后又学了法律。",
+            "en": "Has a history degree from London University; after leaving teaching he studied law."
+          },
+          "sourceIds": [
+            "film-f56",
+            "cbs-up-children-2013"
+          ]
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "在公务员系统的就业与养老金部工作，并在乐队 The Good Intentions 演出。",
+            "en": "Works in the Civil Service, at the Department for Work and Pensions, and plays in his band, The Good Intentions."
+          },
+          "sourceIds": [
+            "film-f56"
+          ],
+          "questionIds": [
+            "f56-040",
+            "f56-035"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "第二次婚姻，妻子是 Gabby；儿子 19 岁在读大学，女儿 16 岁即将考 GCSE。",
+            "en": "In his second marriage, to Gabby; their son, 19, is at university and their daughter, 16, faces her GCSEs."
+          },
+          "sourceIds": [
+            "film-f56",
+            "cbs-up-children-2013",
+            "p-peter-ti-bio"
+          ],
+          "questionIds": [
+            "f56-038",
+            "f56-042"
+          ]
         },
         "residence": {
           "status": "not_found"
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "为宣传乐队重返系列；28 岁之后他离开教职、学了法律、进入公务员系统并再婚。",
+            "en": "Returned to the series to promote his band; since 28 he had left teaching, studied law, joined the Civil Service and remarried."
+          },
+          "sourceIds": [
+            "film-f56"
+          ],
+          "questionIds": [
+            "f56-033",
+            "f56-034"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他说自己活得自在多了，并称再婚和两个孩子的出生是人生中极其重要的时刻。",
+            "en": "He feels much happier in his own skin, and calls his second marriage and two children hugely significant moments."
+          },
+          "sourceIds": [
+            "film-f56"
+          ],
+          "questionIds": [
+            "f56-034",
+            "f56-042"
+          ]
         }
       }
     },
@@ -269,22 +464,71 @@
       "filmId": "f63",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "拥有伦敦大学历史学位。",
+            "en": "Has a history degree from London University."
+          },
+          "sourceIds": [
+            "film-f63"
+          ]
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "每周在公务员岗位上班两天，小说初稿写到一半，乐队也还在继续。",
+            "en": "Works two days a week in his civil-service day job, is midway through drafting a novel, and still plays in the band."
+          },
+          "sourceIds": [
+            "film-f63",
+            "wiki-up-series"
+          ],
+          "questionIds": [
+            "f63-059"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "仍与妻子相守；儿子已搬进离家不远的自己的房子，女儿在金史密斯学院读硕士。",
+            "en": "Still married; their son has moved into his own home nearby and their daughter is doing a master's at Goldsmiths."
+          },
+          "sourceIds": [
+            "film-f63"
+          ],
+          "questionIds": [
+            "f63-054"
+          ]
         },
         "residence": {
           "status": "not_found"
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "三年前，八十多岁、患失智症的母亲去世；乐队成员 Frank 也在同一年离世。",
+            "en": "Three years ago his mother, in her late 80s and with dementia, died; their bandmate Frank died the same year."
+          },
+          "sourceIds": [
+            "film-f63",
+            "wiki-up-series"
+          ],
+          "questionIds": [
+            "f63-056"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他说唯一真正的遗憾会是临终时后悔没去尝试；他想创造能流传下去的东西。",
+            "en": "His only serious regret would be reaching the end of his life wishing he had tried something; he wants to create something lasting."
+          },
+          "sourceIds": [
+            "film-f63"
+          ],
+          "questionIds": [
+            "f63-063"
+          ]
         }
       }
     },
@@ -293,25 +537,90 @@
       "filmId": "f70",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "毕业于伦敦大学历史系。",
+            "en": "Graduated in history from London University."
+          },
+          "sourceIds": [
+            "p-peter-rpd-site"
+          ]
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他说自己比以往更忙，专注写歌、演出、录唱片和巡演，还写了小说、合写了音乐剧。",
+            "en": "Says he is busier than ever, focused on songwriting, performing, recording and touring; he has written a novel and co-written a musical."
+          },
+          "sourceIds": [
+            "film-f70",
+            "wiki-up-series"
+          ],
+          "questionIds": [
+            "f70-016"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "已婚；他说当年是那时的伴侣、如今的妻子劝他为抑郁症去求助。",
+            "en": "Married; he says it was his then-partner, now his wife, who once urged him to get help for depression."
+          },
+          "sourceIds": [
+            "film-f70"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "住在利物浦南部。",
+            "en": "Lives in south Liverpool."
+          },
+          "sourceIds": [
+            "p-peter-rpd-site"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他的首部小说《Valediction Records》已经出版。",
+            "en": "His debut novel, Valediction Records, has been published."
+          },
+          "sourceIds": [
+            "p-peter-rpd-site",
+            "p-peter-ti-home",
+            "film-f70"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他不认为自己退休了：虽然不再教书，但他说自己比以往任何时候都忙。",
+            "en": "He rejects being called retired: he no longer teaches, he says, but is busier than ever."
+          },
+          "sourceIds": [
+            "film-f70"
+          ],
+          "questionIds": [
+            "f70-016"
+          ]
         }
       }
     }
   ],
-  "final": null
+  "final": {
+    "personId": "peter",
+    "asOfFilmId": "f70",
+    "text": {
+      "en": "Once a teacher and later a civil servant, he now works full-time as a writer and musician, is married and lives in south Liverpool. He says he is busier than ever, and has written a novel and co-written a musical.",
+      "zh": "他曾当教师，后进入公务员系统，如今是全职作家和音乐人，已婚，住在利物浦南部。他说自己比以往更忙，写了一部小说，还合写了一部音乐剧。"
+    },
+    "sourceIds": [
+      "film-f70",
+      "wiki-up-series",
+      "p-peter-rpd-site",
+      "film-f28",
+      "film-f56"
+    ]
+  }
 }

@@ -11,10 +11,26 @@
           "status": "not_found"
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他是单亲家庭的独子，始终不认识自己的生父。",
+            "en": "The only child of a single parent, he never got to know his father."
+          },
+          "sourceIds": [
+            "film-f42",
+            "wiki-up-series"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他住在 Twickenham 一家由慈善机构资助的儿童之家（Shaftesbury Homes）。",
+            "en": "He lived in a charity-supported Shaftesbury Homes children's home in Twickenham."
+          },
+          "sourceIds": [
+            "film-f07",
+            "wiki-up-series"
+          ]
         },
         "events": {
           "status": "not_found"
@@ -32,19 +48,64 @@
           "status": "not_found"
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他说不再想当电影明星，而是要当一名电气工程师。",
+            "en": "He said he had given up the idea of being a film star and would become an electrical engineer."
+          },
+          "sourceIds": [
+            "film-f14",
+            "sbs-cast-2026"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他和母亲一起生活，并说自己没有父亲。",
+            "en": "He lives with his mother and says he has no father."
+          },
+          "sourceIds": [
+            "film-f14",
+            "wiki-up-series"
+          ],
+          "questionIds": [
+            "f14-004"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他已于前一年圣诞节离开 Twickenham 的儿童之家，搬回与母亲同住。",
+            "en": "He lives with his mother, having left the Twickenham children's home the previous Christmas."
+          },
+          "sourceIds": [
+            "film-f14",
+            "wiki-up-series",
+            "sbs-cast-2026"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "拍摄前一年的圣诞节，他离开儿童之家，回到母亲身边生活。",
+            "en": "At Christmas before filming he left the children's home and returned to live with his mother."
+          },
+          "sourceIds": [
+            "film-f14"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他说没有父亲并未影响他：从来没有的东西，也就不会想念。",
+            "en": "He says growing up without a father has not affected him: what you don't have, you don't miss."
+          },
+          "sourceIds": [
+            "film-f14"
+          ],
+          "questionIds": [
+            "f14-004"
+          ]
         }
       }
     },
@@ -56,19 +117,63 @@
           "status": "not_found"
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他在 Walls 肉食公司的冷冻车间工作，公司离他在 Middlesex 的家不远。",
+            "en": "He works in the freezer room at Walls, a meat company near his home in Middlesex."
+          },
+          "sourceIds": [
+            "film-f21",
+            "sbs-cast-2026"
+          ],
+          "questionIds": [
+            "f21-048",
+            "f21-051"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他和母亲同住，两人相处更像朋友；他觉得自己必须保护她。",
+            "en": "He lives with his mother, gets on with her more like a friend, and feels he must protect her."
+          },
+          "sourceIds": [
+            "film-f21"
+          ],
+          "questionIds": [
+            "f21-044",
+            "f21-046"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "离开儿童之家后，他已在 Middlesex 与母亲同住了八年。",
+            "en": "He has lived with his mother in Middlesex for eight years since leaving the children's home."
+          },
+          "sourceIds": [
+            "film-f21"
+          ],
+          "questionIds": [
+            "f21-044"
+          ]
         },
         "events": {
           "status": "not_found"
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他说自己就是喜欢辛苦活，重复的工作从没让他烦恼，但不能一辈子待在 Walls。",
+            "en": "He says he likes hard work and routine jobs have never worried him, but he can't stay at Walls forever."
+          },
+          "sourceIds": [
+            "film-f21"
+          ],
+          "questionIds": [
+            "f21-050",
+            "f21-051"
+          ]
         }
       }
     },
@@ -80,19 +185,64 @@
           "status": "not_found"
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他仍在 Walls 工作，已干了八九年，无意往上升当主管。",
+            "en": "He still works at Walls after eight or nine years and has no wish to become a manager."
+          },
+          "sourceIds": [
+            "film-f28"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他与 Yvonne 结婚，育有五个孩子：三个男孩、两个女孩。",
+            "en": "He is married to Yvonne and they have five children, three boys and two girls."
+          },
+          "sourceIds": [
+            "film-f28",
+            "film-f49"
+          ],
+          "questionIds": [
+            "f28-098",
+            "f28-100"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他和家人住在伦敦的一套市政公寓里。",
+            "en": "He and his family live in a council flat in London."
+          },
+          "sourceIds": [
+            "film-f28"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "21 岁之后，他与 Yvonne 结婚；到 28 岁时两人已有五个孩子。",
+            "en": "Since 21 he has married Yvonne; by 28 they had five children."
+          },
+          "sourceIds": [
+            "film-f28",
+            "film-f49"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他只想轻松自在地过一生，并说自己想要的都已经有了。",
+            "en": "He wants to get through life nice and easy, and says he already has what he wants."
+          },
+          "sourceIds": [
+            "film-f28"
+          ],
+          "questionIds": [
+            "f28-107",
+            "f28-108"
+          ]
         }
       }
     },
@@ -129,11 +279,16 @@
           }
         },
         "events": {
-          "status": "not_applicable",
-          "reason": {
-            "zh": "未出镜",
-            "en": "Not filmed"
-          }
+          "status": "confirmed",
+          "text": {
+            "zh": "（事后得知）他拒绝参与本片：当时他刚失去母亲，又正在经历艰难的离婚。",
+            "en": "(Learned later) He declined to take part, having recently lost his mother and while going through a hard divorce."
+          },
+          "sourceIds": [
+            "thenation-pedersen-2020",
+            "wiki-up-series",
+            "sbs-cast-2026"
+          ]
         },
         "outlook": {
           "status": "not_applicable",
@@ -149,22 +304,69 @@
       "filmId": "f42",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "拍摄前约两年，他去考 GCSE 数学，并顺利通过。",
+            "en": "About two years before filming he studied for GCSE Maths and passed."
+          },
+          "sourceIds": [
+            "film-f42"
+          ]
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "Walls 倒闭后，他做过几份仓库工作，现为航空货运公司 Yusen 开叉车。",
+            "en": "After Walls closed and several warehouse jobs, he drives a forklift truck for the airfreight company Yusen."
+          },
+          "sourceIds": [
+            "film-f42",
+            "sbs-cast-2026"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他娶了 Vienetta，有四岁的儿子 Daniel、继女 Miriam，及前段婚姻的五个孩子。",
+            "en": "Married to Vienetta, he has a four-year-old son, Daniel, a stepdaughter, Miriam, and five children from his first marriage."
+          },
+          "sourceIds": [
+            "film-f42",
+            "wiki-up-series"
+          ],
+          "questionIds": [
+            "f42-007",
+            "f42-009"
+          ]
         },
         "residence": {
           "status": "not_found"
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "28 岁后，他与 Yvonne 离婚，母亲 1990 年死于癌症，他又娶了 Vienetta。",
+            "en": "Since 28 he divorced Yvonne, lost his mother to cancer in 1990, and married Vienetta."
+          },
+          "sourceIds": [
+            "film-f42"
+          ],
+          "questionIds": [
+            "f42-011"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他说 Vienetta 激励他、照顾他，让他觉得有人真正需要他。",
+            "en": "He says Vienetta motivates and looks after him, making him feel that someone really wants him."
+          },
+          "sourceIds": [
+            "film-f42"
+          ],
+          "questionIds": [
+            "f42-013"
+          ]
         }
       }
     },
@@ -176,19 +378,71 @@
           "status": "not_found"
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "Walls 工厂关闭后，他一直在 Heathrow 机场附近处理货运。",
+            "en": "Since Walls closed its factory, he has worked near Heathrow Airport handling freight."
+          },
+          "sourceIds": [
+            "film-f49"
+          ],
+          "questionIds": [
+            "f49-078"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "妻子 Vienetta，儿子 Daniel，还有继女；前五个子女中三人与他来往；两个孙辈。",
+            "en": "Married to Vienetta, with son Daniel and a stepdaughter; three of his five older children see him, and he has two grandchildren."
+          },
+          "sourceIds": [
+            "film-f49",
+            "wiki-up-series"
+          ],
+          "questionIds": [
+            "f49-075",
+            "f49-077"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他和 Vienetta 住的房子能望见 Windsor 城堡。",
+            "en": "He and Vienetta live in a house from which Windsor Castle can be seen."
+          },
+          "sourceIds": [
+            "film-f49"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "约两年前，他和 Vienetta 决定受训做寄养父母；Paul 从澳大利亚飞来看望他。",
+            "en": "A couple of years earlier he and Vienetta decided to train as foster parents; Paul was flown from Australia to visit him."
+          },
+          "sourceIds": [
+            "film-f49",
+            "wiki-up-series",
+            "sbs-cast-2026"
+          ],
+          "questionIds": [
+            "f49-080"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他承认自己上学时很懒，但并不介意：人是为生活而工作，不是为工作而活。",
+            "en": "He admits he was lazy at school but isn't troubled by it: you work to live, not live to work."
+          },
+          "sourceIds": [
+            "film-f49"
+          ],
+          "questionIds": [
+            "f49-078",
+            "f49-079"
+          ]
         }
       }
     },
@@ -200,19 +454,58 @@
           "status": "not_found"
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他是叉车操作员，在 Heathrow 附近处理货运，并与 Vienetta 一起寄养孩子。",
+            "en": "He works as a forklift operator handling freight near Heathrow, and fosters children with Vienetta."
+          },
+          "sourceIds": [
+            "film-f56",
+            "cbs-up-children-2013"
+          ],
+          "questionIds": [
+            "f56-062"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他与 Vienetta 结婚；儿子 Daniel 刚满 18 岁；女儿 Jess 是第一段婚姻所生。",
+            "en": "He is married to Vienetta; their son Daniel has just turned 18, and his daughter Jess is from his first marriage."
+          },
+          "sourceIds": [
+            "film-f56"
+          ],
+          "questionIds": [
+            "f56-064",
+            "f56-065"
+          ]
         },
         "residence": {
           "status": "not_found"
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "儿子 Daniel 满 18 岁，考试通过，并获得 Procter & Gamble 的学徒职位。",
+            "en": "His son Daniel turned 18, passed his exams and won an apprenticeship with Procter & Gamble."
+          },
+          "sourceIds": [
+            "film-f56"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他和 Vienetta 说，犯错不等于走到尽头，他们的生活顺境多于逆境。",
+            "en": "He and Vienetta say a mistake isn't the end of the road, and their life has had more ups than downs."
+          },
+          "sourceIds": [
+            "film-f56"
+          ],
+          "questionIds": [
+            "f56-067"
+          ]
         }
       }
     },
@@ -224,19 +517,65 @@
           "status": "not_found"
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他和 Vienetta 仍在做寄养；约四年前，他们得知已照顾过一百三十多个孩子。",
+            "en": "He and Vienetta are still fostering; about four years earlier they were told they had cared for 130-odd children."
+          },
+          "sourceIds": [
+            "film-f63",
+            "sbs-cast-2026"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他仍与 Vienetta 是夫妻，有十个孙辈；与前段婚姻子女的关系正在修复。",
+            "en": "Still married to Vienetta, he has ten grandchildren, and his relationship with his first-marriage children is mending."
+          },
+          "sourceIds": [
+            "film-f63",
+            "wiki-up-series",
+            "sbs-cast-2026"
+          ],
+          "questionIds": [
+            "f63-066",
+            "f63-067"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他住在英格兰；多年来 Paul 和 Sue 回英格兰时会去看望他和 Vienetta。",
+            "en": "He lives in England, where Paul and Sue have visited him and Vienetta over the years."
+          },
+          "sourceIds": [
+            "film-f63"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "前一年他召集全家为 Vienetta 庆生；之后两人首次飞往澳大利亚探望 Paul。",
+            "en": "He gathered his whole family for Vienetta's birthday the year before, and they made a first trip to Australia to visit Paul."
+          },
+          "sourceIds": [
+            "film-f63",
+            "wiki-up-series"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "被问若去了澳大利亚人生是否不同，他说人生就是现在这样，而非本可能的样子。",
+            "en": "Asked if moving to Australia would have changed his life, he says your life is as it is, not as it could be."
+          },
+          "sourceIds": [
+            "film-f63"
+          ],
+          "questionIds": [
+            "f63-069"
+          ]
         }
       }
     },
@@ -248,10 +587,29 @@
           "status": "not_found"
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他与第二任妻子在约二十年间寄养了一百多名孩子。",
+            "en": "He and his second wife have fostered more than 100 children over about 20 years."
+          },
+          "sourceIds": [
+            "film-f70",
+            "wiki-up-series",
+            "guardian-mangan-2026",
+            "guardian-conlan-2026"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "他仍与第二任妻子 Vienetta 在一起；片中可见他与部分家人在一起。",
+            "en": "He and his second wife, Vienetta, are still together, and the film shows him with some of his family."
+          },
+          "sourceIds": [
+            "wiki-up-series",
+            "guardian-mangan-2026",
+            "p-symon-entertainmentdaily-2026"
+          ]
         },
         "residence": {
           "status": "not_found"
@@ -265,5 +623,19 @@
       }
     }
   ],
-  "final": null
+  "final": {
+    "personId": "symon",
+    "asOfFilmId": "f70",
+    "text": {
+      "zh": "他先在香肠厂冷冻车间工作，后来开叉车处理机场货运。他与第二任妻子在约二十年间寄养了一百多名孩子。",
+      "en": "He worked in a sausage-factory freezer room, then as a forklift driver handling airport freight. With his second wife he has fostered more than 100 children over some 20 years."
+    },
+    "sourceIds": [
+      "film-f70",
+      "film-f42",
+      "film-f49",
+      "wiki-up-series",
+      "guardian-mangan-2026"
+    ]
+  }
 }

@@ -5,22 +5,58 @@
       "filmId": "f07",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "在伦敦东区工人阶级街区上小学，与 Lynn、Sue 同校。",
+            "en": "Attends primary school in a working-class part of London's East End, with Lynn and Sue."
+          },
+          "sourceIds": [
+            "film-f21",
+            "wiki-up-series"
+          ]
         },
         "work": {
           "status": "not_found"
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "家中五个女儿之一；她送妹妹上学。",
+            "en": "One of five daughters; she takes her little sister to school."
+          },
+          "sourceIds": [
+            "film-f07"
+          ],
+          "questionIds": [
+            "f07-016"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "在伦敦东区长大；影片在伦敦一处市政住宅区介绍她出场。",
+            "en": "Grows up in London's East End; the film introduces her on a London council estate."
+          },
+          "sourceIds": [
+            "film-f07",
+            "film-f42"
+          ]
         },
         "events": {
           "status": "not_found"
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "她说妈妈生了五个女儿是因为“倒了七年霉”，全家曾盼新生儿是男孩。",
+            "en": "She says her mum has five girls because of seven years' bad luck; the family had hoped the new baby would be a boy."
+          },
+          "sourceIds": [
+            "film-f07"
+          ],
+          "questionIds": [
+            "f07-016"
+          ]
         }
       }
     },
@@ -29,7 +65,15 @@
       "filmId": "f14",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "在综合中学就读；东区三个女孩中只有 Lynn 选了文法学校。",
+            "en": "At a comprehensive school; of the three East End girls, only Lynn chose grammar school."
+          },
+          "sourceIds": [
+            "film-f14",
+            "film-f28"
+          ]
         },
         "work": {
           "status": "not_found"
@@ -44,7 +88,17 @@
           "status": "not_found"
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "被问是否想发财时，她说只想过得舒舒服服。",
+            "en": "Asked whether she wants to be rich, she says she would just like to live comfortably."
+          },
+          "sourceIds": [
+            "film-f14"
+          ],
+          "questionIds": [
+            "f14-056"
+          ]
         }
       }
     },
@@ -59,13 +113,38 @@
           "status": "not_found"
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "前一年 19 岁时嫁给了 Mick。",
+            "en": "Married to Mick since the year before, when she was 19."
+          },
+          "sourceIds": [
+            "film-f21",
+            "film-f35"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "住在伦敦郊外埃塞克斯一处新住宅区的新房里。",
+            "en": "Lives in a new house on a new estate in Essex, on the outskirts of London."
+          },
+          "sourceIds": [
+            "film-f21",
+            "film-f28",
+            "film-f49"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "前一年与 Mick 结婚，并搬到埃塞克斯的新住宅区。",
+            "en": "Married Mick the previous year and moved to a new estate in Essex."
+          },
+          "sourceIds": [
+            "film-f21",
+            "film-f35"
+          ]
         },
         "outlook": {
           "status": "not_found"
@@ -80,10 +159,25 @@
           "status": "not_found"
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "在市区的一家保险公司工作。",
+            "en": "Works for an insurance company in the city."
+          },
+          "sourceIds": [
+            "film-f28"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "19 岁嫁给装修工 Mick；她已决定不要孩子。",
+            "en": "Married at 19 to Mick, a decorator; she has decided not to have children."
+          },
+          "sourceIds": [
+            "film-f28",
+            "film-f35"
+          ]
         },
         "residence": {
           "status": "not_found"
@@ -92,7 +186,17 @@
           "status": "not_found"
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "她承认某种程度上有所错过，但觉得没有孩子的牵绊收获更多。",
+            "en": "She admits she is missing out to a degree, but feels she gains far more experience without the tie of children."
+          },
+          "sourceIds": [
+            "film-f28"
+          ],
+          "questionIds": [
+            "f28-092"
+          ]
         }
       }
     },
@@ -104,16 +208,41 @@
           "status": "not_found"
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "儿子出生后休息了一年，现已重返工作。",
+            "en": "After a year off when her son was born, she has gone back to work."
+          },
+          "sourceIds": [
+            "film-f35"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "已与 Mick 离婚，独自抚养一段短暂恋情所生的儿子 Charlie。",
+            "en": "Divorced from Mick, she is raising Charlie, her son from a brief relationship, as a single mother."
+          },
+          "sourceIds": [
+            "film-f35",
+            "film-f49",
+            "sbs-cast-2026"
+          ]
         },
         "residence": {
           "status": "not_found"
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "与 Mick 离婚，生下儿子 Charlie；母亲在她 30 岁时去世。",
+            "en": "Divorced Mick and had her son Charlie; her mother died when Jackie was 30."
+          },
+          "sourceIds": [
+            "film-f35",
+            "film-f42",
+            "film-f63"
+          ]
         },
         "outlook": {
           "status": "not_found"
@@ -128,19 +257,64 @@
           "status": "not_found"
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "此前一直在苏格兰工作，类风湿关节炎让她暂停了工作。",
+            "en": "Was working in Scotland until recently; rheumatoid arthritis has put work on hold."
+          },
+          "sourceIds": [
+            "film-f42"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "有三个儿子 Charlie、James 和 Lee；已与小儿子们的父亲 Ian 分手。",
+            "en": "Has three sons, Charlie, James and Lee; she and Ian, father of the younger two, have split up."
+          },
+          "sourceIds": [
+            "film-f42"
+          ],
+          "questionIds": [
+            "f42-045"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "住在苏格兰 Newmains，距格拉斯哥约 40 分钟车程。",
+            "en": "Lives in Newmains, Scotland, about a 40-minute drive from Glasgow."
+          },
+          "sourceIds": [
+            "film-f42"
+          ],
+          "questionIds": [
+            "f42-048"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "随 Ian 迁居苏格兰并又生两子；两人后来分手，她被诊断出类风湿关节炎。",
+            "en": "Moved to Scotland with Ian and had two more sons; they then split up, and she was diagnosed with rheumatoid arthritis."
+          },
+          "sourceIds": [
+            "film-f42",
+            "film-f49"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "她说病痛让她消沉，但生活不会：她有三个好儿子和爱她的家人。",
+            "en": "She says her illness gets her down, but not her life: she has three wonderful boys and a loving family."
+          },
+          "sourceIds": [
+            "film-f42"
+          ],
+          "questionIds": [
+            "f42-051"
+          ]
         }
       }
     },
@@ -152,19 +326,64 @@
           "status": "not_found"
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "患类风湿关节炎，靠残疾福利金生活。",
+            "en": "Has rheumatoid arthritis and lives off disability benefit."
+          },
+          "sourceIds": [
+            "film-f49"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "与 Ian 分开后在其家人附近抚养三个儿子；她说现任伴侣绝不会上镜。",
+            "en": "Separated from Ian, she raises her three sons near his family; she says her current partner will never take part."
+          },
+          "sourceIds": [
+            "film-f49"
+          ],
+          "questionIds": [
+            "f49-005",
+            "f49-007"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "住在苏格兰一处底层住房，离婆婆 Liz 很近。",
+            "en": "Lives in Scotland, in a ground-floor home close to her mother-in-law, Liz."
+          },
+          "sourceIds": [
+            "film-f49"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "因关节炎搬进底层住房；她在镜头前质疑导演对她的呈现方式。",
+            "en": "Moved to a ground-floor home because of her arthritis; on camera she challenges how the director has portrayed her."
+          },
+          "sourceIds": [
+            "film-f49"
+          ],
+          "questionIds": [
+            "f49-010"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "她觉得自己比导演预想的更聪明，并说对如今的人生状态感到满意。",
+            "en": "She feels cleverer than the director expected and says she has reached a level in life she is happy with."
+          },
+          "sourceIds": [
+            "film-f49"
+          ],
+          "questionIds": [
+            "f49-012"
+          ]
         }
       }
     },
@@ -176,19 +395,69 @@
           "status": "not_found"
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "靠残疾福利金生活已逾 14 年；福利复审却判定她能工作。",
+            "en": "Has lived on disability benefits for over 14 years; a benefits review has declared her fit to work."
+          },
+          "sourceIds": [
+            "film-f56",
+            "wiki-up-series"
+          ],
+          "questionIds": [
+            "f56-049"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "三个儿子都有工作；儿子 James 的女儿是她第一个孙辈；她说想找个伴。",
+            "en": "Her three sons all work; son James's daughter is her first grandchild; she says she would like a relationship."
+          },
+          "sourceIds": [
+            "film-f56"
+          ],
+          "questionIds": [
+            "f56-048",
+            "f56-050"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "仍与家人住在苏格兰同一地区。",
+            "en": "Still lives in the same area of Scotland as the rest of the family."
+          },
+          "sourceIds": [
+            "film-f56",
+            "wiki-up-series"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "孩子父亲 Ian 确诊癌症晚期，又在孙女出生前三天遭遇车祸重伤身亡。",
+            "en": "Ian, the boys' father, was diagnosed with stage-four cancer, then fatally injured in a road accident three days before his granddaughter's birth."
+          },
+          "sourceIds": [
+            "film-f56"
+          ],
+          "questionIds": [
+            "f56-043"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "她说自己的杯子永远半满，人生苦短，相信自己的生活会很好。",
+            "en": "She says her glass is always half full, life is too short, and she thinks her life is going to be good."
+          },
+          "sourceIds": [
+            "film-f56"
+          ],
+          "questionIds": [
+            "f56-054"
+          ]
         }
       }
     },
@@ -200,19 +469,65 @@
           "status": "not_found"
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "领取残疾福利金已超过 20 年。",
+            "en": "Has been getting disability benefits for over 20 years."
+          },
+          "sourceIds": [
+            "film-f63"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "三个儿子都有工作，两个仍与她同住；她已有孙辈，单身已久。",
+            "en": "Her three sons all work, two still living with her; she has grandchildren and has been on her own a long while."
+          },
+          "sourceIds": [
+            "film-f63"
+          ],
+          "questionIds": [
+            "f63-047"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "仍与家人住在苏格兰同一地区。",
+            "en": "Still lives in the same area of Scotland as her family."
+          },
+          "sourceIds": [
+            "film-f63",
+            "wiki-up-series"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "她讲述父亲停药后去世，以及近四年半后 Ian 车祸案终获有罪判决。",
+            "en": "She recounts her father's death after he stopped his medication, and a guilty verdict over Ian's death after nearly four and a half years."
+          },
+          "sourceIds": [
+            "film-f63"
+          ],
+          "questionIds": [
+            "f63-048"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "她觉得自己从没真正变过，一直爱说话，并后悔没多读书。",
+            "en": "She feels she has never really changed, always talkative, and regrets not doing more education."
+          },
+          "sourceIds": [
+            "film-f63"
+          ],
+          "questionIds": [
+            "f63-052",
+            "f63-049"
+          ]
         }
       }
     },
@@ -224,22 +539,81 @@
           "status": "not_found"
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "已退休；她说现在有机会享受退休生活。",
+            "en": "Retired; she says she now has the chance to enjoy her retirement."
+          },
+          "sourceIds": [
+            "film-f70",
+            "wiki-up-series"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "有新伴侣 Eddie，儿时就相识；她为三个儿子骄傲，常与儿孙见面。",
+            "en": "Has a new partner, Eddie, known since childhood; proud of her three sons, she sees them and her grandchildren a lot."
+          },
+          "sourceIds": [
+            "film-f70",
+            "saga-70up-2026"
+          ],
+          "questionIds": [
+            "f70-017"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "住在诺福克一处退休社区里属于自己的住所。",
+            "en": "Lives in her own place in a retirement complex in Norfolk."
+          },
+          "sourceIds": [
+            "film-f70",
+            "saga-70up-2026",
+            "wiki-up-series"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "为求清静从苏格兰搬到诺福克，并经朋友与儿时旧识 Eddie 重新联系上。",
+            "en": "Moved from Scotland to Norfolk for some peace, and reconnected through a friend with Eddie, whom she knew as a child."
+          },
+          "sourceIds": [
+            "film-f70",
+            "saga-70up-2026",
+            "guardian-mangan-2026"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "她说最骄傲的是三个儿子，并强调他们是“她的”孩子。",
+            "en": "She says she is most proud of her three boys, stressing that they are her boys."
+          },
+          "sourceIds": [
+            "film-f70"
+          ],
+          "questionIds": [
+            "f70-017"
+          ]
         }
       }
     }
   ],
-  "final": null
+  "final": {
+    "personId": "jackie",
+    "asOfFilmId": "f70",
+    "text": {
+      "zh": "已退休，住在诺福克的一处退休社区，有一位儿时就相识的新伴侣，并为三个儿子感到骄傲。",
+      "en": "Retired and living in a retirement complex in Norfolk, she has a new partner she knew as a child and is proud of her three sons."
+    },
+    "sourceIds": [
+      "film-f70",
+      "saga-70up-2026",
+      "wiki-up-series"
+    ]
+  }
 }

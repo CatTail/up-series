@@ -5,16 +5,42 @@
       "filmId": "f07",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "和 Jackie、Sue 在伦敦东区同一所小学读书。",
+            "en": "Attended a primary school in London's East End together with Jackie and Sue."
+          },
+          "sourceIds": [
+            "film-f21",
+            "wiki-up-series",
+            "cbs-up-children-2013"
+          ]
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "7 岁时她说将来要去 Woolworths 百货店工作。",
+            "en": "At seven she said she was going to work in Woolworths."
+          },
+          "sourceIds": [
+            "film-f07",
+            "sbs-cast-2026",
+            "cbs-up-children-2013"
+          ]
         },
         "family": {
           "status": "not_found"
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "在伦敦东区长大。",
+            "en": "Grew up in the East End of London."
+          },
+          "sourceIds": [
+            "film-f49",
+            "film-f56"
+          ]
         },
         "events": {
           "status": "not_found"
@@ -29,10 +55,27 @@
       "filmId": "f14",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "14 岁时她在文法学校读书，Jackie 和 Sue 则上了综合中学。",
+            "en": "At 14 she was at a grammar school, while Jackie and Sue were at a comprehensive."
+          },
+          "sourceIds": [
+            "film-f14",
+            "film-f28",
+            "sbs-cast-2026"
+          ]
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "14 岁时她说想当老师。",
+            "en": "At 14 she said she wanted to be a teacher."
+          },
+          "sourceIds": [
+            "sbs-cast-2026",
+            "film-f21"
+          ]
         },
         "family": {
           "status": "not_found"
@@ -41,7 +84,16 @@
           "status": "not_found"
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "小学毕业后她选择了文法学校，Jackie 和 Sue 选了综合中学。",
+            "en": "After primary school she chose to go on to a grammar school; Jackie and Sue chose a comprehensive."
+          },
+          "sourceIds": [
+            "film-f14",
+            "film-f70",
+            "wiki-up-series"
+          ]
         },
         "outlook": {
           "status": "not_found"
@@ -56,16 +108,49 @@
           "status": "not_found"
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "在 Tower Hamlets 做学校流动图书馆管理员兼青少年办公室助理，从去年八月做起。",
+            "en": "School mobile librarian and assistant to the young people's office in Tower Hamlets, since the previous August."
+          },
+          "sourceIds": [
+            "film-f21",
+            "film-f28"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "已婚，19 岁时嫁给了 Russ。",
+            "en": "Married to Russ, whom she wed at 19."
+          },
+          "sourceIds": [
+            "film-f21",
+            "film-f35"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "仍在伦敦东区生活和工作。",
+            "en": "Still lived and worked in London's East End."
+          },
+          "sourceIds": [
+            "film-f21",
+            "sbs-cast-2026"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "19 岁嫁给 Russ，并开始做儿童图书管理员。",
+            "en": "Married Russ at 19 and began work as a children's librarian."
+          },
+          "sourceIds": [
+            "film-f35",
+            "film-f49",
+            "wiki-up-series"
+          ]
         },
         "outlook": {
           "status": "not_found"
@@ -80,16 +165,44 @@
           "status": "not_found"
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "仍在 21 岁时入职的 Tower Hamlets 流动图书馆工作。",
+            "en": "Still working in the mobile library in Tower Hamlets where she started at 21."
+          },
+          "sourceIds": [
+            "film-f28"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "19 岁结婚；丈夫在邮局工作，两人有两个女儿。",
+            "en": "Married at 19; her husband works at the Post Office and they have two daughters."
+          },
+          "sourceIds": [
+            "film-f28"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "住在肯特郡，18 个月前搬离了伦敦东区。",
+            "en": "Lived in Kent, having moved out of the East End 18 months earlier."
+          },
+          "sourceIds": [
+            "film-f28"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "拍摄前约 18 个月，一家人从伦敦东区搬到了肯特郡。",
+            "en": "The family moved out of London's East End to Kent about 18 months before filming."
+          },
+          "sourceIds": [
+            "film-f28"
+          ]
         },
         "outlook": {
           "status": "not_found"
@@ -104,19 +217,56 @@
           "status": "not_found"
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "她说自己是两所学校的校董会成员。",
+            "en": "She said she was on the governing body of two schools."
+          },
+          "sourceIds": [
+            "film-f35",
+            "film-f42"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "与在邮局工作的 Russ 结婚，有两个女儿 Sarah 和 Emma。",
+            "en": "Married to Russ, who works for the Post Office; they have two daughters, Sarah and Emma."
+          },
+          "sourceIds": [
+            "film-f35"
+          ]
         },
         "residence": {
           "status": "not_found"
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "母亲两年前去世；一年前她开始昏厥，检查发现脑部有异常血管。",
+            "en": "Her mother had died two years earlier; blackouts a year ago led to the discovery of abnormal veins in her brain."
+          },
+          "sourceIds": [
+            "film-f35",
+            "film-f42"
+          ],
+          "questionIds": [
+            "f35-024",
+            "f35-025"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "她说对脑部疾病的恐惧只持续了约一周，如今一点也不担心了。",
+            "en": "She said the fear of her brain condition lasted about a week; now it doesn't worry her at all."
+          },
+          "sourceIds": [
+            "film-f35"
+          ],
+          "questionIds": [
+            "f35-026"
+          ]
         }
       }
     },
@@ -128,19 +278,53 @@
           "status": "not_found"
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "流动图书馆关闭后，在 Bethnal Green 任区儿童图书管理员；兼任学校校董会主席。",
+            "en": "Divisional children's librarian at Bethnal Green after the mobile library closed; also Chair of Governors at a Tower Hamlets school."
+          },
+          "sourceIds": [
+            "film-f42"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "19 岁嫁给 Russ；两个女儿已十几岁，Emma 刚考完 GCSE。",
+            "en": "Married to Russ since 19; their daughters Sarah and Emma are teenagers, and Emma has just done her GCSEs."
+          },
+          "sourceIds": [
+            "film-f42"
+          ],
+          "questionIds": [
+            "f42-036"
+          ]
         },
         "residence": {
           "status": "not_found"
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "上一部影片播出后不久，她的父亲去世。",
+            "en": "Her father died just after the previous film was broadcast."
+          },
+          "sourceIds": [
+            "film-f42"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "她无法想象自己不工作：她喜欢那种兴奋和“把生活填满的冲劲”。",
+            "en": "She can't see herself not working: she likes the excitement and \"the push of filling my life\"."
+          },
+          "sourceIds": [
+            "film-f42"
+          ],
+          "questionIds": [
+            "f42-035"
+          ]
         }
       }
     },
@@ -152,19 +336,61 @@
           "status": "not_found"
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "仍在 Bethnal Green 图书馆做儿童图书管理员，但因削减开支，她说可能会失业。",
+            "en": "Still a children's librarian at Bethnal Green Library, but because of cuts she said she might not have a job."
+          },
+          "sourceIds": [
+            "film-f49"
+          ],
+          "questionIds": [
+            "f49-070"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "与 Russ 结婚 30 年，有两个女儿和一个外孙 Connor（Emma 之子）。",
+            "en": "Married to Russ for 30 years, with two daughters and a grandson, Connor, Emma's son."
+          },
+          "sourceIds": [
+            "film-f49"
+          ],
+          "questionIds": [
+            "f49-065",
+            "f49-068"
+          ]
         },
         "residence": {
           "status": "not_found"
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "女儿 Emma 19 岁时生下儿子 Connor，她当上了外婆。",
+            "en": "She became a grandmother when Emma, at 19, had a son, Connor."
+          },
+          "sourceIds": [
+            "film-f49"
+          ],
+          "questionIds": [
+            "f49-069"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "她说这份辛苦的工作“非常有成就感”；被问一切是否值得，她说“非常值得”。",
+            "en": "She called her demanding work \"so fulfilling\"; asked whether it had all been worth it, she said \"very much\"."
+          },
+          "sourceIds": [
+            "film-f49"
+          ],
+          "questionIds": [
+            "f49-071",
+            "f49-073"
+          ]
         }
       }
     },
@@ -176,19 +402,59 @@
           "status": "not_found"
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "在又一轮裁撤中失去图书馆工作，领取退休金；仍任 St Saviour's 校董会主席。",
+            "en": "Lost her library job in a later review and drew her pension; still Chair of Governors at St Saviour's."
+          },
+          "sourceIds": [
+            "film-f56",
+            "wiki-up-series"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "与 Russ 结婚 37 年，有三个外孙：Connor、Riley 和 Harry。",
+            "en": "Married to Russ for 37 years, with three grandsons: Connor, Riley and Harry."
+          },
+          "sourceIds": [
+            "film-f56"
+          ],
+          "questionIds": [
+            "f56-075",
+            "f56-076"
+          ]
         },
         "residence": {
           "status": "not_found"
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "失去图书馆工作；外孙 Riley 出生仅两磅多；Sarah 婚后生下 Harry。",
+            "en": "Lost her library job; grandson Riley was born weighing just over two pounds; daughter Sarah married and had a son, Harry."
+          },
+          "sourceIds": [
+            "film-f56"
+          ],
+          "questionIds": [
+            "f56-074"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "她说家人一直是第一位的，并对自己的人生感到满意。",
+            "en": "She said her family has always come first and that she is happy with the way her life has gone."
+          },
+          "sourceIds": [
+            "film-f56",
+            "film-f63"
+          ],
+          "questionIds": [
+            "f63-r03"
+          ]
         }
       }
     },
@@ -225,11 +491,20 @@
           }
         },
         "events": {
-          "status": "not_applicable",
-          "reason": {
-            "zh": "已去世",
-            "en": "Deceased"
-          }
+          "status": "confirmed",
+          "text": {
+            "zh": "（事后得知）2013 年她猝然离世，享年 57 岁：受伤引发器官衰竭；图书馆一角以她命名。",
+            "en": "(Learned later) She died suddenly in 2013, aged 57, after an injury led to organ failure; a library area was dedicated to her."
+          },
+          "sourceIds": [
+            "film-f63",
+            "wiki-up-series",
+            "sbs-cast-2026"
+          ],
+          "questionIds": [
+            "f63-064",
+            "f63-065"
+          ]
         },
         "outlook": {
           "status": "not_applicable",
@@ -273,11 +548,16 @@
           }
         },
         "events": {
-          "status": "not_applicable",
-          "reason": {
-            "zh": "已去世",
-            "en": "Deceased"
-          }
+          "status": "confirmed",
+          "text": {
+            "zh": "（事后得知）最后一部影片怀念了她；Jackie 称她是“一个非常特别的人”。",
+            "en": "(Learned later) The final film remembers her; Jackie calls her \"a very special person\"."
+          },
+          "sourceIds": [
+            "film-f70",
+            "wiki-up-series",
+            "saga-70up-2026"
+          ]
         },
         "outlook": {
           "status": "not_applicable",
@@ -289,5 +569,18 @@
       }
     }
   ],
-  "final": null
+  "final": {
+    "personId": "lynn",
+    "asOfFilmId": "f56",
+    "text": {
+      "en": "A children's librarian in East London for some 30 years until cuts cost her the job; married at 19, she had two daughters and three grandsons. She died suddenly in 2013, aged 57.",
+      "zh": "她在伦敦东区做了约 30 年儿童图书管理员，直到因削减开支失去工作；19 岁结婚，有两个女儿、三个外孙。她于 2013 年突然去世，享年 57 岁。"
+    },
+    "sourceIds": [
+      "film-f56",
+      "wiki-up-series",
+      "sbs-cast-2026",
+      "guardian-mangan-2026"
+    ]
+  }
 }

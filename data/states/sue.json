@@ -5,19 +5,51 @@
       "filmId": "f07",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "和 Jackie、Lynn 在伦敦东区同一所小学读书。",
+            "en": "Attends a primary school in London's East End together with Jackie and Lynn."
+          },
+          "sourceIds": [
+            "film-f21",
+            "wiki-up-series",
+            "cbs-up-children-2013"
+          ]
         },
         "work": {
           "status": "not_found"
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "她是独生女，说自己小时候很羡慕有兄弟姐妹的孩子。",
+            "en": "She is an only child, and says she was jealous of children who had brothers and sisters."
+          },
+          "sourceIds": [
+            "film-f35"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "在伦敦东区长大。",
+            "en": "Growing up in London's East End."
+          },
+          "sourceIds": [
+            "film-f56",
+            "film-f42"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "7 岁加入本系列，以 Jackie 的朋友身份与同校的 Lynn 一同出镜。",
+            "en": "Joins the series at seven, filmed as Jackie's friend alongside their schoolmate Lynn."
+          },
+          "sourceIds": [
+            "film-f07",
+            "cbs-up-children-2013"
+          ]
         },
         "outlook": {
           "status": "not_found"
@@ -29,7 +61,15 @@
       "filmId": "f14",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "14 岁时她和 Jackie 在综合中学读书，Lynn 则上了文法学校。",
+            "en": "At 14 she was at a comprehensive school, like Jackie, while Lynn was at a grammar school."
+          },
+          "sourceIds": [
+            "film-f28",
+            "sbs-cast-2026"
+          ]
         },
         "work": {
           "status": "not_found"
@@ -53,13 +93,39 @@
       "filmId": "f21",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "她从伦敦东区的小学升入综合中学，和 Jackie 一样。",
+            "en": "She went from an East End primary school to a comprehensive, as did Jackie."
+          },
+          "sourceIds": [
+            "film-f21",
+            "wiki-up-series"
+          ]
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "在一家旅行公司工作，为团体奖励旅游和会议预订海外酒店。",
+            "en": "Works for a travel company, making bookings with hotels abroad for group incentive holidays and conferences."
+          },
+          "sourceIds": [
+            "film-f21",
+            "film-f56",
+            "sbs-cast-2026"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "她仍然单身，是三个朋友中唯一还没结婚的。",
+            "en": "She is still single, the only one of the three friends not yet married."
+          },
+          "sourceIds": [
+            "film-f21",
+            "film-f70",
+            "sbs-cast-2026"
+          ]
         },
         "residence": {
           "status": "not_found"
@@ -68,7 +134,17 @@
           "status": "not_found"
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "被问是否想结婚，她说这问题很荒唐，并坚称自己没有在找丈夫。",
+            "en": "Asked if she would like to be married, she called it a ridiculous question and said she was not looking for a husband."
+          },
+          "sourceIds": [
+            "film-f70"
+          ],
+          "questionIds": [
+            "f70-r05"
+          ]
         }
       }
     },
@@ -80,19 +156,60 @@
           "status": "not_found"
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "她辞去了原来的工作，现在只做一份小小的兼职，说这对她已经足够。",
+            "en": "Having given up her job, she now does a little part-time job, which she says is enough for her."
+          },
+          "sourceIds": [
+            "film-f28",
+            "film-f42",
+            "cbs-up-children-2013"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "与煤气装修工 Billy 结婚四年，有一个两岁的儿子。",
+            "en": "Married to Billy, a gas fitter, for four years, with a two-year-old son."
+          },
+          "sourceIds": [
+            "film-f28"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "和丈夫住在伦敦东区的一套市政公房里。",
+            "en": "Lives with her husband in a council house in London's East End."
+          },
+          "sourceIds": [
+            "film-f28"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "24 岁时她嫁给了 Billy，并生下一个儿子。",
+            "en": "She married Billy at 24 and had a son."
+          },
+          "sourceIds": [
+            "film-f28",
+            "film-f35"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "她觉得三人从七岁起就没变：她一直爱说话，Lynn 一直比较安静。",
+            "en": "She feels the three friends have not changed since seven: she was always chatty, Lynn always the quieter one."
+          },
+          "sourceIds": [
+            "film-f28"
+          ],
+          "questionIds": [
+            "f28-094"
+          ]
         }
       }
     },
@@ -104,19 +221,60 @@
           "status": "not_found"
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "在一家住房互助协会做兼职；此前曾靠社会救济生活，她非常讨厌那段日子。",
+            "en": "Works part-time for a building society, after a period living on social security, which she hated."
+          },
+          "sourceIds": [
+            "film-f35",
+            "film-f56"
+          ],
+          "questionIds": [
+            "f35-022"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "她已与 Billy 离婚，独自抚养两人的一儿一女。",
+            "en": "Divorced from Billy, she is bringing up their son and daughter on her own."
+          },
+          "sourceIds": [
+            "film-f35",
+            "film-f70"
+          ],
+          "questionIds": [
+            "f35-021"
+          ]
         },
         "residence": {
           "status": "not_found"
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "上一部拍完后不久女儿出生；随后婚姻破裂，35 岁时她已离婚。",
+            "en": "Her daughter was born just after the last film; the marriage then broke down, and by 35 she was divorced."
+          },
+          "sourceIds": [
+            "film-f35",
+            "film-f70"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "她说谈不上好日子：有两个可爱的孩子，却又站在十字路口，独自重新开始，只能去适应。",
+            "en": "Not particularly good times, she says: two lovely children, but another crossroads, on her own and starting again, simply adapting."
+          },
+          "sourceIds": [
+            "film-f35"
+          ],
+          "questionIds": [
+            "f35-027",
+            "f35-028"
+          ]
         }
       }
     },
@@ -128,19 +286,58 @@
           "status": "not_found"
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "重新全职工作，在伦敦大学 Queen Mary 学院法学院协助管理课程。",
+            "en": "Back at work full-time, helping to run courses in the law faculty of Queen Mary College, University of London."
+          },
+          "sourceIds": [
+            "film-f42",
+            "film-f56"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "离婚后独自带大两个孩子；她有了新伴侣 Glenn，但她说“还早着呢”。",
+            "en": "A single mother of two since her divorce, she has a new partner, Glenn, though it is 'early days yet'."
+          },
+          "sourceIds": [
+            "film-f42",
+            "film-f49",
+            "sbs-cast-2026"
+          ],
+          "questionIds": [
+            "f42-044"
+          ]
         },
         "residence": {
           "status": "not_found"
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "上一部之后，她重新开始全职工作，并与 Glenn 开始交往。",
+            "en": "Since the last film she has gone back to full-time work and begun a relationship with Glenn."
+          },
+          "sourceIds": [
+            "film-f42",
+            "film-f56",
+            "film-f49"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "她说孩子们的成长很多要归功于她的父母，他们“真的太好了”。",
+            "en": "She says her children owe a lot to her mum and dad, who have been 'absolutely brilliant'."
+          },
+          "sourceIds": [
+            "film-f42"
+          ],
+          "questionIds": [
+            "f42-044"
+          ]
         }
       }
     },
@@ -152,19 +349,73 @@
           "status": "not_found"
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "现为伦敦大学法学院硕士项目的主要行政负责人，她很喜欢承担责任。",
+            "en": "Now the main administrator of the MA programme in the University of London's law faculty; she loves the responsibility."
+          },
+          "sourceIds": [
+            "film-f49",
+            "film-f56"
+          ],
+          "questionIds": [
+            "f49-020"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "与 Glenn 订婚；两人和她的两个孩子住在他们一起买下的房子里。",
+            "en": "Engaged to Glenn; they live with her two children in the house the couple bought together."
+          },
+          "sourceIds": [
+            "film-f49"
+          ],
+          "questionIds": [
+            "f49-013",
+            "f49-014"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "她已离开伦敦东区，搬进四个月前和 Glenn 一起买下的房子。",
+            "en": "She has left the East End for a house she and Glenn bought together four months earlier."
+          },
+          "sourceIds": [
+            "film-f49"
+          ],
+          "questionIds": [
+            "f49-017",
+            "f49-018"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "她与 Glenn 订婚，两人合买了房子，她也搬离了伦敦东区。",
+            "en": "She got engaged to Glenn, bought a house with him and moved out of the East End."
+          },
+          "sourceIds": [
+            "film-f49"
+          ],
+          "questionIds": [
+            "f49-018"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "她觉得自己“天生就是担责任的料”，也承认感觉自己上了一个阶层。",
+            "en": "She feels she was 'born for the responsibility', and supposes she has moved up a class."
+          },
+          "sourceIds": [
+            "film-f49"
+          ],
+          "questionIds": [
+            "f49-019",
+            "f49-020"
+          ]
         }
       }
     },
@@ -173,22 +424,73 @@
       "filmId": "f56",
       "dims": {
         "education": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "她从没上过大学，如今却在大学里工作。",
+            "en": "She never went to university, though she now works at one."
+          },
+          "sourceIds": [
+            "film-f56",
+            "wiki-up-series",
+            "p-sue-pov-56up"
+          ]
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "统筹 Queen Mary 法学院的整个研究生项目，她说自己真心喜欢这份工作。",
+            "en": "Coordinates the whole postgraduate programme at Queen Mary's law school, a job she says she really enjoys."
+          },
+          "sourceIds": [
+            "film-f56",
+            "p-sue-pov-56up",
+            "p-sue-artsdesk-2012"
+          ],
+          "questionIds": [
+            "f56-010"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "与 Glenn 订婚约 14 年；女儿仍和她同住，儿子在外租房。",
+            "en": "Engaged to Glenn for about 14 years; her daughter still lives with her, while her son rents."
+          },
+          "sourceIds": [
+            "film-f56",
+            "p-sue-artsdesk-2012"
+          ],
+          "questionIds": [
+            "f56-009"
+          ]
         },
         "residence": {
           "status": "not_found"
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "上一部之后，邻居带她加入业余戏剧团，如今她登台演戏唱歌。",
+            "en": "After the last film a neighbour drew her into an amateur drama group, and she now acts and sings on stage."
+          },
+          "sourceIds": [
+            "film-f56",
+            "wiki-up-series",
+            "p-sue-artsdesk-2012"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "她觉得没必要后悔：事业不错，还将拥有自己的房子，这在她家是头一回。",
+            "en": "She sees no point in regrets: she has had a good career and will own her home, a first for her family."
+          },
+          "sourceIds": [
+            "film-f56"
+          ],
+          "questionIds": [
+            "f56-011"
+          ]
         }
       }
     },
@@ -200,19 +502,61 @@
           "status": "not_found"
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "在 Queen Mary 已工作 20 年，现每周在家办公一天；她无法想象不工作。",
+            "en": "Still at Queen Mary after 20 years, now working from home one day a week; she can't imagine not working."
+          },
+          "sourceIds": [
+            "film-f63",
+            "wiki-up-series"
+          ],
+          "questionIds": [
+            "f63-020",
+            "f63-021"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "与 Glenn 在一起二十多年，仍只是订婚；两个孩子都买了公寓，都还单身。",
+            "en": "Together with Glenn for over 20 years and still engaged; both her children own flats and are single."
+          },
+          "sourceIds": [
+            "film-f63",
+            "wiki-up-series"
+          ],
+          "questionIds": [
+            "f63-019",
+            "f63-022"
+          ]
         },
         "residence": {
           "status": "not_found"
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "她提到经历了一些“医疗方面的可怕事”，Glenn 是她的依靠；母亲目前住院。",
+            "en": "She mentions 'medical stuff and scary stuff', with Glenn as her rock; her mother is currently in hospital."
+          },
+          "sourceIds": [
+            "film-f63"
+          ]
         },
         "outlook": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "她说自己永远是工人阶级，并称参与这部系列片是一生的成就。",
+            "en": "She says she will always be working class, and calls being part of the series a lifelong achievement."
+          },
+          "sourceIds": [
+            "film-f63"
+          ],
+          "questionIds": [
+            "f63-023",
+            "f63-025"
+          ]
         }
       }
     },
@@ -224,16 +568,49 @@
           "status": "not_found"
         },
         "work": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "在 Queen Mary 大学工作 25 年后不久前退休，她觉得退休生活很难适应。",
+            "en": "Recently retired after 25 years at Queen Mary University of London, she is finding retirement hard."
+          },
+          "sourceIds": [
+            "film-f70",
+            "saga-70up-2026",
+            "wiki-up-series"
+          ]
         },
         "family": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "2020 年底，她与相伴二十多年的 Glenn 结婚；两个孩子都已成年。",
+            "en": "She married Glenn, her partner of more than 20 years, at the end of 2020; her two children are grown up."
+          },
+          "sourceIds": [
+            "saga-70up-2026",
+            "film-f70",
+            "p-sue-tvguide-married-2026"
+          ]
         },
         "residence": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "住在罗姆福德（Romford）附近的 Gidea Park。",
+            "en": "She lives in Gidea Park, near Romford."
+          },
+          "sourceIds": [
+            "saga-70up-2026"
+          ]
         },
         "events": {
-          "status": "not_found"
+          "status": "confirmed",
+          "text": {
+            "zh": "2020 年底她与 Glenn 结婚；婚礼后父亲去世，两年后的节礼日母亲也离世。",
+            "en": "She married Glenn in late 2020; her father died after the wedding, and her mother two years later, on Boxing Day."
+          },
+          "sourceIds": [
+            "film-f70",
+            "saga-70up-2026"
+          ]
         },
         "outlook": {
           "status": "not_found"
@@ -241,5 +618,17 @@
       }
     }
   ],
-  "final": null
+  "final": {
+    "personId": "sue",
+    "asOfFilmId": "f70",
+    "text": {
+      "zh": "她在伦敦从事大学行政工作 25 年后退休，2020 年终于与相伴二十多年的伴侣结婚，现居罗姆福德附近；她的父母都已去世。",
+      "en": "Retired after 25 years in university administration in London, she finally married her partner of more than 20 years in 2020 and lives near Romford; both her parents have died."
+    },
+    "sourceIds": [
+      "film-f70",
+      "saga-70up-2026",
+      "wiki-up-series"
+    ]
+  }
 }
