@@ -22,7 +22,13 @@ npm run dev         # local dev server
 
 ## 页面 · Pages
 
-缘起（拍摄目的、导演原话、十部片时间条、问题主题）· 总览（14 条生命线，按 1964 年的出身上色；上方三行筛选——年龄、人物、主题（六个维度），图上的年龄、点和名字也能直接点：选年龄看所有人那时的状态，选人物看他们每个年龄的状态，两样都选只看这几个人在那个年龄）· 人物（按出身分组的 14 人索引；个人页有每个年龄六个维度 + 问答 + 出处 + 最终状态，顶部可以直接切换人物）· 猜一猜 · 问题库（筛选、中英搜索、同类问题）。旧的 `#/compare` 链接会打开总览的对比模式。
+缘起（拍摄目的、导演原话、十部片时间条、问题主题）· 总览（14 条生命线，按 1964 年的出身上色；上方三行筛选——年龄、人物、主题（六个维度），图上的年龄、点和名字也能直接点：选年龄看所有人那时的状态，选人物看他们每个年龄的状态，两样都选只看这几个人在那个年龄）· 人物（按出身分组的 14 人索引；个人页有每个年龄六个维度 + 问答 + 出处 + 最终状态，顶部可以直接切换人物）· 猜一猜 · 问题库（筛选、中英搜索、同类问题）· 数据（参与修改的方法、待补充的格子、下载）。旧的 `#/compare` 链接会打开总览的对比模式。
+
+## 参与修改 · Contributing
+
+发现错误或知道“未查到”的内容，在网站上点那条记录旁边的 ✎ 即可：面板显示这条记录的原始数据，填好表单后提交到 GitHub；审核者核对出处、加上 `accepted` 标签后，机器人开 PR，合并后网站自动更新。数据页（`#/data`）列出全部待补充的格子，并提供 CSV / JSON 下载。详见 [CONTRIBUTING.md](CONTRIBUTING.md)，数据结构见 [data/README.md](data/README.md)。
+
+Spot an error, or know a “Not found” cell? Click ✎ next to the record on the site: the panel shows the record’s raw data, and the filled-in form submits to GitHub. A reviewer checks the sources and adds `accepted`, a bot opens the pull request, and the site updates when it is merged. The Data page (`#/data`) lists every gap and offers CSV/JSON downloads. See [CONTRIBUTING.md](CONTRIBUTING.md) and [data/README.md](data/README.md).
 
 ## 数据和出处 · Data and sources
 
