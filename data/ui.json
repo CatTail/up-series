@@ -84,16 +84,12 @@
     "en": "Fourteen lives, from 7 to 70"
   },
   "overview.lede": {
-    "zh": "每条线是一个人，按 1964 年的出身分组上色。点上方的年龄或线上的点，在图上展开那个年龄每个人的状态。",
-    "en": "Each line is a person, coloured by their 1964 starting point. Click an age or any dot to read everyone’s state at that age."
+    "zh": "选一个年龄，看每个人那时的状态；选几个人，看他们每个年龄的状态；两样都选，只看这几个人在那个年龄。图上的年龄、点和名字也能直接点。",
+    "en": "Pick an age to see everyone then, pick people to see them at every age, or pick both for just them at that age. The chart is clickable too."
   },
   "overview.ageLabel": {
     "zh": "{age} 岁 · {year} · {title}",
     "en": "Age {age} · {year} · {title}"
-  },
-  "overview.groupHint": {
-    "zh": "点分组可以高亮",
-    "en": "Click a group to highlight it"
   },
   "overview.lifelineAria": {
     "zh": "14 位人物在十部影片中的出镜生命线",
@@ -415,17 +411,29 @@
     "zh": "）",
     "en": ")"
   },
+  "overview.age": {
+    "zh": "年龄",
+    "en": "Age"
+  },
+  "overview.people": {
+    "zh": "人物",
+    "en": "People"
+  },
   "overview.theme": {
     "zh": "主题",
     "en": "Theme"
   },
-  "overview.themeAll": {
+  "overview.all": {
     "zh": "全部",
     "en": "All"
   },
   "overview.origin": {
-    "zh": "出身",
-    "en": "Origin"
+    "zh": "出身（1964）",
+    "en": "Starting point (1964)"
+  },
+  "overview.markers": {
+    "zh": "出镜情况",
+    "en": "In each film"
   },
   "overview.openAge": {
     "zh": "展开 {age} 岁",
@@ -434,22 +442,6 @@
   "overview.closeAge": {
     "zh": "收起",
     "en": "Close"
-  },
-  "overview.unpin": {
-    "zh": "移除 {name}",
-    "en": "Remove {name}"
-  },
-  "overview.pinned": {
-    "zh": "对比",
-    "en": "Comparing"
-  },
-  "overview.clearPins": {
-    "zh": "清除",
-    "en": "Clear"
-  },
-  "overview.compareHint": {
-    "zh": "点名字可以把几个人放在一起看；不展开年龄时，显示他们每个年龄的状态。",
-    "en": "Click names to line people up; with no age open, they show their state at every age."
   },
   "overview.openPerson": {
     "zh": "{name} 的个人页",
@@ -476,7 +468,7 @@
     "en": "Choose a person"
   },
   "overview.pinHint": {
-    "zh": "点击加入或移出对比",
-    "en": "Click to add to or remove from the comparison"
+    "zh": "点击选中或取消",
+    "en": "Click to select or deselect"
   }
 }

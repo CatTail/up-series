@@ -1,7 +1,7 @@
 <script lang="ts">
   import { flip } from 'svelte/animate'
   import type { DataIndex } from '../lib/data/index.ts'
-  import type { DimKey, GroupId, PersonId } from '../lib/data/types.ts'
+  import type { DimKey, PersonId } from '../lib/data/types.ts'
   import { pick, t } from '../lib/i18n.svelte.ts'
   import { toHash } from '../lib/route.ts'
   import { nodeState, statusMarks } from '../lib/states.ts'
@@ -15,7 +15,6 @@
     open = null,
     dim,
     picked = [],
-    highlight = null,
     onopen,
     onpin,
   }: {
@@ -24,7 +23,6 @@
     open?: number | null
     dim?: DimKey
     picked?: PersonId[]
-    highlight?: GroupId | null
     onopen: (i: number | null) => void
     onpin: (id: PersonId) => void
   } = $props()
@@ -45,8 +43,11 @@
       }),
     ]
   })
-  /** A cell holds a card in the open column, or — with no age open — anywhere on a selected row. */
-  const hasCard = (pid: PersonId, i: number) => (open !== null ? i === open : pinned.has(pid))
+  /**
+   * A card sits where a selected person meets the selected age; an empty side means "all".
+   * Nothing selected at all leaves just the lines.
+   */
+  const hasCard = (pid: PersonId, i: number) => (picked.length === 0 || pinned.has(pid)) && (open === null ? picked.length > 0 : i === open)
 
   let expanded = $state<string | null>(null)
   let tip = $state<{ pid: PersonId; i: number; x: number; below: boolean } | null>(null)
@@ -115,7 +116,7 @@
         class="row"
         class:pinned={r.pinned}
         class:gap={r.gap}
-        class:dimmed={highlight !== null && highlight !== p.group}
+        class:rest={picked.length > 0 && !r.pinned}
         data-person={p.id}
         data-group={p.group}
         style:--c={`var(${idx.group(p.group).colorVar})`}
@@ -200,7 +201,10 @@
   .row { position: relative; min-height: 24px; transition: opacity 0.15s; }
   .row.gap { margin-top: 8px; }
   .row.pinned + .row:not(.pinned) { margin-top: 12px; }
-  .row.dimmed { opacity: 0.25; }
+  /* People outside the selection are context: fainter and a little shorter, still clickable. */
+  .row.rest { opacity: 0.45; }
+  .row.rest, .row.rest .track { min-height: 20px; }
+  .row.rest:hover, .row.rest:focus-within { opacity: 1; }
   .name { position: relative; display: flex; align-items: center; gap: 5px; padding-left: 6px; font-size: 13px; min-width: 0; }
   .who {
     all: unset; box-sizing: border-box; max-width: 100%; padding: 0 8px; border: 1px solid transparent; border-radius: 999px;

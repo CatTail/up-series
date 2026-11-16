@@ -1,7 +1,7 @@
 <script lang="ts">
   import LifeChart from '../components/LifeChart.svelte'
   import type { DataIndex } from '../lib/data/index.ts'
-  import type { DimKey, GroupId, PersonId } from '../lib/data/types.ts'
+  import type { DimKey, PersonId } from '../lib/data/types.ts'
   import { DIM_KEYS } from '../lib/data/types.ts'
   import { pick, t } from '../lib/i18n.svelte.ts'
   import { navigate } from '../lib/router.svelte.ts'
@@ -18,7 +18,10 @@
     theme = dim
     picked = people ? [...people] : []
   })
-  let highlight = $state<GroupId | null>(null)
+  /** People filter pills, in origin groups. */
+  const byGroup = $derived(
+    idx.groups.map((g) => ({ g, people: idx.peopleOrdered.filter((p) => p.group === g.id) })).filter((x) => x.people.length > 0),
+  )
 
   function sync() {
     navigate(
@@ -34,13 +37,8 @@
     theme = d
     sync()
   }
-  /** Selecting someone closes the open age, so their rows fill with every age straight away. */
   function togglePin(id: PersonId) {
-    if (picked.includes(id)) picked = picked.filter((x) => x !== id)
-    else {
-      picked = [...picked, id]
-      open = null
-    }
+    picked = picked.includes(id) ? picked.filter((x) => x !== id) : [...picked, id]
     sync()
   }
   function clearPins() {
@@ -52,59 +50,79 @@
 <section>
   <h1>{t('overview.title')}</h1>
   <p class="lede">{t('overview.lede')}</p>
-  <div class="controls">
-    <div class="ctl" role="group" aria-label={t('overview.theme')}>
-      <span class="lbl">{t('overview.theme')}</span>
-      <button type="button" aria-pressed={!theme} onclick={() => setTheme(undefined)}>{t('overview.themeAll')}</button>
-      {#each DIM_KEYS as d (d)}
-        <button type="button" aria-pressed={theme === d} onclick={() => setTheme(theme === d ? undefined : d)}>{t(`dim.${d}`)}</button>
-      {/each}
-    </div>
-    <div class="ctl" role="group" aria-label={t('overview.origin')}>
-      <span class="lbl">{t('overview.origin')}</span>
-      {#each idx.groups as g (g.id)}
-        <button type="button" title={t('overview.groupHint')} aria-pressed={highlight === g.id} onclick={() => (highlight = highlight === g.id ? null : g.id)}>
-          <i style:background={`var(${g.colorVar})`}></i>{pick(g.name)}
-        </button>
-      {/each}
-    </div>
-    {#if picked.length}
-      <div class="ctl" role="group" aria-label={t('overview.pinned')}>
-        <span class="lbl">{t('overview.pinned')}</span>
-        {#each picked as id (id)}
-          <button type="button" class="pin" aria-label={t('overview.unpin', { name: idx.person(id).name })} onclick={() => togglePin(id)}>
-            <i style:background={`var(${idx.group(idx.person(id).group).colorVar})`}></i>{idx.person(id).name}<span class="x" aria-hidden="true">✕</span>
-          </button>
+  <div class="filters">
+    <div class="ctl" role="group" aria-labelledby="flt-age">
+      <span class="lbl" id="flt-age">{t('overview.age')}</span>
+      <div class="pills">
+        <button type="button" aria-pressed={open === null} onclick={() => setOpen(null)}>{t('overview.all')}</button>
+        {#each idx.films as f, i (f.id)}
+          <button type="button" aria-pressed={open === i} onclick={() => setOpen(open === i ? null : i)}>{t('age.short', { age: f.age })}</button>
         {/each}
-        <button type="button" onclick={clearPins}>{t('overview.clearPins')}</button>
       </div>
-    {/if}
+    </div>
+    <div class="ctl" role="group" aria-labelledby="flt-people">
+      <span class="lbl" id="flt-people">{t('overview.people')}</span>
+      <div class="pills">
+        <button type="button" aria-pressed={picked.length === 0} onclick={clearPins}>{t('overview.all')}</button>
+        {#each byGroup as { g, people: members } (g.id)}
+          <span class="pgroup">
+            {#each members as p (p.id)}
+              <button type="button" aria-pressed={picked.includes(p.id)} onclick={() => togglePin(p.id)}>
+                <i style:background={`var(${g.colorVar})`} aria-hidden="true"></i>{p.name}
+              </button>
+            {/each}
+          </span>
+        {/each}
+      </div>
+    </div>
+    <div class="ctl" role="group" aria-labelledby="flt-theme">
+      <span class="lbl" id="flt-theme">{t('overview.theme')}</span>
+      <div class="pills">
+        <button type="button" aria-pressed={!theme} onclick={() => setTheme(undefined)}>{t('overview.all')}</button>
+        {#each DIM_KEYS as d (d)}
+          <button type="button" aria-pressed={theme === d} onclick={() => setTheme(theme === d ? undefined : d)}>{t(`dim.${d}`)}</button>
+        {/each}
+      </div>
+    </div>
   </div>
-  <LifeChart {idx} {open} dim={theme} {picked} {highlight} onopen={setOpen} onpin={togglePin} />
-  <div class="keys">
-    <span><i class="k-present" aria-hidden="true"></i>{t('legend.present')}</span>
-    <span><i class="k-absent" aria-hidden="true"></i>{t('legend.absent')}</span>
-    <span><i class="k-special" aria-hidden="true"></i>{t('legend.special')}</span>
-    <span><span aria-hidden="true">†&nbsp;</span>{t('legend.death')}</span>
-    <span class="hint">{t('overview.compareHint')}</span>
+  <LifeChart {idx} {open} dim={theme} {picked} onopen={setOpen} onpin={togglePin} />
+  <div class="legend">
+    <span class="lbl">{t('overview.origin')}</span>
+    <div class="keys">
+      {#each idx.groups as g (g.id)}
+        <span><i style:background={`var(${g.colorVar})`} aria-hidden="true"></i>{pick(g.name)}</span>
+      {/each}
+    </div>
+    <span class="lbl">{t('overview.markers')}</span>
+    <div class="keys">
+      <span><i class="k-present" aria-hidden="true"></i>{t('legend.present')}</span>
+      <span><i class="k-absent" aria-hidden="true"></i>{t('legend.absent')}</span>
+      <span><i class="k-special" aria-hidden="true"></i>{t('legend.special')}</span>
+      <span><span aria-hidden="true">†&nbsp;</span>{t('legend.death')}</span>
+    </div>
   </div>
 </section>
 
 <style>
   h1 { font-size: 22px; margin: 0; }
   .lede { color: var(--ink2); margin: 0 0 6px; font-size: 14px; }
-  .controls { display: flex; flex-wrap: wrap; gap: 4px 18px; margin: 0 0 4px; }
-  .ctl { display: flex; flex-wrap: wrap; align-items: center; gap: 4px; font-size: 12px; color: var(--ink2); }
-  .lbl { color: var(--muted); margin-right: 2px; }
-  .ctl button { font: inherit; color: var(--ink2); background: none; border: 1px solid transparent; border-radius: 999px; padding: 1px 8px; cursor: pointer; }
-  .ctl button:hover { border-color: var(--axis); }
-  .ctl button[aria-pressed='true'] { border-color: var(--ink); color: var(--ink); }
-  .ctl button.pin { border-color: var(--axis); color: var(--ink); }
-  .x { margin-left: 4px; color: var(--muted); font-size: 10px; }
-  .ctl i, .keys i { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 6px; vertical-align: -1px; }
-  .keys { display: flex; flex-wrap: wrap; gap: 4px 14px; align-items: center; font-size: 11px; color: var(--ink2); margin: 6px 0 0; }
+  /* Filters and legend share one layout: a label column, then the pills or keys. */
+  .filters, .legend { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 3px 10px; align-items: baseline; }
+  .filters { margin: 0 0 4px; font-size: 12px; }
+  .ctl { display: grid; grid-column: 1 / -1; grid-template-columns: subgrid; align-items: baseline; }
+  .lbl { color: var(--muted); }
+  .pills { display: flex; flex-wrap: wrap; align-items: center; gap: 2px 3px; }
+  .pgroup { display: contents; }
+  .pgroup > button:first-child { margin-left: 7px; }
+  .pills button { font: inherit; color: var(--ink2); background: none; border: 1px solid transparent; border-radius: 999px; padding: 1px 7px; cursor: pointer; white-space: nowrap; }
+  .pills button:hover { border-color: var(--axis); }
+  .pills button:focus-visible { outline: 2px solid var(--ink); outline-offset: 1px; }
+  .pills button[aria-pressed='true'] { border-color: var(--ink); color: var(--ink); }
+  .pills i, .keys i { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 4px; vertical-align: 0; }
+  .legend { margin: 6px 0 0; font-size: 11px; }
+  .keys { display: flex; flex-wrap: wrap; gap: 2px 14px; align-items: center; color: var(--ink2); }
+  .keys i { width: 10px; height: 10px; margin-right: 6px; vertical-align: -1px; }
   .keys .k-present { background: var(--ink2); }
   .keys .k-absent { background: var(--surface); border: 1.5px solid var(--muted); }
   .keys .k-special { background: var(--surface); border: 1.5px solid var(--ink2); border-radius: 1px; transform: rotate(45deg) scale(0.85); }
-  .hint { color: var(--muted); }
 </style>

@@ -1,4 +1,4 @@
-import { cleanup, fireEvent, render, screen } from '@testing-library/svelte'
+import { cleanup, fireEvent, render, screen, within } from '@testing-library/svelte'
 import userEvent from '@testing-library/user-event'
 import { afterEach, beforeEach, describe, expect, it } from 'vitest'
 import { buildIndex } from '../../src/lib/data/index.ts'
@@ -13,19 +13,39 @@ beforeEach(() => {
 })
 afterEach(() => cleanup())
 
-const ageBtn = (age: number) => document.querySelector(`button[data-age="${age}"]`) as HTMLButtonElement
+const ageBtn = (age: number) => document.querySelector(`.axis button[data-age="${age}"]`) as HTMLButtonElement
+const chart = () => document.querySelector('.chart') as HTMLElement
+const chartName = (name: string) => within(chart()).getByRole('button', { name })
+const filter = (label: string) => screen.getByRole('group', { name: label })
+const allIn = (label: string) => within(filter(label)).getByRole('button', { name: t('overview.all') })
+const agePill = (age: number) => within(filter(t('overview.age'))).getByRole('button', { name: t('age.short', { age }) })
+const personPill = (name: string) => within(filter(t('overview.people'))).getByRole('button', { name })
+const cardIds = () => cards().map((c) => c.dataset.card!).sort()
 const card = (pid: string, fid: string) => document.querySelector(`[data-card="${pid}/${fid}"]`) as HTMLElement | null
 const cards = () => Array.from(document.querySelectorAll('[data-card]')) as HTMLElement[]
 const rowIds = () => Array.from(document.querySelectorAll('.row[data-person]')).map((r) => (r as HTMLElement).dataset.person)
 const tick = () => new Promise((r) => setTimeout(r))
 
 describe('Overview', () => {
-  it('starts with no age open: no cards, no slider, no table', () => {
+  it('starts with nothing selected: no cards, every filter on 全部, no slider, no table', () => {
     render(Overview, { idx })
     expect(cards()).toHaveLength(0)
     expect(screen.queryByRole('slider')).toBeNull()
     expect(screen.queryByRole('table')).toBeNull()
     expect(rowIds()).toEqual(idx.peopleOrdered.map((p) => p.id))
+    for (const g of [t('overview.age'), t('overview.people'), t('overview.theme')]) expect(allIn(g)).toHaveAttribute('aria-pressed', 'true')
+  })
+
+  it('the lede explains how age and people combine; origin is a static legend under the chart', () => {
+    render(Overview, { idx })
+    expect(document.querySelector('.lede')).toHaveTextContent(t('overview.lede'))
+    expect(screen.queryByRole('group', { name: t('overview.origin') })).toBeNull()
+    const legend = document.querySelector('.legend') as HTMLElement
+    expect(chart().compareDocumentPosition(legend) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy()
+    expect(legend).toHaveTextContent(t('overview.origin'))
+    for (const g of idx.groups) expect(legend).toHaveTextContent(g.name.zh)
+    expect(legend).toHaveTextContent(t('legend.absent'))
+    expect(legend.querySelector('button')).toBeNull()
   })
 
   it('clicking an age label opens that column for everyone; clicking it again closes it', async () => {
@@ -88,26 +108,75 @@ describe('Overview', () => {
     expect(card('andrew', 'f35')).not.toHaveTextContent('律师')
   })
 
-  it('selecting people by name moves them to the top and, with no age open, fills every age for them', async () => {
-    render(Overview, { idx, age: 35 })
-    expect(screen.getByRole('button', { name: 'Nick' })).toHaveAttribute('aria-pressed', 'false')
-    await userEvent.click(screen.getByRole('button', { name: 'Nick' }))
-    await userEvent.click(screen.getByRole('button', { name: 'Charles' }))
-    expect(screen.getByRole('button', { name: 'Nick' })).toHaveAttribute('aria-pressed', 'true')
+  it('the age filter and the age labels on the chart share one state', async () => {
+    render(Overview, { idx })
+    await userEvent.click(agePill(35))
+    expect(location.hash).toBe('#/overview?age=35')
+    expect(ageBtn(35)).toHaveAttribute('aria-pressed', 'true')
+    expect(agePill(35)).toHaveAttribute('aria-pressed', 'true')
+    expect(allIn(t('overview.age'))).toHaveAttribute('aria-pressed', 'false')
+    expect(cards()).toHaveLength(idx.peopleOrdered.length)
+    await userEvent.click(ageBtn(42))
+    expect(agePill(42)).toHaveAttribute('aria-pressed', 'true')
+    expect(agePill(35)).toHaveAttribute('aria-pressed', 'false')
+    await userEvent.click(agePill(42))
+    expect(location.hash).toBe('#/overview')
+    await userEvent.click(agePill(7))
+    await userEvent.click(allIn(t('overview.age')))
+    expect(location.hash).toBe('#/overview')
+    expect(cards()).toHaveLength(0)
+  })
+
+  it('the people filter and the names on the chart share one state', async () => {
+    render(Overview, { idx })
+    const pills = within(filter(t('overview.people'))).getAllByRole('button').map((b) => b.textContent!.trim())
+    expect(pills).toEqual([t('overview.all'), ...idx.peopleOrdered.map((p) => p.name)])
+    await userEvent.click(personPill('Nick'))
+    expect(location.hash).toBe('#/overview?people=nick')
+    expect(chartName('Nick')).toHaveAttribute('aria-pressed', 'true')
+    await userEvent.click(chartName('Charles'))
+    expect(personPill('Charles')).toHaveAttribute('aria-pressed', 'true')
     expect(location.hash).toBe('#/overview?people=nick,charles')
+    await userEvent.click(allIn(t('overview.people')))
+    expect(location.hash).toBe('#/overview')
+    expect(chartName('Nick')).toHaveAttribute('aria-pressed', 'false')
+    expect(allIn(t('overview.people'))).toHaveAttribute('aria-pressed', 'true')
+  })
+
+  it('selected people with no age open move to the top and fill every age', async () => {
+    render(Overview, { idx })
+    await userEvent.click(chartName('Nick'))
+    await userEvent.click(chartName('Charles'))
     expect(rowIds().slice(0, 2)).toEqual(['nick', 'charles'])
     expect(rowIds()).toHaveLength(idx.peopleOrdered.length)
     expect(cards().map((c) => c.dataset.card!.split('/')[0]).sort()).toEqual([...Array(10).fill('charles'), ...Array(10).fill('nick')])
     expect(card('charles', 'f35')).toHaveTextContent(t('status.absent'))
     expect(card('nick', 'f70')).toHaveTextContent(t('mark.archival_interview'))
-    // opening an age again shows that column for everyone, ticked rows stay on top
+  })
+
+  it('an age and people together show only them at that age; selecting a name keeps the age open', async () => {
+    render(Overview, { idx, age: 35 })
+    expect(cards()).toHaveLength(idx.peopleOrdered.length)
+    await userEvent.click(chartName('Nick'))
+    expect(location.hash).toBe('#/overview?age=35&people=nick')
+    expect(ageBtn(35)).toHaveAttribute('aria-pressed', 'true')
+    expect(cardIds()).toEqual(['nick/f35'])
+    await userEvent.click(personPill('Charles'))
+    expect(cardIds()).toEqual(['charles/f35', 'nick/f35'])
+    expect(rowIds().slice(0, 2)).toEqual(['nick', 'charles'])
     await userEvent.click(ageBtn(70))
     expect(location.hash).toBe('#/overview?age=70&people=nick,charles')
-    expect(cards()).toHaveLength(idx.peopleOrdered.length)
-    expect(rowIds().slice(0, 2)).toEqual(['nick', 'charles'])
-    await userEvent.click(screen.getByRole('button', { name: t('overview.clearPins') }))
-    expect(location.hash).toBe('#/overview?age=70')
-    expect(rowIds()).toEqual(idx.peopleOrdered.map((p) => p.id))
+    expect(cardIds()).toEqual(['charles/f70', 'nick/f70'])
+    await userEvent.click(allIn(t('overview.age')))
+    expect(cards()).toHaveLength(20)
+  })
+
+  it('rows not selected fade while a selection exists', async () => {
+    render(Overview, { idx, people: ['lynn'] })
+    const rows = () => Array.from(document.querySelectorAll('.row[data-person]')) as HTMLElement[]
+    for (const r of rows()) expect(r.classList.contains('rest')).toBe(r.dataset.person !== 'lynn')
+    await userEvent.click(chartName('Lynn'))
+    for (const r of rows()) expect(r.classList.contains('rest')).toBe(false)
   })
 
   it('the old compare link lands in compare mode', () => {
@@ -136,15 +205,6 @@ describe('Overview', () => {
     ds.people.find((p) => p.id === 'charles')!.participationNotes!.f35 = { zh: '本人拒绝参加', en: 'Declined' }
     render(Overview, { idx: buildIndex(ds), age: 35 })
     expect(card('charles', 'f35')).toHaveTextContent('本人拒绝参加')
-  })
-
-  it('clicking a group legend dims the other groups', async () => {
-    render(Overview, { idx })
-    await userEvent.click(screen.getByRole('button', { name: /伦敦东区/ }))
-    const rows = Array.from(document.querySelectorAll('.row[data-person]')) as HTMLElement[]
-    for (const r of rows) expect(r.classList.contains('dimmed')).toBe(r.dataset.group !== 'east')
-    await userEvent.click(screen.getByRole('button', { name: /伦敦东区/ }))
-    for (const r of rows) expect(r.classList.contains('dimmed')).toBe(false)
   })
 
   it('hovering a node shows name, age, film, participation and the state text', async () => {
@@ -191,12 +251,12 @@ describe('Overview', () => {
     render(Overview, { idx })
     expect(document.querySelector('.row .name a')).toBeNull()
     expect(document.querySelector('.row input[type="checkbox"]')).toBeNull()
-    await userEvent.click(screen.getByRole('button', { name: 'Lynn' }))
+    await userEvent.click(chartName('Lynn'))
     expect(location.hash).toBe('#/overview?people=lynn')
     expect(rowIds()[0]).toBe('lynn')
-    await userEvent.click(screen.getByRole('button', { name: 'Lynn' }))
+    await userEvent.click(chartName('Lynn'))
     expect(location.hash).toBe('#/overview')
-    expect(screen.getByRole('button', { name: 'Lynn' })).toHaveAttribute('aria-pressed', 'false')
+    expect(chartName('Lynn')).toHaveAttribute('aria-pressed', 'false')
   })
 
   it('switching to English keeps the open age and theme', async () => {
