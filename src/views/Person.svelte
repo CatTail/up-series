@@ -1,5 +1,6 @@
 <script lang="ts">
   import CellText from '../components/CellText.svelte'
+  import EditButton from '../components/EditButton.svelte'
   import Lifelines from '../components/Lifelines.svelte'
   import PersonStrip from '../components/PersonStrip.svelte'
   import QA from '../components/QA.svelte'
@@ -25,7 +26,7 @@
     <span class="tag">{pick(group.name)}</span>
     {#if person.born}<span class="tag">{t('person.born', { date: person.born })}</span>{/if}
     {#if person.died}<span class="tag">{t('person.died', { date: person.died })}</span>{/if}
-    <p class="bg">{pick(person.background)}</p>
+    <p class="bg">{pick(person.background)}<EditButton {idx} target={{ kind: 'person', person: id }} /></p>
     <SourceList {idx} ids={person.sourceIds} />
   </header>
   <Lifelines {idx} people={[person]} labels={false} ariaLabel={person.name} />
@@ -39,7 +40,7 @@
       <div class="age">{t('age.short', { age: f.age })}<small>{f.year} · {f.title}</small></div>
       <div>
         {#if p !== 'present'}
-          <p class="status">{t(`status.${p}`)}{#if note}<span class="note">{t('p.open')}{pick(note)}{t('p.close')}</span>{/if}</p>
+          <p class="status">{t(`status.${p}`)}{#if note}<span class="note">{t('p.open')}{pick(note)}{t('p.close')}</span>{/if}<EditButton {idx} target={{ kind: 'participation', person: id, film: f.id }} /></p>
         {/if}
         <div class="dims">
           {#each DIM_KEYS as d (d)}
@@ -48,6 +49,7 @@
               <div class="dim" data-dim={d}>
                 <span class="k">{t(`dim.${d}`)}</span>
                 <CellText cell={c} />
+                <EditButton {idx} target={{ kind: 'state', person: id, film: f.id, dim: d }} fill={c.kind === 'not_found'} />
                 {#if c.kind === 'text'}
                   <div class="ev">
                     <SourceList {idx} ids={c.sourceIds} />
@@ -61,7 +63,7 @@
           {/each}
         </div>
         {#each fq as q (q.id)}
-          <QA {idx} {q} showQuote />
+          <QA {idx} {q} showQuote editable />
         {/each}
       </div>
     </section>
@@ -75,6 +77,7 @@
     {:else}
       <p class="nf">{t('state.notFound')}</p>
     {/if}
+    <EditButton {idx} target={{ kind: 'final', person: id }} fill={!final} />
   </section>
   {#if qs.length}
     <p><a href={toHash({ name: 'questions', person: id })}>{t('person.questions', { n: qs.length })}</a></p>

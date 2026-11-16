@@ -3,9 +3,10 @@
   import type { Question } from '../lib/data/types.ts'
   import { t } from '../lib/i18n.svelte.ts'
   import Bi from './Bi.svelte'
+  import EditButton from './EditButton.svelte'
   import SourceList from './SourceList.svelte'
 
-  let { idx, q, showQuote = false, showSource = true }: { idx: DataIndex; q: Question; showQuote?: boolean; showSource?: boolean } = $props()
+  let { idx, q, showQuote = false, showSource = true, editable = false }: { idx: DataIndex; q: Question; showQuote?: boolean; showSource?: boolean; editable?: boolean } = $props()
 </script>
 
 <div class="qa" data-q={q.id}>
@@ -16,6 +17,7 @@
     {#if q.attribution === 'film_only'}<span class="tag">{t('qa.filmOnly')}</span>{/if}
     {#if q.fromRecap}<span class="tag">{t('qa.fromRecap')}</span>{/if}
     {#if showSource}<SourceList {idx} ids={[q.sourceId]} locator={q.locator} />{/if}
+    {#if editable}<EditButton {idx} target={{ kind: 'question', id: q.id }} />{/if}
   </div>
 </div>
 

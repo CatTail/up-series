@@ -7,6 +7,7 @@
   import { nodeState, statusMarks } from '../lib/states.ts'
   import { lensColumns, lensRow, lifelineTopology } from '../lib/viz/lifeline.ts'
   import CellText from './CellText.svelte'
+  import EditButton from './EditButton.svelte'
   import Marks from './Marks.svelte'
   import SourceList from './SourceList.svelte'
 
@@ -151,6 +152,11 @@
                     {#if v.kind === 'text'}<SourceList {idx} ids={v.sourceIds} />{:else if v.kind === 'participation' && v.note}<SourceList {idx} ids={p.sourceIds} />{/if}
                     <a href={`#/person/${p.id}`}>{t('overview.openPerson', { name: p.name })}</a>
                     {#if nq > 0}<a href={toHash({ name: 'questions', film: f.id, person: p.id })}>{t('overview.filmQuestions', { n: nq })}</a>{/if}
+                    {#if v.kind === 'participation'}
+                      <EditButton {idx} target={{ kind: 'participation', person: p.id, film: f.id }} />
+                    {:else if v.kind === 'text' ? (v.dim ?? dim) : dim}
+                      <EditButton {idx} target={{ kind: 'state', person: p.id, film: f.id, dim: (v.kind === 'text' ? (v.dim ?? dim) : dim)! }} fill={v.kind === 'not_found'} />
+                    {/if}
                   </div>
                 {/if}
               </div>

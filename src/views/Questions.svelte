@@ -1,6 +1,7 @@
 <script lang="ts">
   import { tick } from 'svelte'
   import Bi from '../components/Bi.svelte'
+  import EditButton from '../components/EditButton.svelte'
   import SourceList from '../components/SourceList.svelte'
   import type { DataIndex } from '../lib/data/index.ts'
   import type { FilmId, PersonId, Question } from '../lib/data/types.ts'
@@ -114,7 +115,7 @@
           <div class="detail">
             {#if x.answerSummary}<p><b>{t('qa.summary')}{t('p.colon')}</b><Bi text={x.answerSummary} /></p>{/if}
             {#if x.answerQuote}<p class="quote"><b>{t('qa.quote')}{t('p.colon')}</b>“<Bi text={x.answerQuote} original={x.answerQuote.en} />”</p>{/if}
-            <SourceList {idx} ids={[x.sourceId]} locator={x.locator} />
+            <p class="src-edit"><SourceList {idx} ids={[x.sourceId]} locator={x.locator} /><EditButton {idx} target={{ kind: 'question', id: x.id }} /></p>
             {#if rel.length}
               <h3>{t('questions.related')}</h3>
               <ul class="rel">

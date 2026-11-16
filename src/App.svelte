@@ -3,7 +3,9 @@
   import About from './components/About.svelte'
   import Nav from './components/Nav.svelte'
   import { buildIndex } from './lib/data/index.ts'
-  import { loadDataset } from './lib/data/load.ts'
+  import SuggestEdit from './components/SuggestEdit.svelte'
+  import { assembleDataset } from './lib/data/assemble.ts'
+  import { loadFiles } from './lib/data/load.ts'
   import { initLang } from './lib/i18n.svelte.ts'
   import { router, startRouter } from './lib/router.svelte.ts'
   import Guess from './views/Guess.svelte'
@@ -14,7 +16,8 @@
   import Questions from './views/Questions.svelte'
 
   initLang()
-  const idx = buildIndex(loadDataset())
+  const files = loadFiles()
+  const idx = buildIndex(assembleDataset(files))
   onMount(() => startRouter())
   const route = $derived(router.route)
 </script>
@@ -34,3 +37,4 @@
   {/if}
 </main>
 <About />
+<SuggestEdit {idx} {files} />

@@ -942,5 +942,13 @@
   "data.report": {
     "zh": "其他问题（例如漏收的问题、界面文字）",
     "en": "Something else (a missing question, interface text…)"
+  },
+  "edit.src.web": {
+    "zh": "网页",
+    "en": "Web pages"
+  },
+  "edit.src.newOpen": {
+    "zh": "＋ 添加新的网页出处",
+    "en": "+ Add a new web source"
   }
 }
