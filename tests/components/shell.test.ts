@@ -20,9 +20,9 @@ const navTexts = () => Array.from(document.querySelectorAll('nav [data-tab]')).m
 describe('app shell', () => {
   it('defaults to Chinese and switches to English', async () => {
     render(App)
-    expect(navTexts()).toEqual(['缘起', '总览', '人物', '猜一猜', '问题库'])
+    expect(navTexts()).toEqual(['缘起', '总览', '人物', '猜一猜', '问题库', '数据'])
     await userEvent.click(screen.getByRole('button', { name: 'EN' }))
-    expect(navTexts()).toEqual(['Origins', 'Overview', 'People', 'Guess', 'Questions'])
+    expect(navTexts()).toEqual(['Origins', 'Overview', 'People', 'Guess', 'Questions', 'Data'])
     expect(localStorage.getItem('up-lang')).toBe('en')
     expect(document.documentElement.lang).toBe('en')
   })
@@ -30,7 +30,7 @@ describe('app shell', () => {
   it('keeps English after a reload', async () => {
     localStorage.setItem('up-lang', 'en')
     render(App)
-    expect(navTexts()).toEqual(['Origins', 'Overview', 'People', 'Guess', 'Questions'])
+    expect(navTexts()).toEqual(['Origins', 'Overview', 'People', 'Guess', 'Questions', 'Data'])
   })
 
   it('hash change switches the active tab', async () => {

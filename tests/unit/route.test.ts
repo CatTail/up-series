@@ -48,4 +48,8 @@ describe('parseRoute / toHash', () => {
     expect(parseRoute('#/guess')).toEqual({ name: 'guess' })
     expect(toHash({ name: 'origins' })).toBe('#/origins')
   })
+  it('the data page', () => {
+    expect(parseRoute('#/data')).toEqual({ name: 'data' })
+    expect(toHash({ name: 'data' })).toBe('#/data')
+  })
 })

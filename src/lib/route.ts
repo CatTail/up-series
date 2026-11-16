@@ -9,6 +9,7 @@ export type Route =
   | { name: 'person'; id?: PersonId }
   | { name: 'guess' }
   | { name: 'questions'; film?: FilmId; person?: PersonId; theme?: string; q?: string; open?: string }
+  | { name: 'data' }
 
 const isFilm = (v: string | null): v is FilmId => v !== null && (FILM_IDS as readonly string[]).includes(v)
 const isPerson = (v: string | null): v is PersonId => v !== null && (PERSON_IDS as readonly string[]).includes(v)
@@ -47,6 +48,8 @@ export function parseRoute(hash: string): Route {
       return isPerson(parts[1] ?? null) ? { name: 'person', id: parts[1] as PersonId } : { name: 'person' }
     case 'guess':
       return { name: 'guess' }
+    case 'data':
+      return { name: 'data' }
     case 'questions': {
       const film = qs.get('film')
       const person = qs.get('person')

@@ -56,7 +56,7 @@ describe('toMarkdown', () => {
     const md = toMarkdown(diffFiles(before, after, trZh, 'zh'), trZh)
     expect(md).toContain('#### Andrew · 35 Up · 工作 / 职业')
     expect(md).toContain('`state/andrew/f35/work`')
-    expect(md).toContain('| 内容 · 中文 | 律师 | a \\| b<br>c &lt;img> @​someone |')
+    expect(md).toContain('| 内容 · 中文 | 律师 | a \\| b<br>c &lt;img> @\u200bsomeone |')
     expect(md).not.toContain('@someone')
     expect(md).toContain('改动的文件：`data/states/andrew.json`')
   })

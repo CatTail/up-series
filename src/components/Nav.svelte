@@ -4,7 +4,7 @@
   import LangToggle from './LangToggle.svelte'
 
   let { route }: { route: Route } = $props()
-  const tabs = ['origins', 'overview', 'person', 'guess', 'questions'] as const
+  const tabs = ['origins', 'overview', 'person', 'guess', 'questions', 'data'] as const
   const active = $derived(route.name)
 </script>
 

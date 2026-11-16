@@ -8,6 +8,7 @@
   import { loadFiles } from './lib/data/load.ts'
   import { initLang } from './lib/i18n.svelte.ts'
   import { router, startRouter } from './lib/router.svelte.ts'
+  import Data from './views/Data.svelte'
   import Guess from './views/Guess.svelte'
   import Origins from './views/Origins.svelte'
   import Overview from './views/Overview.svelte'
@@ -30,6 +31,8 @@
     {#if route.id}{#key route.id}<Person {idx} id={route.id} />{/key}{:else}<People {idx} />{/if}
   {:else if route.name === 'guess'}
     <Guess {idx} />
+  {:else if route.name === 'data'}
+    <Data {idx} />
   {:else if route.name === 'questions'}
     <Questions {idx} film={route.film} person={route.person} theme={route.theme} q={route.q} open={route.open} />
   {:else}
