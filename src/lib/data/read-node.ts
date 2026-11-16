@@ -10,8 +10,8 @@ function walk(dir: string): string[] {
   })
 }
 
-/** `skip(key)` — ignore files by data-relative path, e.g. other annotators' half-written question files. */
-export function readDatasetFromDisk(dataDir: string, opts: { skip?: (key: string) => boolean } = {}): Dataset {
+/** Every JSON file under `dataDir`, parsed, keyed by data-relative path ("states/andrew.json"). */
+export function readFilesFromDisk(dataDir: string, opts: { skip?: (key: string) => boolean } = {}): Record<string, unknown> {
   const files: Record<string, unknown> = {}
   for (const p of walk(dataDir)) {
     if (!p.endsWith('.json')) continue
@@ -23,5 +23,10 @@ export function readDatasetFromDisk(dataDir: string, opts: { skip?: (key: string
       throw new Error(`${key}: ${(e as Error).message}`)
     }
   }
-  return assembleDataset(files)
+  return files
+}
+
+/** `skip(key)` — ignore files by data-relative path, e.g. other annotators' half-written question files. */
+export function readDatasetFromDisk(dataDir: string, opts: { skip?: (key: string) => boolean } = {}): Dataset {
+  return assembleDataset(readFilesFromDisk(dataDir, opts))
 }

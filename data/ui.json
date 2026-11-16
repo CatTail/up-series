@@ -470,5 +470,477 @@
   "overview.pinHint": {
     "zh": "点击选中或取消",
     "en": "Click to select or deselect"
+  },
+  "edit.f.status": {
+    "zh": "状态",
+    "en": "Status"
+  },
+  "edit.f.text": {
+    "zh": "内容",
+    "en": "Text"
+  },
+  "edit.f.reason": {
+    "zh": "原因",
+    "en": "Reason"
+  },
+  "edit.f.sources": {
+    "zh": "出处",
+    "en": "Sources"
+  },
+  "edit.f.questions": {
+    "zh": "片中问答",
+    "en": "Evidence questions"
+  },
+  "edit.f.participation": {
+    "zh": "出镜情况",
+    "en": "Participation"
+  },
+  "edit.f.note": {
+    "zh": "说明",
+    "en": "Note"
+  },
+  "edit.f.fullName": {
+    "zh": "全名",
+    "en": "Full name"
+  },
+  "edit.f.background": {
+    "zh": "1964 年的背景",
+    "en": "Background in 1964"
+  },
+  "edit.f.born": {
+    "zh": "出生",
+    "en": "Born"
+  },
+  "edit.f.died": {
+    "zh": "去世",
+    "en": "Died"
+  },
+  "edit.f.asOf": {
+    "zh": "截至",
+    "en": "As of"
+  },
+  "edit.f.qEn": {
+    "zh": "问题（英文原文）",
+    "en": "Question (original English)"
+  },
+  "edit.f.qZh": {
+    "zh": "问题（中文译文）",
+    "en": "Question (Chinese translation)"
+  },
+  "edit.f.summary": {
+    "zh": "回答要点",
+    "en": "Answer, in brief"
+  },
+  "edit.f.quote": {
+    "zh": "原话",
+    "en": "Quote"
+  },
+  "edit.f.asked": {
+    "zh": "提问对象",
+    "en": "Asked"
+  },
+  "edit.f.themes": {
+    "zh": "主题",
+    "en": "Themes"
+  },
+  "edit.f.locator": {
+    "zh": "段落",
+    "en": "Segment"
+  },
+  "edit.f.url": {
+    "zh": "网址",
+    "en": "URL"
+  },
+  "edit.f.title": {
+    "zh": "标题",
+    "en": "Title"
+  },
+  "edit.f.publisher": {
+    "zh": "发布者",
+    "en": "Publisher"
+  },
+  "edit.f.kind": {
+    "zh": "类型",
+    "en": "Type"
+  },
+  "edit.lang.zh": {
+    "zh": "中文",
+    "en": "Chinese"
+  },
+  "edit.lang.en": {
+    "zh": "英文",
+    "en": "English"
+  },
+  "edit.status.not_applicable": {
+    "zh": "不适用",
+    "en": "Not applicable"
+  },
+  "edit.kind.wiki": {
+    "zh": "维基百科",
+    "en": "Wikipedia"
+  },
+  "edit.kind.news": {
+    "zh": "新闻",
+    "en": "News"
+  },
+  "edit.kind.review": {
+    "zh": "影评",
+    "en": "Review"
+  },
+  "edit.kind.interview": {
+    "zh": "访谈",
+    "en": "Interview"
+  },
+  "edit.kind.broadcaster": {
+    "zh": "电视台",
+    "en": "Broadcaster"
+  },
+  "edit.kind.film": {
+    "zh": "影片",
+    "en": "Film"
+  },
+  "edit.kind.other": {
+    "zh": "其他",
+    "en": "Other"
+  },
+  "edit.k.person": {
+    "zh": "个人信息",
+    "en": "Profile"
+  },
+  "edit.k.question": {
+    "zh": "问题",
+    "en": "Question"
+  },
+  "edit.before": {
+    "zh": "修改前",
+    "en": "Before"
+  },
+  "edit.after": {
+    "zh": "修改后",
+    "en": "After"
+  },
+  "edit.md.none": {
+    "zh": "没有改动。",
+    "en": "No changes."
+  },
+  "edit.md.added": {
+    "zh": "新增",
+    "en": "added"
+  },
+  "edit.md.removed": {
+    "zh": "删除",
+    "en": "removed"
+  },
+  "edit.md.files": {
+    "zh": "改动的文件",
+    "en": "Files changed"
+  },
+  "edit.button": {
+    "zh": "建议修改",
+    "en": "Suggest a change"
+  },
+  "edit.fill": {
+    "zh": "补充",
+    "en": "Fill in"
+  },
+  "edit.aria": {
+    "zh": "建议修改：{label}",
+    "en": "Suggest a change: {label}"
+  },
+  "edit.ariaFill": {
+    "zh": "补充：{label}",
+    "en": "Fill in: {label}"
+  },
+  "edit.title": {
+    "zh": "建议修改",
+    "en": "Suggest a change"
+  },
+  "edit.titleFill": {
+    "zh": "补充资料",
+    "en": "Fill in a gap"
+  },
+  "edit.close": {
+    "zh": "关闭",
+    "en": "Close"
+  },
+  "edit.current": {
+    "zh": "现在的数据",
+    "en": "Current data"
+  },
+  "edit.address": {
+    "zh": "记录地址",
+    "en": "Record address"
+  },
+  "edit.viewFile": {
+    "zh": "在 GitHub 上查看数据文件",
+    "en": "View the data file on GitHub"
+  },
+  "edit.yours": {
+    "zh": "你的修改",
+    "en": "Your change"
+  },
+  "edit.st.confirmed": {
+    "zh": "有出处的事实",
+    "en": "A sourced fact"
+  },
+  "edit.st.not_found": {
+    "zh": "未查到",
+    "en": "Not found"
+  },
+  "edit.st.not_applicable": {
+    "zh": "不适用",
+    "en": "Not applicable"
+  },
+  "edit.needsTranslation": {
+    "zh": "我只会写一种语言，请审核者帮忙翻译另一种",
+    "en": "I can only write one language; please translate the other"
+  },
+  "edit.src.none": {
+    "zh": "还没有出处",
+    "en": "No sources yet"
+  },
+  "edit.src.remove": {
+    "zh": "移除出处：{name}",
+    "en": "Remove source: {name}"
+  },
+  "edit.src.pick": {
+    "zh": "选择已有出处…",
+    "en": "Pick an existing source…"
+  },
+  "edit.src.add": {
+    "zh": "添加",
+    "en": "Add"
+  },
+  "edit.src.new": {
+    "zh": "添加新的网页出处",
+    "en": "Add a new web source"
+  },
+  "edit.src.newTag": {
+    "zh": "新",
+    "en": "new"
+  },
+  "edit.src.hint": {
+    "zh": "填公开网页的地址，例如新闻、访谈或维基百科。不要用字幕网站。",
+    "en": "Use a public web page such as a news story, an interview or Wikipedia. No subtitle sites."
+  },
+  "edit.reasonLabel": {
+    "zh": "说明（必填）",
+    "en": "Why (required)"
+  },
+  "edit.reasonHint": {
+    "zh": "哪里不对？你是怎么知道的？",
+    "en": "What is wrong, and how do you know?"
+  },
+  "edit.check": {
+    "zh": "检查",
+    "en": "Checks"
+  },
+  "edit.ok": {
+    "zh": "可以提交。",
+    "en": "Ready to submit."
+  },
+  "edit.preview": {
+    "zh": "修改前后",
+    "en": "Before and after"
+  },
+  "edit.noChange": {
+    "zh": "还没有改动。",
+    "en": "Nothing has changed yet."
+  },
+  "edit.submit": {
+    "zh": "在 GitHub 上提交",
+    "en": "Submit on GitHub"
+  },
+  "edit.submitNote": {
+    "zh": "需要 GitHub 账号。提交后，审核者核对出处并批准，修改才会上线。",
+    "en": "Needs a GitHub account. A reviewer checks the sources and approves before the change goes live."
+  },
+  "edit.copy": {
+    "zh": "复制建议内容",
+    "en": "Copy the suggestion"
+  },
+  "edit.copied": {
+    "zh": "已复制",
+    "en": "Copied"
+  },
+  "edit.long": {
+    "zh": "内容较长，放不进链接。请先“复制建议内容”，再粘贴到打开的页面里的“修改内容”一栏。",
+    "en": "This change is too long for a link. Copy the suggestion first, then paste it into the “Change” field on the page that opens."
+  },
+  "edit.copyFallback": {
+    "zh": "无法自动复制，请手动复制下面的文字。",
+    "en": "Couldn’t copy automatically; copy the text below."
+  },
+  "edit.cancel": {
+    "zh": "取消",
+    "en": "Cancel"
+  },
+  "edit.issueTitle": {
+    "zh": "修改建议：{label}",
+    "en": "Suggested change: {label}"
+  },
+  "edit.issueTitleFill": {
+    "zh": "补充：{label}",
+    "en": "Fill in: {label}"
+  },
+  "edit.readonly": {
+    "zh": "影片本身的出处不能修改。",
+    "en": "Film sources can’t be edited."
+  },
+  "edit.optional": {
+    "zh": "（可不填）",
+    "en": "(optional)"
+  },
+  "edit.none": {
+    "zh": "（无）",
+    "en": "(none)"
+  },
+  "edit.conflict": {
+    "zh": "这条数据在你打开后已经变了，请关闭后重新打开。",
+    "en": "This record changed after you opened it. Close and reopen it."
+  },
+  "check.MISSING_SOURCE": {
+    "zh": "有出处的事实至少要有一个出处；网页出处需要 http(s) 开头的地址。",
+    "en": "A sourced fact needs at least one source, and a web source needs an http(s) address."
+  },
+  "check.MISSING_LANG": {
+    "zh": "中文和英文都要填写。",
+    "en": "Fill in both Chinese and English."
+  },
+  "check.MISSING_LANG_ok": {
+    "zh": "有一种语言空着，审核者会帮忙翻译。",
+    "en": "One language is empty; the reviewer will translate it."
+  },
+  "check.DANGLING_REF": {
+    "zh": "引用了不存在的出处、问题或人物。",
+    "en": "This refers to a source, question or person that doesn’t exist."
+  },
+  "check.BAD_ENUM": {
+    "zh": "有一个选项不合法。",
+    "en": "One of the choices isn’t valid."
+  },
+  "check.MISSING_STATE": {
+    "zh": "状态记录不完整。",
+    "en": "The state record is incomplete."
+  },
+  "check.MISSING_FINAL": {
+    "zh": "缺少最终状态。",
+    "en": "The final state is missing."
+  },
+  "check.QUOTE_LIMIT": {
+    "zh": "每人每部片最多 3 条原话。",
+    "en": "At most 3 quotes per person per film."
+  },
+  "check.QUOTE_TOO_LONG": {
+    "zh": "原话最多两句。",
+    "en": "A quote can be at most two sentences."
+  },
+  "check.FORBIDDEN_DOMAIN": {
+    "zh": "不能使用字幕网站作为出处。",
+    "en": "Subtitle sites can’t be used as sources."
+  },
+  "check.STATE_PARTICIPATION_CONFLICT": {
+    "zh": "这一部本人没有出镜，只能在“重大事件”里写事后得知的事。",
+    "en": "They weren’t filmed for this one, so only Key events (learned later) can hold a fact."
+  },
+  "check.FILM_SOURCE_URL": {
+    "zh": "影片出处不需要网址。",
+    "en": "Film sources don’t take a URL."
+  },
+  "check.reason": {
+    "zh": "请写一句说明。",
+    "en": "Please say why."
+  },
+  "nav.data": {
+    "zh": "数据",
+    "en": "Data"
+  },
+  "data.title": {
+    "zh": "数据和参与修改",
+    "en": "The data, and how to fix it"
+  },
+  "data.lede": {
+    "zh": "网站上的每一条事实都来自这里的数据。发现错误，或者知道“未查到”的内容，都可以提出修改；审核通过后网站会自动更新。",
+    "en": "Every fact on this site comes from this data. If you spot an error, or know something we couldn’t find, suggest a change; once a reviewer approves it, the site updates."
+  },
+  "data.how": {
+    "zh": "怎样参与",
+    "en": "How to help"
+  },
+  "data.step1": {
+    "zh": "在人物页、问题库或总览展开的卡片上，点 ✎ 建议修改。",
+    "en": "On a person page, in the question library or on an opened overview card, click ✎ Suggest a change."
+  },
+  "data.step2": {
+    "zh": "改正内容，附上公开网页的出处，写一句说明。",
+    "en": "Correct the text, add a public source and say why."
+  },
+  "data.step3": {
+    "zh": "在 GitHub 上提交（需要账号）。审核者核对后批准，网站自动更新。",
+    "en": "Submit it on GitHub (an account is needed). A reviewer checks and approves it, and the site updates."
+  },
+  "data.rules": {
+    "zh": "规则：每条事实都要有出处；回答用自己的话转述，原话每条不超过两句；不要使用字幕网站。",
+    "en": "Rules: every fact needs a source; answers are paraphrased and quotes are at most two sentences; no subtitle sites."
+  },
+  "data.todo": {
+    "zh": "待补充",
+    "en": "Gaps to fill"
+  },
+  "data.todoLede": {
+    "zh": "这些格子还没有找到出处。如果你知道，点“补充”。",
+    "en": "No source has been found for these yet. If you know, click Fill in."
+  },
+  "data.todoCount": {
+    "zh": "共 {n} 格",
+    "en": "{n} cells"
+  },
+  "data.showMore": {
+    "zh": "显示更多（还有 {n} 格）",
+    "en": "Show more ({n} left)"
+  },
+  "data.open": {
+    "zh": "正在审核的修改建议",
+    "en": "Suggestions under review"
+  },
+  "data.download": {
+    "zh": "下载数据",
+    "en": "Download the data"
+  },
+  "data.dl.states": {
+    "zh": "人物状态（CSV）",
+    "en": "States (CSV)"
+  },
+  "data.dl.questions": {
+    "zh": "问题（CSV）",
+    "en": "Questions (CSV)"
+  },
+  "data.dl.sources": {
+    "zh": "出处（CSV）",
+    "en": "Sources (CSV)"
+  },
+  "data.dl.json": {
+    "zh": "全部数据（JSON）",
+    "en": "Everything (JSON)"
+  },
+  "data.dlNote": {
+    "zh": "CSV 可以用 Excel、Numbers 或 Google 表格打开。",
+    "en": "CSV files open in Excel, Numbers or Google Sheets."
+  },
+  "data.files": {
+    "zh": "原始数据文件",
+    "en": "Raw data files"
+  },
+  "data.filesLede": {
+    "zh": "数据保存在 GitHub 上的 data 文件夹里：每个人一个状态文件，每部片一个问题文件。",
+    "en": "The data lives in the data folder on GitHub: one state file per person and one question file per film."
+  },
+  "data.guide": {
+    "zh": "参与修改指南",
+    "en": "Contributing guide"
+  },
+  "data.report": {
+    "zh": "其他问题（例如漏收的问题、界面文字）",
+    "en": "Something else (a missing question, interface text…)"
   }
 }

@@ -9,7 +9,8 @@ export function countSentences(en: string): number {
   return en.trim().split(/(?<=[.!?…])\s+/).filter(Boolean).length
 }
 
-export function validateDataset(ds: Dataset, opts: { strictFinals?: boolean } = {}): ValidationError[] {
+/** Every check that is safe to ship in the site bundle (it doesn't carry the forbidden-domain list). */
+export function validateCore(ds: Dataset, opts: { strictFinals?: boolean } = {}): ValidationError[] {
   const errors: ValidationError[] = []
   const err = (code: ErrorCode, path: string, message: string) => errors.push({ code, path, message })
 
@@ -204,9 +205,13 @@ export function validateDataset(ds: Dataset, opts: { strictFinals?: boolean } = 
   // ui strings
   for (const [k, v] of Object.entries(ds.ui)) bi(v, `ui.${k}`)
 
-  // forbidden domains anywhere in the published data
-  const blob = JSON.stringify(ds).toLowerCase()
-  for (const d of FORBIDDEN_DOMAINS) if (blob.includes(d)) err('FORBIDDEN_DOMAIN', '*', `published data mentions "${d}"`)
+  return errors
+}
 
+/** The full gate used by the build, CI and the suggestion bot: core checks plus forbidden domains. */
+export function validateDataset(ds: Dataset, opts: { strictFinals?: boolean } = {}): ValidationError[] {
+  const errors = validateCore(ds, opts)
+  const blob = JSON.stringify(ds).toLowerCase()
+  for (const d of FORBIDDEN_DOMAINS) if (blob.includes(d)) errors.push({ code: 'FORBIDDEN_DOMAIN', path: '*', message: `published data mentions "${d}"` })
   return errors
 }
