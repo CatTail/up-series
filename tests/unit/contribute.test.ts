@@ -126,6 +126,18 @@ describe('the workflows', () => {
     expect(suggestionYml).toContain('"$GITHUB_EVENT_PATH"')
   })
 
+  it('only use contexts where GitHub allows them (no runner.* outside steps)', () => {
+    for (const yml of [suggestionYml, prYml, read('.github/workflows/pages.yml')]) {
+      const jobsAt = yml.indexOf('\njobs:')
+      for (const [i, line] of yml.split('\n').entries()) {
+        if (!line.includes('${{ runner.')) continue
+        // Steps are list items under jobs.<id>.steps, indented at least 8 spaces.
+        expect(line.match(/^ */)![0].length, `line ${i + 1}: ${line.trim()}`).toBeGreaterThanOrEqual(8)
+        expect(jobsAt).toBeGreaterThan(-1)
+      }
+    }
+  })
+
   it('pull request checks are read-only and never run untrusted code with a write token', () => {
     expect(prYml).not.toContain('pull_request_target')
     expect(prYml).toMatch(/permissions:\n\s+contents: read/)

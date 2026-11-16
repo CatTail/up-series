@@ -23,7 +23,6 @@ jobs:
     env:
       GH_TOKEN: ${{ github.token }}
       ISSUE: ${{ github.event.issue.number }}
-      OUT: ${{ runner.temp }}/suggestion
     steps:
       - uses: actions/checkout@v4
         with:
@@ -36,15 +35,16 @@ jobs:
       # The issue text is untrusted. It is never put on a command line; the script reads it from the
       # event file and only accepts a patch that passes the strict parser.
       - id: apply
-        run: node scripts/apply-suggestion.ts "$GITHUB_EVENT_PATH" --out "$OUT"
+        run: node scripts/apply-suggestion.ts "$GITHUB_EVENT_PATH" --out "$RUNNER_TEMP/suggestion"
         continue-on-error: true
       - name: Explain why it could not be applied
         if: steps.apply.outcome == 'failure'
         run: |
-          gh issue comment "$ISSUE" --body-file "$OUT/comment.md"
+          gh issue comment "$ISSUE" --body-file "$RUNNER_TEMP/suggestion/comment.md"
           exit 1
       - name: Open the pull request
         run: |
+          export OUT="$RUNNER_TEMP/suggestion"
           branch="suggestion/$ISSUE"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
