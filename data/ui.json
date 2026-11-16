@@ -950,5 +950,9 @@
   "edit.src.newOpen": {
     "zh": "＋ 添加新的网页出处",
     "en": "+ Add a new web source"
+  },
+  "check.NAMES_PERSON": {
+    "zh": "1964 年的背景和最终状态会在“猜一猜”里匿名出现，不能写出任何人的名字。",
+    "en": "Backgrounds and final states appear anonymously in the guess game, so they can’t name anyone."
   }
 }

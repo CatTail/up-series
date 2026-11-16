@@ -1,0 +1,23 @@
+name: 其他问题 · Something else
+description: 漏收的问题、界面文字、页面显示不对等。A missing question, interface text, something that looks wrong.
+body:
+  - type: input
+    id: page
+    attributes:
+      label: 页面 · Page
+      description: 出问题的页面地址。The address of the page.
+  - type: textarea
+    id: what
+    attributes:
+      label: 哪里不对？ · What is wrong?
+    validations:
+      required: true
+  - type: textarea
+    id: fix
+    attributes:
+      label: 应该是什么？ · What should it be?
+  - type: textarea
+    id: source
+    attributes:
+      label: 出处 · Source
+      description: 公开网页的链接，或者影片和段落（例如 35 Up · Tony 段落）。A public link, or the film and segment (e.g. 35 Up · Tony segment).

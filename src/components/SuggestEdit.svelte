@@ -1,6 +1,6 @@
 <script lang="ts">
   import { tick } from 'svelte'
-  import { fileUrl, issueUrl, suggestionText, type Suggestion } from '../lib/contribute.ts'
+  import { fileUrl, issueUrl, patchJson, suggestionText, type Suggestion } from '../lib/contribute.ts'
   import type { Files, Target } from '../lib/data/address.ts'
   import { fileOf, formatAddress, labelOf, parseAddress } from '../lib/data/address.ts'
   import { assembleDataset } from '../lib/data/assemble.ts'
@@ -119,9 +119,10 @@
   })
   const question = $derived(target?.kind === 'question' ? idx.question(target.id) : undefined)
 
-  async function copy() {
+  /** `patch`: just the JSON, for pasting into the issue form's 修改内容 field when the link can't carry it. */
+  async function copy(what: 'all' | 'patch' = 'all') {
     if (!suggestion) return
-    const text = suggestionText(suggestion)
+    const text = what === 'patch' ? patchJson(suggestion.patch) : suggestionText(suggestion)
     try {
       await navigator.clipboard.writeText(text)
       copied = true
@@ -278,11 +279,11 @@
         {#if link?.long}<p class="long">{t('edit.long')}</p>{/if}
         <div class="actions">
           {#if link}
-            <a class="primary" href={link.url} target="_blank" rel="noopener noreferrer" onclick={() => link?.long && copy()}>{t('edit.submit')} ↗</a>
+            <a class="primary" href={link.url} target="_blank" rel="noopener noreferrer" onclick={() => link?.long && copy('patch')}>{t('edit.submit')} ↗</a>
           {:else}
             <button type="button" class="primary" disabled>{t('edit.submit')} ↗</button>
           {/if}
-          <button type="button" disabled={!link} onclick={copy}>{copied ? t('edit.copied') : t('edit.copy')}</button>
+          <button type="button" disabled={!link} onclick={() => copy()}>{copied ? t('edit.copied') : t('edit.copy')}</button>
           <button type="button" onclick={closeEditor}>{t('edit.cancel')}</button>
         </div>
         <p class="note">{t('edit.submitNote')}</p>

@@ -140,6 +140,19 @@ export function validateCore(ds: Dataset, opts: { strictFinals?: boolean } = {})
     }
   }
 
+  // Backgrounds and final states are shown anonymously in the guess game, so they must not name anyone.
+  const names = ds.people.map((x) => x.name).filter((n) => typeof n === 'string' && n.trim())
+  const anonymous = (b: Bilingual | undefined, path: string) => {
+    for (const n of names) {
+      const esc = n.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+      if ((typeof b?.en === 'string' && new RegExp(`\\b${esc}\\b`).test(b.en)) || (typeof b?.zh === 'string' && b.zh.includes(n))) {
+        err('NAMES_PERSON', path, `mentions ${n}; this text is shown anonymously in the guess game`)
+      }
+    }
+  }
+  ds.people.forEach((person, i) => anonymous(person.background, `people[${i}](${person.id}).background`))
+  ds.finals.forEach((fs, i) => anonymous(fs.text, `finals[${i}](${fs.personId}).text`))
+
   // finals
   ds.finals.forEach((fs, i) => {
     const p = `finals[${i}](${fs.personId})`

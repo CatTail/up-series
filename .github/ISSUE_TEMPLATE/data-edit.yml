@@ -1,0 +1,43 @@
+name: 数据修改建议 · Data change
+description: 通常由网站上的 ✎ 建议修改 自动填好。Usually filled in by the site's ✎ Suggest a change button.
+title: "修改建议："
+labels: ["data-edit"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        这个表单通常由网站上的 **✎ 建议修改** 自动填好，检查一下再提交即可。审核者核对出处后会加上 `accepted` 标签，机器人随后开一个 pull request，合并后网站自动更新。
+        This form is usually filled in by the site's **✎ Suggest a change** button; check it and submit. A reviewer checks the sources and adds the `accepted` label, a bot then opens a pull request, and the site updates once it is merged.
+  - type: input
+    id: target
+    attributes:
+      label: 记录地址 · Record
+      description: 例如 / for example `state/andrew/f35/work`
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: 修改前后 · Before and after
+  - type: textarea
+    id: patch
+    attributes:
+      label: 修改内容（自动生成，请不要改动）· Change (generated, please don't edit)
+      description: 如果网站提示内容太长，它已经把内容复制好了，粘贴在这里即可。If the site said the change was too long for a link, it copied it for you; paste it here.
+      render: json
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: 说明 · Why
+      description: 哪里不对？你是怎么知道的？What is wrong, and how do you know?
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: 确认 · Confirm
+      options:
+        - label: 出处是公开网页或影片本身，不是字幕网站。The sources are public web pages or the films themselves, not subtitle sites.
+          required: true

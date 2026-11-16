@@ -153,6 +153,16 @@ describe('validateDataset', () => {
     expect(codes(ds2)).toContain<ErrorCode>('BAD_ENUM')
   })
 
+  it('backgrounds and finals must not name anyone (they are anonymous in the guess game)', () => {
+    const ds = makeFixture()
+    ds.people[0].background.en = 'At school with Charles in Kensington'
+    ds.finals[1].text.zh = '和 Andrew 一起做纪录片'
+    expect(validateDataset(ds).filter((e) => e.code === 'NAMES_PERSON').map((e) => e.path)).toEqual(['people[0](andrew).background', 'finals[1](charles).text'])
+    const ok = makeFixture()
+    ok.people[0].background.en = 'Andrews Road school'
+    expect(codes(ok)).not.toContain<ErrorCode>('NAMES_PERSON')
+  })
+
   it('MISSING_FINAL only under strictFinals', () => {
     const ds = makeFixture()
     ds.finals = ds.finals.filter((f) => f.personId !== 'nick')

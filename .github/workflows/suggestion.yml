@@ -1,0 +1,58 @@
+name: Suggestion to pull request
+
+# A maintainer adds the `accepted` label to a `data-edit` issue (filed from the site's ✎ button);
+# this applies the change in the issue to the data and opens a pull request for review.
+on:
+  issues:
+    types: [labeled]
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+concurrency:
+  group: suggestion-${{ github.event.issue.number }}
+  cancel-in-progress: false
+
+jobs:
+  open-pr:
+    # Only the owner and collaborators can add labels, so only maintainers can start this.
+    if: github.event.label.name == 'accepted' && contains(github.event.issue.labels.*.name, 'data-edit')
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      ISSUE: ${{ github.event.issue.number }}
+      OUT: ${{ runner.temp }}/suggestion
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 26
+          cache: npm
+      - run: npm ci
+      # The issue text is untrusted. It is never put on a command line; the script reads it from the
+      # event file and only accepts a patch that passes the strict parser.
+      - id: apply
+        run: node scripts/apply-suggestion.ts "$GITHUB_EVENT_PATH" --out "$OUT"
+        continue-on-error: true
+      - name: Explain why it could not be applied
+        if: steps.apply.outcome == 'failure'
+        run: |
+          gh issue comment "$ISSUE" --body-file "$OUT/comment.md"
+          exit 1
+      - name: Open the pull request
+        run: |
+          branch="suggestion/$ISSUE"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c "$branch"
+          git add data
+          git commit -F "$OUT/commit-msg.txt"
+          git push origin "$branch"
+          draft=$(node -p "require(process.env.OUT + '/meta.json').draft ? '--draft' : ''")
+          url=$(gh pr create --base main --head "$branch" --title "$(cat "$OUT/pr-title.txt")" --body-file "$OUT/pr-body.md" $draft)
+          for l in $(node -p "require(process.env.OUT + '/meta.json').labels.join(' ')"); do gh pr edit "$url" --add-label "$l" || true; done
+          gh issue comment "$ISSUE" --body "已开 PR，审核通过并合并后网站会自动更新。Opened $url — the site updates once it is approved and merged."
